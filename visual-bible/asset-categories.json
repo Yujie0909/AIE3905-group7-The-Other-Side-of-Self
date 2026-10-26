@@ -1,0 +1,24 @@
+{
+  "version": "v1",
+  "name": "Visual Asset Library — Categories",
+  "description": "素材库分类体系（集中维护，禁止散落在组件中）。素材可拥有多个分类与多个参考用途。",
+  "categories": [
+    { "id": "home_private", "label": "居家与私人空间", "description": "住宅、房间、庭院、书房等私人生活空间" },
+    { "id": "work_creation", "label": "工作与创造", "description": "工作室、创作、手作、艺术劳动场景" },
+    { "id": "nature_freedom", "label": "自然与自由", "description": "海边、森林、山野、湖河、乡村等开阔自然" },
+    { "id": "future_surreal", "label": "未来与超现实", "description": "未来城市、超现实空间、非现实光影" },
+    { "id": "people_life", "label": "人物与生活状态", "description": "人物姿态、生活状态、独处与陪伴" },
+    { "id": "light_material", "label": "光线与材质", "description": "漫射光、侧逆光、棉麻木质水面等材质参考" },
+    { "id": "composition_photo", "label": "构图与摄影", "description": "三分法留白、纵深、景深等构图参考" },
+    { "id": "motion_camera", "label": "动态与镜头语言", "description": "缓慢运动、长镜、镜头运动参考" },
+    { "id": "project_original", "label": "项目原创视觉素材", "description": "本项目原创拍摄/绘制/概念图" }
+  ],
+  "reference_roles": [
+    { "id": "scene", "label": "场景参考", "description": "帮助模型理解空间与主体" },
+    { "id": "style", "label": "风格参考", "description": "帮助模型遵循 Visual Bible" },
+    { "id": "composition", "label": "构图参考", "description": "帮助模型组织画面" },
+    { "id": "motion", "label": "动态参考", "description": "帮助视频模型理解运动" },
+    { "id": "lighting", "label": "光线参考", "description": "光照方向/色温/明暗对比参考（v1.1 新增）" },
+    { "id": "material", "label": "材质参考", "description": "材质与肌理参考（v1.1 新增）" }
+  ]
+}

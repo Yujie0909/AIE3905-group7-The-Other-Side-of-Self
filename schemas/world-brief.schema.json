@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://the-other-side-of-self/ schemas/world-brief.schema.json",
+  "title": "WorldBrief",
+  "description": "第三阶段 World Brief：将第二阶段 ImagineIntent 转化为可复现的视觉生成蓝图。所有意图条目携带 status/source 标记，区分'用户确认'与'模型推断'，避免把未确认推断当事实。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "world_id", "meta", "intent", "visual_plan", "motion_plan", "generation"],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "world_id": { "type": "string" },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["created_at", "source_phase", "visual_bible_version", "language"],
+      "properties": {
+        "created_at": { "type": "string" },
+        "source_phase": { "type": "string" },
+        "visual_bible_version": { "type": "string" },
+        "language": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "intent": { "$ref": "#/definitions/IntentBlock" },
+    "visual_plan": { "$ref": "#/definitions/VisualPlan" },
+    "motion_plan": { "$ref": "#/definitions/MotionPlan" },
+    "generation": { "$ref": "#/definitions/Generation" }
+  },
+  "definitions": {
+    "MarkedItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "status", "source"],
+      "properties": {
+        "value": { "type": "string" },
+        "status": { "type": "string", "enum": ["confirmed", "unconfirmed", "unknown", "rejected"] },
+        "source": { "type": "string", "enum": ["user", "model_inference"] }
+      }
+    },
+    "IntentBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scene",
+        "activities",
+        "daily_rhythm",
+        "social_context",
+        "desired_values",
+        "inferred_values",
+        "user_corrections",
+        "avoid"
+      ],
+      "properties": {
+        "scene": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["description", "location", "environment", "confidence"],
+          "properties": {
+            "description": { "$ref": "#/definitions/MarkedItem" },
+            "location": { "$ref": "#/definitions/MarkedItem" },
+            "environment": { "type": "array", "items": { "$ref": "#/definitions/MarkedItem" } },
+            "confidence": { "type": "string", "enum": ["high", "medium", "low", "none"] }
+          }
+        },
+        "activities": { "type": "array", "items": { "$ref": "#/definitions/MarkedItem" } },
+        "daily_rhythm": { "type": "array", "items": { "$ref": "#/definitions/MarkedItem" } },
+        "social_context": { "type": "array", "items": { "$ref": "#/definitions/MarkedItem" } },
+        "desired_values": { "type": "array", "items": { "$ref": "#/definitions/MarkedItem" } },
+        "inferred_values": { "type": "array", "items": { "$ref": "#/definitions/MarkedItem" } },
+        "user_corrections": { "type": "array", "items": { "$ref": "#/definitions/MarkedItem" } },
+        "avoid": { "type": "array", "items": { "$ref": "#/definitions/MarkedItem" } }
+      }
+    },
+    "VisualPlan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["subject", "composition", "palette", "lighting", "materials", "mood", "reference_asset_ids"],
+      "properties": {
+        "subject": { "$ref": "#/definitions/MarkedItem" },
+        "composition": { "type": "array", "items": { "type": "string" } },
+        "palette": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["base", "accent", "notes"],
+          "properties": {
+            "base": { "type": "string" },
+            "accent": { "type": "string" },
+            "notes": { "type": "string" }
+          }
+        },
+        "lighting": { "type": "array", "items": { "type": "string" } },
+        "materials": { "type": "array", "items": { "type": "string" } },
+        "mood": { "type": "array", "items": { "type": "string" } },
+        "reference_asset_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "MotionPlan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["environment_motion", "camera_motion", "duration_seconds", "loop"],
+      "properties": {
+        "environment_motion": { "type": "array", "items": { "type": "string" } },
+        "camera_motion": { "type": "string" },
+        "duration_seconds": { "type": "number", "minimum": 1, "maximum": 120 },
+        "loop": { "type": "boolean" }
+      }
+    },
+    "Generation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "image_model",
+        "video_model",
+        "prompt_version",
+        "image_job_id",
+        "video_job_id",
+        "quality_score",
+        "revision"
+      ],
+      "properties": {
+        "image_model": { "type": ["string", "null"] },
+        "video_model": { "type": ["string", "null"] },
+        "prompt_version": { "type": "string" },
+        "image_job_id": { "type": ["string", "null"] },
+        "video_job_id": { "type": ["string", "null"] },
+        "quality_score": { "type": ["number", "null"] },
+        "revision": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}

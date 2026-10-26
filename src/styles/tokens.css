@@ -1,0 +1,54 @@
+/**
+ * 《自我的彼岸》Design Tokens
+ * 统一管理颜色、字体、间距、动效时长，供所有阶段复用。
+ */
+:root {
+  /* ── Color palette ─────────────────────────── */
+  --c-bg: #06111d;
+  --c-navy: #071c30;
+  --c-ocean: #07566a;
+  --c-teal: #0d7885;
+  --c-cyan: #8edbe4;
+  --c-warm: #d5c6a0;
+  --c-text: #f3f5f5;
+  --c-text-secondary: #b8c8d0;
+
+  /* Derived translucent layers */
+  --c-cyan-dim: rgba(142, 219, 228, 0.55);
+  --c-cyan-faint: rgba(142, 219, 228, 0.14);
+  --c-glass: rgba(9, 26, 42, 0.42);
+  --c-hairline: rgba(142, 219, 228, 0.22);
+
+  /* ── Typography ────────────────────────────── */
+  --font-sans:
+    'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Source Han Sans SC',
+    'Microsoft YaHei', -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Songti SC', 'Noto Serif SC', 'Source Han Serif SC', serif;
+
+  --fs-stage-label: clamp(0.7rem, 0.55rem + 0.4vw, 0.85rem);
+  --fs-title: clamp(2.4rem, 1.6rem + 3.4vw, 4.4rem);
+  --fs-subtitle: clamp(0.72rem, 0.55rem + 0.6vw, 1rem);
+  --fs-body: clamp(1rem, 0.85rem + 0.55vw, 1.35rem);
+  --fs-button: clamp(0.95rem, 0.85rem + 0.3vw, 1.1rem);
+
+  --tracking-label: 0.42em;
+  --tracking-subtitle: 0.34em;
+
+  /* ── Spacing ───────────────────────────────── */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.75rem;
+  --space-4: 2.75rem;
+  --space-5: 4.5rem;
+
+  /* ── Motion ────────────────────────────────── */
+  --ease-soft: cubic-bezier(0.33, 0.02, 0.2, 1);
+  --dur-fade: 900ms;
+  --dur-line: 1200ms;
+  --dur-transition: 2400ms;
+  --dur-morph: 2600ms;
+
+  /* ── Shape ─────────────────────────────────── */
+  --radius-pill: 999px;
+  --radius-soft: 14px;
+}

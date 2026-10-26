@@ -1,0 +1,37 @@
+{
+  "version": "v1",
+  "name": "The Other Side of Self — Visual Bible Palette",
+  "centralized": true,
+  "colors": {
+    "deep_sea_blue": {
+      "hex": "#04222E",
+      "rgb": [4, 34, 46],
+      "role": "背景基底 / 深邃空间 / 夜与水"
+    },
+    "teal_green": {
+      "hex": "#0E5A57",
+      "rgb": [14, 90, 87],
+      "role": "中景植被 / 水色 / 过渡层次"
+    },
+    "soft_cyan_blue": {
+      "hex": "#8EDBE4",
+      "rgb": [142, 219, 228],
+      "role": "光线 / 高光 / 视觉焦点 / 希望感"
+    },
+    "warm_white": {
+      "hex": "#F4EFE6",
+      "rgb": [244, 239, 230],
+      "role": "人物 / 织物 / 微光 / 温度"
+    }
+  },
+  "gradients": {
+    "depth_base": "radial-gradient(120% 120% at 50% 30%, #0E5A57 0%, #04222E 70%)",
+    "light_kiss": "linear-gradient(180deg, rgba(142,219,228,0.18) 0%, rgba(4,34,46,0) 60%)"
+  },
+  "rules": {
+    "low_saturation": true,
+    "low_contrast_underwater_mist": true,
+    "allow_warm_cool_microshift": true,
+    "forbidden": ["oversaturation", "neon", "high_contrast_commercial", "pure_black_as_main"]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "the-other-side-of-self",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "《自我的彼岸》The Other Side of Self — Phase 1: Observe",
+  "scripts": {
+    "dev": "vite",
+    "server": "node --env-file=.env server/index.mjs",
+    "dev:all": "concurrently -n web,api -c cyan,magenta \"npm:dev\" \"npm:server\"",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test:phase3": "node tests/phase3.test.mjs",
+    "test:phase4": "node tests/phase4.test.mjs",
+    "test:phase5": "node tests/phase5.test.mjs",
+    "test:stage3": "node tests/stage3.test.mjs",
+    "test": "node tests/phase3.test.mjs && node tests/phase4.test.mjs && node tests/phase5.test.mjs && node tests/stage3.test.mjs"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "openai": "^4.77.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "concurrently": "^9.1.2",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.7",
+    "vue-tsc": "^2.2.0"
+  }
+}
