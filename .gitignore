@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.env
+.env.local
+*.local
+.DS_Store
+.vite/
+*.log
+
+# 资产库运行态数据（由种子初始化，可被编辑覆盖；不提交运行时变更）
+server/data/
+
+# 真实素材文件不入库（仅保留占位目录）
+assets/original/*
+
+# 原始参考素材采集（截图/源材料，不入库）
+第一批参考资产采集/
+assets/thumbnails/*
+assets/generated/*
+!assets/**/.gitkeep

@@ -1,0 +1,270 @@
+{
+  "visual_bible_version": "v1",
+  "description": "第三阶段视觉基准场景集合（B01–B24）。用于开发期基准测试：把每个场景的 user_input 经 Imagine 意图解析 → World Brief 组装 → 提示词生成，再由人工/模型按 evaluation-rubric 评分。不在此阶段实际调用图像生成 API。",
+  "scenes": [
+    {
+      "scene_id": "B01",
+      "category": "海边",
+      "title": "清晨独处的海岸",
+      "user_input": "我想在一个安静的海边醒来，清晨，一个人，听海浪。",
+      "must_include": ["海面/海岸线", "清晨柔和光线", "单人背影或局部", "低饱和蓝青色调"],
+      "must_avoid": ["人群", "高饱和日落红", "商业海滩海报感"],
+      "evaluation_focus": ["意图准确度", "风格一致性"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B02",
+      "category": "森林",
+      "title": "林间慢步",
+      "user_input": "我渴望在森林里慢慢走，身边有树和光，不用赶时间。",
+      "must_include": ["树木/林线", "透过树叶的漫射光", "缓慢步行的人物侧影", "纵深空间感"],
+      "must_avoid": ["霓虹色", "硬阴影", "文字叠加"],
+      "evaluation_focus": ["视觉美学", "结构可信度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B03",
+      "category": "家/室内",
+      "title": "洒满光的旧屋书房",
+      "user_input": "我希望在家里的书房画画，午后的光从窗户进来，很安静。",
+      "must_include": ["室内窗光", "画架/创作物件", "棉麻与木材质感", "暖白与青蓝微偏移"],
+      "must_avoid": ["玻璃幕墙炫光", "金属高光塑料感", "露脸特写"],
+      "evaluation_focus": ["意图准确度", "视觉美学"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B04",
+      "category": "山间",
+      "title": "云雾中的山居",
+      "user_input": "想住在山里，有雾，能看到远处的山线，一个人喝茶。",
+      "must_include": ["远景山线", "雾", "人物局部（手/茶）", "三层纵深"],
+      "must_avoid": ["赛博朋克高对比", "广告式构图"],
+      "evaluation_focus": ["风格一致性", "结构可信度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B05",
+      "category": "湖边",
+      "title": "湖面静止的黄昏",
+      "user_input": "我喜欢湖边，水面很平静，黄昏，什么都不做只是发呆。",
+      "must_include": ["湖面倒影", "黄昏微光", "静止/发呆姿态", "留白"],
+      "must_avoid": ["爆炸光效", "粒子洪流", "强销售感文字"],
+      "evaluation_focus": ["视觉美学", "动态潜力"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B06",
+      "category": "乡村",
+      "title": "田野间的慢生活",
+      "user_input": "向往乡村，有田野，养只猫，自己种点花。",
+      "must_include": ["田野", "小动物（猫）", "植物/花", "自然光"],
+      "must_avoid": ["城市天际线", "霓虹", "露脸"],
+      "evaluation_focus": ["意图准确度", "结构可信度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B07",
+      "category": "城市",
+      "title": "未来城市的天台",
+      "user_input": "我想象未来城市里一个小天台，夜里，安静地看远处的灯。",
+      "must_include": ["城市轮廓/远景灯", "天台空间", "夜色深海蓝", "人物背影"],
+      "must_avoid": ["纯黑主色", "霓虹撞色", "文字Logo"],
+      "evaluation_focus": ["风格一致性", "视觉美学"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B08",
+      "category": "自然户外",
+      "title": "雨后的呼吸",
+      "user_input": "下雨天我也喜欢，听雨，看云，感觉很放松。",
+      "must_include": ["雨/湿地面", "云", "松弛氛围", "低饱和冷调"],
+      "must_avoid": ["晴日强晒", "商业构图", "露脸特写"],
+      "evaluation_focus": ["意图准确度", "动态潜力"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B09",
+      "category": "工作室",
+      "title": "创作者的安静角落",
+      "user_input": "我想要一个属于自己的工作室，做作品，不被打扰。",
+      "must_include": ["创作空间", "作品/工具", "独处", "木与织物材质"],
+      "must_avoid": ["人群", "舞台聚光", "高饱和"],
+      "evaluation_focus": ["意图准确度", "结构可信度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B10",
+      "category": "海边小镇",
+      "title": "临海小镇的清晨散步",
+      "user_input": "在一个靠海的小镇，早上散步，遇到朋友就聊聊天。",
+      "must_include": ["海边小镇", "清晨", "与朋友相伴", "轻松步态"],
+      "must_avoid": ["拥挤人群", "广告感", "露脸"],
+      "evaluation_focus": ["意图准确度", "风格一致性"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B11",
+      "category": "雪山",
+      "title": "雪线之上的静默",
+      "user_input": "想去看雪山，雪很白，空气很清，一个人站着。",
+      "must_include": ["雪/雪山", "清冷空气感", "单人", "冷调低饱和"],
+      "must_avoid": ["暖色撞色", "炫光", "文字叠加"],
+      "evaluation_focus": ["视觉美学", "结构可信度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B12",
+      "category": "庭院",
+      "title": "老院子的午后",
+      "user_input": "想念老家的院子，午后有树荫，坐着什么都不用想。",
+      "must_include": ["庭院", "树荫", "静坐", "怀旧暖白微光"],
+      "must_avoid": ["玻璃幕墙", "金属高光", "商业海报"],
+      "evaluation_focus": ["意图准确度", "视觉美学"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B13",
+      "category": "海岛",
+      "title": "无人小岛的停留",
+      "user_input": "想去一个没人知道的小岛，住几天，远离所有人。",
+      "must_include": ["小岛/孤立感", "远离人群", "海", "孤静氛围"],
+      "must_avoid": ["人群", "度假村广告感", "霓虹"],
+      "evaluation_focus": ["意图准确度", "风格一致性"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B14",
+      "category": "草原",
+      "title": "风吹过的原野",
+      "user_input": "草原很大，风吹过来，我躺着看天。",
+      "must_include": ["草原", "风动（草/云）", "躺姿局部", "开阔留白"],
+      "must_avoid": ["城市", "高饱和", "露脸"],
+      "evaluation_focus": ["动态潜力", "视觉美学"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B15",
+      "category": "雨夜",
+      "title": "雨夜里的一盏灯",
+      "user_input": "雨夜，屋里亮着一盏暖灯，我在窗边发呆。",
+      "must_include": ["雨夜窗景", "暖灯", "窗边人物局部", "冷暖对比克制"],
+      "must_avoid": ["强舞台光", "霓虹", "文字Logo"],
+      "evaluation_focus": ["视觉美学", "意图准确度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B16",
+      "category": "晨雾",
+      "title": "雾起时的湖畔",
+      "user_input": "早上起雾的时候去湖边走，什么都看不清，很安静。",
+      "must_include": ["晨雾", "湖", "模糊远景", "静谧"],
+      "must_avoid": ["清晰硬边", "高饱和", "广告构图"],
+      "evaluation_focus": ["风格一致性", "动态潜力"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B17",
+      "category": "废墟花园",
+      "title": "荒废花园的重生",
+      "user_input": "一个荒掉的花园，但还有花在长，我想坐在那里。",
+      "must_include": ["荒废感", "野生花草", "静坐", "柔光"],
+      "must_avoid": ["整齐园艺广告感", "霓虹", "露脸"],
+      "evaluation_focus": ["结构可信度", "视觉美学"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B18",
+      "category": "老屋",
+      "title": "木屋里的火光",
+      "user_input": "冬天，老木屋里生着火，我看书，很暖。",
+      "must_include": ["老木屋", "炉火微光", "阅读", "暖白与深海蓝"],
+      "must_avoid": ["金属塑料感", "舞台聚光", "高饱和红"],
+      "evaluation_focus": ["视觉美学", "意图准确度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B19",
+      "category": "温泉",
+      "title": "山间温泉的蒸汽",
+      "user_input": "在山里泡温泉，有蒸汽，周围是树，很放松。",
+      "must_include": ["温泉", "蒸汽", "树木环绕", "松弛"],
+      "must_avoid": ["人群", "商业 spa 广告感", "露脸特写"],
+      "evaluation_focus": ["风格一致性", "动态潜力"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B20",
+      "category": "麦田",
+      "title": "麦浪里的午后",
+      "user_input": "金黄的麦田，风一吹浪一样，我走在里面。",
+      "must_include": ["麦田", "风动麦浪", "行走侧影", "暖调克制"],
+      "must_avoid": ["霓虹", "高饱和撞色", "文字叠加"],
+      "evaluation_focus": ["动态潜力", "视觉美学"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B21",
+      "category": "竹林",
+      "title": "竹林深处的呼吸",
+      "user_input": "竹林里很绿很静，我坐着冥想。",
+      "must_include": ["竹林", "绿意低饱和", "冥想坐姿", "纵深"],
+      "must_avoid": ["硬阴影", "商业构图", "露脸"],
+      "evaluation_focus": ["风格一致性", "结构可信度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B22",
+      "category": "星空",
+      "title": "无人的星野",
+      "user_input": "夜里在野外看星星，没有光污染，很静。",
+      "must_include": ["星空", "无光污染暗部", "单人背影", "深海蓝夜"],
+      "must_avoid": ["纯黑主色", "城市灯", "霓虹"],
+      "evaluation_focus": ["视觉美学", "意图准确度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B23",
+      "category": "雪原",
+      "title": "雪原上的慢行",
+      "user_input": "一片白茫茫的雪原，我慢慢走，脚印很浅。",
+      "must_include": ["雪原", "浅脚印", "慢行", "极简留白"],
+      "must_avoid": ["暖色撞色", "炫光", "广告感"],
+      "evaluation_focus": ["视觉美学", "结构可信度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    },
+    {
+      "scene_id": "B24",
+      "category": "未来城市",
+      "title": "未来城市的水边",
+      "user_input": "未来的城市，但很安静，有水边步道，晚上一个人走。",
+      "must_include": ["未来感城市轮廓", "水边步道", "夜色", "单人背影"],
+      "must_avoid": ["霓虹撞色", "赛博朋克高对比", "文字Logo"],
+      "evaluation_focus": ["风格一致性", "意图准确度"],
+      "reference_asset_ids": [],
+      "visual_bible_version": "v1"
+    }
+  ]
+}

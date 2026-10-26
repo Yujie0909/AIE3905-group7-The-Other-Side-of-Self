@@ -1,0 +1,89 @@
+{
+  "version": "v1",
+  "visual_bible_version": "v1",
+  "name": "The Other Side of Self — Style Profile",
+  "palette_ref": "./palette.json",
+  "centralized_colors": true,
+  "aesthetic": {
+    "mood": ["immersive", "restrained", "poetic", "spatial", "slow-changing"],
+    "mood_zh": "沉浸式、克制、诗意、空间感、缓慢变化",
+    "lighting": {
+      "type": "soft_side_or_backlight_or_diffuse_skylight",
+      "type_zh": "柔和的侧逆光或漫射天光",
+      "avoid": ["hard_shadows", "stage_spotlight"],
+      "avoid_zh": "避免硬阴影与舞台式聚光；光是'被理解的温柔'",
+      "description_zh": "光不是戏剧打光，而是温柔的理解。"
+    },
+    "composition": {
+      "rules": ["rule_of_thirds_or_central_negative_space", "subject_small_environment_large"],
+      "rules_zh": "三分法或中心留白；主体偏小、环境偏大",
+      "avoid": ["centered_symmetric_commercial_poster"],
+      "avoid_zh": "避免居中对称式商业海报构图"
+    },
+    "depth": {
+      "layers": ["foreground_soft_focus", "midground_atmosphere", "background_horizon"],
+      "layers_zh": ["近景柔焦（人物/手部/物件）", "中景环境氛围", "远景（海平线/林线/天光）"],
+      "description_zh": "三层纵深，强调空气与尺度，让画面能呼吸。"
+    },
+    "materials": {
+      "prefer": ["cotton_linen", "unpolished_wood", "stone", "water_surface", "fog", "fabric"],
+      "prefer_zh": ["棉麻", "未抛光木", "石", "水面", "雾", "织物"],
+      "reject": ["metallic_highlight_plastic", "glass_curtain_wall_glare"],
+      "reject_zh": ["金属高光塑料感", "玻璃幕墙式炫光"]
+    },
+    "people": {
+      "representation": ["back_view", "silhouette_side", "partial_hands_shoulders_hair"],
+      "representation_zh": "背影、侧影或局部（手、肩、发）",
+      "no_face_closeup": true,
+      "no_face_closeup_zh": "不露脸特写",
+      "role": "viewer_projection_not_model",
+      "role_zh": "人物是观众的投射，不是模特摆拍"
+    }
+  },
+  "camera": {
+    "shot": ["fixed_long_take", "very_slow_push_pull"],
+    "shot_zh": "固定长镜或极缓慢推拉",
+    "avoid": ["fast_pan", "zoom_whip", "handheld_shake"],
+    "avoid_zh": "避免快速摇移、变焦、手持抖动"
+  },
+  "motion": {
+    "dominant": "environment_micro_motion",
+    "dominant_zh": "环境微动（水波、雾流、光影缓移）为主",
+    "people_motion": "extremely_slow",
+    "people_motion_zh": "人物动作极缓",
+    "loop_seamless": true,
+    "loop_zh": "循环必须无缝",
+    "single_clip_seconds": [8, 16],
+    "single_clip_seconds_zh": "单段建议 8–16 秒",
+    "amplitude": "small",
+    "amplitude_zh": "变化幅度小"
+  },
+  "fixed_rules": [
+    "色彩纪律低饱和低对比（水下/晨雾质感），禁止高饱和撞色",
+    "光线气质柔和、非戏剧化",
+    "构图留白、主体偏小环境偏大",
+    "人物不露脸特写",
+    "缓慢变化、克制留白",
+    "禁止文字/标语/Logo/UI 叠加",
+    "禁止商业广告式构图与过度锐利",
+    "禁止过度饱和、霓虹色、赛博朋克高对比",
+    "禁止无意义光效堆叠（光剑/爆炸/粒子洪流）",
+    "禁止将心理推断当作事实强行视觉化"
+  ],
+  "variable_params": [
+    "scene_location（海边/森林/家/未来城市等）",
+    "specific_activities（活动）",
+    "time_of_day（一天中的时刻）",
+    "has_people（是否有人物）",
+    "object_details（物件细节）",
+    "warm_cool_microshift（冷暖微调）"
+  ],
+  "prohibitions": [
+    "text_logo_ui_overlay",
+    "commercial_poster_composition",
+    "oversaturation_neon_cyberpunk",
+    "meaningless_light_fx",
+    "visualizing_unconfirmed_inference_as_fact",
+    "face_closeup"
+  ]
+}
