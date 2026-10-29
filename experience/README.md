@@ -85,3 +85,8 @@ node tests/browser.mjs
 Vite 使用相对资源路径，支持仓库子路径。Pages 设置为从 `gh-pages` 分支根目录部署。
 
 后续更新在仓库根目录执行 `bash experience/scripts/deploy-pages.sh`。脚本先执行测试和构建，再将产物推送到 `gh-pages`；需要 Git、Node.js 和已授权的 GitHub CLI。脚本不会提交或推送源代码，源代码需独立提交。
+
+
+## 视觉与动效重构
+
+见 [docs/VISUAL-REVIEW.md](docs/VISUAL-REVIEW.md)。`src/SceneCanvas.tsx` 为持续挂载的 Canvas 2D 环境层，`src/sceneConfig.ts` 统一管理七幕光照与动效参数。`public/environment.jpg` 是本项目专用的共享建筑美术资产，不是根据观众输入生成的个性化世界。七幕均延续这一场景，没有新增人物或额外数据传输。关键录屏和逐页截图保存在本地 `artifacts/refinement/`。
