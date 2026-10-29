@@ -1,0 +1,282 @@
+{
+  "viewports": [
+    {
+      "page": 1,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "/scenes/page01-reference-clean.jpg",
+      "sha256": "891e0dcb48ea824710861768a131556249e960435f9b568699229fbcecb5bfe3"
+    },
+    {
+      "page": 2,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "/scenes/page02-reference-clean.jpg",
+      "sha256": "959513d66a9104aabedb5b785270745b8ef7dbd5aa92c90c380fa834239630c3"
+    },
+    {
+      "page": 3,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "/scenes/page03-reference-clean.jpg",
+      "sha256": "2b77dffeb2cf7f3109e579abb1016f8eb9380781c335558281bef4b93901bef2"
+    },
+    {
+      "page": 4,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "/scenes/page04-reference-clean.jpg",
+      "sha256": "fc21ada211074c4af6c7ce4f1e8a266ad405a31bf9af35e95461745523e1e6cb"
+    },
+    {
+      "page": 5,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "/scenes/page05-reference-clean.jpg",
+      "sha256": "f3dbe7f8fd556250fd0ff9edac01d5393c8eb6e455d6c2700acaab422193a76d"
+    },
+    {
+      "page": 6,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "/scenes/page06-reference-clean.jpg",
+      "sha256": "767d437c423e7081f775ff73c6a401eb6407d7602f8ebf3632e7a64cce950365"
+    },
+    {
+      "page": 7,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "/scenes/page07-reference-clean.jpg",
+      "sha256": "44b90ad3102a2e57fef92050bc314f12c78a8952bd68865913adce1000c94097"
+    },
+    {
+      "page": 1,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "/scenes/page01-reference-clean.jpg",
+      "sha256": "8d8eded701f37d1f02854b055ec8c554cbf62e1a99c58f328f5a7a31b52dfc5e"
+    },
+    {
+      "page": 2,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "/scenes/page02-reference-clean.jpg",
+      "sha256": "b5ee6550e47fa024e725c61da8c2ddc76c2883ec0ca737c5693aa2d9a4b35df5"
+    },
+    {
+      "page": 3,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "/scenes/page03-reference-clean.jpg",
+      "sha256": "b225f6e9afc033e700857a4171f78c2d2d1d481379d24eee13f00f8fd4ac8df1"
+    },
+    {
+      "page": 4,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "/scenes/page04-reference-clean.jpg",
+      "sha256": "eb5bccf778301d712036fbcf3863aba4bbf5408154ea3c0d0a89dc1f350f52a9"
+    },
+    {
+      "page": 5,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "/scenes/page05-reference-clean.jpg",
+      "sha256": "d1af8d1673a0f7bcebc8b2e3dbeaee2cedf7187fd6f0cd9d3bbed7f70d58a227"
+    },
+    {
+      "page": 6,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "/scenes/page06-reference-clean.jpg",
+      "sha256": "27db21b7f72b38961adeec98ce9733ab5ecee3328620f71fafa3e4a30a968c47"
+    },
+    {
+      "page": 7,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "/scenes/page07-reference-clean.jpg",
+      "sha256": "4890cdec545178c6776eba8203a565b4711c974f82782023a4ab86f4541bd4a9"
+    },
+    {
+      "page": 1,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "/scenes/page01-reference-clean.jpg",
+      "sha256": "dcb3bd667f35e31a3654bab42fca96583a921601c25892978f9b182cad74592c"
+    },
+    {
+      "page": 2,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "/scenes/page02-reference-clean.jpg",
+      "sha256": "bf7c83eecfdc7afdcd1a5838a8c2150c6200a182b9e66110e1eddc64b857fdcb"
+    },
+    {
+      "page": 3,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "/scenes/page03-reference-clean.jpg",
+      "sha256": "5a5bdc0a8ecdafbe1facfb5f37e2495fea6582a935155f4d4fe0d37788758a54"
+    },
+    {
+      "page": 4,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "/scenes/page04-reference-clean.jpg",
+      "sha256": "0dcc5a504c72f73373544f223dbe1f0504d52da57a0e9ebb3f1004868bb8328c"
+    },
+    {
+      "page": 5,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "/scenes/page05-reference-clean.jpg",
+      "sha256": "b9dfa034812b6f0674b53e361144744bf170816fd8b52963b295cf521362a0d0"
+    },
+    {
+      "page": 6,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "/scenes/page06-reference-clean.jpg",
+      "sha256": "9875d0b23e548b0ea8c825ce0f7c3ecd00c20fcf7f4e2c31d02385882e73f337"
+    },
+    {
+      "page": 7,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "/scenes/page07-reference-clean.jpg",
+      "sha256": "15be66f26986c7c4188527f335f94da031a7f86013200e2d2cc3ad25b0b1a7fa"
+    },
+    {
+      "page": 1,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "/scenes/page01-reference-clean.jpg",
+      "sha256": "c483845252e32947757611c0ce452488c39f19ed2d3eb85f24de1f484ecb8afd"
+    },
+    {
+      "page": 2,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "/scenes/page02-reference-clean.jpg",
+      "sha256": "9797b19908072eb042283f8d905377c97901a2dd2d768bd8a9d8426721240547"
+    },
+    {
+      "page": 3,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "/scenes/page03-reference-clean.jpg",
+      "sha256": "84aa821e7ce55be5e933bcf89da1af6f3957a30c503e9921574105f27bbe4077"
+    },
+    {
+      "page": 4,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "/scenes/page04-reference-clean.jpg",
+      "sha256": "63b653c534993cf75043ebd76cf55349d3a5fe7c44281a008b726252252d7645"
+    },
+    {
+      "page": 5,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "/scenes/page05-reference-clean.jpg",
+      "sha256": "c156b23df57b701d0dcf9c9933d35537ebd939b0ab70cb2455b08843e8a0bfc4"
+    },
+    {
+      "page": 6,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "/scenes/page06-reference-clean.jpg",
+      "sha256": "0d419d5ef320c27469a524aec443277fa1d1b78b3f7f0155014ca5f0c1e01660"
+    },
+    {
+      "page": 7,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "/scenes/page07-reference-clean.jpg",
+      "sha256": "728ee5dbc249601908442f5c92db51b4f8a6cee248fe0bc3e069ccc9102a3cc4"
+    }
+  ],
+  "errors": [],
+  "missingAssets": [],
+  "functional": [
+    "seven-page navigation",
+    "input and editable voice component retained",
+    "dream adjustment",
+    "habit selection and optional questions",
+    "manual static player control",
+    "reflection and actual-text sharing confirmation",
+    "word-cloud selection",
+    "exit and session reset"
+  ],
+  "uniqueBackgrounds": 7,
+  "referenceMapping": [
+    {
+      "page": 1,
+      "reference": "references/page 01.png"
+    },
+    {
+      "page": 2,
+      "reference": "references/page 02 .png"
+    },
+    {
+      "page": 3,
+      "reference": "references/page 03.png"
+    },
+    {
+      "page": 4,
+      "reference": "references/page 04.png"
+    },
+    {
+      "page": 5,
+      "reference": "references/page 05.png"
+    },
+    {
+      "page": 6,
+      "reference": "references/page 06.png"
+    },
+    {
+      "page": 7,
+      "reference": "references/page 07.png"
+    }
+  ],
+  "page1PixelPreserved": true,
+  "speechRegression": [
+    "success",
+    "permission denied",
+    "unsupported browser"
+  ],
+  "edgeCases": [
+    "short description clarification fits laptop and mobile",
+    "description preserved when returning from Page 3"
+  ],
+  "reviewMethod": "Per-page screenshots inspected by model; no claim of continuous human review or real device microphone testing."
+}
