@@ -1,0 +1,136 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "id": "scene-01-entrance",
+      "source": "scenes/entrance.jpg",
+      "pixelDifference5s": 3.599,
+      "pixelDifference30s": 3.077,
+      "elapsed": 34.65,
+      "fps": 10.3,
+      "recordMarker": 1793268617786,
+      "recording": "artifacts/independent/scene-01.mp4"
+    },
+    {
+      "page": 2,
+      "id": "scene-02-dream",
+      "source": "scenes/dream.jpg",
+      "pixelDifference5s": 0.82,
+      "pixelDifference30s": 1.028,
+      "elapsed": 33.68,
+      "fps": 14.2,
+      "recordMarker": 1793268661003,
+      "recording": "artifacts/independent/scene-02.mp4",
+      "beforeOptimization": {
+        "fps": 4.6,
+        "pixelDifference5s": 0.56,
+        "pixelDifference30s": 0.951
+      },
+      "retestedAfterOptimization": true
+    },
+    {
+      "page": 3,
+      "id": "scene-03-ideal",
+      "source": "/scenes/ideal.jpg",
+      "pixelDifference5s": 2.124,
+      "pixelDifference30s": 5.038,
+      "elapsed": 34.03,
+      "fps": 15.9,
+      "recordMarker": 1793268703290,
+      "recording": "artifacts/independent/scene-03.mp4"
+    },
+    {
+      "page": 4,
+      "id": "scene-04-daily",
+      "source": "scenes/daily.jpg",
+      "pixelDifference5s": 4.13,
+      "pixelDifference30s": 2.249,
+      "elapsed": 33.55,
+      "fps": 10.1,
+      "recordMarker": 1793268744094,
+      "recording": "artifacts/independent/scene-04.mp4",
+      "beforeOptimization": {
+        "fps": 6.3,
+        "pixelDifference5s": 4.184,
+        "pixelDifference30s": 2.698
+      },
+      "retestedAfterOptimization": true,
+      "optimizationHistory": [
+        {
+          "fps": 9.4,
+          "pixelDifference5s": 3.612,
+          "pixelDifference30s": 2.537
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "id": "scene-05-evolution",
+      "source": "/scenes/ideal.jpg",
+      "pixelDifference5s": 2.358,
+      "pixelDifference30s": 5.337,
+      "elapsed": 33.63,
+      "fps": 15.9,
+      "recordMarker": 1793268790318,
+      "recording": "artifacts/independent/scene-05.mp4"
+    },
+    {
+      "page": 6,
+      "id": "scene-06-reflection",
+      "source": "scenes/mirror.jpg",
+      "pixelDifference5s": 0.524,
+      "pixelDifference30s": 0.513,
+      "elapsed": 32.53,
+      "fps": 11.7,
+      "recordMarker": 1793268830988,
+      "recording": "artifacts/independent/scene-06.mp4"
+    },
+    {
+      "page": 7,
+      "id": "scene-07-voices",
+      "source": "scenes/voices.jpg",
+      "pixelDifference5s": 0.957,
+      "pixelDifference30s": 2.366,
+      "elapsed": 32.9,
+      "fps": 15.6,
+      "recordMarker": 1793268869382,
+      "recording": "artifacts/independent/scene-07.mp4"
+    }
+  ],
+  "errors": [],
+  "checks": {
+    "persistentCanvas": true,
+    "uniqueSceneIds": 7,
+    "distinctImageAssets": 6,
+    "idealPreservedInEvolution": true,
+    "backgroundSamples": 1374,
+    "minimumMeanBrightness": 41.33829365079365,
+    "adjustment": true,
+    "habitSelection": true,
+    "sharingConfirmation": true,
+    "wordSelection": true,
+    "reset": true,
+    "reducedMotion": true,
+    "speechRegression": [
+      "success",
+      "denied",
+      "unsupported"
+    ],
+    "mediaRegression": [
+      "valid video and held final frame",
+      "failed video image fallback",
+      "failed image demo fallback"
+    ],
+    "viewportRegression": [
+      "1920x1080",
+      "1440x900",
+      "1366x768",
+      "390x844"
+    ]
+  },
+  "reviewLimitations": [
+    "Model reviewed screenshots and recording contact frames, no continuous human review",
+    "No real AI provider or authorized anonymous database",
+    "No real microphone/camera/device performance test"
+  ]
+}

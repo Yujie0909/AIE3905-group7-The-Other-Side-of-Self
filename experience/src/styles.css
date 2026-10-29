@@ -28,3 +28,5 @@
 .wordcloud>button{animation:word-appear 1.8s ease both;animation-delay:calc(var(--i)*.14s)}
 .wordcloud>button>span{display:inline-block;animation:word-drift calc(19s + var(--i)*2.37s) ease-in-out infinite alternate;animation-delay:calc(var(--i)*-1.7s)}
 .wordcloud>button:hover>span,.wordcloud>button:focus-visible>span{animation-play-state:paused}
+
+.topbar{isolation:isolate}.topbar:before{content:"";position:absolute;inset:0 0 -25px;z-index:-1;pointer-events:none;background:linear-gradient(180deg,#1018208c,#10182000)}.utilities{color:var(--warm-ivory);text-shadow:0 1px 6px #101820}

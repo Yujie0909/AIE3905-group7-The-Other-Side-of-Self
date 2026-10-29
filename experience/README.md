@@ -1,5 +1,8 @@
 # 自我的彼岸 — The Other Side of Self
 
+最新版本已改为七个独立场景（03/05 保持同一世界的叙事关联），不再将同一背景用于全部页面。实际调用关系、场景清单和验收限制见 [独立场景说明](docs/INDEPENDENT-SCENES.md)。
+
+
 Phase 1 / Phase 2：可运行的七幕交互艺术原型。React + TypeScript + Vite，无服务器、无需 API Key。
 
 ## 启动
@@ -89,4 +92,4 @@ Vite 使用相对资源路径，支持仓库子路径。Pages 设置为从 `gh-p
 
 ## 视觉与动效重构
 
-见 [docs/VISUAL-REVIEW.md](docs/VISUAL-REVIEW.md)。`src/SceneCanvas.tsx` 为持续挂载的 Canvas 2D 环境层，`src/sceneConfig.ts` 统一管理七幕光照与动效参数。`public/environment.jpg` 是本项目专用的共享建筑美术资产，不是根据观众输入生成的个性化世界。七幕均延续这一场景，没有新增人物或额外数据传输。关键录屏和逐页截图保存在本地 `artifacts/refinement/`。
+见 [docs/VISUAL-REVIEW.md](docs/VISUAL-REVIEW.md)。本段记录上一轮版本；现由 `src/components/BackgroundRenderer.tsx` 和 `src/config/sceneRegistry.ts` 管理独立场景。`public/environment.jpg` 是本项目专用的共享建筑美术资产，不是根据观众输入生成的个性化世界。本轮保留了入口图，并为其他场景准备独立图像，没有新增人物或额外数据传输。关键录屏和逐页截图保存在本地 `artifacts/refinement/`。
