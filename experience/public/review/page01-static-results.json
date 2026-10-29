@@ -1,0 +1,50 @@
+{
+  "viewports": [
+    {
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "activeAnimations": 0,
+      "canvasCount": 0,
+      "progressNodes": 7
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "activeAnimations": 0,
+      "canvasCount": 0,
+      "progressNodes": 7
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "staticPixelMatch": true,
+      "activeAnimations": 0,
+      "canvasCount": 0,
+      "progressNodes": 7
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "activeAnimations": 0,
+      "canvasCount": 0,
+      "progressNodes": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "activeAnimations": 0,
+      "canvasCount": 0,
+      "progressNodes": 7
+    }
+  ],
+  "errors": [],
+  "functionalChecks": [
+    "Page 1 start opens Page 2",
+    "Pages 2–7 text/adjustment/habits/reflection/consent/word cloud pass",
+    "Exit returns to static Page 1 and clears session"
+  ]
+}
