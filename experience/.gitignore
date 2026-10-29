@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.local
+artifacts/
+
+# Owner-private Sites hosting metadata is not part of the GitHub Pages source.
+.openai/
