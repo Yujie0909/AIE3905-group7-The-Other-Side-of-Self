@@ -26,7 +26,7 @@ npm test
 
 - 全局色彩 token、宋体标题、统一 01–07 编号/标题/正文/按钮/旅程进度线。
 - ExperienceSession 类型、明确的七幕状态转换与退出重置。
-- 持久化 SceneBackground / PersistentScene，翻页不卸载；CSS 光窗、反射、水纹、薄雾、光曲线、稀疏颗粒、鼠标视差。
+- 持久化 SceneBackground / PersistentScene，翻页不卸载；Canvas 建筑环境、反射、水纹、双层薄雾、自然光照、鼠标视差。
 - 统一 PageShell、PageHeader、PrimaryButton、JourneyProgress、VoiceInput、TextInput、TransitionLayer。
 - 七页布局与内存模拟交互：理想描述、一次补充、场景调整、习惯多选与最多四轮细化、4 秒光影演示、自述、实际分享文本确认、可交互演示词云、完整退出。
 - 浏览器语音识别入口，不支持/权限错误时明确提示，文字可独立完成全流程。语音可能通过浏览器在线服务识别；只在主动点击后申请权限。
