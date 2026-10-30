@@ -1,0 +1,202 @@
+{
+  "scope": "Page 06 mirror only",
+  "desktop": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "lines": [
+        "不必等到一切如愿，",
+        "此刻的你，",
+        "已经走在属于自己的路上。"
+      ],
+      "styles": {
+        "blend": "multiply",
+        "background": "rgba(0, 0, 0, 0)",
+        "filter": "none"
+      },
+      "glyphs": [
+        {
+          "x": 1480.544189453125,
+          "y": 237.1613311767578,
+          "width": 186.5513916015625,
+          "height": 70.46144104003906,
+          "top": 237.1613311767578,
+          "right": 1667.0955810546875,
+          "bottom": 307.6227722167969,
+          "left": 1480.544189453125
+        },
+        {
+          "x": 1479.58642578125,
+          "y": 306.12890625,
+          "width": 104.03515625,
+          "height": 54.59661865234375,
+          "top": 306.12890625,
+          "right": 1583.62158203125,
+          "bottom": 360.72552490234375,
+          "left": 1479.58642578125
+        },
+        {
+          "x": 1478.631103515625,
+          "y": 330.9059753417969,
+          "width": 247.4774169921875,
+          "height": 82.78594970703125,
+          "top": 330.9059753417969,
+          "right": 1726.1085205078125,
+          "bottom": 413.6919250488281,
+          "left": 1478.631103515625
+        }
+      ],
+      "changedBounds": [
+        1466,
+        248,
+        1726,
+        421
+      ],
+      "outsideInscriptionPixelMatch": true,
+      "mirrorPlacementPassed": true
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "lines": [
+        "不必等到一切如愿，",
+        "此刻的你，",
+        "已经走在属于自己的路上。"
+      ],
+      "styles": {
+        "blend": "multiply",
+        "background": "rgba(0, 0, 0, 0)",
+        "filter": "none"
+      },
+      "glyphs": [
+        {
+          "x": 1289.3121337890625,
+          "y": 206.775146484375,
+          "width": 162.4569091796875,
+          "height": 61.36083984375,
+          "top": 206.775146484375,
+          "right": 1451.76904296875,
+          "bottom": 268.135986328125,
+          "left": 1289.3121337890625
+        },
+        {
+          "x": 1288.47802734375,
+          "y": 266.8350524902344,
+          "width": 90.5982666015625,
+          "height": 47.545074462890625,
+          "top": 266.8350524902344,
+          "right": 1379.0762939453125,
+          "bottom": 314.380126953125,
+          "left": 1288.47802734375
+        },
+        {
+          "x": 1287.6461181640625,
+          "y": 288.4119873046875,
+          "width": 215.513916015625,
+          "height": 72.09353637695312,
+          "top": 288.4119873046875,
+          "right": 1503.1600341796875,
+          "bottom": 360.5055236816406,
+          "left": 1287.6461181640625
+        }
+      ],
+      "changedBounds": [
+        1276,
+        215,
+        1502,
+        368
+      ],
+      "outsideInscriptionPixelMatch": true,
+      "mirrorPlacementPassed": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "lines": [
+        "不必等到一切如愿，",
+        "此刻的你，",
+        "已经走在属于自己的路上。"
+      ],
+      "styles": {
+        "blend": "multiply",
+        "background": "rgba(0, 0, 0, 0)",
+        "filter": "none"
+      },
+      "glyphs": [
+        {
+          "x": 1053.348388671875,
+          "y": 168.5412139892578,
+          "width": 132.724609375,
+          "height": 50.130767822265625,
+          "top": 168.5412139892578,
+          "right": 1186.072998046875,
+          "bottom": 218.67198181152344,
+          "left": 1053.348388671875
+        },
+        {
+          "x": 1052.6669921875,
+          "y": 217.60914611816406,
+          "width": 74.0172119140625,
+          "height": 38.84352111816406,
+          "top": 217.60914611816406,
+          "right": 1126.6842041015625,
+          "bottom": 256.4526672363281,
+          "left": 1052.6669921875
+        },
+        {
+          "x": 1051.9873046875,
+          "y": 235.2371368408203,
+          "width": 176.0712890625,
+          "height": 58.89921569824219,
+          "top": 235.2371368408203,
+          "right": 1228.05859375,
+          "bottom": 294.1363525390625,
+          "left": 1051.9873046875
+        }
+      ],
+      "changedBounds": [
+        1043,
+        177,
+        1228,
+        302
+      ],
+      "outsideInscriptionPixelMatch": true,
+      "mirrorPlacementPassed": true
+    }
+  ],
+  "narrow": [
+    {
+      "width": 1024,
+      "height": 768,
+      "visibleMirrorWidth": 167.58342189160476,
+      "existingCropRetained": true,
+      "originalAppearancePixelMatch": true,
+      "mirrorPlacementPassed": false,
+      "status": "NOT COMPLETE — crop constraint requires user decision"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "visibleMirrorWidth": 0,
+      "existingCropRetained": true,
+      "originalAppearancePixelMatch": true,
+      "mirrorPlacementPassed": false,
+      "status": "NOT COMPLETE — crop constraint requires user decision"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "visibleMirrorWidth": 0,
+      "existingCropRetained": true,
+      "originalAppearancePixelMatch": true,
+      "mirrorPlacementPassed": false,
+      "status": "NOT COMPLETE — crop constraint requires user decision"
+    }
+  ],
+  "errors": [],
+  "missingAssets": [],
+  "narrowDecision": "pending-user-choice; existing crop retained",
+  "build": "run npm run build separately",
+  "functional": "reflection, actual-text sharing confirmation, Page 07 and exit passed at all six sizes",
+  "overall": "PARTIAL — narrow mirror placement awaits user decision"
+}
