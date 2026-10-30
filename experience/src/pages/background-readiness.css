@@ -11,3 +11,4 @@
 .background-fallback-shade,.background-fallback-mobile{position:absolute;inset:0;pointer-events:none;z-index:1}
 .background-fallback .static-artwork{z-index:2;display:block}
 .background-fallback-mobile{z-index:3}
+.background-fallback-shade{z-index:3}

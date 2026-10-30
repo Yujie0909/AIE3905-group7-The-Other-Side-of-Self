@@ -51,3 +51,8 @@
 @media(min-width:701px){.reflection-static-message{font-size:clamp(16px,1.25vw,24px);line-height:2.2;transform:rotate(-13deg) skewX(-6deg) scaleX(.90)}}
 @media(max-width:700px){.reflection-static-message{left:20%;right:7%;width:auto;white-space:normal;text-align:right;transform:rotate(-6deg);font-size:15px;line-height:1.9}}
 .static-clarification{position:absolute;left:0;right:0;bottom:calc(100% + 15px);z-index:5;max-height:36vh;overflow:auto}
+/* The scene-wide shade must grade both scenery sources equally, never just the
+   clean plate revealed by the text-removal mask. It stays below foreground UI. */
+.static-stage::before{z-index:0}
+.voices-static-cloud button{background:transparent;background-image:none;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;text-shadow:0 1px 2px rgba(25,31,37,.38)}
+.voices-static-cloud button.selected{color:#fff5d4;text-shadow:0 1px 2px rgba(25,31,37,.48)}

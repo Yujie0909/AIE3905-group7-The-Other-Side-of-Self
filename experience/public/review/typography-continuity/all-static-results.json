@@ -1,0 +1,241 @@
+{
+  "viewports": [
+    {
+      "page": 1,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+      "sha256": "01c647ae4deaaea61b4443d5dbb52a42a4ab4fa5ef63b46f756ae27c608d0303"
+    },
+    {
+      "page": 2,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+      "sha256": "e08e963fb4123ec11eae6e56ef453204a29bbed74edde81844187b71ff33d0d9"
+    },
+    {
+      "page": 3,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page03-clean-CSgqZemO.webp",
+      "sha256": "2c9a2752597a97b500587d15aed5cf482a504d5ee62c49336e8ad86418cad601"
+    },
+    {
+      "page": 4,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page04-clean-DvRiPcCB.webp",
+      "sha256": "6518874599525f84597d227818549d687d31a6e0a907f93f1e35b77ffc8349fc"
+    },
+    {
+      "page": 5,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page05-clean-DoGKURN5.jpg",
+      "sha256": "555c458f780fe40ac80aa5a54365eb91f01fa412faa177981c784f62b086434a"
+    },
+    {
+      "page": 6,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page06-clean-Dz4GP-uV.jpg",
+      "sha256": "a55bbc7fa457c50bd41cea597f155ae7cd300f07f70fe0026866e1d7076d582f"
+    },
+    {
+      "page": 7,
+      "width": 1672,
+      "height": 941,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page07-clean-CN4U19v7.webp",
+      "sha256": "9bbb15a829f91e28b291ba86514f5eddcb292f7416d12f7a3d917cec8026de5d"
+    },
+    {
+      "page": 1,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+      "sha256": "362c24f0a3cd1b8edec3ee6957278c9f9b315f0218ee396c7b6a7fb632863f00"
+    },
+    {
+      "page": 2,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+      "sha256": "3b415ebc505eecb95972c56f68169d0638af19e48cea7cd5753c227b199e71a1"
+    },
+    {
+      "page": 3,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page03-clean-CSgqZemO.webp",
+      "sha256": "1367f901c850c78dea882063bae6a502ca0104bbab28d57f19ae7d946d1916df"
+    },
+    {
+      "page": 4,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page04-clean-DvRiPcCB.webp",
+      "sha256": "a0aac470bffe2aee73a5e9cc17c18240d40b5957cbc3b70b4e85b3f7ace88ee6"
+    },
+    {
+      "page": 5,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page05-clean-DoGKURN5.jpg",
+      "sha256": "0a6f2709c65f1fea1344192aec04d4186aa08dcdfa024e8569ef704bc967eeec"
+    },
+    {
+      "page": 6,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page06-clean-Dz4GP-uV.jpg",
+      "sha256": "f8ee453940f12ab364e904fe87c15829cbc160e8c7e49adf010d1c393102186d"
+    },
+    {
+      "page": 7,
+      "width": 1920,
+      "height": 1080,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page07-clean-CN4U19v7.webp",
+      "sha256": "d0a611f04e02ca8fcfa9750ee73b78372923a24e8f6cb49dcd8fe5ca70d7ceba"
+    },
+    {
+      "page": 1,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+      "sha256": "b83694885c8cdb323965df1a483afa666c50c2823a50195e36b302a71d96baa8"
+    },
+    {
+      "page": 2,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+      "sha256": "82e14ece9d664c9d354ed7054ef5855dbe9ffe6073cf564eb3333de84bbc32d1"
+    },
+    {
+      "page": 3,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page03-clean-CSgqZemO.webp",
+      "sha256": "8504d01f7253de8e70ce46b5821f1188f56b6b13ae6375f01541a6ef4fc620fe"
+    },
+    {
+      "page": 4,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page04-clean-DvRiPcCB.webp",
+      "sha256": "9b452570634ee0307fb604afdb1b7d5e28772e3836fad3d1ba316d46dcf4ae03"
+    },
+    {
+      "page": 5,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page05-clean-DoGKURN5.jpg",
+      "sha256": "5e74b4db704023cdae7f41e308971fcb6046cc9d64edf4002d41500bd6f8a3a7"
+    },
+    {
+      "page": 6,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page06-clean-Dz4GP-uV.jpg",
+      "sha256": "87f7f5fb1029c9f7d8c586b7c0e9fdb38527017c1209c900149eeec7c7de2f6f"
+    },
+    {
+      "page": 7,
+      "width": 1366,
+      "height": 768,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page07-clean-CN4U19v7.webp",
+      "sha256": "eeafbd656c0db13b46211898cf80555110047635a2ae3f98a68238d4606d2e33"
+    },
+    {
+      "page": 1,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+      "sha256": "2016b30f8f40de7e58fa3a82a3ebe89e8649331c28a90c2427854c0bd681bd34"
+    },
+    {
+      "page": 2,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+      "sha256": "9e4571b0fdbb28ffff157253f012d82d26cca12090e29eb22eec867999d83e42"
+    },
+    {
+      "page": 3,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page03-clean-CSgqZemO.webp",
+      "sha256": "eaf60eb565b71d0e18d41aeedd6e9cb83e9cbb9aa931879284311a4b6eef85a7"
+    },
+    {
+      "page": 4,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page04-clean-DvRiPcCB.webp",
+      "sha256": "f96b5e7f287ce4869fe97366b2b493dd4a59d8d06f8b42bca75dc57ed91c66b9"
+    },
+    {
+      "page": 5,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page05-clean-DoGKURN5.jpg",
+      "sha256": "867ef0f0ad7115212ec9ce47b4297444561a7da8a1015b62229dfd37bc64eecf"
+    },
+    {
+      "page": 6,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page06-clean-Dz4GP-uV.jpg",
+      "sha256": "e59d0f422636e4445a07bc96cbde14666bb8cde844526d6e5ad905e275973aa6"
+    },
+    {
+      "page": 7,
+      "width": 390,
+      "height": 844,
+      "staticPixelMatch": true,
+      "background": "http://localhost:5184/assets/page07-clean-CN4U19v7.webp",
+      "sha256": "d44f8e2cfb51ccf0c71d7659b509269d720de929e7522281da2420a3ce8420b8"
+    }
+  ],
+  "errors": [],
+  "missingAssets": [],
+  "functional": [
+    "seven-page navigation",
+    "input and editable voice component retained",
+    "dream adjustment",
+    "habit selection and optional questions",
+    "manual static player control",
+    "reflection and actual-text sharing confirmation",
+    "word-cloud selection",
+    "exit and session reset"
+  ],
+  "uniqueBackgrounds": 7
+}
