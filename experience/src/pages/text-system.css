@@ -23,7 +23,7 @@
 .static-page-06 .static-copy p+p{margin-top:.9vw}
 .static-page-07 .static-copy{width:39%}
 .static-page-07 .static-copy p+p{margin-top:1.15vw}
-.voices-static-ending{position:absolute;left:5.4%;top:48%;width:37%;margin:0;color:#f3eee4;font-size:clamp(16px,1.45vw,28px);font-weight:400;line-height:1.8;letter-spacing:.06em}
+.voices-static-ending{position:absolute;left:5.4%;top:48%;width:37%;margin:0;color:#f3eee4;font-size:clamp(14.56px,1.3195vw,25.48px);font-weight:400;line-height:1.8;letter-spacing:.06em}
 .voices-static-note{left:5.4%;top:43.2%}
 .voices-static-approved{top:67%;overflow-wrap:anywhere;max-height:9%;overflow:auto}
 .reflection-static-message{font-weight:400;text-shadow:0 1px 1px #fff4df24}
@@ -47,7 +47,7 @@
  .static-page-05 .static-copy{top:26%}
  .static-page-06 .static-copy p+p{margin-top:18px}
  .static-page-07 .static-copy p+p{margin-top:14px}
- .voices-static-ending{left:7%;top:39%;width:86%;font-size:14px;line-height:1.8}
+ .voices-static-ending{left:7%;top:39%;width:86%;font-size:12.74px;line-height:1.8}
  .voices-static-cloud{top:48%;height:29%}
  .voices-static-note{left:10%;top:70%}
  .voices-static-approved{top:76%;max-height:45px}

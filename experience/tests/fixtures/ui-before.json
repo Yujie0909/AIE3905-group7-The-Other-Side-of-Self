@@ -1,0 +1,2462 @@
+[
+  {
+    "width": 1920,
+    "height": 1080,
+    "page": 1,
+    "title": {
+      "text": "欢迎进入心流空间",
+      "fontSize": 71.424,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "92.8512px",
+      "width": 319.921875,
+      "height": 185.6875,
+      "x": 107.515625,
+      "y": 172.796875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "在这里，暂时放下外界的评价，倾听内心的声音。这是一场没有标准答案的旅程，也是一段只属于你的故事。",
+      "fontSize": 28,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "50.4px",
+      "width": 729.59375,
+      "height": 175.171875,
+      "x": 108.46875,
+      "y": 443.328125,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "page01-start|开始体验",
+        "fontSize": 27.84,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "page": 2,
+    "title": {
+      "text": "如果一切都能够实现，\n你希望过什么样的生活？",
+      "fontSize": 70.08,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "92.5056px",
+      "width": 1305.59375,
+      "height": 185,
+      "x": 101.75,
+      "y": 158.75,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "抛开现实的桎梏，描绘你理想中的生活。在那个世界里，你希望成为怎样的自己？",
+      "fontSize": 29,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "52.2px",
+      "width": 902.390625,
+      "height": 104.375,
+      "x": 109.4375,
+      "y": 368.265625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "static-mic-caption|点击开始说话",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|写下你向往的生活",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "page": "dialog02",
+    "panel": {
+      "text": "如果拥有了更多可能，你最期待生活中发生什么变化？拥有更多自由时间去体验向往的生活更好地照顾重要的人其他想法按原描述继续",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 787.1875,
+      "height": 165.46875,
+      "x": 566.390625,
+      "y": 427.5625,
+      "padding": "18px",
+      "background": "rgba(16, 24, 32, 0.93)",
+      "backdropFilter": "none"
+    },
+    "title": {
+      "text": "如果拥有了更多可能，你最期待生活中发生什么变化？",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 749.1875,
+      "height": 23.390625,
+      "x": 585.390625,
+      "y": 459.5625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "option": {
+      "text": "拥有更多自由时间",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "18.7px",
+      "width": 116,
+      "height": 40.6875,
+      "x": 585.390625,
+      "y": 495.953125,
+      "padding": "10px 13px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "button": {
+      "text": "按原描述继续",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 98.015625,
+      "height": 37.390625,
+      "x": 585.390625,
+      "y": 536.640625,
+      "padding": "6px 9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "page": 3,
+    "title": {
+      "text": "理想中的生活，你好",
+      "fontSize": 63.36,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "83.6352px",
+      "width": 627.265625,
+      "height": 83.625,
+      "x": 101.75,
+      "y": 159.828125,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "你所描绘的世界，正在眼前慢慢成形。现在，走进它，遇见那个理想中的自己。",
+      "fontSize": 29,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "52.2px",
+      "width": 864,
+      "height": 133.171875,
+      "x": 109.4375,
+      "y": 270,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "static-pill|重新生成",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "static-pill|我想调整",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "static-pill|继续探索",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "page": 4,
+    "title": {
+      "text": "再聊聊现在的你",
+      "fontSize": 76.8,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "101.376px",
+      "width": 591.34375,
+      "height": 101.359375,
+      "x": 101.75,
+      "y": 160.90625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "理想之外，日常中也有属于自己的模样。可以再分享一些你平时的小习惯吗？",
+      "fontSize": 30.72,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "55.296px",
+      "width": 902.390625,
+      "height": 119.1875,
+      "x": 109.4375,
+      "y": 270,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "static-mic-caption|点击开始说话",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|也可以自由分享",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "page": "topics04",
+    "buttons": [
+      {
+        "text": "作息与睡眠",
+        "fontSize": 26.88,
+        "width": 272,
+        "height": 84.234375,
+        "icon": 38.390625
+      },
+      {
+        "text": "兴趣与爱好",
+        "fontSize": 26.88,
+        "width": 272,
+        "height": 84.234375,
+        "icon": 38.390625
+      },
+      {
+        "text": "学习与工作",
+        "fontSize": 26.88,
+        "width": 272,
+        "height": 84.234375,
+        "icon": 38.390625
+      },
+      {
+        "text": "饮食与运动",
+        "fontSize": 26.88,
+        "width": 272,
+        "height": 84.234375,
+        "icon": 38.390625
+      },
+      {
+        "text": "独处与社交",
+        "fontSize": 26.88,
+        "width": 272,
+        "height": 84.234375,
+        "icon": 38.390625
+      },
+      {
+        "text": "心情与压力",
+        "fontSize": 26.88,
+        "width": 272,
+        "height": 84.234375,
+        "icon": 38.390625
+      },
+      {
+        "text": "其他",
+        "fontSize": 26.88,
+        "width": 206.71875,
+        "height": 84.234375,
+        "icon": 38.390625
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "page": "dialog04",
+    "panel": {
+      "text": "02 / 作息与睡眠早睡早起晚睡晚起晚睡早起早睡晚起作息不固定返回修改下一项",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 848.625,
+      "height": 170.28125,
+      "x": 103.671875,
+      "y": 421.1875,
+      "padding": "20px",
+      "background": "rgba(16, 24, 32, 0.9)",
+      "backdropFilter": "none"
+    },
+    "title": {
+      "text": "02 / 作息与睡眠",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "19.8px",
+      "width": 806.625,
+      "height": 19.796875,
+      "x": 124.671875,
+      "y": 442.1875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "option": {
+      "text": "早睡早起",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "18.7px",
+      "width": 72,
+      "height": 40.6875,
+      "x": 124.671875,
+      "y": 475.984375,
+      "padding": "10px 13px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "button": {
+      "text": "返回修改",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "19.8px",
+      "width": 46,
+      "height": 41.796875,
+      "x": 124.671875,
+      "y": 528.671875,
+      "padding": "10px 0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "page": 5,
+    "title": {
+      "text": "生活不止由想象书写",
+      "fontSize": 76.8,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "101.376px",
+      "width": 760.296875,
+      "height": 101.359375,
+      "x": 97.90625,
+      "y": 167.390625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "那些微不足道的习惯，悄然改变着理想的轨迹。而日复一日的选择，塑造了我们真正的模样。",
+      "fontSize": 32,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "57.6px",
+      "width": 998.390625,
+      "height": 115.1875,
+      "x": 97.90625,
+      "y": 303.46875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "evolution-static-next static-pill|再次与自己相遇",
+        "fontSize": 20,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "page": 6,
+    "title": {
+      "text": "与自我重逢",
+      "fontSize": 68.16,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "89.9712px",
+      "width": 374.875,
+      "height": 89.953125,
+      "x": 90.234375,
+      "y": 160.90625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "走过想象与现实之间的距离，此刻，你有什么想对自己说的吗？",
+      "fontSize": 32,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "57.6px",
+      "width": 844.796875,
+      "height": 132.453125,
+      "x": 90.234375,
+      "y": 291.59375,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "reflection-static-message|不必等到一切如愿，此刻的你，已经走在属于自己的路上。",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "static-mic-caption|点击开始说话",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|留一句话给此刻的自己",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "page": 7,
+    "title": {
+      "text": "你不是孤身一人",
+      "fontSize": 80,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "105.6px",
+      "width": 616,
+      "height": 105.59375,
+      "x": 103.671875,
+      "y": 178.1875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "原来，也有人怀着与你相似的心情。这些词语，来自其他参与者留下的真实心声。",
+      "fontSize": 27.84,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "50.112px",
+      "width": 748.796875,
+      "height": 122.296875,
+      "x": 103.671875,
+      "y": 332.625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "|旅行",
+        "fontSize": 51.84,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|成长",
+        "fontSize": 46.08,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|内心平静",
+        "fontSize": 38.4,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|健康",
+        "fontSize": 47.04,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|自信",
+        "fontSize": 42.24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|独处",
+        "fontSize": 45.12,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|稳定",
+        "fontSize": 42.24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|被理解",
+        "fontSize": 40.32,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|自由",
+        "fontSize": 86.4,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|热爱生活",
+        "fontSize": 47.04,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|平衡",
+        "fontSize": 36.48,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|财富自由",
+        "fontSize": 48,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|快乐",
+        "fontSize": 42.24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|探索",
+        "fontSize": 34.56,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|热爱",
+        "fontSize": 36.48,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|真实",
+        "fontSize": 40.32,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|生活品质",
+        "fontSize": 34.56,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|希望",
+        "fontSize": 38.4,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "voices-static-finish static-pill|带着此刻的自己，继续前行",
+        "fontSize": 24,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 21.696,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "page": 1,
+    "title": {
+      "text": "欢迎进入心流空间",
+      "fontSize": 50.8152,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "66.0598px",
+      "width": 227.59375,
+      "height": 132.09375,
+      "x": 76.484375,
+      "y": 122.875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "在这里，暂时放下外界的评价，倾听内心的声音。这是一场没有标准答案的旅程，也是一段只属于你的故事。",
+      "fontSize": 19.9436,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "35.8985px",
+      "width": 519.078125,
+      "height": 124.6875,
+      "x": 77.171875,
+      "y": 315.25,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "page01-start|开始体验",
+        "fontSize": 19.807,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "page": 2,
+    "title": {
+      "text": "如果一切都能够实现，\n你希望过什么样的生活？",
+      "fontSize": 49.859,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "65.8139px",
+      "width": 928.875,
+      "height": 131.625,
+      "x": 72.390625,
+      "y": 112.890625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "抛开现实的桎梏，描绘你理想中的生活。在那个世界里，你希望成为怎样的自己？",
+      "fontSize": 20.7632,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "37.3738px",
+      "width": 642.015625,
+      "height": 74.75,
+      "x": 77.859375,
+      "y": 261.875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "static-mic-caption|点击开始说话",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|写下你向往的生活",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "page": "dialog02",
+    "panel": {
+      "text": "如果拥有了更多可能，你最期待生活中发生什么变化？拥有更多自由时间去体验向往的生活更好地照顾重要的人其他想法按原描述继续",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 560.046875,
+      "height": 159.46875,
+      "x": 402.96875,
+      "y": 257.90625,
+      "padding": "18px",
+      "background": "rgba(16, 24, 32, 0.93)",
+      "backdropFilter": "none"
+    },
+    "title": {
+      "text": "如果拥有了更多可能，你最期待生活中发生什么变化？",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 522.046875,
+      "height": 23.390625,
+      "x": 421.96875,
+      "y": 289.90625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "option": {
+      "text": "拥有更多自由时间",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "18.7px",
+      "width": 112,
+      "height": 34.6875,
+      "x": 421.96875,
+      "y": 326.296875,
+      "padding": "7px 11px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "button": {
+      "text": "按原描述继续",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 98.015625,
+      "height": 37.390625,
+      "x": 421.96875,
+      "y": 360.984375,
+      "padding": "6px 9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    }
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "page": 3,
+    "title": {
+      "text": "理想中的生活，你好",
+      "fontSize": 45.078,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "59.503px",
+      "width": 446.140625,
+      "height": 59.5,
+      "x": 72.390625,
+      "y": 113.65625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "你所描绘的世界，正在眼前慢慢成形。现在，走进它，遇见那个理想中的自己。",
+      "fontSize": 20.7632,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "37.3738px",
+      "width": 614.6875,
+      "height": 95.234375,
+      "x": 77.859375,
+      "y": 192,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "static-pill|重新生成",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "static-pill|我想调整",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "static-pill|继续探索",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "page": 4,
+    "title": {
+      "text": "再聊聊现在的你",
+      "fontSize": 54.64,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "72.1248px",
+      "width": 420.625,
+      "height": 72.125,
+      "x": 72.390625,
+      "y": 114.421875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "理想之外，日常中也有属于自己的模样。可以再分享一些你平时的小习惯吗？",
+      "fontSize": 21.856,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "39.3408px",
+      "width": 642.015625,
+      "height": 84.828125,
+      "x": 77.859375,
+      "y": 192,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "static-mic-caption|点击开始说话",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|也可以自由分享",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "page": "topics04",
+    "buttons": [
+      {
+        "text": "作息与睡眠",
+        "fontSize": 19.124,
+        "width": 193.515625,
+        "height": 59.890625,
+        "icon": 27.3125
+      },
+      {
+        "text": "兴趣与爱好",
+        "fontSize": 19.124,
+        "width": 193.515625,
+        "height": 59.890625,
+        "icon": 27.3125
+      },
+      {
+        "text": "学习与工作",
+        "fontSize": 19.124,
+        "width": 193.515625,
+        "height": 59.890625,
+        "icon": 27.3125
+      },
+      {
+        "text": "饮食与运动",
+        "fontSize": 19.124,
+        "width": 193.515625,
+        "height": 59.890625,
+        "icon": 27.3125
+      },
+      {
+        "text": "独处与社交",
+        "fontSize": 19.124,
+        "width": 193.515625,
+        "height": 59.890625,
+        "icon": 27.3125
+      },
+      {
+        "text": "心情与压力",
+        "fontSize": 19.124,
+        "width": 193.515625,
+        "height": 59.890625,
+        "icon": 27.3125
+      },
+      {
+        "text": "其他",
+        "fontSize": 19.124,
+        "width": 147.0625,
+        "height": 59.890625,
+        "icon": 27.3125
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "page": "dialog04",
+    "panel": {
+      "text": "02 / 作息与睡眠早睡早起晚睡晚起晚睡早起早睡晚起作息不固定返回修改下一项",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 603.765625,
+      "height": 164.28125,
+      "x": 73.75,
+      "y": 299.515625,
+      "padding": "20px",
+      "background": "rgba(16, 24, 32, 0.9)",
+      "backdropFilter": "none"
+    },
+    "title": {
+      "text": "02 / 作息与睡眠",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "19.8px",
+      "width": 561.765625,
+      "height": 19.796875,
+      "x": 94.75,
+      "y": 320.515625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "option": {
+      "text": "早睡早起",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "18.7px",
+      "width": 68,
+      "height": 34.6875,
+      "x": 94.75,
+      "y": 354.3125,
+      "padding": "7px 11px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "button": {
+      "text": "返回修改",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "19.8px",
+      "width": 46,
+      "height": 41.796875,
+      "x": 94.75,
+      "y": 401,
+      "padding": "10px 0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    }
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "page": 5,
+    "title": {
+      "text": "生活不止由想象书写",
+      "fontSize": 54.64,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "72.1248px",
+      "width": 540.8125,
+      "height": 72.125,
+      "x": 69.65625,
+      "y": 119.03125,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "那些微不足道的习惯，悄然改变着理想的轨迹。而日复一日的选择，塑造了我们真正的模样。",
+      "fontSize": 22.8122,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "41.062px",
+      "width": 710.3125,
+      "height": 82.125,
+      "x": 69.65625,
+      "y": 215.796875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "evolution-static-next static-pill|再次与自己相遇",
+        "fontSize": 14.343,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "page": 6,
+    "title": {
+      "text": "与自我重逢",
+      "fontSize": 48.493,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "64.0108px",
+      "width": 266.671875,
+      "height": 64.015625,
+      "x": 64.1875,
+      "y": 114.421875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "走过想象与现实之间的距离，此刻，你有什么想对自己说的吗？",
+      "fontSize": 22.8122,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "41.062px",
+      "width": 601.03125,
+      "height": 94.40625,
+      "x": 64.1875,
+      "y": 207.359375,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "reflection-static-message|不必等到一切如愿，此刻的你，已经走在属于自己的路上。",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "static-mic-caption|点击开始说话",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|留一句话给此刻的自己",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "page": 7,
+    "title": {
+      "text": "你不是孤身一人",
+      "fontSize": 56.9622,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "75.1901px",
+      "width": 438.546875,
+      "height": 75.1875,
+      "x": 73.75,
+      "y": 126.71875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "原来，也有人怀着与你相似的心情。这些词语，来自其他参与者留下的真实心声。",
+      "fontSize": 19.807,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "35.6526px",
+      "width": 532.734375,
+      "height": 87.015625,
+      "x": 73.75,
+      "y": 236.53125,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "|旅行",
+        "fontSize": 36.882,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|成长",
+        "fontSize": 32.784,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|内心平静",
+        "fontSize": 27.32,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|健康",
+        "fontSize": 33.467,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|自信",
+        "fontSize": 30.052,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|独处",
+        "fontSize": 32.101,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|稳定",
+        "fontSize": 30.052,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|被理解",
+        "fontSize": 28.686,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|自由",
+        "fontSize": 61.47,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|热爱生活",
+        "fontSize": 33.467,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|平衡",
+        "fontSize": 25.954,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|财富自由",
+        "fontSize": 34.15,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|快乐",
+        "fontSize": 30.052,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|探索",
+        "fontSize": 24.588,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|热爱",
+        "fontSize": 25.954,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|真实",
+        "fontSize": 28.686,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|生活品质",
+        "fontSize": 24.588,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|希望",
+        "fontSize": 27.32,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "voices-static-finish static-pill|带着此刻的自己，继续前行",
+        "fontSize": 17.075,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 15.4358,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "page": 1,
+    "title": {
+      "text": "欢迎进入心流空间",
+      "fontSize": 38,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "51.68px",
+      "width": 164.921875,
+      "height": 103.34375,
+      "x": 27.296875,
+      "y": 135.03125,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "在这里，暂时放下外界的评价，倾听内心的声音。这是一场没有标准答案的旅程，也是一段只属于你的故事。",
+      "fontSize": 14.235,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "25.623px",
+      "width": 343.203125,
+      "height": 100.828125,
+      "x": 27.296875,
+      "y": 354.46875,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "page01-start|开始体验",
+        "fontSize": 19,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "page": 2,
+    "title": {
+      "text": "如果一切都能够实现，\n你希望过什么样的生活？",
+      "fontSize": 28,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "44.8px",
+      "width": 343.203125,
+      "height": 89.59375,
+      "x": 27.296875,
+      "y": 102,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "抛开现实的桎梏，描绘你理想中的生活。在那个世界里，你希望成为怎样的自己？",
+      "fontSize": 15,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "27px",
+      "width": 335.40625,
+      "height": 54,
+      "x": 27.296875,
+      "y": 289,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "static-mic-caption|点击开始说话",
+        "fontSize": 16,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|写下你向往的生活",
+        "fontSize": 15,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "page": "dialog02",
+    "panel": {
+      "text": "如果拥有了更多可能，你最期待生活中发生什么变化？拥有更多自由时间去体验向往的生活更好地照顾重要的人其他想法按原描述继续",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 327.59375,
+      "height": 235.546875,
+      "x": 31.1875,
+      "y": 208.453125,
+      "padding": "18px",
+      "background": "rgba(16, 24, 32, 0.93)",
+      "backdropFilter": "none"
+    },
+    "title": {
+      "text": "如果拥有了更多可能，你最期待生活中发生什么变化？",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 289.59375,
+      "height": 46.78125,
+      "x": 50.1875,
+      "y": 240.453125,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "option": {
+      "text": "拥有更多自由时间",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "18.7px",
+      "width": 116,
+      "height": 40.6875,
+      "x": 50.1875,
+      "y": 300.234375,
+      "padding": "10px 13px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "button": {
+      "text": "按原描述继续",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 98.015625,
+      "height": 37.390625,
+      "x": 50.1875,
+      "y": 387.609375,
+      "padding": "6px 9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "page": 3,
+    "title": {
+      "text": "理想中的生活，你好",
+      "fontSize": 30,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "48px",
+      "width": 343.203125,
+      "height": 48,
+      "x": 27.296875,
+      "y": 110.5,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "你所描绘的世界，正在眼前慢慢成形。现在，走进它，遇见那个理想中的自己。",
+      "fontSize": 15,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "27px",
+      "width": 343.203125,
+      "height": 59.84375,
+      "x": 27.296875,
+      "y": 212.5,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "static-pill|重新生成",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "static-pill|我想调整",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "static-pill|继续探索",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "page": 4,
+    "title": {
+      "text": "再聊聊现在的你",
+      "fontSize": 30,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "48px",
+      "width": 343.203125,
+      "height": 48,
+      "x": 27.296875,
+      "y": 110,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "理想之外，日常中也有属于自己的模样。可以再分享一些你平时的小习惯吗？",
+      "fontSize": 14,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "25.2px",
+      "width": 335.40625,
+      "height": 62.375,
+      "x": 27.296875,
+      "y": 210,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "static-mic-caption|点击开始说话",
+        "fontSize": 16,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|也可以自由分享",
+        "fontSize": 15,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "page": "topics04",
+    "buttons": [
+      {
+        "text": "作息与睡眠",
+        "fontSize": 14,
+        "width": 162.6875,
+        "height": 49,
+        "icon": 23
+      },
+      {
+        "text": "兴趣与爱好",
+        "fontSize": 14,
+        "width": 162.703125,
+        "height": 49,
+        "icon": 23
+      },
+      {
+        "text": "学习与工作",
+        "fontSize": 14,
+        "width": 162.6875,
+        "height": 49,
+        "icon": 23
+      },
+      {
+        "text": "饮食与运动",
+        "fontSize": 14,
+        "width": 162.703125,
+        "height": 49,
+        "icon": 23
+      },
+      {
+        "text": "独处与社交",
+        "fontSize": 14,
+        "width": 162.6875,
+        "height": 49,
+        "icon": 23
+      },
+      {
+        "text": "心情与压力",
+        "fontSize": 14,
+        "width": 162.703125,
+        "height": 49,
+        "icon": 23
+      },
+      {
+        "text": "其他",
+        "fontSize": 14,
+        "width": 162.6875,
+        "height": 49,
+        "icon": 23
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "page": "dialog04",
+    "panel": {
+      "text": "02 / 作息与睡眠早睡早起晚睡晚起晚睡早起早睡晚起作息不固定返回修改下一项",
+      "fontSize": 13,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "width": 335.390625,
+      "height": 218.96875,
+      "x": 27.296875,
+      "y": 340,
+      "padding": "20px",
+      "background": "rgba(16, 24, 32, 0.9)",
+      "backdropFilter": "none"
+    },
+    "title": {
+      "text": "02 / 作息与睡眠",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "19.8px",
+      "width": 293.390625,
+      "height": 19.796875,
+      "x": 48.296875,
+      "y": 361,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "option": {
+      "text": "早睡早起",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "18.7px",
+      "width": 72,
+      "height": 40.6875,
+      "x": 48.296875,
+      "y": 394.796875,
+      "padding": "10px 13px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "button": {
+      "text": "返回修改",
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "19.8px",
+      "width": 46,
+      "height": 41.796875,
+      "x": 48.296875,
+      "y": 496.171875,
+      "padding": "10px 0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "page": 5,
+    "title": {
+      "text": "生活不止由想象书写",
+      "fontSize": 30,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "48px",
+      "width": 343.203125,
+      "height": 48,
+      "x": 27.296875,
+      "y": 110.5,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "那些微不足道的习惯，悄然改变着理想的轨迹。而日复一日的选择，塑造了我们真正的模样。",
+      "fontSize": 15,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "27px",
+      "width": 335.40625,
+      "height": 54,
+      "x": 27.296875,
+      "y": 221,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "evolution-static-next static-pill|再次与自己相遇",
+        "fontSize": 14,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "page": 6,
+    "title": {
+      "text": "与自我重逢",
+      "fontSize": 30,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "48px",
+      "width": 343.203125,
+      "height": 48,
+      "x": 27.296875,
+      "y": 111.59375,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "走过想象与现实之间的距离，此刻，你有什么想对自己说的吗？",
+      "fontSize": 15,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "27px",
+      "width": 335.40625,
+      "height": 72,
+      "x": 27.296875,
+      "y": 213.890625,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "reflection-static-message|不必等到一切如愿，此刻的你，已经走在属于自己的路上。",
+        "fontSize": 15,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "static-mic-caption|点击开始说话",
+        "fontSize": 16,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|留一句话给此刻的自己",
+        "fontSize": 15,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "page": 7,
+    "title": {
+      "text": "你不是孤身一人",
+      "fontSize": 35,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "500",
+      "lineHeight": "56px",
+      "width": 343.203125,
+      "height": 56,
+      "x": 27.296875,
+      "y": 114,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "body": {
+      "text": "原来，也有人怀着与你相似的心情。这些词语，来自其他参与者留下的真实心声。",
+      "fontSize": 14,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "lineHeight": "25.2px",
+      "width": 335.40625,
+      "height": 64.375,
+      "x": 27.296875,
+      "y": 228,
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "others": [
+      {
+        "key": "|旅行",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|成长",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|内心平静",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|健康",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|自信",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|独处",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|稳定",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|被理解",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|自由",
+        "fontSize": 30,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|热爱生活",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|平衡",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|财富自由",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|快乐",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|探索",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|热爱",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|真实",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|生活品质",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "|希望",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "voices-static-finish static-pill|带着此刻的自己，继续前行",
+        "fontSize": 14,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|01 开始",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|02 想象",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|03 理想",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|04 现状",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|05 变化",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|06 自我",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "key": "journey-step-label|07 尾声",
+        "fontSize": 13,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ]
+  }
+]

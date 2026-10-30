@@ -1,0 +1,90 @@
+/* Local UI refinement only: no font-family, input, navigation or animation changes. */
+.page01-stage .page01-copy,.static-stage .static-copy{
+ margin-top:calc(-1 * clamp(5px,.7vw,14px));
+}
+
+/* One shared translucent surface for both existing conditional panels.
+   Their parents remain transparent; no fullscreen dark backdrop is introduced. */
+.static-stage .glass-dialog{
+ box-sizing:border-box;
+ width:min(122.5%,var(--glass-max-width,1000px),calc(100vw - 32px));
+ height:auto;
+ padding:var(--glass-padding,23px);
+ border:1px solid rgba(255,245,226,.24);
+ border-radius:24px;
+ background:rgba(24,35,48,.28);
+ -webkit-backdrop-filter:blur(12px) saturate(110%);
+ backdrop-filter:blur(12px) saturate(110%);
+ box-shadow:0 16px 48px rgba(0,0,0,.16);
+ color:#f3eee4;
+ font-size:14.95px;
+ font-weight:400;
+ line-height:1.8;
+ overflow:auto;
+ overscroll-behavior:contain;
+ z-index:5;
+}
+.glass-dialog>p:first-child,.glass-dialog>.field-caption{
+ font-size:var(--glass-title-size,15.6px);
+ line-height:1.8;
+ font-weight:400;
+ margin:0 0 16px;
+ letter-spacing:.045em;
+ color:#f6f0e5;
+}
+.glass-dialog .chips{gap:var(--glass-choice-gap,9px)}
+.static-stage .glass-dialog button{
+ min-height:44px;
+ padding:8px 14px;
+ border:1px solid rgba(245,235,215,.3);
+ border-radius:999px;
+ background:rgba(240,226,200,.05);
+ color:#f2ebdf;
+ font-size:var(--glass-action-size,12.65px);
+ font-weight:400;
+ line-height:1.8;
+ text-shadow:0 1px 2px #10182044;
+}
+.static-stage .glass-dialog .chips button{
+ font-size:12.65px;
+ padding:var(--glass-choice-padding,10px 15px);
+}
+.glass-dialog .chips button[aria-pressed=true]{
+ background:rgba(214,190,142,.19);
+ border-color:rgba(255,238,202,.65);
+ color:#fff4de;
+}
+.glass-dialog .inline-actions{gap:14px;flex-wrap:wrap;margin-top:14px}
+.glass-dialog>button{margin-top:14px}
+.glass-dialog small{font-size:inherit;line-height:1.8}
+.static-clarification.glass-dialog{
+ --glass-padding:20.5px;--glass-title-size:15.6px;
+ --glass-action-size:14.95px;--glass-choice-padding:7px 10px;--glass-choice-gap:7px;
+ left:50%;right:auto;bottom:calc(100% + 10px);transform:translateX(-50%);
+ max-height:52svh;margin-top:0;
+}
+.daily-question.glass-dialog{
+ --glass-title-size:13.2px;--glass-max-width:1100px;
+ position:relative;max-height:38svh;
+}
+
+/* Retain the seven-topic order and capsule design, with smaller, even columns. */
+.daily-topic-grid{grid-template-columns:repeat(3,max-content);gap:.99vw .85vw}
+.daily-topic-grid button{
+ height:7.02vh;min-height:44px;
+ padding:0 1.4vw;gap:1vw;
+ font-size:clamp(12.74px,1.274vw,24.57px);
+}
+.daily-topic-grid button:last-child{width:max-content}
+.daily-topic-grid button svg{
+ width:1.82vw;height:1.82vw;min-width:20.93px;min-height:20.93px;
+}
+@media(max-width:700px){
+ .daily-topic-grid{grid-template-columns:repeat(2,max-content);gap:10px}
+ .daily-topic-grid button{
+  height:44.1px;min-height:44px;padding:0 12px;gap:11px;font-size:12.74px;
+ }
+ .daily-question.glass-dialog{
+  left:50%;transform:translateX(-50%);max-height:min(30svh,240px);
+ }
+}

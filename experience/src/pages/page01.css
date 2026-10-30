@@ -11,9 +11,9 @@
 .page01-counter-slash{font-size:.9em;color:#c9c6c0;margin-left:.1em}
 .page01-counter-total{font-size:.58em;color:#8b9092;letter-spacing:.025em}
 .page01-counter i{align-self:center;width:3.65vw;height:1px;margin-left:1.4vw;background:#c2c0ba99}
-.page01-title{position:absolute;left:5.6%;top:16.65%;margin:0;font:400 clamp(43px,3.63vw,71px)/1.30 'Noto Serif SC','Songti SC','STSong',serif;letter-spacing:.085em;white-space:nowrap}
+.page01-title{position:absolute;left:5.6%;top:16.65%;margin:0;font:400 clamp(38.27px,3.2307vw,63.19px)/1.30 'Noto Serif SC','Songti SC','STSong',serif;letter-spacing:.085em;white-space:nowrap}
 .page01-subtitle{position:absolute;left:5.65%;top:34.55%;margin:0;font-family:'Times New Roman',serif;font-size:clamp(17px,1.46vw,29px);line-height:1.3;letter-spacing:.235em;color:#dedbd5;white-space:nowrap}
-.page01-copy{position:absolute;left:5.65%;top:41.7%;font-size:clamp(17px,1.43vw,28px);font-weight:400;line-height:1.65;letter-spacing:.075em;color:#f0eee8}
+.page01-copy{position:absolute;left:5.65%;top:41.7%;font-size:clamp(15.47px,1.3013vw,25.48px);font-weight:400;line-height:1.65;letter-spacing:.075em;color:#f0eee8}
 .page01-copy p{margin:0;max-width:none}
 .page01-copy p+p{margin-top:2.2vw}
 .page01-start{position:absolute;left:5.55%;top:67.8%;height:7.5%;min-height:52px;width:17.5%;min-width:220px;padding:0 1.8%;display:flex;justify-content:center;align-items:center;gap:2.5vw;border:1px solid transparent;border-radius:999px;background:linear-gradient(#101820aa,#101820aa) padding-box,linear-gradient(105deg,#e9e0cbbb,#d6d6d26b) border-box;color:#f5f1e8;font:400 clamp(18px,1.45vw,28px)/1.4 'Noto Serif SC','Songti SC','STSong',serif;letter-spacing:.1em;cursor:pointer}
@@ -33,17 +33,17 @@
  .page01-environment{object-position:67% center}
  .page01-mobile-shade{display:block;position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#101820bd,#10182050 65%,#10182000)}
  .page01-counter{left:7%;top:7.5%;font-size:28px;gap:8px}.page01-counter i{width:40px;margin-left:18px}
- .page01-title{left:7%;top:16%;font-size:clamp(38px,9.4vw,58px);line-height:1.36}
+ .page01-title{left:7%;top:16%;font-size:clamp(33.82px,8.366vw,51.62px);line-height:1.36}
  .page01-subtitle{left:7%;top:32%;font-size:16px;letter-spacing:.16em}
- .page01-copy{left:7%;right:5%;top:42%;font-size:clamp(14px,3.65vw,20px);line-height:1.85;letter-spacing:.035em}.page01-copy p+p{margin-top:24px}
+ .page01-copy{left:7%;right:5%;top:42%;font-size:clamp(12.74px,3.3215vw,18.2px);line-height:1.85;letter-spacing:.035em}.page01-copy p+p{margin-top:24px}
  .page01-start{left:7%;top:70%;width:235px;height:58px;padding:0 25px;gap:34px;font-size:19px}.page01-start svg{width:28px}
  .page01-progress{left:9%;right:9%;top:89%}.page01-progress::before{top:4px}.page01-progress li{font-size:13px;gap:10px}
 }
 /* Reference-size calibration after side-by-side browser comparison. */
 @media(min-width:701px){
- .page01-title{top:16.0%;font-size:clamp(43px,3.72vw,72px);letter-spacing:.12em}
+ .page01-title{top:16.0%;font-size:clamp(38.27px,3.3108vw,64.08px);letter-spacing:.12em}
  .page01-subtitle{top:34.2%;font-size:clamp(17px,1.44vw,28px)}
- .page01-copy{top:41.05%;font-size:clamp(17px,1.46vw,28px);letter-spacing:.10em}
+ .page01-copy{top:41.05%;font-size:clamp(15.47px,1.3286vw,25.48px);letter-spacing:.10em}
  .page01-start{justify-content:space-between;padding-left:4.5vw;padding-right:2.2vw;gap:0}
  .page01-start svg{width:1.85vw}
  .page01-progress{top:88.3%}

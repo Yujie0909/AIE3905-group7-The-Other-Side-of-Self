@@ -1,0 +1,990 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "width": 1920,
+      "height": 1080,
+      "titleBefore": 71.424,
+      "titleAfter": 63.5674,
+      "bodyBefore": 28,
+      "bodyAfter": 25.48,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 2,
+      "width": 1920,
+      "height": 1080,
+      "titleBefore": 70.08,
+      "titleAfter": 62.3712,
+      "bodyBefore": 29,
+      "bodyAfter": 26.39,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 3,
+      "width": 1920,
+      "height": 1080,
+      "titleBefore": 63.36,
+      "titleAfter": 56.3904,
+      "bodyBefore": 29,
+      "bodyAfter": 26.39,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 4,
+      "width": 1920,
+      "height": 1080,
+      "titleBefore": 76.8,
+      "titleAfter": 68.352,
+      "bodyBefore": 30.72,
+      "bodyAfter": 27.9552,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 5,
+      "width": 1920,
+      "height": 1080,
+      "titleBefore": 76.8,
+      "titleAfter": 68.352,
+      "bodyBefore": 32,
+      "bodyAfter": 29.12,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 6,
+      "width": 1920,
+      "height": 1080,
+      "titleBefore": 68.16,
+      "titleAfter": 60.6624,
+      "bodyBefore": 32,
+      "bodyAfter": 29.12,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 7,
+      "width": 1920,
+      "height": 1080,
+      "titleBefore": 80,
+      "titleAfter": 71.2,
+      "bodyBefore": 27.84,
+      "bodyAfter": 25.3344,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 1,
+      "width": 1366,
+      "height": 768,
+      "titleBefore": 50.8152,
+      "titleAfter": 45.2255,
+      "bodyBefore": 19.9436,
+      "bodyAfter": 18.1487,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 2,
+      "width": 1366,
+      "height": 768,
+      "titleBefore": 49.859,
+      "titleAfter": 44.3745,
+      "bodyBefore": 20.7632,
+      "bodyAfter": 18.8945,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 3,
+      "width": 1366,
+      "height": 768,
+      "titleBefore": 45.078,
+      "titleAfter": 40.1194,
+      "bodyBefore": 20.7632,
+      "bodyAfter": 18.8945,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 4,
+      "width": 1366,
+      "height": 768,
+      "titleBefore": 54.64,
+      "titleAfter": 48.6296,
+      "bodyBefore": 21.856,
+      "bodyAfter": 19.889,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 5,
+      "width": 1366,
+      "height": 768,
+      "titleBefore": 54.64,
+      "titleAfter": 48.6296,
+      "bodyBefore": 22.8122,
+      "bodyAfter": 20.7591,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 6,
+      "width": 1366,
+      "height": 768,
+      "titleBefore": 48.493,
+      "titleAfter": 43.1588,
+      "bodyBefore": 22.8122,
+      "bodyAfter": 20.7591,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 7,
+      "width": 1366,
+      "height": 768,
+      "titleBefore": 56.9622,
+      "titleAfter": 50.6964,
+      "bodyBefore": 19.807,
+      "bodyAfter": 18.0244,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 1,
+      "width": 390,
+      "height": 844,
+      "titleBefore": 38,
+      "titleAfter": 33.82,
+      "bodyBefore": 14.235,
+      "bodyAfter": 12.9538,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 2,
+      "width": 390,
+      "height": 844,
+      "titleBefore": 28,
+      "titleAfter": 24.92,
+      "bodyBefore": 15,
+      "bodyAfter": 13.65,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 3,
+      "width": 390,
+      "height": 844,
+      "titleBefore": 30,
+      "titleAfter": 26.7,
+      "bodyBefore": 15,
+      "bodyAfter": 13.65,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 4,
+      "width": 390,
+      "height": 844,
+      "titleBefore": 30,
+      "titleAfter": 26.7,
+      "bodyBefore": 14,
+      "bodyAfter": 12.74,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 5,
+      "width": 390,
+      "height": 844,
+      "titleBefore": 30,
+      "titleAfter": 26.7,
+      "bodyBefore": 15,
+      "bodyAfter": 13.65,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 6,
+      "width": 390,
+      "height": 844,
+      "titleBefore": 30,
+      "titleAfter": 26.7,
+      "bodyBefore": 15,
+      "bodyAfter": 13.65,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "page": 7,
+      "width": 390,
+      "height": 844,
+      "titleBefore": 35,
+      "titleAfter": 31.15,
+      "bodyBefore": 14,
+      "bodyAfter": 12.74,
+      "copyUnchanged": true,
+      "fontUnchanged": true,
+      "otherSizesUnchanged": true,
+      "noOverflow": true
+    }
+  ],
+  "dialogs": [
+    {
+      "page": "02",
+      "width": 1920,
+      "panel": {
+        "text": "如果拥有了更多可能，你最期待生活中发生什么变化？拥有更多自由时间去体验向往的生活更好地照顾重要的人其他想法按原描述继续",
+        "fontSize": 14.95,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 964.296875,
+        "height": 189.96875,
+        "x": 477.8359375,
+        "y": 408.0625,
+        "padding": "20.5px",
+        "background": "rgba(24, 35, 48, 0.28)",
+        "backdropFilter": "blur(12px) saturate(1.1)"
+      },
+      "title": {
+        "text": "如果拥有了更多可能，你最期待生活中发生什么变化？",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 921.296875,
+        "height": 28.0625,
+        "x": 499.3359375,
+        "y": 429.5625,
+        "padding": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "option": {
+        "text": "拥有更多自由时间",
+        "fontSize": 12.65,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 123.140625,
+        "height": 44,
+        "x": 499.3359375,
+        "y": 473.625,
+        "padding": "7px 10px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "button": {
+        "text": "按原描述继续",
+        "fontSize": 14.95,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 119.625,
+        "height": 44.90625,
+        "x": 499.3359375,
+        "y": 531.625,
+        "padding": "8px 14px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "ancestors": [
+        {
+          "class": "dream-capture",
+          "color": "rgba(0, 0, 0, 0)",
+          "opacity": "1"
+        }
+      ],
+      "fullscreenOverlay": false
+    },
+    {
+      "page": "04",
+      "width": 1920,
+      "panel": {
+        "text": "02 / 作息与睡眠早睡早起晚睡晚起晚睡早起早睡晚起作息不固定返回修改下一项",
+        "fontSize": 14.95,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 1039.5625,
+        "height": 190.546875,
+        "x": 103.671875,
+        "y": 421.1875,
+        "padding": "23px",
+        "background": "rgba(24, 35, 48, 0.28)",
+        "backdropFilter": "blur(12px) saturate(1.1)"
+      },
+      "title": {
+        "text": "02 / 作息与睡眠",
+        "fontSize": 13.2,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 991.5625,
+        "height": 23.765625,
+        "x": 127.671875,
+        "y": 445.1875,
+        "padding": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "option": {
+        "text": "早睡早起",
+        "fontSize": 12.65,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 82.578125,
+        "height": 44.78125,
+        "x": 127.671875,
+        "y": 484.953125,
+        "padding": "10px 15px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "button": {
+        "text": "返回修改",
+        "fontSize": 12.65,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 80.578125,
+        "height": 44,
+        "x": 127.671875,
+        "y": 543.734375,
+        "padding": "8px 14px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "ancestors": [
+        {
+          "class": "daily-static-topics",
+          "color": "rgba(0, 0, 0, 0)",
+          "opacity": "1"
+        }
+      ],
+      "fullscreenOverlay": false
+    },
+    {
+      "page": "02",
+      "width": 1366,
+      "panel": {
+        "text": "如果拥有了更多可能，你最期待生活中发生什么变化？拥有更多自由时间去体验向往的生活更好地照顾重要的人其他想法按原描述继续",
+        "fontSize": 14.95,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 686.046875,
+        "height": 189.96875,
+        "x": 339.9609375,
+        "y": 232.40625,
+        "padding": "20.5px",
+        "background": "rgba(24, 35, 48, 0.28)",
+        "backdropFilter": "blur(12px) saturate(1.1)"
+      },
+      "title": {
+        "text": "如果拥有了更多可能，你最期待生活中发生什么变化？",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 643.046875,
+        "height": 28.0625,
+        "x": 361.4609375,
+        "y": 253.90625,
+        "padding": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "option": {
+        "text": "拥有更多自由时间",
+        "fontSize": 12.65,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 123.140625,
+        "height": 44,
+        "x": 361.4609375,
+        "y": 297.96875,
+        "padding": "7px 10px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "button": {
+        "text": "按原描述继续",
+        "fontSize": 14.95,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 119.625,
+        "height": 44.90625,
+        "x": 361.4609375,
+        "y": 355.96875,
+        "padding": "8px 14px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "ancestors": [
+        {
+          "class": "dream-capture",
+          "color": "rgba(0, 0, 0, 0)",
+          "opacity": "1"
+        }
+      ],
+      "fullscreenOverlay": false
+    },
+    {
+      "page": "04",
+      "width": 1366,
+      "panel": {
+        "text": "02 / 作息与睡眠早睡早起晚睡晚起晚睡早起早睡晚起作息不固定返回修改下一项",
+        "fontSize": 14.95,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 739.609375,
+        "height": 190.546875,
+        "x": 73.75,
+        "y": 299.515625,
+        "padding": "23px",
+        "background": "rgba(24, 35, 48, 0.28)",
+        "backdropFilter": "blur(12px) saturate(1.1)"
+      },
+      "title": {
+        "text": "02 / 作息与睡眠",
+        "fontSize": 13.2,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 691.609375,
+        "height": 23.765625,
+        "x": 97.75,
+        "y": 323.515625,
+        "padding": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "option": {
+        "text": "早睡早起",
+        "fontSize": 12.65,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 82.578125,
+        "height": 44.78125,
+        "x": 97.75,
+        "y": 363.28125,
+        "padding": "10px 15px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "button": {
+        "text": "返回修改",
+        "fontSize": 12.65,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 80.578125,
+        "height": 44,
+        "x": 97.75,
+        "y": 422.0625,
+        "padding": "8px 14px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "ancestors": [
+        {
+          "class": "daily-static-topics",
+          "color": "rgba(0, 0, 0, 0)",
+          "opacity": "1"
+        }
+      ],
+      "fullscreenOverlay": false
+    },
+    {
+      "page": "02",
+      "width": 390,
+      "panel": {
+        "text": "如果拥有了更多可能，你最期待生活中发生什么变化？拥有更多自由时间去体验向往的生活更好地照顾重要的人其他想法按原描述继续",
+        "fontSize": 14.95,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 358,
+        "height": 269.03125,
+        "x": 15.984375,
+        "y": 179.96875,
+        "padding": "20.5px",
+        "background": "rgba(24, 35, 48, 0.28)",
+        "backdropFilter": "blur(12px) saturate(1.1)"
+      },
+      "title": {
+        "text": "如果拥有了更多可能，你最期待生活中发生什么变化？",
+        "fontSize": 15.6,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 315,
+        "height": 56.125,
+        "x": 37.484375,
+        "y": 201.46875,
+        "padding": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "option": {
+        "text": "拥有更多自由时间",
+        "fontSize": 12.65,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 123.140625,
+        "height": 44,
+        "x": 37.484375,
+        "y": 273.59375,
+        "padding": "7px 10px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "button": {
+        "text": "按原描述继续",
+        "fontSize": 14.95,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 119.625,
+        "height": 44.90625,
+        "x": 37.484375,
+        "y": 382.59375,
+        "padding": "8px 14px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "ancestors": [
+        {
+          "class": "dream-capture",
+          "color": "rgba(0, 0, 0, 0)",
+          "opacity": "1"
+        }
+      ],
+      "fullscreenOverlay": false
+    },
+    {
+      "page": "04",
+      "width": 390,
+      "panel": {
+        "text": "02 / 作息与睡眠早睡早起晚睡晚起晚睡早起早睡晚起作息不固定返回修改下一项",
+        "fontSize": 14.95,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 358,
+        "height": 240,
+        "x": 15.984375,
+        "y": 340,
+        "padding": "23px",
+        "background": "rgba(24, 35, 48, 0.28)",
+        "backdropFilter": "blur(12px) saturate(1.1)"
+      },
+      "title": {
+        "text": "02 / 作息与睡眠",
+        "fontSize": 13.2,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 310,
+        "height": 23.765625,
+        "x": 39.984375,
+        "y": 364,
+        "padding": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "option": {
+        "text": "早睡早起",
+        "fontSize": 12.65,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 82.578125,
+        "height": 44.78125,
+        "x": 39.984375,
+        "y": 403.765625,
+        "padding": "10px 15px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "button": {
+        "text": "返回修改",
+        "fontSize": 12.65,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "width": 80.578125,
+        "height": 44,
+        "x": 39.984375,
+        "y": 516.328125,
+        "padding": "8px 14px",
+        "background": "rgba(240, 226, 200, 0.05)",
+        "backdropFilter": "none"
+      },
+      "ancestors": [
+        {
+          "class": "daily-static-topics",
+          "color": "rgba(0, 0, 0, 0)",
+          "opacity": "1"
+        }
+      ],
+      "fullscreenOverlay": false
+    }
+  ],
+  "topics": [
+    {
+      "width": 1920,
+      "before": [
+        {
+          "text": "作息与睡眠",
+          "fontSize": 26.88,
+          "width": 272,
+          "height": 84.234375,
+          "icon": 38.390625
+        },
+        {
+          "text": "兴趣与爱好",
+          "fontSize": 26.88,
+          "width": 272,
+          "height": 84.234375,
+          "icon": 38.390625
+        },
+        {
+          "text": "学习与工作",
+          "fontSize": 26.88,
+          "width": 272,
+          "height": 84.234375,
+          "icon": 38.390625
+        },
+        {
+          "text": "饮食与运动",
+          "fontSize": 26.88,
+          "width": 272,
+          "height": 84.234375,
+          "icon": 38.390625
+        },
+        {
+          "text": "独处与社交",
+          "fontSize": 26.88,
+          "width": 272,
+          "height": 84.234375,
+          "icon": 38.390625
+        },
+        {
+          "text": "心情与压力",
+          "fontSize": 26.88,
+          "width": 272,
+          "height": 84.234375,
+          "icon": 38.390625
+        },
+        {
+          "text": "其他",
+          "fontSize": 26.88,
+          "width": 206.71875,
+          "height": 84.234375,
+          "icon": 38.390625
+        }
+      ],
+      "after": [
+        {
+          "text": "作息与睡眠",
+          "fontSize": 24.4608,
+          "width": 239.484375,
+          "height": 75.8125,
+          "icon": 34.9375
+        },
+        {
+          "text": "兴趣与爱好",
+          "fontSize": 24.4608,
+          "width": 239.484375,
+          "height": 75.8125,
+          "icon": 34.9375
+        },
+        {
+          "text": "学习与工作",
+          "fontSize": 24.4608,
+          "width": 239.484375,
+          "height": 75.8125,
+          "icon": 34.9375
+        },
+        {
+          "text": "饮食与运动",
+          "fontSize": 24.4608,
+          "width": 239.484375,
+          "height": 75.8125,
+          "icon": 34.9375
+        },
+        {
+          "text": "独处与社交",
+          "fontSize": 24.4608,
+          "width": 239.484375,
+          "height": 75.8125,
+          "icon": 34.9375
+        },
+        {
+          "text": "心情与压力",
+          "fontSize": 24.4608,
+          "width": 239.484375,
+          "height": 75.8125,
+          "icon": 34.9375
+        },
+        {
+          "text": "其他",
+          "fontSize": 24.4608,
+          "width": 161.71875,
+          "height": 75.8125,
+          "icon": 34.9375
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "before": [
+        {
+          "text": "作息与睡眠",
+          "fontSize": 19.124,
+          "width": 193.515625,
+          "height": 59.890625,
+          "icon": 27.3125
+        },
+        {
+          "text": "兴趣与爱好",
+          "fontSize": 19.124,
+          "width": 193.515625,
+          "height": 59.890625,
+          "icon": 27.3125
+        },
+        {
+          "text": "学习与工作",
+          "fontSize": 19.124,
+          "width": 193.515625,
+          "height": 59.890625,
+          "icon": 27.3125
+        },
+        {
+          "text": "饮食与运动",
+          "fontSize": 19.124,
+          "width": 193.515625,
+          "height": 59.890625,
+          "icon": 27.3125
+        },
+        {
+          "text": "独处与社交",
+          "fontSize": 19.124,
+          "width": 193.515625,
+          "height": 59.890625,
+          "icon": 27.3125
+        },
+        {
+          "text": "心情与压力",
+          "fontSize": 19.124,
+          "width": 193.515625,
+          "height": 59.890625,
+          "icon": 27.3125
+        },
+        {
+          "text": "其他",
+          "fontSize": 19.124,
+          "width": 147.0625,
+          "height": 59.890625,
+          "icon": 27.3125
+        }
+      ],
+      "after": [
+        {
+          "text": "作息与睡眠",
+          "fontSize": 17.4028,
+          "width": 170.921875,
+          "height": 53.90625,
+          "icon": 24.859375
+        },
+        {
+          "text": "兴趣与爱好",
+          "fontSize": 17.4028,
+          "width": 170.921875,
+          "height": 53.90625,
+          "icon": 24.859375
+        },
+        {
+          "text": "学习与工作",
+          "fontSize": 17.4028,
+          "width": 170.921875,
+          "height": 53.90625,
+          "icon": 24.859375
+        },
+        {
+          "text": "饮食与运动",
+          "fontSize": 17.4028,
+          "width": 170.921875,
+          "height": 53.90625,
+          "icon": 24.859375
+        },
+        {
+          "text": "独处与社交",
+          "fontSize": 17.4028,
+          "width": 170.921875,
+          "height": 53.90625,
+          "icon": 24.859375
+        },
+        {
+          "text": "心情与压力",
+          "fontSize": 17.4028,
+          "width": 170.921875,
+          "height": 53.90625,
+          "icon": 24.859375
+        },
+        {
+          "text": "其他",
+          "fontSize": 17.4028,
+          "width": 115.609375,
+          "height": 53.90625,
+          "icon": 24.859375
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "before": [
+        {
+          "text": "作息与睡眠",
+          "fontSize": 14,
+          "width": 162.6875,
+          "height": 49,
+          "icon": 23
+        },
+        {
+          "text": "兴趣与爱好",
+          "fontSize": 14,
+          "width": 162.703125,
+          "height": 49,
+          "icon": 23
+        },
+        {
+          "text": "学习与工作",
+          "fontSize": 14,
+          "width": 162.6875,
+          "height": 49,
+          "icon": 23
+        },
+        {
+          "text": "饮食与运动",
+          "fontSize": 14,
+          "width": 162.703125,
+          "height": 49,
+          "icon": 23
+        },
+        {
+          "text": "独处与社交",
+          "fontSize": 14,
+          "width": 162.6875,
+          "height": 49,
+          "icon": 23
+        },
+        {
+          "text": "心情与压力",
+          "fontSize": 14,
+          "width": 162.703125,
+          "height": 49,
+          "icon": 23
+        },
+        {
+          "text": "其他",
+          "fontSize": 14,
+          "width": 162.6875,
+          "height": 49,
+          "icon": 23
+        }
+      ],
+      "after": [
+        {
+          "text": "作息与睡眠",
+          "fontSize": 12.74,
+          "width": 125.421875,
+          "height": 44.09375,
+          "icon": 20.921875
+        },
+        {
+          "text": "兴趣与爱好",
+          "fontSize": 12.74,
+          "width": 125.421875,
+          "height": 44.09375,
+          "icon": 20.921875
+        },
+        {
+          "text": "学习与工作",
+          "fontSize": 12.74,
+          "width": 125.421875,
+          "height": 44.09375,
+          "icon": 20.921875
+        },
+        {
+          "text": "饮食与运动",
+          "fontSize": 12.74,
+          "width": 125.421875,
+          "height": 44.09375,
+          "icon": 20.921875
+        },
+        {
+          "text": "独处与社交",
+          "fontSize": 12.74,
+          "width": 125.421875,
+          "height": 44.09375,
+          "icon": 20.921875
+        },
+        {
+          "text": "心情与压力",
+          "fontSize": 12.74,
+          "width": 125.421875,
+          "height": 44.09375,
+          "icon": 20.921875
+        },
+        {
+          "text": "其他",
+          "fontSize": 12.74,
+          "width": 84.921875,
+          "height": 44.09375,
+          "icon": 20.921875
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "missingAssets": [],
+  "checks": [
+    "Both panels triggered through actual input and clicks",
+    "Title -11%; body -9% at all 21 page/viewport combinations",
+    "Unrequested control/font-family sizes unchanged",
+    "Glass alpha/blur and transparent parent chain",
+    "Habit selection, answers, next/back and data retention",
+    "Complete journey, consent, cloud and session reset"
+  ]
+}
