@@ -20,6 +20,11 @@ export function SceneMotion({page,ready}:{page:Page;ready:boolean}){
    <ellipse data-dream-loop="breath" data-period="11300" cx="1100" cy="300" rx="160" ry="365" fill={`url(#${id}-gold)`}/>
    <g data-dream-loop="mist" data-period="19700"><ellipse cx="1040" cy="545" rx="380" ry="42" fill={`url(#${id}-mist)`}/><ellipse cx="1300" cy="582" rx="275" ry="30" fill={`url(#${id}-mist)`}/></g>
   </>}
+  {page===2&&<g fill="none" stroke={`url(#${id}-thread)`} strokeLinecap="round">
+   <path data-dream-loop="stream" data-period="13700" d="M650 345 C835 462 1006 476 1115 335 S1215 80 1500 2" strokeWidth="3.4" strokeDasharray="85 580"/>
+   <path data-dream-loop="stream" data-period="16700" d="M830 424 C1030 488 1085 245 1255 260 S1500 371 1680 295" strokeWidth="2.2" strokeDasharray="65 600"/>
+   <path data-dream-loop="stream" data-period="11300" d="M1125 300 C1330 165 1495 115 1705 135" strokeWidth="1.5" strokeDasharray="45 620"/>
+  </g>}
   </svg>
   <canvas className="dream-water" data-local-surface="water"/>
  </div>

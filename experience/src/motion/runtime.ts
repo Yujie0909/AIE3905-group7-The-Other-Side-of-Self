@@ -11,12 +11,14 @@ export function startDreamscape(host:HTMLDivElement,page:Page,camera:Camera,imag
  const r=waters[page],ratio=Math.min(1,(quality==='full'?900:500)/r.w);
  water.width=Math.round(r.w*ratio);water.height=Math.round(r.h*ratio);Object.assign(water.style,{left:`${r.x/1672*100}%`,top:`${r.y/941*100}%`,width:`${r.w/1672*100}%`,height:`${r.h/941*100}%`});
  const loops:{animation:Animation;node:Element;voice:boolean}[]=[];
- const loop=(node:Element,frames:Keyframe[],duration:number,delay=0,voice=false)=>{const animation=node.animate(frames,{duration,iterations:Infinity,easing:'ease-in-out',delay});animation.pause();animation.currentTime=0;loops.push({animation,node,voice})};
+ const loop=(node:Element,frames:Keyframe[],duration:number,delay=0,voice=false)=>{const animation=node.animate(frames,{duration,iterations:Infinity,easing:node.getAttribute('data-dream-loop')==='stream'?'linear':'ease-in-out',delay});animation.pause();animation.currentTime=0;loops.push({animation,node,voice})};
  for(const node of host.querySelectorAll<HTMLElement>('[data-dream-loop]')){
   const kind=node.dataset.dreamLoop,period=Number(node.dataset.period)||12000;
   if(kind==='breath')loop(node,[{opacity:.18},{opacity:.68,offset:.41},{opacity:.35,offset:.77},{opacity:.18}],period);
+  if(kind==='stream')loop(node,[{strokeDashoffset:0,opacity:.58},{strokeDashoffset:-665,opacity:.58}],period);
   if(kind==='mist')loop(node,[{transform:'translate(-25px, 1px)',opacity:.3},{transform:'translate(18px,-5px)',opacity:.75,offset:.46},{transform:'translate(-25px,1px)',opacity:.3}],period);
  }
+ for(const mic of stage.querySelectorAll('.mic'))loop(mic,[{boxShadow:'none'},{boxShadow:'0 0 24px 6px rgba(239,210,166,.24)'},{boxShadow:'none'}],4100,0,true);
  function draw(t:number){
   if(!ctx)return;const start=performance.now(),w=water.width,h=water.height;ctx.clearRect(0,0,w,h);
   // Only the water is sampled. Furniture, architecture and HTML never deform.
@@ -27,7 +29,7 @@ export function startDreamscape(host:HTMLDivElement,page:Page,camera:Camera,imag
   const duration=performance.now()-start;draws++;total+=duration;max=Math.max(max,duration);
  }
  function tick(now:number){if(!running)return;const dt=previous?Math.min(now-previous,80):0;previous=now;time+=dt/1000;if(now-last>=(quality==='full'?1000/60:1000/24)-1){draw(time);last=now}samples++;if(samples%120===0){if(total/draws>6&&quality==='full')quality='economy';host.dataset.motionStats=JSON.stringify({draws,meanDrawMs:total/draws,maxDrawMs:max,quality,seconds:time});}raf=requestAnimationFrame(tick)}
- function sync(){quiet=media.matches;const active=!quiet&&!document.hidden&&visible&&stage.dataset.backgroundReady==='true'&&frame?.dataset.navigationState==='idle';host.dataset.motionState=quiet?'reduced':active?'running':'paused';stage.dataset.motionEnabled=String(!quiet);host.style.visibility=quiet?'hidden':'visible';for(const item of loops){const play=active&&(!item.voice||item.node.classList.contains('listening'));if(play)item.animation.play();else item.animation.pause()}if(active&&!running){running=true;previous=0;raf=requestAnimationFrame(tick)}else if(!active&&running){running=false;cancelAnimationFrame(raf);previous=0}}
+ function sync(){quiet=media.matches;const active=!quiet&&!document.hidden&&visible&&stage.dataset.backgroundReady==='true'&&frame?.dataset.navigationState==='idle';host.dataset.motionState=quiet?'reduced':active?'running':'paused';stage.dataset.motionEnabled=String(!quiet);host.style.visibility=quiet?'hidden':'visible';for(const item of loops){const play=active&&(!item.voice||item.node.classList.contains('listening'));if(play)item.animation.play();else{item.animation.pause();if(item.voice&&!item.node.classList.contains('listening'))item.animation.currentTime=0}}if(active&&!running){running=true;previous=0;raf=requestAnimationFrame(tick)}else if(!active&&running){running=false;cancelAnimationFrame(raf);previous=0}}
  draw(0);host.dataset.motionReady='true';
  const observer=new MutationObserver(sync);observer.observe(frame??stage,{attributes:true,subtree:true,attributeFilter:['data-navigation-state','data-background-ready','class']});
  const intersection=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync()});intersection.observe(stage);document.addEventListener('visibilitychange',sync);media.addEventListener('change',sync);sync();
