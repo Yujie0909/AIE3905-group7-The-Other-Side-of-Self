@@ -1,0 +1,134 @@
+{
+  "viewports": [
+    {
+      "page": 1,
+      "width": 1920,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 2,
+      "width": 1920,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 3,
+      "width": 1920,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 4,
+      "width": 1920,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 5,
+      "width": 1920,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 6,
+      "width": 1920,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 7,
+      "width": 1920,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 1,
+      "width": 1366,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 2,
+      "width": 1366,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 3,
+      "width": 1366,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 4,
+      "width": 1366,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 5,
+      "width": 1366,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 6,
+      "width": 1366,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 7,
+      "width": 1366,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 1,
+      "width": 390,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 2,
+      "width": 390,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 3,
+      "width": 390,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 4,
+      "width": 390,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 5,
+      "width": 390,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 6,
+      "width": 390,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    },
+    {
+      "page": 7,
+      "width": 390,
+      "titleAndCloudTypographyGeometryDataPreserved": true
+    }
+  ],
+  "page01": [
+    {
+      "width": 1920,
+      "byteIdentical": true,
+      "sha256": "362c24f0a3cd1b8edec3ee6957278c9f9b315f0218ee396c7b6a7fb632863f00"
+    },
+    {
+      "width": 1366,
+      "byteIdentical": true,
+      "sha256": "b83694885c8cdb323965df1a483afa666c50c2823a50195e36b302a71d96baa8"
+    },
+    {
+      "width": 390,
+      "byteIdentical": true,
+      "sha256": "2016b30f8f40de7e58fa3a82a3ebe89e8649331c28a90c2427854c0bd681bd34"
+    }
+  ],
+  "mirror1920Crop": {
+    "x": 1460,
+    "y": 240,
+    "width": 280,
+    "height": 190,
+    "changedPixels": 0
+  },
+  "backgroundFilesChanged": 0
+}

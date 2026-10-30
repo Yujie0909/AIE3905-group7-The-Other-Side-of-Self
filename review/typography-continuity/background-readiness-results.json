@@ -1,0 +1,1811 @@
+{
+  "label": "typography-final",
+  "url": "http://localhost:5184",
+  "cases": [
+    {
+      "name": "cold",
+      "slow": false,
+      "warm": false,
+      "decodedAtMs": 591.5,
+      "completeVisibleAtMs": 657.5999999940395,
+      "primaryImageTransferredBytes": 299409,
+      "firstImageAttachedMs": 233.19999998807907,
+      "visibleWhileDownloading": false,
+      "visibleBeforeCompleteMs": 0,
+      "imageRequestCount": 3,
+      "imageTransferredBytes": 1961878,
+      "imageRequests": [
+        {
+          "url": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+          "type": "Image",
+          "startMs": 59.53600000066217,
+          "priority": "High",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "299190",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 146.18999999947846,
+          "encodedBytes": 299409
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+          "type": "Image",
+          "startMs": 810.3199999895878,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "448046",
+            "Date": "Fri, 30 Oct 2026 11:29:09 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 837.0060000015656,
+          "encodedBytes": 448265
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-artwork-Dl7LWAj7.webp",
+          "type": "Image",
+          "startMs": 815.0400000013178,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "1213984",
+            "Date": "Fri, 30 Oct 2026 11:29:09 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 851.8959999928484,
+          "encodedBytes": 1214204
+        }
+      ],
+      "requests": [
+        {
+          "url": "http://localhost:5184/",
+          "type": "Document",
+          "startMs": 0,
+          "priority": "VeryHigh",
+          "initiator": "other",
+          "status": 200,
+          "mime": "text/html",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "2015",
+            "Content-type": "text/html",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 16.833999994560145,
+          "encodedBytes": 2231
+        },
+        {
+          "url": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+          "type": "Image",
+          "startMs": 59.53600000066217,
+          "priority": "High",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "299190",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 146.18999999947846,
+          "encodedBytes": 299409
+        },
+        {
+          "url": "http://localhost:5184/assets/index-BvGyU0PC.js",
+          "type": "Script",
+          "startMs": 62.95799999497831,
+          "priority": "High",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "text/javascript",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "254868",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Content-type": "text/javascript",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 139.54599999124184,
+          "encodedBytes": 255092
+        },
+        {
+          "url": "http://localhost:5184/assets/index-efiNl4gC.css",
+          "type": "Stylesheet",
+          "startMs": 63.13599999703001,
+          "priority": "VeryHigh",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "text/css",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "50801",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Content-type": "text/css",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 129.50099998852238,
+          "encodedBytes": 51017
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap",
+          "type": "Stylesheet",
+          "startMs": 141.05399999243673,
+          "priority": "VeryHigh",
+          "initiator": "parser",
+          "error": "net::ERR_CERT_AUTHORITY_INVALID"
+        },
+        {
+          "url": "http://localhost:5184/favicon.ico",
+          "type": "Other",
+          "startMs": 560.1849999948172,
+          "priority": "High",
+          "initiator": "other",
+          "status": 404,
+          "mime": "text/html",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "335",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Content-Type": "text/html;charset=utf-8",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14",
+            "Connection": "close"
+          },
+          "endMs": 566.3219999987632,
+          "encodedBytes": 549
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+          "type": "Image",
+          "startMs": 810.3199999895878,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "448046",
+            "Date": "Fri, 30 Oct 2026 11:29:09 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 837.0060000015656,
+          "encodedBytes": 448265
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-artwork-Dl7LWAj7.webp",
+          "type": "Image",
+          "startMs": 815.0400000013178,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "1213984",
+            "Date": "Fri, 30 Oct 2026 11:29:09 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 851.8959999928484,
+          "encodedBytes": 1214204
+        }
+      ],
+      "probe": {
+        "states": [
+          {
+            "t": 233.19999998807907,
+            "complete": true,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 331.19999998807907,
+            "complete": true,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 564,
+            "complete": true,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 657.5,
+            "complete": true,
+            "naturalWidth": 1672,
+            "visible": true,
+            "appReady": false
+          }
+        ],
+        "decoding": true,
+        "decodedAt": 591.5,
+        "completeVisibleAt": 657.5999999940395
+      },
+      "marks": [
+        {
+          "name": "background:request:01",
+          "start": 375.29999999701977
+        },
+        {
+          "name": "background:bootstrap:decoded",
+          "start": 590.2999999970198
+        },
+        {
+          "name": "background:decoded:01",
+          "start": 654.6999999880791
+        },
+        {
+          "name": "background:bootstrap:paint",
+          "start": 657.5999999940395
+        },
+        {
+          "name": "background:paint:01",
+          "start": 796.5999999940395
+        },
+        {
+          "name": "background:prefetch:02",
+          "start": 832.2999999970198
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+          "start": 86.3999999910593,
+          "end": 170.09999999403954,
+          "transferSize": 299490,
+          "encodedBodySize": 299190,
+          "decodedBodySize": 299190,
+          "initiator": "link"
+        },
+        {
+          "name": "http://localhost:5184/assets/index-BvGyU0PC.js",
+          "start": 87,
+          "end": 163.5,
+          "transferSize": 255168,
+          "encodedBodySize": 254868,
+          "decodedBodySize": 254868,
+          "initiator": "script"
+        },
+        {
+          "name": "http://localhost:5184/assets/index-efiNl4gC.css",
+          "start": 87.19999998807907,
+          "end": 153.3999999910593,
+          "transferSize": 51101,
+          "encodedBodySize": 50801,
+          "decodedBodySize": 50801,
+          "initiator": "link"
+        },
+        {
+          "name": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap",
+          "start": 165.09999999403954,
+          "end": 225.09999999403954,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "initiator": "css"
+        },
+        {
+          "name": "http://localhost:5184/favicon.ico",
+          "start": 584.2999999970198,
+          "end": 590.2999999970198,
+          "transferSize": 635,
+          "encodedBodySize": 335,
+          "decodedBodySize": 335,
+          "initiator": "other"
+        },
+        {
+          "name": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+          "start": 834.2999999970198,
+          "end": 860.8999999910593,
+          "transferSize": 448346,
+          "encodedBodySize": 448046,
+          "decodedBodySize": 448046,
+          "initiator": "img"
+        },
+        {
+          "name": "http://localhost:5184/assets/page02-artwork-Dl7LWAj7.webp",
+          "start": 839,
+          "end": 875.7999999970198,
+          "transferSize": 1214284,
+          "encodedBodySize": 1213984,
+          "decodedBodySize": 1213984,
+          "initiator": "img"
+        }
+      ],
+      "navigation": [
+        {
+          "domContentLoaded": 328.29999999701977,
+          "load": 329.3999999910593
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "frameCount": 5
+    },
+    {
+      "name": "warm",
+      "slow": false,
+      "warm": true,
+      "decodedAtMs": 476.70000000298023,
+      "completeVisibleAtMs": 591.0999999940395,
+      "primaryImageTransferredBytes": 0,
+      "firstImageAttachedMs": 289.70000000298023,
+      "visibleWhileDownloading": false,
+      "visibleBeforeCompleteMs": 0,
+      "imageRequestCount": 3,
+      "imageTransferredBytes": 0,
+      "imageRequests": [
+        {
+          "url": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+          "type": "Image",
+          "startMs": 91.65099999518134,
+          "priority": "High",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": true,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "299190",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 110.5939999979455,
+          "encodedBytes": 0
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+          "type": "Image",
+          "startMs": 785.5410000047414,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": true,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "448046",
+            "Date": "Fri, 30 Oct 2026 11:29:09 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 789.8259999928996,
+          "encodedBytes": 0
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-artwork-Dl7LWAj7.webp",
+          "type": "Image",
+          "startMs": 785.743000000366,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": true,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "1213984",
+            "Date": "Fri, 30 Oct 2026 11:29:09 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 795.7569999998668,
+          "encodedBytes": 0
+        }
+      ],
+      "requests": [
+        {
+          "url": "http://localhost:5184/",
+          "type": "Document",
+          "startMs": 0,
+          "priority": "VeryHigh",
+          "initiator": "other",
+          "status": 200,
+          "mime": "text/html",
+          "cache": true,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "2015",
+            "Content-type": "text/html",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 6.261000002268702,
+          "encodedBytes": 0
+        },
+        {
+          "url": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+          "type": "Image",
+          "startMs": 91.65099999518134,
+          "priority": "High",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": true,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "299190",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 110.5939999979455,
+          "encodedBytes": 0
+        },
+        {
+          "url": "http://localhost:5184/assets/index-BvGyU0PC.js",
+          "type": "Script",
+          "startMs": 92.00899999996182,
+          "priority": "High",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "text/javascript",
+          "cache": true,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "254868",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Content-type": "text/javascript",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 110.41500000283122,
+          "encodedBytes": 0
+        },
+        {
+          "url": "http://localhost:5184/assets/index-efiNl4gC.css",
+          "type": "Stylesheet",
+          "startMs": 92.10199999506585,
+          "priority": "VeryHigh",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "text/css",
+          "cache": true,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "50801",
+            "Date": "Fri, 30 Oct 2026 11:29:08 GMT",
+            "Content-type": "text/css",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 96.21800000604708,
+          "encodedBytes": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap",
+          "type": "Stylesheet",
+          "startMs": 171.23300000093877,
+          "priority": "VeryHigh",
+          "initiator": "parser",
+          "error": "net::ERR_CERT_AUTHORITY_INVALID"
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+          "type": "Image",
+          "startMs": 785.5410000047414,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": true,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "448046",
+            "Date": "Fri, 30 Oct 2026 11:29:09 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 789.8259999928996,
+          "encodedBytes": 0
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-artwork-Dl7LWAj7.webp",
+          "type": "Image",
+          "startMs": 785.743000000366,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": true,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "1213984",
+            "Date": "Fri, 30 Oct 2026 11:29:09 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 795.7569999998668,
+          "encodedBytes": 0
+        }
+      ],
+      "probe": {
+        "states": [
+          {
+            "t": 289.70000000298023,
+            "complete": true,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 405,
+            "complete": true,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 591.0999999940395,
+            "complete": true,
+            "naturalWidth": 1672,
+            "visible": true,
+            "appReady": false
+          }
+        ],
+        "decoding": true,
+        "decodedAt": 476.70000000298023,
+        "completeVisibleAt": 591.0999999940395
+      },
+      "marks": [
+        {
+          "name": "background:request:01",
+          "start": 471.29999999701977
+        },
+        {
+          "name": "background:bootstrap:decoded",
+          "start": 476.20000000298023
+        },
+        {
+          "name": "background:decoded:01",
+          "start": 488.20000000298023
+        },
+        {
+          "name": "background:bootstrap:paint",
+          "start": 591.2000000029802
+        },
+        {
+          "name": "background:paint:01",
+          "start": 786.2999999970198
+        },
+        {
+          "name": "background:prefetch:02",
+          "start": 788.2000000029802
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+          "start": 94.79999999701977,
+          "end": 113.70000000298023,
+          "transferSize": 0,
+          "encodedBodySize": 299190,
+          "decodedBodySize": 299190,
+          "initiator": "link"
+        },
+        {
+          "name": "http://localhost:5184/assets/index-efiNl4gC.css",
+          "start": 95.20000000298023,
+          "end": 99.29999999701977,
+          "transferSize": 0,
+          "encodedBodySize": 50801,
+          "decodedBodySize": 50801,
+          "initiator": "link"
+        },
+        {
+          "name": "http://localhost:5184/assets/index-BvGyU0PC.js",
+          "start": 95.20000000298023,
+          "end": 113.5,
+          "transferSize": 0,
+          "encodedBodySize": 254868,
+          "decodedBodySize": 254868,
+          "initiator": "script"
+        },
+        {
+          "name": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap",
+          "start": 175.29999999701977,
+          "end": 265.20000000298023,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "initiator": "css"
+        },
+        {
+          "name": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+          "start": 788.7000000029802,
+          "end": 792.8999999910593,
+          "transferSize": 0,
+          "encodedBodySize": 448046,
+          "decodedBodySize": 448046,
+          "initiator": "img"
+        },
+        {
+          "name": "http://localhost:5184/assets/page02-artwork-Dl7LWAj7.webp",
+          "start": 788.7999999970198,
+          "end": 798.7999999970198,
+          "transferSize": 0,
+          "encodedBodySize": 1213984,
+          "decodedBodySize": 1213984,
+          "initiator": "img"
+        }
+      ],
+      "navigation": [
+        {
+          "domContentLoaded": 403.8999999910593,
+          "load": 404.29999999701977
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "frameCount": 4
+    },
+    {
+      "name": "slow-cold",
+      "slow": true,
+      "warm": false,
+      "decodedAtMs": 3496.0999999940395,
+      "completeVisibleAtMs": 3497.2000000029802,
+      "primaryImageTransferredBytes": 299409,
+      "firstImageAttachedMs": 1153.5,
+      "visibleWhileDownloading": false,
+      "visibleBeforeCompleteMs": 0,
+      "imageRequestCount": 3,
+      "imageTransferredBytes": 299409,
+      "imageRequests": [
+        {
+          "url": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+          "type": "Image",
+          "startMs": 184.03499999840278,
+          "priority": "High",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "299190",
+            "Date": "Fri, 30 Oct 2026 11:29:14 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 3359.156999998959,
+          "encodedBytes": 299409
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+          "type": "Image",
+          "startMs": 3569.2759999947157,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "448046",
+            "Date": "Fri, 30 Oct 2026 11:29:18 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          }
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-artwork-Dl7LWAj7.webp",
+          "type": "Image",
+          "startMs": 3569.5450000057463,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "1213984",
+            "Date": "Fri, 30 Oct 2026 11:29:18 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          }
+        }
+      ],
+      "requests": [
+        {
+          "url": "http://localhost:5184/",
+          "type": "Document",
+          "startMs": 0,
+          "priority": "VeryHigh",
+          "initiator": "other",
+          "status": 200,
+          "mime": "text/html",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "2015",
+            "Content-type": "text/html",
+            "Date": "Fri, 30 Oct 2026 11:29:14 GMT",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 166.69100000581238,
+          "encodedBytes": 2231
+        },
+        {
+          "url": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+          "type": "Image",
+          "startMs": 184.03499999840278,
+          "priority": "High",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "299190",
+            "Date": "Fri, 30 Oct 2026 11:29:14 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 3359.156999998959,
+          "encodedBytes": 299409
+        },
+        {
+          "url": "http://localhost:5184/assets/index-BvGyU0PC.js",
+          "type": "Script",
+          "startMs": 184.6570000052452,
+          "priority": "High",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "text/javascript",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "254868",
+            "Date": "Fri, 30 Oct 2026 11:29:14 GMT",
+            "Content-type": "text/javascript",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 3146.831000005477,
+          "encodedBytes": 255092
+        },
+        {
+          "url": "http://localhost:5184/assets/index-efiNl4gC.css",
+          "type": "Stylesheet",
+          "startMs": 184.85999999393243,
+          "priority": "VeryHigh",
+          "initiator": "parser",
+          "status": 200,
+          "mime": "text/css",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "50801",
+            "Date": "Fri, 30 Oct 2026 11:29:14 GMT",
+            "Content-type": "text/css",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          },
+          "endMs": 1109.8800000036135,
+          "encodedBytes": 51017
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap",
+          "type": "Stylesheet",
+          "startMs": 1111.174999998184,
+          "priority": "VeryHigh",
+          "initiator": "parser",
+          "error": "net::ERR_CERT_AUTHORITY_INVALID"
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-clean-CBdaBq3v.webp",
+          "type": "Image",
+          "startMs": 3569.2759999947157,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "448046",
+            "Date": "Fri, 30 Oct 2026 11:29:18 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          }
+        },
+        {
+          "url": "http://localhost:5184/assets/page02-artwork-Dl7LWAj7.webp",
+          "type": "Image",
+          "startMs": 3569.5450000057463,
+          "priority": "Low",
+          "initiator": "other",
+          "status": 200,
+          "mime": "image/webp",
+          "cache": false,
+          "headers": {
+            "Cache-Control": "max-age=600",
+            "Content-Length": "1213984",
+            "Date": "Fri, 30 Oct 2026 11:29:18 GMT",
+            "Content-type": "image/webp",
+            "Last-Modified": "Fri, 30 Oct 2026 11:26:12 GMT",
+            "Server": "SimpleHTTP/0.6 Python/3.12.14"
+          }
+        }
+      ],
+      "probe": {
+        "states": [
+          {
+            "t": 1153.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1191.5999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1196.5999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1213.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1230.5999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1246.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1263.2000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1279.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1296.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1313.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1329.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1348.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1363.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1380.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1396.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1413.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1429.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1446.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1464.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1479.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1496.5999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1513.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1530.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1622.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1628.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1629.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1646.5999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1663.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1679.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1696.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1713,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1730.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1746.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1768.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1779.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1799.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1813.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1832.2000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1846.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1863.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1880.2000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1901.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1938.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1947.2000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1963.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1979.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 1996.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2013.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2031.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2046.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2063.2000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2081.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2096.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2113.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2130.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2146.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2162.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2180.2000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2196.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2213.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2229.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2246.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2265.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2280.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2296.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2313.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2330.5999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2346.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2363.2000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2379.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2396.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2413.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2429.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2447.2000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2463,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2479.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2496.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2513.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2530.2000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2546.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2563.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2579.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2596.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2613.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2630.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2647.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2663.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2680.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2697.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2713.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2730.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2747.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2767.2000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2782.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2797.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2814.5999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2829.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2846.5999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2864.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2879.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2898.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2913.5999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2930.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2946.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2963.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2980.3999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 2997.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3015.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3029.7000000029802,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3047.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3065.0999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3079.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3096.5999999940395,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3113.2999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3130.8999999910593,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3147.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3241.5,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3407.7999999970198,
+            "complete": false,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3456.8999999910593,
+            "complete": true,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3481.2000000029802,
+            "complete": true,
+            "naturalWidth": 1672,
+            "visible": false,
+            "appReady": false
+          },
+          {
+            "t": 3497.0999999940395,
+            "complete": true,
+            "naturalWidth": 1672,
+            "visible": true,
+            "appReady": false
+          }
+        ],
+        "decoding": true,
+        "decodedAt": 3496.0999999940395,
+        "completeVisibleAt": 3497.2000000029802
+      },
+      "marks": [
+        {
+          "name": "background:request:01",
+          "start": 3318.2999999970198
+        },
+        {
+          "name": "background:bootstrap:decoded",
+          "start": 3493.7999999970198
+        },
+        {
+          "name": "background:bootstrap:paint",
+          "start": 3497.7000000029802
+        },
+        {
+          "name": "background:decoded:01",
+          "start": 3498.7999999970198
+        },
+        {
+          "name": "background:paint:01",
+          "start": 3571.8999999910593
+        },
+        {
+          "name": "background:prefetch:02",
+          "start": 3573.5999999940395
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://localhost:5184/assets/page01-clean-DfBdaI7L.webp",
+          "start": 188.8999999910593,
+          "end": 3363.8999999910593,
+          "transferSize": 299490,
+          "encodedBodySize": 299190,
+          "decodedBodySize": 299190,
+          "initiator": "link"
+        },
+        {
+          "name": "http://localhost:5184/assets/index-BvGyU0PC.js",
+          "start": 189.3999999910593,
+          "end": 3151.5,
+          "transferSize": 255168,
+          "encodedBodySize": 254868,
+          "decodedBodySize": 254868,
+          "initiator": "script"
+        },
+        {
+          "name": "http://localhost:5184/assets/index-efiNl4gC.css",
+          "start": 189.8999999910593,
+          "end": 1114.5999999940395,
+          "transferSize": 51101,
+          "encodedBodySize": 50801,
+          "decodedBodySize": 50801,
+          "initiator": "link"
+        },
+        {
+          "name": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap",
+          "start": 1116,
+          "end": 1140.8999999910593,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "initiator": "css"
+        }
+      ],
+      "navigation": [
+        {
+          "domContentLoaded": 3240,
+          "load": 3455.3999999910593
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "frameCount": 5
+    }
+  ]
+}
