@@ -27,11 +27,11 @@ export function SceneMotion({page,ready}:{page:Page;ready:boolean}){
   </g>}
   {page===3&&<>
    <ellipse data-dream-loop="breath" data-period="14300" cx="1098" cy="475" rx="210" ry="190" fill={`url(#${id}-gold)`}/>
-   <ellipse data-dream-loop="breath" data-period="18100" cx="1400" cy="450" rx="50" ry="280" fill={`url(#${id}-gold)`}/>
+   <ellipse data-dream-loop="breath" data-period="18100" cx="1400" cy="400" rx="50" ry="220" fill={`url(#${id}-gold)`}/>
    <g data-dream-loop="leaves" data-period="15700" fill={`url(#${id}-shadow)`}>{[[330,570,95,19],[410,610,80,16],[500,642,65,12],[1310,635,110,19],[1380,655,84,13]].map(([cx,cy,rx,ry],i)=><ellipse key={i} cx={cx} cy={cy} rx={rx} ry={ry} transform={`rotate(${-21+i*5} ${cx} ${cy})`}/>)}</g>
   </>}
   {page===4&&<>
-   <ellipse data-dream-loop="curtainlight" data-period="11700" cx="872" cy="295" rx="125" ry="310" fill={`url(#${id}-gold)`}/>
+   <ellipse data-dream-loop="curtainlight" data-period="11700" cx="872" cy="295" rx="85" ry="310" fill={`url(#${id}-gold)`}/>
    <ellipse data-dream-loop="breath" data-period="16900" cx="1395" cy="450" rx="150" ry="230" fill={`url(#${id}-gold)`}/>
   </>}
   {page===5&&<>
@@ -49,7 +49,7 @@ export function SceneMotion({page,ready}:{page:Page;ready:boolean}){
     <path data-dream-loop="stream" data-period="23900" strokeDasharray="45 620" opacity=".3" d="M766 279 C880 133 1130 82 1262 139 C1460 202 1550 413 1419 484 C1305 561 1080 582 887 529 C775 490 704 367 766 279 Z"/>
     <path data-dream-loop="stream" data-period="19700" strokeDasharray="45 620" opacity=".25" d="M780 463 C870 390 955 365 1054 339 C1195 298 1380 309 1454 353 C1520 409 1490 473 1419 484"/>
    </g>
-   {[[766,279],[1028,145],[1262,139],[1393,187],[1454,353],[1419,484],[1054,339],[1049,232],[1179,484],[897,529],[1345,459]].map(([cx,cy],i)=><g key={i} data-dream-loop="star" data-period={9200+i*773}><circle cx={cx} cy={cy} r="9" fill={`url(#${id}-gold)`}/><circle cx={cx} cy={cy} r="1.2" fill="#f9d9a9"/></g>)}
+   {[[766,279],[1028,145],[1262,139],[1393,187],[1454,353],[1419,484],[1054,339],[1049,232],[1179,484],[897,529],[1345,459]].map(([cx,cy],i)=><g key={i} data-dream-loop="star" data-phase={i*.071} data-period={9200+i*773}><circle cx={cx} cy={cy} r="9" fill={`url(#${id}-gold)`}/><circle cx={cx} cy={cy} r="1.2" fill="#f9d9a9"/></g>)}
   </>}
   </svg>
   {page===5&&<canvas className="dream-cloud" data-local-surface="cloud"/>}
