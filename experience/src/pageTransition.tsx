@@ -15,7 +15,7 @@ function presented(frame:HTMLElement,page:Page){
  });
 }
 /** Inert visual copy only: no React effects, recognition sessions or handlers. */
-function snapshot(frame:HTMLElement){
+function snapshot(frame:HTMLElement,copyCanvases=true){
  const clone=frame.cloneNode(true) as HTMLElement,prefix=`outgoing-${crypto.randomUUID()}-`;
  const ids=new Map<string,string>();clone.querySelectorAll<HTMLElement>('[id]').forEach(e=>{const old=e.id;ids.set(old,prefix+old);e.id=prefix+old});
  clone.querySelectorAll('*').forEach(e=>{for(const attribute of [...e.attributes]){let value=attribute.value;
@@ -23,7 +23,9 @@ function snapshot(frame:HTMLElement){
   value=value.replace(/url\(\s*(['"]?)(.*?)\1\s*\)/g,(all,_quote,uri:string)=>{const id=ids.get(uri.slice(uri.lastIndexOf('#')+1));return id?`url(#${id})`:all});
   for(const [old,id]of ids){if(value===`#${old}`)value=`#${id}`;if(['for','aria-labelledby','aria-describedby'].includes(attribute.name))value=value.split(' ').map(v=>v===old?id:v).join(' ')}if(value!==attribute.value)e.setAttribute(attribute.name,value)}});
  const originals=frame.querySelectorAll<HTMLInputElement|HTMLTextAreaElement|HTMLSelectElement>('input,textarea,select');clone.querySelectorAll<HTMLInputElement|HTMLTextAreaElement|HTMLSelectElement>('input,textarea,select').forEach((e,i)=>{e.value=originals[i].value;if(e instanceof HTMLInputElement&&originals[i]instanceof HTMLInputElement)e.checked=(originals[i]as HTMLInputElement).checked});
- frame.querySelectorAll<HTMLCanvasElement>('canvas').forEach((canvas,i)=>{const target=clone.querySelectorAll('canvas')[i];if(target&&canvas.width&&canvas.height){target.width=canvas.width;target.height=canvas.height;target.getContext('2d')?.drawImage(canvas,0,0)}});
+ // Native transitions already retain the old GPU frame; only the DOM fallback
+ // needs a Canvas copy. Avoid a redundant synchronous GPU readback.
+ if(copyCanvases)frame.querySelectorAll<HTMLCanvasElement>('canvas').forEach((canvas,i)=>{const target=clone.querySelectorAll('canvas')[i];if(target&&canvas.width&&canvas.height){target.width=canvas.width;target.height=canvas.height;target.getContext('2d')?.drawImage(canvas,0,0)}});
  frame.querySelectorAll<HTMLElement>('[data-dream-loop],.dream-keyword-text,.mic').forEach((node,i)=>{const target=clone.querySelectorAll<HTMLElement>('[data-dream-loop],.dream-keyword-text,.mic')[i],style=getComputedStyle(node);for(const name of ['transform','translate','opacity','stroke-dashoffset','offset-distance','box-shadow'])target.style.setProperty(name,style.getPropertyValue(name))});
  const holder=document.createElement('div'),r=frame.getBoundingClientRect();holder.className='scene-outgoing';holder.dataset.outgoingScene='true';holder.setAttribute('aria-hidden','true');holder.inert=true;clone.inert=true;clone.removeAttribute('aria-busy');clone.style.width='100%';clone.style.position='absolute';clone.style.left='0';clone.style.top=`${r.top}px`;holder.append(clone);return holder;
 }
@@ -46,7 +48,7 @@ export function usePageTransition(){
    flushSync(()=>set('staging'));
    const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
    const native=typeof document.startViewTransition==='function'&&!reduce;
-   outgoing=snapshot(frame);
+   outgoing=snapshot(frame,!native);
    if(!native){outgoing.style.opacity='0';document.body.append(outgoing);await Promise.all([...outgoing.querySelectorAll('img')].map(image=>image.decode().catch(()=>{})));await frames();if(!valid())return;}
    const stage=async(waitForPaint:boolean)=>{
     if(!outgoing!.isConnected)document.body.append(outgoing!);outgoing!.style.opacity='1';frame.style.opacity='0';
