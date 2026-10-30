@@ -30,7 +30,12 @@ export function SceneMotion({page,ready}:{page:Page;ready:boolean}){
    <ellipse data-dream-loop="breath" data-period="18100" cx="1400" cy="450" rx="50" ry="280" fill={`url(#${id}-gold)`}/>
    <g data-dream-loop="leaves" data-period="15700" fill={`url(#${id}-shadow)`}>{[[330,570,95,19],[410,610,80,16],[500,642,65,12],[1310,635,110,19],[1380,655,84,13]].map(([cx,cy,rx,ry],i)=><ellipse key={i} cx={cx} cy={cy} rx={rx} ry={ry} transform={`rotate(${-21+i*5} ${cx} ${cy})`}/>)}</g>
   </>}
+  {page===4&&<>
+   <ellipse data-dream-loop="curtainlight" data-period="11700" cx="872" cy="295" rx="125" ry="310" fill={`url(#${id}-gold)`}/>
+   <ellipse data-dream-loop="breath" data-period="16900" cx="1395" cy="450" rx="150" ry="230" fill={`url(#${id}-gold)`}/>
+  </>}
   </svg>
+  {page===4&&<canvas className="dream-curtain" data-local-surface="curtain"/>}
   <canvas className="dream-water" data-local-surface="water"/>
  </div>
 }

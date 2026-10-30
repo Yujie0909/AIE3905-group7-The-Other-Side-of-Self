@@ -9,3 +9,5 @@
 [data-motion-enabled=true] .static-pill:hover{border-color:#eed5ae;box-shadow:0 0 15px #edc88a1c}
 [data-motion-enabled=true] .daily-topic-grid button[aria-pressed=true]{border-color:#f1d0a0;box-shadow:0 0 14px #edc88a26,inset 0 0 12px #edc88a14}
 @media(prefers-reduced-motion:reduce){.dreamscape{display:none!important}}
+
+.dream-curtain{position:absolute;display:block;opacity:.68}
