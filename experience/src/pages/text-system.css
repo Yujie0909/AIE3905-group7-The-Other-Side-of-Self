@@ -6,7 +6,7 @@
 :is(.page01-stage,.static-stage) :where(*),
 :is(.page01-stage,.static-stage) :where(*)::placeholder{font-family:var(--experience-font)!important}
 .page01-title,.static-title{font-weight:500;text-shadow:none}
-.page01-copy,.static-copy{font-weight:400;line-height:1.8}
+.page01-stage .page01-copy,.static-stage .static-copy{font-weight:400;line-height:1.8}
 .page01-copy{width:38%;max-width:820px;overflow-wrap:break-word}
 .page01-copy p+p{margin-top:1.25vw}
 .page01-copy p{text-wrap:balance}
