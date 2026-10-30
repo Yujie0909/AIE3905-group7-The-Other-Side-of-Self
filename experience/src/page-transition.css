@@ -1,0 +1,10 @@
+/* Whole-scene snapshots keep background, copy, controls and progress coherent. */
+.scene-frame{width:100%}
+.scene-outgoing{position:fixed;inset:0;z-index:1000;overflow:hidden;pointer-events:none;background:#101820}
+.scene-navigation-status{position:fixed;z-index:1100;top:18px;left:50%;transform:translateX(-50%);max-width:calc(100vw - 32px);padding:9px 18px;border:1px solid #e9e2d52e;border-radius:999px;background:#151a20c7;color:#e9e2d5;font:400 14px/1.7 var(--experience-font);text-align:center}
+.scene-navigation-status button{font:inherit;margin-left:16px;padding:2px 4px;text-decoration:underline;text-underline-offset:4px}
+::view-transition-group(root){animation:none}
+::view-transition-old(root){animation:none;opacity:1;mix-blend-mode:normal}
+::view-transition-new(root){animation:scene-crossfade 360ms cubic-bezier(.4,0,.2,1) both;mix-blend-mode:normal}
+@keyframes scene-crossfade{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){::view-transition-new(root){animation:none}}
