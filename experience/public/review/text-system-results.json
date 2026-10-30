@@ -1,0 +1,517 @@
+{
+  "targetFont": {
+    "name": "荆霄鹏行楷",
+    "status": "pending-font-file-and-web-embedding-license",
+    "deployed": false
+  },
+  "viewports": [
+    {
+      "page": 1,
+      "width": 1920,
+      "height": 1080,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": true,
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "71.424px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 2,
+      "width": 1920,
+      "height": 1080,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": true,
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "70.08px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 3,
+      "width": 1920,
+      "height": 1080,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": true,
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "63.36px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 4,
+      "width": 1920,
+      "height": 1080,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": true,
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "76.8px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 5,
+      "width": 1920,
+      "height": 1080,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": true,
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "76.8px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 6,
+      "width": 1920,
+      "height": 1080,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": true,
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "68.16px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 7,
+      "width": 1920,
+      "height": 1080,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": true,
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "80px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 1,
+      "width": 1672,
+      "height": 941,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "62.1984px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 2,
+      "width": 1672,
+      "height": 941,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "61.028px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 3,
+      "width": 1672,
+      "height": 941,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "55.176px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 4,
+      "width": 1672,
+      "height": 941,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "66.88px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 5,
+      "width": 1672,
+      "height": 941,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "66.88px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 6,
+      "width": 1672,
+      "height": 941,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "59.356px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 7,
+      "width": 1672,
+      "height": 941,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "69.7224px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 1,
+      "width": 1366,
+      "height": 768,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "50.8152px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 2,
+      "width": 1366,
+      "height": 768,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "49.859px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 3,
+      "width": 1366,
+      "height": 768,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "45.078px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 4,
+      "width": 1366,
+      "height": 768,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "54.64px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 5,
+      "width": 1366,
+      "height": 768,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "54.64px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 6,
+      "width": 1366,
+      "height": 768,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "48.493px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 7,
+      "width": 1366,
+      "height": 768,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "56.9622px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 1,
+      "width": 390,
+      "height": 844,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "38px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 2,
+      "width": 390,
+      "height": 844,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "28px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 3,
+      "width": 390,
+      "height": 844,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "30px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 4,
+      "width": 390,
+      "height": 844,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "30px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 5,
+      "width": 390,
+      "height": 844,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "30px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 6,
+      "width": 390,
+      "height": 844,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "30px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    },
+    {
+      "page": 7,
+      "width": 390,
+      "height": 844,
+      "exactCopy": true,
+      "sevenLabels": true,
+      "noCornerNumber": true,
+      "noHorizontalOverflow": true,
+      "noIdleMotion": true,
+      "backgroundPixelsUnchanged": "checked at 1920x1080",
+      "fontFamilies": [
+        "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      ],
+      "titleSize": "35px",
+      "titleWeight": "500",
+      "bodyWeight": "400"
+    }
+  ],
+  "errors": [],
+  "missingAssets": [],
+  "navigation": [
+    {
+      "width": 1920,
+      "visitedChapters": true,
+      "inputPreserved": true,
+      "futureBlocked": true,
+      "reset": true
+    },
+    {
+      "width": 1672,
+      "visitedChapters": true,
+      "inputPreserved": true,
+      "futureBlocked": true,
+      "reset": true
+    },
+    {
+      "width": 1366,
+      "visitedChapters": true,
+      "inputPreserved": true,
+      "futureBlocked": true,
+      "reset": true
+    },
+    {
+      "width": 390,
+      "visitedChapters": true,
+      "inputPreserved": true,
+      "futureBlocked": true,
+      "reset": true
+    }
+  ]
+}

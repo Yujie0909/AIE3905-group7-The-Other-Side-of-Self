@@ -1,5 +1,7 @@
 # 自我的彼岸 — The Other Side of Self
 
+最新修改：已替换七页指定文案、移除左上页码、统一七阶段流程轴，保持静态场景与交互。**荆霄鹏行楷仍待正版字体文件及网页授权，尚未部署。** 见 [文字系统验收](docs/TEXT-SYSTEM-REVIEW.md) 与 [最新七页截图](https://yujie0909.github.io/AIE3905-group7-The-Other-Side-of-Self/review/text-system.html)。
+
 当前版本为 **Phase 1 七页静态参考还原**：首页保留，02–07 各自对应自己的参考图；无动态背景或转场。最新实现和验收说明见 [STATIC-PAGES-02-07.md](docs/STATIC-PAGES-02-07.md)，[在线并排验收](https://yujie0909.github.io/AIE3905-group7-The-Other-Side-of-Self/review/)。旧动效实现和文档保留为历史/后续阶段资料，不作为当前运行状态。
 
 

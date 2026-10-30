@@ -7,13 +7,13 @@ export interface ExperienceSession {
 }
 export const createSession=():ExperienceSession=>({sessionId:crypto.randomUUID(),currentPage:1,idealRawText:'',idealStructuredData:null,idealImageUrl:null,selectedHabitTopics:[],habitAnswers:{},dailyFreeText:'',changeAnalysis:null,changeVideoUrl:null,reflectionText:'',reflectionKeywords:[],sharingConsent:false,idealPrompt:'',idealWorldSummary:'',approvedText:'',sceneVariant:0});
 export const pages=[
- {title:'欢迎进入心流空间',body:['在这里，你可以暂时放下外界的声音，与自己相遇。','这段旅程没有标准答案，只有关于你的独一无二的故事。'],en:'A QUIET BEGINNING'},
- {title:'如果一切都可以实现，\n你想要什么样的生活？',body:['抛却现实的限制，试着描述那个让你感到期待和向往的自己。'],en:'IMAGINE THE POSSIBLE'},
- {title:'你好，理想的世界',body:['基于你的描述，我们为你搭建了一个属于你的想象空间。'],en:'A WORLD WITHIN YOU'},
- {title:'再聊聊现在的你',body:['为了让这个故事更完整，可以和我分享一些你日常生活中的小习惯吗？'],en:'THE RHYTHM OF EVERYDAY'},
- {title:'当一切趋于完美',body:['随着时间的推移，一些细微的变化开始出现。','它不一定是坏事，也许只是另一种可能的视角。'],en:'ANOTHER WAY OF SEEING'},
- {title:'再次与自己相遇',body:['经历这一段旅程后，你现在有什么新的感受或者想对自己说的话？'],en:'RETURN TO YOURSELF'},
- {title:'你并不孤单',body:['许多人也分享了类似的感受与期待。','这里将逐渐汇聚愿意分享的心声。','不同的故事，相似的期待。你并不孤单。'],en:'ECHOES OF US'}
+ {title:'欢迎进入心流空间',body:['在这里，暂时放下外界的评价，倾听内心的声音。','这是一场没有标准答案的旅程，也是一段只属于你的故事。'],en:'A QUIET BEGINNING'},
+ {title:'如果一切都能够实现，你希望过什么样的生活？',body:['抛开现实的桎梏，描绘你理想中的生活。在那个世界里，你希望成为怎样的自己？'],en:'IMAGINE THE POSSIBLE'},
+ {title:'理想中的生活，你好',body:['你所描绘的世界，正在眼前慢慢成形。','现在，走进它，遇见那个理想中的自己。'],en:'A WORLD WITHIN YOU'},
+ {title:'再聊聊现在的你',body:['理想之外，日常中也有属于自己的模样。','可以再分享一些你平时的小习惯吗？'],en:'THE RHYTHM OF EVERYDAY'},
+ {title:'生活不止由想象书写',body:['那些微不足道的习惯，悄然改变着理想的轨迹。','而日复一日的选择，塑造了我们真正的模样。'],en:'ANOTHER WAY OF SEEING'},
+ {title:'与自我重逢',body:['走过想象与现实之间的距离，','此刻，你有什么想对自己说的吗？'],en:'RETURN TO YOURSELF'},
+ {title:'你不是孤身一人',body:['原来，也有人怀着与你相似的心情。','这些词语，来自其他参与者留下的真实心声。'],en:'ECHOES OF US'}
 ];
 export const habits:Record<string,string[]>={
  '作息与睡眠':['早睡早起','晚睡晚起','晚睡早起','早睡晚起','作息不固定'],

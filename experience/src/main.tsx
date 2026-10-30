@@ -2,4 +2,5 @@ import React from 'react';
 import {createRoot} from 'react-dom/client';
 import ExperienceShell from './App';
 import './styles.css';
+import './pages/text-system.css';
 createRoot(document.getElementById('root')!).render(<React.StrictMode><ExperienceShell/></React.StrictMode>);

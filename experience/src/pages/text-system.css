@@ -1,0 +1,55 @@
+/* Typography-only refinement. The requested licensed Xingkai webfont is absent.
+   Keep the existing serif face until its file, metadata and web licence can be checked.
+   This variable is the single integration point; no imitation or unlicensed font download. */
+:root{--experience-font:'Noto Serif SC','Songti SC','STSong',serif}
+.page01-stage,.static-stage{font-family:var(--experience-font)}
+:is(.page01-stage,.static-stage) :where(*),
+:is(.page01-stage,.static-stage) :where(*)::placeholder{font-family:var(--experience-font)!important}
+.page01-title,.static-title{font-weight:500;text-shadow:none}
+.page01-copy,.static-copy{font-weight:400;line-height:1.8}
+.page01-copy{width:38%;max-width:820px;overflow-wrap:break-word}
+.page01-copy p+p{margin-top:1.25vw}
+.page01-copy p{text-wrap:balance}
+.static-copy{overflow-wrap:break-word}
+.static-page-02 .static-title{width:68%;max-width:1400px}
+.static-page-02 .static-copy{width:47%}
+.static-page-03 .static-title{max-width:85%}
+.static-page-03 .static-copy{width:45%}
+.static-page-04 .static-copy{width:47%}
+.static-page-04 .static-copy p+p{margin-top:.45vw}
+.static-page-05 .static-title{max-width:89%}
+.static-page-05 .static-copy{width:52%}
+.static-page-06 .static-copy{width:44%}
+.static-page-06 .static-copy p+p{margin-top:.9vw}
+.static-page-07 .static-copy{width:39%}
+.static-page-07 .static-copy p+p{margin-top:1.15vw}
+.voices-static-ending{position:absolute;left:5.4%;top:48%;width:37%;margin:0;color:#f3eee4;font-size:clamp(16px,1.45vw,28px);font-weight:400;line-height:1.8;letter-spacing:.06em}
+.voices-static-note{left:5.4%;top:43.2%}
+.voices-static-approved{top:67%;overflow-wrap:anywhere;max-height:9%;overflow:auto}
+.reflection-static-message{font-weight:400;text-shadow:0 1px 1px #fff4df24}
+/* Preserve the horizontal track and seven node centres; labels are real HTML. */
+:is(.page01-progress,.static-progress) li{color:#c8c5bb}
+:is(.page01-progress,.static-progress) li[aria-current=step]{color:#fff4df}
+:is(.page01-progress,.static-progress) .journey-step{display:flex;flex-direction:column;align-items:center;gap:.6vw;min-width:44px;padding:0 0 8px;font:inherit;font-weight:400;line-height:1;color:inherit;background:none;border:0;letter-spacing:.025em}
+:is(.page01-progress,.static-progress) .journey-step:disabled{opacity:.68;cursor:default}
+.journey-step-label{white-space:nowrap;text-shadow:0 1px 3px #101820b3}
+.journey-dot{display:block;flex:none;width:.72vw;height:.72vw;min-width:9px;min-height:9px;border:1px solid #c5c8c3;border-radius:50%;background:#10182088}
+[aria-current=step]>.journey-step>.journey-dot{background:#fff9ed;border-color:#fff9ed;box-shadow:0 0 7px #e8be8644}
+@media(max-width:700px){
+ .page01-copy{width:auto;max-width:none}.page01-copy p+p{margin-top:24px}
+ .static-page-02 .static-title{width:auto;max-width:none}
+ .static-page-02 .static-copy{width:auto;top:34%;right:7%}
+ .static-page-03 .static-title{max-width:none}
+ .static-page-03 .static-copy{width:auto;top:25%}
+ .static-page-04 .static-copy,.static-page-05 .static-copy,.static-page-06 .static-copy,.static-page-07 .static-copy{width:auto;right:7%}
+ .static-page-04 .static-copy p+p{margin-top:12px}
+ .static-page-05 .static-title{max-width:none}
+ .static-page-05 .static-copy{top:26%}
+ .static-page-06 .static-copy p+p{margin-top:18px}
+ .static-page-07 .static-copy p+p{margin-top:14px}
+ .voices-static-ending{left:7%;top:39%;width:86%;font-size:14px;line-height:1.8}
+ .voices-static-cloud{top:48%;height:29%}
+ .voices-static-note{left:10%;top:70%}
+ .voices-static-approved{top:76%;max-height:45px}
+ :is(.page01-progress,.static-progress) .journey-step{gap:10px}
+}
