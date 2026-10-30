@@ -1,0 +1,13 @@
+/* Hide incomplete scenery as one atomic presentation; do not fade or animate it. */
+[data-background-ready='false']>.page01-environment,
+[data-background-ready='false']>.static-environment,
+[data-background-ready='false']>.static-artwork,
+[data-background-ready='false']>.static-mobile-shade,
+[data-background-ready='false']>.page01-mobile-shade,
+.static-stage[data-background-ready='false']::before,
+.static-stage[data-background-ready='false'] .mirror-inscription{visibility:hidden!important}
+.background-fallback{position:absolute;inset:0;z-index:-3;isolation:isolate;pointer-events:none;overflow:hidden}
+.background-fallback-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.background-fallback-shade,.background-fallback-mobile{position:absolute;inset:0;pointer-events:none;z-index:1}
+.background-fallback .static-artwork{z-index:2;display:block}
+.background-fallback-mobile{z-index:3}

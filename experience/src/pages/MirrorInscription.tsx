@@ -1,5 +1,6 @@
 import {useId,useLayoutEffect,useRef,useState} from 'react';
 import './mirror-inscription.css';
+import {backgroundAssets} from '../backgroundAssets';
 
 export const mirrorLines=['不必等到一切如愿，','此刻的你，','已经走在属于自己的路上。'] as const;
 
@@ -26,7 +27,7 @@ export function MirrorInscription(){
   const place=()=>{const r=image.getBoundingClientRect(),scale=Math.max(r.width/1672,r.height/941),positions=getComputedStyle(image).objectPosition.split(' ').map(Number.parseFloat),dx=(r.width-1672*scale)*(positions[0]/100),dy=(r.height-941*scale)*(positions[1]/100);setSurface({left:dx+1260*scale,top:dy+160*scale,width:285*scale,height:270*scale,sceneWidth:1672*scale,sceneHeight:941*scale,offsetX:-1260*scale,offsetY:-160*scale})};
   place();const observer=new ResizeObserver(place);observer.observe(image);return()=>observer.disconnect();
  },[]);
- const id=useId().replace(/:/g,''),base=import.meta.env.BASE_URL+'scenes/page06-reference-clean.jpg';
+ const id=useId().replace(/:/g,''),base=backgroundAssets[6].plate;
  return <div ref={host} className="reflection-static-message mirror-inscription" role="img" aria-label={mirrorLines.join('\n')}>
   <div className="mirror-inscription-material" style={surface?{left:surface.left,top:surface.top,width:surface.width,height:surface.height}:{visibility:'hidden'}}>
   <svg className="mirror-inscription-scene" style={surface?{left:surface.offsetX,top:surface.offsetY,width:surface.sceneWidth,height:surface.sceneHeight}:undefined} viewBox="0 0 1672 941" aria-hidden="true">

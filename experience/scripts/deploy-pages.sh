@@ -11,7 +11,9 @@ publish_dir="$(mktemp -d /tmp/other-self-pages.XXXXXX)"
 trap 'rm -rf "$publish_dir"' EXIT
 # Keep publication history; never force push a deployment branch.
 git -c credential.helper='!gh auth git-credential' clone --single-branch --branch gh-pages "$remote_url" "$publish_dir" >/dev/null
-find "$publish_dir" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+# Cached HTML and already-open sessions may still refer to older fingerprinted
+# assets. Keep those immutable filenames available; new builds only add hashes.
+find "$publish_dir" -mindepth 1 -maxdepth 1 ! -name .git ! -name assets -exec rm -rf -- {} +
 cp -R "$app_dir/dist/." "$publish_dir/"
 touch "$publish_dir/.nojekyll"
 printf '%s\n' "$source_sha" > "$publish_dir/source-commit.txt"

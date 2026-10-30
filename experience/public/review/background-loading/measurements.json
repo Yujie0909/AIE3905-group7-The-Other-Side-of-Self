@@ -1,0 +1,1073 @@
+{
+  "method": "Three solo Chromium production-build runs per case, local HTTP with Cache-Control max-age=600, CDP slow network 150ms latency / 200 KiB/s aggregate; first complete visible background from requestAnimationFrame probe. Font CSS TLS errors occur identically before/after. Not a claim of visitor latency over the public internet.",
+  "metrics": {
+    "before": {
+      "cold": {
+        "completeVisibleAtMs": 488.29999999701977,
+        "decodedAtMs": 563.7999999970198,
+        "primaryImageTransferredBytes": 492548,
+        "visibleBeforeCompleteMs": 0,
+        "imageRequestCount": 1
+      },
+      "warm": {
+        "completeVisibleAtMs": 615.2000000029802,
+        "decodedAtMs": 684.9000000059605,
+        "primaryImageTransferredBytes": 0,
+        "visibleBeforeCompleteMs": 0,
+        "imageRequestCount": 1
+      },
+      "slow-cold": {
+        "completeVisibleAtMs": 4472.600000008941,
+        "decodedAtMs": 4487.9000000059605,
+        "primaryImageTransferredBytes": 492548,
+        "visibleBeforeCompleteMs": 2510.2999999970198,
+        "imageRequestCount": 1
+      }
+    },
+    "after": {
+      "cold": {
+        "completeVisibleAtMs": 442.5,
+        "decodedAtMs": 383.90000000596046,
+        "primaryImageTransferredBytes": 299409,
+        "visibleBeforeCompleteMs": 0,
+        "imageRequestCount": 3
+      },
+      "warm": {
+        "completeVisibleAtMs": 422.8999999910593,
+        "decodedAtMs": 341.20000000298023,
+        "primaryImageTransferredBytes": 0,
+        "visibleBeforeCompleteMs": 0,
+        "imageRequestCount": 3
+      },
+      "slow-cold": {
+        "completeVisibleAtMs": 3385.4000000059605,
+        "decodedAtMs": 3379.6000000089407,
+        "primaryImageTransferredBytes": 299409,
+        "visibleBeforeCompleteMs": 0,
+        "imageRequestCount": 3
+      }
+    }
+  },
+  "assets": [
+    {
+      "page": 1,
+      "kind": "clean",
+      "original": "public/scenes/page01-reference-clean.jpg",
+      "asset": "src/assets/backgrounds/page01-clean.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 492329,
+      "optimizedBytes": 299190,
+      "originalSha256": "57579b6eede30a08690641800d12493bdf150ec0654657076bf38e43d1301679",
+      "encoding": "WebP 94",
+      "psnrDb": 43.655,
+      "block8LumaSSIM": 0.990682
+    },
+    {
+      "page": 1,
+      "kind": "artwork",
+      "original": "references/page 01.png",
+      "asset": "src/assets/backgrounds/page01-artwork.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2205399,
+      "optimizedBytes": 1159648,
+      "originalSha256": "a5dfd04dcf4abb164bad6faec5a158f335016a597ef30f732d57ffa7f2e96a00",
+      "encoding": "WebP near-lossless 60",
+      "psnrDb": 49.518,
+      "block8LumaSSIM": 0.997601
+    },
+    {
+      "page": 2,
+      "kind": "clean",
+      "original": "public/scenes/page02-reference-clean.jpg",
+      "asset": "src/assets/backgrounds/page02-clean.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 582965,
+      "optimizedBytes": 448046,
+      "originalSha256": "9d9d8141b4e8a3846917a85da95806d45fca748abbeda605f92e796c8bab000f",
+      "encoding": "WebP 96",
+      "psnrDb": 43.227,
+      "block8LumaSSIM": 0.993451
+    },
+    {
+      "page": 2,
+      "kind": "artwork",
+      "original": "references/page 02 .png",
+      "asset": "src/assets/backgrounds/page02-artwork.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2204163,
+      "optimizedBytes": 1213984,
+      "originalSha256": "363db5ce36aeb3d4e79e4c2d7d43c4f5ed3c74ecfe36f3e0274e84839c7b282c",
+      "encoding": "WebP near-lossless 60",
+      "psnrDb": 49.304,
+      "block8LumaSSIM": 0.99776
+    },
+    {
+      "page": 3,
+      "kind": "clean",
+      "original": "public/scenes/page03-reference-clean.jpg",
+      "asset": "src/assets/backgrounds/page03-clean.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 661204,
+      "optimizedBytes": 596902,
+      "originalSha256": "9ce92808484df24c9558cdeb3541ac850ecacd10558fc372f1a37cc8c946d154",
+      "encoding": "WebP 98",
+      "psnrDb": 43.176,
+      "block8LumaSSIM": 0.99521
+    },
+    {
+      "page": 3,
+      "kind": "artwork",
+      "original": "references/page 03.png",
+      "asset": "src/assets/backgrounds/page03-artwork.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2527052,
+      "optimizedBytes": 1495064,
+      "originalSha256": "4b29315ad8ec63a74e2a993b7fb697993f2e91ba40c7495f3abdcf4b9bb1ac3c",
+      "encoding": "WebP near-lossless 80",
+      "psnrDb": 52.187,
+      "block8LumaSSIM": 0.998719
+    },
+    {
+      "page": 4,
+      "kind": "clean",
+      "original": "public/scenes/page04-reference-clean.jpg",
+      "asset": "src/assets/backgrounds/page04-clean.webp",
+      "width": 1671,
+      "height": 941,
+      "originalBytes": 544198,
+      "optimizedBytes": 411344,
+      "originalSha256": "f1fba349ea08542996f728a4b12133bf2b5eb260d10b99c9944d17f983330a0f",
+      "encoding": "WebP 96",
+      "psnrDb": 43.663,
+      "block8LumaSSIM": 0.994364
+    },
+    {
+      "page": 4,
+      "kind": "artwork",
+      "original": "references/page 04.png",
+      "asset": "src/assets/backgrounds/page04-artwork.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2092350,
+      "optimizedBytes": 1155626,
+      "originalSha256": "bfac11941da8c18e2aa34e685ee70e8651534e6ce6979f2a6860b5aaf2ca9720",
+      "encoding": "WebP near-lossless 60",
+      "psnrDb": 49.659,
+      "block8LumaSSIM": 0.998129
+    },
+    {
+      "page": 5,
+      "kind": "clean",
+      "original": "public/scenes/page05-reference-clean.jpg",
+      "asset": "src/assets/backgrounds/page05-clean.jpg",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 693457,
+      "optimizedBytes": 693457,
+      "originalSha256": "f3f3281f40b269970d4c8cb61b1573ae3a3f601f3691a6b1cb5bebdbdc093416",
+      "encoding": "original optimized JPEG (quality floor preserved)",
+      "psnrDb": 100.0,
+      "block8LumaSSIM": 1.0
+    },
+    {
+      "page": 5,
+      "kind": "artwork",
+      "original": "references/page 05.png",
+      "asset": "src/assets/backgrounds/page05-artwork.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2326077,
+      "optimizedBytes": 1335342,
+      "originalSha256": "3df474eecb2018bfd73d6e23e0cd0bcf0612452b2c028fd5226df7dc40b6e761",
+      "encoding": "WebP near-lossless 60",
+      "psnrDb": 49.029,
+      "block8LumaSSIM": 0.998101
+    },
+    {
+      "page": 6,
+      "kind": "clean",
+      "original": "public/scenes/page06-reference-clean.jpg",
+      "asset": "src/assets/backgrounds/page06-clean.jpg",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 555006,
+      "optimizedBytes": 555006,
+      "originalSha256": "27b8fa9f839426835db7d67819fcad17aefced52e461d0bd5ef3fbcf9d0f0d03",
+      "encoding": "original JPEG (mirror source byte-identical)",
+      "psnrDb": 100.0,
+      "block8LumaSSIM": 1.0
+    },
+    {
+      "page": 6,
+      "kind": "artwork",
+      "original": "references/page 06.png",
+      "asset": "src/assets/backgrounds/page06-artwork.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2223756,
+      "optimizedBytes": 1221060,
+      "originalSha256": "a4f0a1293db567e0b04b8ce60324286f29166cc0238ae0ae5333eea04bfa223b",
+      "encoding": "WebP near-lossless 60",
+      "psnrDb": 49.171,
+      "block8LumaSSIM": 0.997848
+    },
+    {
+      "page": 7,
+      "kind": "clean",
+      "original": "public/scenes/page07-reference-clean.jpg",
+      "asset": "src/assets/backgrounds/page07-clean.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 563191,
+      "optimizedBytes": 424702,
+      "originalSha256": "37788a435681e5ddb640782952f603c1f04cc6ba4337893fce6eb0db3b4e94d3",
+      "encoding": "WebP 96",
+      "psnrDb": 43.996,
+      "block8LumaSSIM": 0.991955
+    },
+    {
+      "page": 7,
+      "kind": "artwork",
+      "original": "references/page 07.png",
+      "asset": "src/assets/backgrounds/page07-artwork.webp",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2135585,
+      "optimizedBytes": 1270690,
+      "originalSha256": "a67bb23309b176c57bb47eed1d5fb791acea6d6ffd2d69295c6722a8db8f0bd0",
+      "encoding": "WebP near-lossless 80",
+      "psnrDb": 53.217,
+      "block8LumaSSIM": 0.998673
+    }
+  ],
+  "renderQuality": [
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": 1,
+      "psnrDb": 45.144,
+      "block8LumaSSIM": 0.993654
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": 2,
+      "psnrDb": 49.369,
+      "block8LumaSSIM": 0.997848
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": 3,
+      "psnrDb": 50.578,
+      "block8LumaSSIM": 0.998654
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": 4,
+      "psnrDb": 49.149,
+      "block8LumaSSIM": 0.998097
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": 5,
+      "psnrDb": 52.099,
+      "block8LumaSSIM": 0.998955
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": 6,
+      "psnrDb": 52.523,
+      "block8LumaSSIM": 0.998868
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": 7,
+      "psnrDb": 50.077,
+      "block8LumaSSIM": 0.997748
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "page": 1,
+      "psnrDb": 47.976,
+      "block8LumaSSIM": 0.997214
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "page": 2,
+      "psnrDb": 49.552,
+      "block8LumaSSIM": 0.998322
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "page": 3,
+      "psnrDb": 49.605,
+      "block8LumaSSIM": 0.998593
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "page": 4,
+      "psnrDb": 50.861,
+      "block8LumaSSIM": 0.998406
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "page": 5,
+      "psnrDb": 100.0,
+      "block8LumaSSIM": 1.0
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "page": 6,
+      "psnrDb": 100.0,
+      "block8LumaSSIM": 1.0
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "page": 7,
+      "psnrDb": 50.131,
+      "block8LumaSSIM": 0.998
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": 1,
+      "psnrDb": 45.136,
+      "block8LumaSSIM": 0.993574
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": 2,
+      "psnrDb": 49.296,
+      "block8LumaSSIM": 0.997806
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": 3,
+      "psnrDb": 50.551,
+      "block8LumaSSIM": 0.998638
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": 4,
+      "psnrDb": 48.734,
+      "block8LumaSSIM": 0.997942
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": 5,
+      "psnrDb": 52.083,
+      "block8LumaSSIM": 0.998946
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": 6,
+      "psnrDb": 52.522,
+      "block8LumaSSIM": 0.998864
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": 7,
+      "psnrDb": 50.092,
+      "block8LumaSSIM": 0.997735
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "page": 1,
+      "psnrDb": 47.987,
+      "block8LumaSSIM": 0.997181
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "page": 2,
+      "psnrDb": 49.494,
+      "block8LumaSSIM": 0.998272
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "page": 3,
+      "psnrDb": 49.588,
+      "block8LumaSSIM": 0.998569
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "page": 4,
+      "psnrDb": 50.607,
+      "block8LumaSSIM": 0.998332
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "page": 5,
+      "psnrDb": 100.0,
+      "block8LumaSSIM": 1.0
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "page": 6,
+      "psnrDb": 100.0,
+      "block8LumaSSIM": 1.0
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "page": 7,
+      "psnrDb": 50.089,
+      "block8LumaSSIM": 0.997986
+    }
+  ],
+  "webkit": {
+    "engine": "Playwright WebKit Linux (not macOS Safari)",
+    "cases": [
+      {
+        "label": "before",
+        "kind": "cold",
+        "probe": {
+          "samples": [
+            {
+              "t": 787,
+              "complete": true,
+              "visible": true
+            }
+          ],
+          "decodedAt": 802
+        },
+        "resources": [
+          {
+            "url": "http://localhost:5185/scenes/page01-reference-clean.jpg",
+            "start": 299,
+            "end": 305,
+            "transfer": 492629,
+            "body": 492329
+          }
+        ],
+        "marks": [],
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+        "visibleWhileIncomplete": false
+      },
+      {
+        "label": "before",
+        "kind": "warm",
+        "probe": {
+          "samples": [
+            {
+              "t": 419,
+              "complete": true,
+              "visible": true
+            }
+          ],
+          "decodedAt": 431
+        },
+        "resources": [
+          {
+            "url": "http://localhost:5185/scenes/page01-reference-clean.jpg",
+            "start": 72,
+            "end": 78,
+            "transfer": 492629,
+            "body": 492329
+          }
+        ],
+        "marks": [],
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+        "visibleWhileIncomplete": false
+      },
+      {
+        "label": "before",
+        "kind": "slow-cold",
+        "probe": {
+          "samples": [
+            {
+              "t": 1744,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3394,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3445,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3542,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3552,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3567,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3583,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3600,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3616,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3632,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3648,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3664,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3680,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3696,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3713,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3729,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3745,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3761,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3777,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3794,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3810,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3826,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3842,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3858,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3874,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3890,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3906,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3922,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3938,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3955,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3971,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 3987,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 4003,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 4019,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 4035,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 4051,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 4067,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 4084,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 4100,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 4116,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 4132,
+              "complete": false,
+              "visible": true
+            },
+            {
+              "t": 4149,
+              "complete": true,
+              "visible": true
+            }
+          ],
+          "decodedAt": 4158
+        },
+        "resources": [
+          {
+            "url": "http://localhost:5185/scenes/page01-reference-clean.jpg",
+            "start": 1569,
+            "end": 4140,
+            "transfer": 492629,
+            "body": 492329
+          }
+        ],
+        "marks": [],
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+        "visibleWhileIncomplete": true
+      },
+      {
+        "label": "after",
+        "kind": "cold",
+        "probe": {
+          "samples": [
+            {
+              "t": 475,
+              "complete": true,
+              "visible": false
+            },
+            {
+              "t": 664,
+              "complete": true,
+              "visible": true
+            }
+          ],
+          "decodedAt": 664
+        },
+        "resources": [
+          {
+            "url": "http://localhost:5186/assets/page01-clean-DfBdaI7L.webp",
+            "start": 21,
+            "end": 34,
+            "transfer": 299490,
+            "body": 299190
+          }
+        ],
+        "marks": [
+          {
+            "name": "background:bootstrap:decoded",
+            "t": 476
+          },
+          {
+            "name": "background:request:01",
+            "t": 499
+          },
+          {
+            "name": "background:bootstrap:paint",
+            "t": 664
+          },
+          {
+            "name": "background:decoded:01",
+            "t": 678
+          }
+        ],
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+        "visibleWhileIncomplete": false
+      },
+      {
+        "label": "after",
+        "kind": "warm",
+        "probe": {
+          "samples": [
+            {
+              "t": 419,
+              "complete": true,
+              "visible": false
+            },
+            {
+              "t": 721,
+              "complete": true,
+              "visible": true
+            }
+          ],
+          "decodedAt": 721
+        },
+        "resources": [
+          {
+            "url": "http://localhost:5186/assets/page01-clean-DfBdaI7L.webp",
+            "start": 9,
+            "end": 23,
+            "transfer": 299490,
+            "body": 299190
+          }
+        ],
+        "marks": [
+          {
+            "name": "background:bootstrap:decoded",
+            "t": 419
+          },
+          {
+            "name": "background:request:01",
+            "t": 450
+          },
+          {
+            "name": "background:bootstrap:paint",
+            "t": 721
+          },
+          {
+            "name": "background:decoded:01",
+            "t": 744
+          }
+        ],
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+        "visibleWhileIncomplete": false
+      },
+      {
+        "label": "after",
+        "kind": "slow-cold",
+        "probe": {
+          "samples": [
+            {
+              "t": 974,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1000,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1011,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1027,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1043,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1059,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1076,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1092,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1108,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1124,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1140,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1156,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1172,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1188,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1205,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1221,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1237,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1253,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1269,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1286,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1303,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1319,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1335,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1351,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1367,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1386,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1399,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1416,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1432,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1448,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1464,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1480,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1497,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1513,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1529,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1560,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 1721,
+              "complete": false,
+              "visible": false
+            },
+            {
+              "t": 3476,
+              "complete": true,
+              "visible": true
+            }
+          ],
+          "decodedAt": 3476
+        },
+        "resources": [
+          {
+            "url": "http://localhost:5186/assets/page01-clean-DfBdaI7L.webp",
+            "start": 166,
+            "end": 1775,
+            "transfer": 299490,
+            "body": 299190
+          }
+        ],
+        "marks": [
+          {
+            "name": "background:request:01",
+            "t": 1577
+          },
+          {
+            "name": "background:bootstrap:decoded",
+            "t": 1863
+          },
+          {
+            "name": "background:decoded:01",
+            "t": 1881
+          },
+          {
+            "name": "background:bootstrap:paint",
+            "t": 3476
+          },
+          {
+            "name": "background:paint:01",
+            "t": 3581
+          },
+          {
+            "name": "background:prefetch:02",
+            "t": 3581
+          }
+        ],
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+        "visibleWhileIncomplete": false
+      }
+    ]
+  },
+  "limits": [
+    "No real macOS Safari available; Linux Playwright WebKit tested instead.",
+    "WebKit slow test uses server streaming at 200 KiB/s per connection, not the Chromium aggregate throttle. Single WebKit run: cold 787→664ms, warm 419→721ms, slow 4149→3476ms; warm improvement not demonstrated. ResourceTiming transferSize alone does not establish WebKit cache reuse.",
+    "Google Fonts CSS fails TLS trust validation through this cloud proxy; same existing fallback used in both versions; no TLS bypass or font change.",
+    "GitHub Pages controls cache headers: actual max-age=600 plus validators, no custom immutable header."
+  ]
+}

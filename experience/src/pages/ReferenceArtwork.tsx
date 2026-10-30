@@ -1,15 +1,8 @@
 import {useId} from 'react';
 import type {Page} from '../session';
+import {backgroundAssets} from '../backgroundAssets';
 // Keep original artwork pixels outside repaired UI regions. The clean plates were
 // produced with image inpainting; these static masks prevent baked-in UI ghosts.
-const sources:Partial<Record<Page,string>>={
- 2:new URL('../../references/page 02 .png',import.meta.url).href,
- 3:new URL('../../references/page 03.png',import.meta.url).href,
- 4:new URL('../../references/page 04.png',import.meta.url).href,
- 5:new URL('../../references/page 05.png',import.meta.url).href,
- 6:new URL('../../references/page 06.png',import.meta.url).href,
- 7:new URL('../../references/page 07.png',import.meta.url).href
-};
 type Box=[number,number,number,number];
 const boxes:Partial<Record<Page,Box[]>>={
  2:[[60,45,240,70],[65,130,735,175],[65,315,580,95],[620,515,430,205],[480,713,715,95],[75,820,1545,85]],
@@ -20,4 +13,4 @@ const boxes:Partial<Record<Page,Box[]>>={
  7:[[65,55,245,75],[65,145,550,335],[1160,715,445,100],[65,820,1540,80],
  [1090,65,150,80],[985,145,110,80],[1180,155,165,75],[800,195,115,80],[1410,210,120,80],[1280,245,120,85],[1480,295,125,85],[815,290,160,80],[1050,285,175,115],[1310,355,205,90],[800,385,110,80],[955,405,185,85],[1200,410,120,85],[840,470,110,80],[975,485,115,80],[1125,510,120,80],[1280,505,155,80],[1465,465,120,80]]
 };
-export function ReferenceArtwork({page}:{page:Page}){const id=useId().replace(/:/g,'');return <svg className="static-artwork" viewBox="0 0 1672 941" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><filter id={id+'-feather'}><feGaussianBlur stdDeviation="4"/></filter><mask id={id} maskUnits="userSpaceOnUse" x="0" y="0" width="1672" height="941"><rect width="1672" height="941" fill="white"/><g fill="black" filter={`url(#${id}-feather)`}>{boxes[page]?.map(([x,y,width,height],i)=><rect key={i} x={x} y={y} width={width} height={height} rx="5"/>)}</g></mask></defs><image href={sources[page]} width="1672" height="941" preserveAspectRatio="none" mask={`url(#${id})`}/></svg>}
+export function ReferenceArtwork({page}:{page:Page}){const id=useId().replace(/:/g,'');return <svg className="static-artwork" viewBox="0 0 1672 941" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><filter id={id+'-feather'}><feGaussianBlur stdDeviation="4"/></filter><mask id={id} maskUnits="userSpaceOnUse" x="0" y="0" width="1672" height="941"><rect width="1672" height="941" fill="white"/><g fill="black" filter={`url(#${id}-feather)`}>{boxes[page]?.map(([x,y,width,height],i)=><rect key={i} x={x} y={y} width={width} height={height} rx="5"/>)}</g></mask></defs><image href={backgroundAssets[page].artwork} width="1672" height="941" preserveAspectRatio="none" mask={`url(#${id})`}/></svg>}

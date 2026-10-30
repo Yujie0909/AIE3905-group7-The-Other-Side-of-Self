@@ -3,10 +3,14 @@ import type {Page} from '../session';
 import './static-pages.css';
 import {ReferenceArtwork} from './ReferenceArtwork';
 import {JourneyAxis} from './JourneyAxis';
+import {useSceneBackground} from '../backgroundLoading';
+import {BackgroundFallback} from './BackgroundFallback';
 export function StaticLayout({page,title,body,children,onExit,zoomed=false}:{page:Page;title:string;body:ReactNode;children:ReactNode;onExit:()=>void;zoomed?:boolean}){
- return <main className={`static-stage static-page-${String(page).padStart(2,'0')} ${zoomed?'static-close':''}`} data-static-page={page}>
-  <img className="static-environment" src={import.meta.env.BASE_URL+`scenes/page${String(page).padStart(2,'0')}-reference-clean.jpg`} alt="" aria-hidden="true" draggable={false} fetchPriority="high"/>
-  <ReferenceArtwork page={page}/>
+ const background=useSceneBackground(page);
+ return <main ref={background.rootRef} data-background-ready={background.ready} data-background-error={background.error||undefined} className={`static-stage static-page-${String(page).padStart(2,'0')} ${zoomed?'static-close':''}`} data-static-page={page}>
+  {background.previous&&<BackgroundFallback frame={background.previous}/>}
+  <img ref={background.plateRef} decoding="async" className="static-environment" src={background.source.plate} alt="" aria-hidden="true" draggable={false} fetchPriority="high"/>
+  {background.wide&&<ReferenceArtwork page={page}/>}
   <div className="static-mobile-shade" aria-hidden="true"/>
   <h1 className="static-title" aria-label={title.replace(/\n/g,'')}>{title}</h1>
   <div className="static-copy">{body}</div>

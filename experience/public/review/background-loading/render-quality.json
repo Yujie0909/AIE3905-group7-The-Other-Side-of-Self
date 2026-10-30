@@ -1,0 +1,198 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "page": 1,
+    "psnrDb": 45.144,
+    "block8LumaSSIM": 0.993654
+  },
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "page": 2,
+    "psnrDb": 49.369,
+    "block8LumaSSIM": 0.997848
+  },
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "page": 3,
+    "psnrDb": 50.578,
+    "block8LumaSSIM": 0.998654
+  },
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "page": 4,
+    "psnrDb": 49.149,
+    "block8LumaSSIM": 0.998097
+  },
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "page": 5,
+    "psnrDb": 52.099,
+    "block8LumaSSIM": 0.998955
+  },
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "page": 6,
+    "psnrDb": 52.523,
+    "block8LumaSSIM": 0.998868
+  },
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "page": 7,
+    "psnrDb": 50.077,
+    "block8LumaSSIM": 0.997748
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "page": 1,
+    "psnrDb": 47.976,
+    "block8LumaSSIM": 0.997214
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "page": 2,
+    "psnrDb": 49.552,
+    "block8LumaSSIM": 0.998322
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "page": 3,
+    "psnrDb": 49.605,
+    "block8LumaSSIM": 0.998593
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "page": 4,
+    "psnrDb": 50.861,
+    "block8LumaSSIM": 0.998406
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "page": 5,
+    "psnrDb": 100.0,
+    "block8LumaSSIM": 1.0
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "page": 6,
+    "psnrDb": 100.0,
+    "block8LumaSSIM": 1.0
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "page": 7,
+    "psnrDb": 50.131,
+    "block8LumaSSIM": 0.998
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "page": 1,
+    "psnrDb": 45.136,
+    "block8LumaSSIM": 0.993574
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "page": 2,
+    "psnrDb": 49.296,
+    "block8LumaSSIM": 0.997806
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "page": 3,
+    "psnrDb": 50.551,
+    "block8LumaSSIM": 0.998638
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "page": 4,
+    "psnrDb": 48.734,
+    "block8LumaSSIM": 0.997942
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "page": 5,
+    "psnrDb": 52.083,
+    "block8LumaSSIM": 0.998946
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "page": 6,
+    "psnrDb": 52.522,
+    "block8LumaSSIM": 0.998864
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "page": 7,
+    "psnrDb": 50.092,
+    "block8LumaSSIM": 0.997735
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "page": 1,
+    "psnrDb": 47.987,
+    "block8LumaSSIM": 0.997181
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "page": 2,
+    "psnrDb": 49.494,
+    "block8LumaSSIM": 0.998272
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "page": 3,
+    "psnrDb": 49.588,
+    "block8LumaSSIM": 0.998569
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "page": 4,
+    "psnrDb": 50.607,
+    "block8LumaSSIM": 0.998332
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "page": 5,
+    "psnrDb": 100.0,
+    "block8LumaSSIM": 1.0
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "page": 6,
+    "psnrDb": 100.0,
+    "block8LumaSSIM": 1.0
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "page": 7,
+    "psnrDb": 50.089,
+    "block8LumaSSIM": 0.997986
+  }
+]

@@ -1,12 +1,16 @@
 import './page01.css';
 import {JourneyAxis} from './JourneyAxis';
+import {useSceneBackground} from '../backgroundLoading';
+import {BackgroundFallback} from './BackgroundFallback';
 
 interface Page01WelcomeProps {onStart:()=>void}
 
 /** Static reconstruction of references/page 01.png. No scene renderer or animation clock. */
 export function Page01Welcome({onStart}:Page01WelcomeProps){
- return <main className="page01-stage" aria-label="自我的彼岸 — The Other Side of Self">
-  <img className="page01-environment" src={import.meta.env.BASE_URL+'scenes/page01-reference-clean.jpg'} alt="" aria-hidden="true" fetchPriority="high" draggable={false}/>
+ const background=useSceneBackground(1);
+ return <main ref={background.rootRef} data-background-ready={background.ready} data-background-error={background.error||undefined} className="page01-stage" aria-label="自我的彼岸 — The Other Side of Self">
+  {background.previous&&<BackgroundFallback frame={background.previous}/>}
+  <img ref={background.plateRef} decoding="async" className="page01-environment" src={background.source.plate} alt="" aria-hidden="true" fetchPriority="high" draggable={false}/>
   <div className="page01-mobile-shade" aria-hidden="true"/>
   <h1 className="page01-title" aria-label="欢迎进入心流空间">欢迎进入<br/>心流空间</h1>
   <p className="page01-subtitle" lang="en">The Other Side of Self</p>
