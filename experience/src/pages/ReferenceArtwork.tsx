@@ -1,6 +1,7 @@
-import {useId} from 'react';
+import {useId,useRef} from 'react';
 import type {Page} from '../session';
 import {backgroundAssets} from '../backgroundAssets';
+import {useMirrorCamera} from './mirror-layout';
 // Keep original artwork pixels outside repaired UI regions. The clean plates were
 // produced with image inpainting; these static masks prevent baked-in UI ghosts.
 type Box=[number,number,number,number];
@@ -33,11 +34,15 @@ function RepairHole({box,id}:{box:Box;id:string}){
 const featherStops=[[0,1],[.2,.96],[.4,.68],[.6,.32],[.8,.04],[1,0]] as const;
 export function ReferenceArtwork({page}:{page:Page}){
  const id=useId().replace(/:/g,'');
+ const scene=useRef<SVGSVGElement>(null),camera=useMirrorCamera(scene,page===6);
+ // Keep the existing renderer byte-for-byte on centered desktop scenery.
+ const croppedMirror=page===6&&camera&&Math.abs(camera.dx-(camera.width-camera.drawWidth)/2)>.001;
+ const cameraStyle=page===6&&!camera?{visibility:'hidden' as const}:croppedMirror&&camera?{left:camera.dx,top:camera.dy,width:camera.drawWidth,height:camera.drawHeight}:undefined;
  const localBoxes=boxes[page]??[];
  // Other control and mirror repairs keep their existing geometry/filter.
  const isTypographyRepair=(index:number)=>index===1||(page===2&&index===2)||(page===7&&index>=4);
  const stops=featherStops.map(([offset,alpha])=><stop key={offset} offset={offset} stopColor="black" stopOpacity={alpha}/>);
- return <svg className="static-artwork" viewBox="0 0 1672 941" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs>
+ return <svg ref={scene} style={cameraStyle} className="static-artwork" viewBox="0 0 1672 941" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs>
   <linearGradient id={id+'-down'} x1="0" y1="1" x2="0" y2="0">{stops}</linearGradient>
   <linearGradient id={id+'-up'} x1="0" y1="0" x2="0" y2="1">{stops}</linearGradient>
   <linearGradient id={id+'-right'} x1="1" y1="0" x2="0" y2="0">{stops}</linearGradient>

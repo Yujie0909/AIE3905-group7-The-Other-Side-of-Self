@@ -1,39 +1,17 @@
-/* Page 06 inscription only. The scene asset, left UI and all other pages are untouched. */
+/* Page 06 only: one photo-aligned inscription, with no crop box or fallback caption. */
 .static-page-06 .mirror-inscription{
  position:absolute;inset:0;left:0;right:auto;top:0;width:100%;height:100%;
- transform:none;transform-origin:0 0;
+ transform:none;transform-origin:0 0;perspective:none;overflow:visible;
  pointer-events:none;white-space:normal;letter-spacing:normal;
- background:none;border:0;box-shadow:none;text-shadow:none;
- color:rgba(68,72,73,.84);
+ background:transparent;border:0;box-shadow:none;text-shadow:none;filter:none;
+ mix-blend-mode:normal;color:#626259;
 }
-.mirror-inscription-material{position:absolute;overflow:hidden;mix-blend-mode:multiply}
-.mirror-inscription-scene{position:absolute;overflow:hidden}
-.mirror-inscription-plane{
- width:266px;height:166px;position:absolute;left:0;top:0;transform-origin:0 0;
- font-size:21px;font-weight:400;line-height:2.2;letter-spacing:.02em;
- color:rgba(68,72,73,.84);white-space:nowrap;
- background:linear-gradient(145deg,rgba(88,82,69,.86),rgba(66,76,81,.88) 53%,rgba(86,81,67,.82));
- background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;
- filter:blur(.10px);text-shadow:none;
-}
-.mirror-inscription-plane>.mirror-inscription-line{display:block;margin:0;padding:0;white-space:nowrap}
-.mirror-inscription>.mirror-inscription-narrow{display:none;margin:0}
-/* The current narrow crop cannot show the whole glass face. Preserve its old
-   presentation until the user authorizes a Page-06-only crop adjustment. */
-@media(max-aspect-ratio:3/2){
- .mirror-inscription-material{display:none}
- .mirror-inscription>.mirror-inscription-narrow{
-  display:block;position:absolute;left:76.7%;top:25.1%;right:auto;
-  transform:rotate(-13deg) skewX(-6deg) scaleX(.90);transform-origin:left center;
-  font-size:clamp(16px,1.25vw,24px);line-height:2.2;letter-spacing:.025em;
-  color:#443e32;white-space:nowrap;text-shadow:0 1px 1px #fff4df24;
- }
- .mirror-inscription-narrow>span{display:inline-block;margin-top:.4vw}
-}
-@media(max-width:700px){
- .mirror-inscription>.mirror-inscription-narrow{
-  left:20%;right:7%;width:auto;top:43%;text-align:right;
-  transform:rotate(-6deg);font-size:15px;line-height:1.9;
-  color:#efe7d5;white-space:normal;
- }
-}
+.mirror-inscription-scene{position:absolute;display:block;overflow:visible;pointer-events:none}
+.mirror-inscription-copy{mix-blend-mode:multiply;font-family:var(--experience-font);font-weight:400;letter-spacing:.02em;opacity:.9;filter:none;text-shadow:none}
+.mirror-inscription-line{white-space:pre;font-family:inherit;font-weight:400;overflow:visible}
+/* Cover originally cut the whole mirror out on phones/tablets. Align only this
+   page's existing photo to its right-hand glass; no asset or UI layout changes. */
+@media(max-aspect-ratio:3/2),(max-width:1100px){.static-page-06 .static-environment{object-position:93% 50%}}
+@media(max-width:700px){.mirror-inscription-copy{opacity:.98}}
+/* Descendant visibility must not bypass the existing decoded-scene gate. */
+.static-page-06[data-background-ready='false'] .mirror-inscription-copy{visibility:hidden!important}

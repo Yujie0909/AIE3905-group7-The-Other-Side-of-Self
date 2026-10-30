@@ -1,0 +1,56 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "height": 900,
+    "nonMirrorUIUnchanged": true
+  },
+  {
+    "engine": "chromium",
+    "width": 1280,
+    "height": 720,
+    "nonMirrorUIUnchanged": true
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "height": 844,
+    "nonMirrorUIUnchanged": true
+  },
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "height": 1080,
+    "nonMirrorUIUnchanged": true
+  },
+  {
+    "engine": "chromium",
+    "width": 768,
+    "height": 1024,
+    "nonMirrorUIUnchanged": true
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "height": 900,
+    "nonMirrorUIUnchanged": true
+  },
+  {
+    "engine": "webkit",
+    "width": 1280,
+    "height": 720,
+    "nonMirrorUIUnchanged": true
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "height": 844,
+    "nonMirrorUIUnchanged": true
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "height": 1080,
+    "nonMirrorUIUnchanged": true
+  }
+]
