@@ -39,6 +39,11 @@ export function SceneMotion({page,ready}:{page:Page;ready:boolean}){
    <ellipse data-dream-loop="distant" data-period="21700" cx="1103" cy="440" rx="7" ry="48" fill={`url(#${id}-gold)`}/>
    <ellipse data-dream-loop="breath" data-period="15300" cx="1218" cy="520" rx="70" ry="45" fill={`url(#${id}-gold)`}/>
   </>}
+  {page===6&&<>
+   <defs><clipPath id={id+'-glass'}><path d="M1240 20 L1545 32 L1547 580 L1244 581 Z"/></clipPath></defs>
+   <g clipPath={`url(#${id}-glass)`}><ellipse data-dream-loop="reflection" data-period="19100" cx="1315" cy="430" rx="80" ry="290" fill={`url(#${id}-gold)`}/></g>
+   <g data-dream-loop="mist" data-period="23900"><ellipse cx="1070" cy="590" rx="270" ry="28" fill={`url(#${id}-mist)`}/><ellipse cx="1280" cy="625" rx="190" ry="20" fill={`url(#${id}-mist)`}/></g>
+  </>}
   </svg>
   {page===5&&<canvas className="dream-cloud" data-local-surface="cloud"/>}
   {page===4&&<canvas className="dream-curtain" data-local-surface="curtain"/>}

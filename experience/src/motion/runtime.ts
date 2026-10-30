@@ -18,6 +18,7 @@ export function startDreamscape(host:HTMLDivElement,page:Page,camera:Camera,imag
  for(const node of host.querySelectorAll<HTMLElement>('[data-dream-loop]')){
   const kind=node.dataset.dreamLoop,period=Number(node.dataset.period)||12000;
   if(kind==='breath')loop(node,[{opacity:.18},{opacity:.68,offset:.41},{opacity:.35,offset:.77},{opacity:.18}],period);
+  if(kind==='reflection')loop(node,[{opacity:.10,transform:'translate(0px,12px)'},{opacity:.27,transform:'translate(3px,-14px)',offset:.54},{opacity:.10,transform:'translate(0px,12px)'}],period);
   if(kind==='distant')loop(node,[{opacity:.06},{opacity:.22,offset:.58},{opacity:.06}],period);
   if(kind==='curtainlight')loop(node,[{opacity:.16,transform:'translateX(0px)'},{opacity:.46,transform:'translateX(3px)'},{opacity:.16,transform:'translateX(0px)'}],period);
   if(kind==='leaves')loop(node,[{transform:'translate(0px,0px) rotate(0deg)',opacity:.3},{transform:'translate(4px,-2px) rotate(.16deg)',opacity:.65,offset:.42},{transform:'translate(0px,0px) rotate(0deg)',opacity:.3}],period);
