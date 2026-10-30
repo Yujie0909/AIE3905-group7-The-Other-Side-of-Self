@@ -13,3 +13,5 @@
 .dream-curtain{position:absolute;display:block;opacity:.68}
 
 .dream-cloud{position:absolute;display:block;mask-image:radial-gradient(ellipse,#000 15%,transparent 70%);-webkit-mask-image:radial-gradient(ellipse,#000 15%,transparent 70%)}
+
+.dream-keyword-text{display:inline-block;background:transparent;border:0;box-shadow:none}

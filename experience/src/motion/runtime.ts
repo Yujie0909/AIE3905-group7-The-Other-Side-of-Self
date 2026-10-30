@@ -18,6 +18,7 @@ export function startDreamscape(host:HTMLDivElement,page:Page,camera:Camera,imag
  for(const node of host.querySelectorAll<HTMLElement>('[data-dream-loop]')){
   const kind=node.dataset.dreamLoop,period=Number(node.dataset.period)||12000;
   if(kind==='breath')loop(node,[{opacity:.18},{opacity:.68,offset:.41},{opacity:.35,offset:.77},{opacity:.18}],period);
+  if(kind==='star')loop(node,[{opacity:.12},{opacity:.65,offset:.35},{opacity:.28,offset:.72},{opacity:.12}],period);
   if(kind==='reflection')loop(node,[{opacity:.10,transform:'translate(0px,12px)'},{opacity:.27,transform:'translate(3px,-14px)',offset:.54},{opacity:.10,transform:'translate(0px,12px)'}],period);
   if(kind==='distant')loop(node,[{opacity:.06},{opacity:.22,offset:.58},{opacity:.06}],period);
   if(kind==='curtainlight')loop(node,[{opacity:.16,transform:'translateX(0px)'},{opacity:.46,transform:'translateX(3px)'},{opacity:.16,transform:'translateX(0px)'}],period);
@@ -25,6 +26,7 @@ export function startDreamscape(host:HTMLDivElement,page:Page,camera:Camera,imag
   if(kind==='stream')loop(node,[{strokeDashoffset:0,opacity:.58},{strokeDashoffset:-665,opacity:.58}],period);
   if(kind==='mist')loop(node,[{transform:'translate(-25px, 1px)',opacity:.3},{transform:'translate(18px,-5px)',opacity:.75,offset:.46},{transform:'translate(-25px,1px)',opacity:.3}],period);
  }
+ for(const [i,node]of [...stage.querySelectorAll<HTMLElement>('.dream-keyword-text')].entries()){const rect=node.getBoundingClientRect(),box=stage.getBoundingClientRect(),dx=Math.max(0,Math.min(2.2,rect.left-box.left-8,box.right-rect.right-8)),dy=Math.max(0,Math.min(3.5,rect.top-box.top-8,box.bottom-rect.bottom-8)),sign=i%2?1:-1;loop(node,[{translate:'0px 0px'},{translate:`${sign*dx}px ${-sign*dy}px`,offset:.31},{translate:`${-sign*dx*.5}px ${sign*dy*.6}px`,offset:.68},{translate:'0px 0px'}],9700+(i*2713%7900),i*73)}
  for(const mic of stage.querySelectorAll('.mic'))loop(mic,[{boxShadow:'none'},{boxShadow:'0 0 24px 6px rgba(239,210,166,.24)'},{boxShadow:'none'}],4100,0,true);
  function draw(t:number){
   if(!ctx)return;const start=performance.now(),w=water.width,h=water.height;ctx.clearRect(0,0,w,h);
@@ -38,7 +40,7 @@ export function startDreamscape(host:HTMLDivElement,page:Page,camera:Camera,imag
   const duration=performance.now()-start;draws++;total+=duration;max=Math.max(max,duration);
  }
  function tick(now:number){if(!running)return;const dt=previous?Math.min(now-previous,80):0;previous=now;time+=dt/1000;if(now-last>=(quality==='full'?1000/60:1000/24)-1){draw(time);last=now}samples++;if(samples%120===0){if(total/draws>6&&quality==='full')quality='economy';host.dataset.motionStats=JSON.stringify({draws,meanDrawMs:total/draws,maxDrawMs:max,quality,seconds:time});}raf=requestAnimationFrame(tick)}
- function sync(){quiet=media.matches;const active=!quiet&&!document.hidden&&visible&&stage.dataset.backgroundReady==='true'&&frame?.dataset.navigationState==='idle';host.dataset.motionState=quiet?'reduced':active?'running':'paused';stage.dataset.motionEnabled=String(!quiet);host.style.visibility=quiet?'hidden':'visible';for(const item of loops){const play=active&&(!item.voice||item.node.classList.contains('listening'));if(play)item.animation.play();else{item.animation.pause();if(item.voice&&!item.node.classList.contains('listening'))item.animation.currentTime=0}}if(active&&!running){running=true;previous=0;raf=requestAnimationFrame(tick)}else if(!active&&running){running=false;cancelAnimationFrame(raf);previous=0}}
+ function sync(){quiet=media.matches;const active=!quiet&&!document.hidden&&visible&&stage.dataset.backgroundReady==='true'&&frame?.dataset.navigationState==='idle';host.dataset.motionState=quiet?'reduced':active?'running':'paused';stage.dataset.motionEnabled=String(!quiet);host.style.visibility=quiet?'hidden':'visible';for(const item of loops){const play=active&&(!item.voice||item.node.classList.contains('listening'));if(play)item.animation.play();else{item.animation.pause();if(quiet||(item.voice&&!item.node.classList.contains('listening')))item.animation.currentTime=0}}if(active&&!running){running=true;previous=0;raf=requestAnimationFrame(tick)}else if(!active&&running){running=false;cancelAnimationFrame(raf);previous=0}}
  draw(0);host.dataset.motionReady='true';
  const observer=new MutationObserver(sync);observer.observe(frame??stage,{attributes:true,subtree:true,attributeFilter:['data-navigation-state','data-background-ready','class']});
  const intersection=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync()});intersection.observe(stage);document.addEventListener('visibilitychange',sync);media.addEventListener('change',sync);sync();
