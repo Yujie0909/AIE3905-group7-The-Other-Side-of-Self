@@ -1,0 +1,64 @@
+/* Sharing-confirmation visuals only. Reuse the existing .glass-dialog surface;
+   keep all sizing and typography overrides exclusive to Page 06 consent. */
+.static-stage.static-page-06 .page06-consent-dialog{
+ --glass-padding:26px 28px;
+ --glass-title-size:17.5px;
+ --glass-action-size:12.54px;
+ position:fixed;
+ left:50%;right:auto;top:50%;bottom:auto;
+ width:min(49.725vw,960px,calc(100vw - 32px));
+ max-width:calc(100vw - 32px);
+ height:auto;max-height:calc(100svh - 48px);
+ transform:translate(-50%,-50%);
+ margin:0;
+ font-size:15.82px;line-height:1.8;font-weight:400;
+ border-radius:24px;
+ z-index:6;
+}
+.static-page-06 .page06-consent-dialog>p:first-child{
+ font-size:var(--glass-title-size);font-weight:500;line-height:1.75;
+ margin:0 0 18px;letter-spacing:.035em;
+ color:#f6f0e5;
+}
+.static-page-06 .page06-consent-dialog .text-input{margin-top:18px}
+.static-page-06 .page06-consent-dialog .text-input>span{
+ font-size:12.43px;font-weight:400;line-height:1.8;
+ color:#e8e1d5;
+}
+.static-page-06 .page06-consent-dialog .text-input textarea{
+ height:100px;
+ font-size:13.56px;line-height:2;
+ background:rgba(16,24,32,.16);
+ border:1px solid rgba(244,235,218,.2);border-radius:12px;
+ color:#f3eee4;
+}
+.static-page-06 .page06-consent-dialog .text-input>small{
+ font-size:10.17px;line-height:1.8;font-weight:400;
+ margin-top:8px;color:#d1c9bb;
+}
+.static-page-06 .page06-consent-dialog>small{
+ display:block;font-size:12.43px;line-height:1.8;font-weight:400;
+ margin-top:12px;color:#ded6c8;
+}
+.static-page-06 .page06-consent-dialog .inline-actions{
+ display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+ gap:12px;margin-top:18px;
+}
+.static-page-06 .page06-consent-dialog .inline-actions button{
+ min-width:44px;height:48px;min-height:48px;
+ font-size:var(--glass-action-size);line-height:1.8;font-weight:400;
+ padding:8px 18px;white-space:nowrap;
+ background:rgba(20,31,44,.22);
+}
+@media(max-width:700px){
+ .static-stage.static-page-06 .page06-consent-dialog{
+  width:calc(100vw - 32px);
+  --glass-padding:26px 28px;
+ }
+ .static-page-06 .page06-consent-dialog .inline-actions{gap:10px}
+ .static-page-06 .page06-consent-dialog .inline-actions button{padding-inline:12px}
+}
+@media(max-width:360px){
+ .static-page-06 .page06-consent-dialog .inline-actions{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .static-page-06 .page06-consent-dialog .inline-actions button:first-child{grid-column:1/-1;justify-self:start}
+}

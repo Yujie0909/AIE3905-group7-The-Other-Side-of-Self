@@ -1,0 +1,567 @@
+{
+  "viewports": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "before": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+        "x": 92.15625,
+        "y": 507.59375,
+        "width": 748.796875,
+        "height": 337.359375,
+        "fontSize": 14,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 22,
+        "paddingBottom": 22,
+        "background": "rgba(16, 24, 32, 0.95)",
+        "backdropFilter": "none"
+      },
+      "after": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+        "x": 482.640625,
+        "y": 357.1640625,
+        "width": 954.71875,
+        "height": 365.671875,
+        "fontSize": 15.82,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 26,
+        "paddingBottom": 26,
+        "background": "rgba(24, 35, 48, 0.28)",
+        "backdropFilter": "blur(12px) saturate(1.1)"
+      },
+      "question": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？",
+        "x": 511.640625,
+        "y": 384.1640625,
+        "width": 896.71875,
+        "height": 30.625,
+        "fontSize": 17.5,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "500",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "label": {
+        "text": "请确认实际分享的文字（仅本次演示展示）",
+        "x": 511.640625,
+        "y": 432.7890625,
+        "width": 896.71875,
+        "height": 22.375,
+        "fontSize": 12.43,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "input": {
+        "text": "慢慢来，我会保留自由与热爱。",
+        "x": 511.640625,
+        "y": 469.1640625,
+        "width": 896.71875,
+        "height": 100,
+        "fontSize": 13.56,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 15,
+        "paddingBottom": 15,
+        "background": "rgba(16, 24, 32, 0.16)",
+        "backdropFilter": "none"
+      },
+      "info": {
+        "text": "本阶段没有共享数据库，不会真实公开内容。",
+        "x": 511.640625,
+        "y": 607.4609375,
+        "width": 896.71875,
+        "height": 22.375,
+        "fontSize": 12.43,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "counter": {
+        "text": "14 / 2000",
+        "x": 511.640625,
+        "y": 577.1640625,
+        "width": 896.71875,
+        "height": 18.296875,
+        "fontSize": 10.17,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "buttons": [
+        {
+          "text": "返回编辑",
+          "width": 290.90625,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 18
+        },
+        {
+          "text": "仅留给自己",
+          "width": 290.90625,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 18
+        },
+        {
+          "text": "愿意分享",
+          "width": 290.90625,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 18
+        }
+      ],
+      "ancestors": [],
+      "page02Unchanged": true,
+      "page04Unchanged": true,
+      "otherPage06UIUnchanged": true,
+      "agreeRefuseReturnPassed": true,
+      "noImplicitConsent": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "before": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+        "x": 65.5625,
+        "y": 360.953125,
+        "width": 532.734375,
+        "height": 337.359375,
+        "fontSize": 14,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 22,
+        "paddingBottom": 22,
+        "background": "rgba(16, 24, 32, 0.95)",
+        "backdropFilter": "none"
+      },
+      "after": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+        "x": 343.3828125,
+        "y": 201.1640625,
+        "width": 679.234375,
+        "height": 365.671875,
+        "fontSize": 15.82,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 26,
+        "paddingBottom": 26,
+        "background": "rgba(24, 35, 48, 0.28)",
+        "backdropFilter": "blur(12px) saturate(1.1)"
+      },
+      "question": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？",
+        "x": 372.3828125,
+        "y": 228.1640625,
+        "width": 621.234375,
+        "height": 30.625,
+        "fontSize": 17.5,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "500",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "label": {
+        "text": "请确认实际分享的文字（仅本次演示展示）",
+        "x": 372.3828125,
+        "y": 276.7890625,
+        "width": 621.234375,
+        "height": 22.375,
+        "fontSize": 12.43,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "input": {
+        "text": "慢慢来，我会保留自由与热爱。",
+        "x": 372.3828125,
+        "y": 313.1640625,
+        "width": 621.234375,
+        "height": 100,
+        "fontSize": 13.56,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 15,
+        "paddingBottom": 15,
+        "background": "rgba(16, 24, 32, 0.16)",
+        "backdropFilter": "none"
+      },
+      "info": {
+        "text": "本阶段没有共享数据库，不会真实公开内容。",
+        "x": 372.3828125,
+        "y": 451.4609375,
+        "width": 621.234375,
+        "height": 22.375,
+        "fontSize": 12.43,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "counter": {
+        "text": "14 / 2000",
+        "x": 372.3828125,
+        "y": 421.1640625,
+        "width": 621.234375,
+        "height": 18.296875,
+        "fontSize": 10.17,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "buttons": [
+        {
+          "text": "返回编辑",
+          "width": 199.078125,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 18
+        },
+        {
+          "text": "仅留给自己",
+          "width": 199.078125,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 18
+        },
+        {
+          "text": "愿意分享",
+          "width": 199.078125,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 18
+        }
+      ],
+      "ancestors": [],
+      "page02Unchanged": true,
+      "page04Unchanged": true,
+      "otherPage06UIUnchanged": true,
+      "agreeRefuseReturnPassed": true,
+      "noImplicitConsent": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "before": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+        "x": 27.296875,
+        "y": 496.1875,
+        "width": 335.390625,
+        "height": 363.953125,
+        "fontSize": 14,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 22,
+        "paddingBottom": 22,
+        "background": "rgba(16, 24, 32, 0.95)",
+        "backdropFilter": "none"
+      },
+      "after": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+        "x": 16,
+        "y": 223.8515625,
+        "width": 358,
+        "height": 396.296875,
+        "fontSize": 15.82,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 26,
+        "paddingBottom": 26,
+        "background": "rgba(24, 35, 48, 0.28)",
+        "backdropFilter": "blur(12px) saturate(1.1)"
+      },
+      "question": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？",
+        "x": 45,
+        "y": 250.8515625,
+        "width": 300,
+        "height": 61.25,
+        "fontSize": 17.5,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "500",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "label": {
+        "text": "请确认实际分享的文字（仅本次演示展示）",
+        "x": 45,
+        "y": 330.1015625,
+        "width": 300,
+        "height": 22.375,
+        "fontSize": 12.43,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "input": {
+        "text": "慢慢来，我会保留自由与热爱。",
+        "x": 45,
+        "y": 366.4765625,
+        "width": 300,
+        "height": 100,
+        "fontSize": 13.56,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 15,
+        "paddingBottom": 15,
+        "background": "rgba(16, 24, 32, 0.16)",
+        "backdropFilter": "none"
+      },
+      "info": {
+        "text": "本阶段没有共享数据库，不会真实公开内容。",
+        "x": 45,
+        "y": 504.7734375,
+        "width": 300,
+        "height": 22.375,
+        "fontSize": 12.43,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "counter": {
+        "text": "14 / 2000",
+        "x": 45,
+        "y": 474.4765625,
+        "width": 300,
+        "height": 18.296875,
+        "fontSize": 10.17,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "buttons": [
+        {
+          "text": "返回编辑",
+          "width": 93.328125,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 12
+        },
+        {
+          "text": "仅留给自己",
+          "width": 93.328125,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 12
+        },
+        {
+          "text": "愿意分享",
+          "width": 93.34375,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 12
+        }
+      ],
+      "ancestors": [],
+      "page02Unchanged": true,
+      "page04Unchanged": true,
+      "otherPage06UIUnchanged": true,
+      "agreeRefuseReturnPassed": true,
+      "noImplicitConsent": true
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "before": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+        "x": 22.390625,
+        "y": 319.1875,
+        "width": 275.1875,
+        "height": 384.84375,
+        "fontSize": 14,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 22,
+        "paddingBottom": 22,
+        "background": "rgba(16, 24, 32, 0.95)",
+        "backdropFilter": "none"
+      },
+      "after": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+        "x": 16,
+        "y": 83.9765625,
+        "width": 288,
+        "height": 499.046875,
+        "fontSize": 15.82,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 26,
+        "paddingBottom": 26,
+        "background": "rgba(24, 35, 48, 0.28)",
+        "backdropFilter": "blur(12px) saturate(1.1)"
+      },
+      "question": {
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？",
+        "x": 45,
+        "y": 110.9765625,
+        "width": 230,
+        "height": 61.25,
+        "fontSize": 17.5,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "500",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "label": {
+        "text": "请确认实际分享的文字（仅本次演示展示）",
+        "x": 45,
+        "y": 190.2265625,
+        "width": 230,
+        "height": 44.75,
+        "fontSize": 12.43,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "input": {
+        "text": "慢慢来，我会保留自由与热爱。",
+        "x": 45,
+        "y": 248.9765625,
+        "width": 230,
+        "height": 100,
+        "fontSize": 13.56,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 15,
+        "paddingBottom": 15,
+        "background": "rgba(16, 24, 32, 0.16)",
+        "backdropFilter": "none"
+      },
+      "info": {
+        "text": "本阶段没有共享数据库，不会真实公开内容。",
+        "x": 45,
+        "y": 387.2734375,
+        "width": 230,
+        "height": 44.75,
+        "fontSize": 12.43,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "counter": {
+        "text": "14 / 2000",
+        "x": 45,
+        "y": 356.9765625,
+        "width": 230,
+        "height": 18.296875,
+        "fontSize": 10.17,
+        "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "fontWeight": "400",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none"
+      },
+      "buttons": [
+        {
+          "text": "返回编辑",
+          "width": 76.140625,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 12
+        },
+        {
+          "text": "仅留给自己",
+          "width": 110,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 12
+        },
+        {
+          "text": "愿意分享",
+          "width": 110,
+          "height": 48,
+          "fontSize": 12.54,
+          "paddingLeft": 12
+        }
+      ],
+      "ancestors": [],
+      "page02Unchanged": true,
+      "page04Unchanged": true,
+      "otherPage06UIUnchanged": true,
+      "agreeRefuseReturnPassed": true,
+      "noImplicitConsent": true
+    }
+  ],
+  "errors": [],
+  "missingAssets": [],
+  "writeRequests": [],
+  "functional": [
+    "Original trigger, actual question and labels",
+    "Return editing retains original reflection",
+    "Empty approved text disables agreement",
+    "Refuse omits personal text from Page07",
+    "Explicit agree uses only confirmed edited text",
+    "Escape/background click do not imply agreement",
+    "Exit resets session",
+    "No write/upload network requests"
+  ],
+  "scopePixelChecks": [
+    {
+      "width": 1920,
+      "page02PixelMatch": true,
+      "page04PixelMatch": true,
+      "closedPixelMatch": true
+    },
+    {
+      "width": 1366,
+      "page02PixelMatch": true,
+      "page04PixelMatch": true,
+      "closedPixelMatch": true
+    },
+    {
+      "width": 390,
+      "page02PixelMatch": true,
+      "page04PixelMatch": true,
+      "closedPixelMatch": true
+    },
+    {
+      "width": 320,
+      "page02PixelMatch": true,
+      "page04PixelMatch": true,
+      "closedPixelMatch": true
+    }
+  ]
+}

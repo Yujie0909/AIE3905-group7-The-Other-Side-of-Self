@@ -1,0 +1,878 @@
+[
+  {
+    "width": 1920,
+    "height": 1080,
+    "panel": {
+      "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+      "x": 92.15625,
+      "y": 507.59375,
+      "width": 748.796875,
+      "height": 337.359375,
+      "fontSize": 14,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 22,
+      "paddingBottom": 22,
+      "background": "rgba(16, 24, 32, 0.95)",
+      "backdropFilter": "none"
+    },
+    "question": {
+      "text": "愿意匿名分享其中的一句话，让其他人也看见吗？",
+      "x": 115.15625,
+      "y": 544.59375,
+      "width": 702.796875,
+      "height": 26.59375,
+      "fontSize": 14,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "label": {
+      "text": "请确认实际分享的文字（仅本次演示展示）",
+      "x": 115.15625,
+      "y": 587.1875,
+      "width": 702.796875,
+      "height": 20.890625,
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "input": {
+      "text": "慢慢来，我会保留自由与热爱。",
+      "x": 115.15625,
+      "y": 622.078125,
+      "width": 702.796875,
+      "height": 100,
+      "fontSize": 12,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 15,
+      "paddingBottom": 15,
+      "background": "rgba(21, 26, 32, 0.5)",
+      "backdropFilter": "none"
+    },
+    "info": {
+      "text": "本阶段没有共享数据库，不会真实公开内容。",
+      "x": 115.15625,
+      "y": 746.171875,
+      "width": 702.796875,
+      "height": 20.890625,
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "counter": {
+      "text": "14 / 2000",
+      "x": 115.15625,
+      "y": 729.078125,
+      "width": 702.796875,
+      "height": 17.09375,
+      "fontSize": 9,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "buttons": [
+      {
+        "text": "返回编辑",
+        "width": 46,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      {
+        "text": "仅留给自己",
+        "width": 57,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      {
+        "text": "愿意分享",
+        "width": 46,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      }
+    ],
+    "outside": [
+      {
+        "class": "static-title",
+        "text": "与自我重逢",
+        "rect": {
+          "x": 90.234375,
+          "y": 160.90625,
+          "width": 333.625,
+          "height": 80.0625,
+          "top": 160.90625,
+          "right": 423.859375,
+          "bottom": 240.96875,
+          "left": 90.234375
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-copy",
+        "text": "走过想象与现实之间的距离，此刻，你有什么想对自己说的吗？",
+        "rect": {
+          "x": 90.234375,
+          "y": 278.15625,
+          "width": 844.796875,
+          "height": 122.109375,
+          "top": 278.15625,
+          "right": 935.03125,
+          "bottom": 400.265625,
+          "left": 90.234375
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "reflection-static-message mirror-inscription",
+        "text": "不必等到一切如愿，此刻的你，已经走在属于自己的路上。不必等到一切如愿，此刻的你，已经走在属于自己的路上。",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-exit",
+        "text": "退出体验 ↗",
+        "rect": {
+          "x": 1788.578125,
+          "y": 32.390625,
+          "width": 73.828125,
+          "height": 32.5,
+          "top": 32.390625,
+          "right": 1862.40625,
+          "bottom": 64.890625,
+          "left": 1788.578125
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-progress",
+        "text": "01 开始02 想象03 理想04 现状05 变化06 自我07 尾声",
+        "rect": {
+          "x": 128.625,
+          "y": 961.1875,
+          "width": 1630.109375,
+          "height": 55.03125,
+          "top": 961.1875,
+          "right": 1758.734375,
+          "bottom": 1016.21875,
+          "left": 128.625
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ],
+    "dialog02": {
+      "text": "如果拥有了更多可能，你最期待生活中发生什么变化？拥有更多自由时间去体验向往的生活更好地照顾重要的人其他想法按原描述继续",
+      "x": 477.8359375,
+      "y": 408.0625,
+      "width": 964.296875,
+      "height": 189.96875,
+      "fontSize": 14.95,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 20.5,
+      "paddingBottom": 20.5,
+      "background": "rgba(24, 35, 48, 0.28)",
+      "backdropFilter": "blur(12px) saturate(1.1)"
+    },
+    "dialog04": {
+      "text": "02 / 作息与睡眠早睡早起晚睡晚起晚睡早起早睡晚起作息不固定返回修改",
+      "x": 103.671875,
+      "y": 421.1875,
+      "width": 1039.5625,
+      "height": 190.546875,
+      "fontSize": 14.95,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 23,
+      "paddingBottom": 23,
+      "background": "rgba(24, 35, 48, 0.28)",
+      "backdropFilter": "blur(12px) saturate(1.1)"
+    }
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "panel": {
+      "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+      "x": 65.5625,
+      "y": 360.953125,
+      "width": 532.734375,
+      "height": 337.359375,
+      "fontSize": 14,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 22,
+      "paddingBottom": 22,
+      "background": "rgba(16, 24, 32, 0.95)",
+      "backdropFilter": "none"
+    },
+    "question": {
+      "text": "愿意匿名分享其中的一句话，让其他人也看见吗？",
+      "x": 88.5625,
+      "y": 397.953125,
+      "width": 486.734375,
+      "height": 26.59375,
+      "fontSize": 14,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "label": {
+      "text": "请确认实际分享的文字（仅本次演示展示）",
+      "x": 88.5625,
+      "y": 440.546875,
+      "width": 486.734375,
+      "height": 20.890625,
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "input": {
+      "text": "慢慢来，我会保留自由与热爱。",
+      "x": 88.5625,
+      "y": 475.4375,
+      "width": 486.734375,
+      "height": 100,
+      "fontSize": 12,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 15,
+      "paddingBottom": 15,
+      "background": "rgba(21, 26, 32, 0.5)",
+      "backdropFilter": "none"
+    },
+    "info": {
+      "text": "本阶段没有共享数据库，不会真实公开内容。",
+      "x": 88.5625,
+      "y": 599.53125,
+      "width": 486.734375,
+      "height": 20.890625,
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "counter": {
+      "text": "14 / 2000",
+      "x": 88.5625,
+      "y": 582.4375,
+      "width": 486.734375,
+      "height": 17.09375,
+      "fontSize": 9,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "buttons": [
+      {
+        "text": "返回编辑",
+        "width": 46,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      {
+        "text": "仅留给自己",
+        "width": 57,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      {
+        "text": "愿意分享",
+        "width": 46,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      }
+    ],
+    "outside": [
+      {
+        "class": "static-title",
+        "text": "与自我重逢",
+        "rect": {
+          "x": 64.1875,
+          "y": 114.421875,
+          "width": 237.296875,
+          "height": 56.953125,
+          "top": 114.421875,
+          "right": 301.484375,
+          "bottom": 171.375,
+          "left": 64.1875
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-copy",
+        "text": "走过想象与现实之间的距离，此刻，你有什么想对自己说的吗？",
+        "rect": {
+          "x": 64.1875,
+          "y": 197.8125,
+          "width": 601.03125,
+          "height": 87.03125,
+          "top": 197.8125,
+          "right": 665.21875,
+          "bottom": 284.84375,
+          "left": 64.1875
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "reflection-static-message mirror-inscription",
+        "text": "不必等到一切如愿，此刻的你，已经走在属于自己的路上。不必等到一切如愿，此刻的你，已经走在属于自己的路上。",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1366,
+          "height": 768,
+          "top": 0,
+          "right": 1366,
+          "bottom": 768,
+          "left": 0
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-exit",
+        "text": "退出体验 ↗",
+        "rect": {
+          "x": 1251.203125,
+          "y": 23.03125,
+          "width": 73.828125,
+          "height": 32.5,
+          "top": 23.03125,
+          "right": 1325.03125,
+          "bottom": 55.53125,
+          "left": 1251.203125
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-progress",
+        "text": "01 开始02 想象03 理想04 现状05 变化06 自我07 尾声",
+        "rect": {
+          "x": 91.515625,
+          "y": 683.515625,
+          "width": 1159.75,
+          "height": 41.453125,
+          "top": 683.515625,
+          "right": 1251.265625,
+          "bottom": 724.96875,
+          "left": 91.515625
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ],
+    "dialog02": {
+      "text": "如果拥有了更多可能，你最期待生活中发生什么变化？拥有更多自由时间去体验向往的生活更好地照顾重要的人其他想法按原描述继续",
+      "x": 339.9609375,
+      "y": 232.40625,
+      "width": 686.046875,
+      "height": 189.96875,
+      "fontSize": 14.95,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 20.5,
+      "paddingBottom": 20.5,
+      "background": "rgba(24, 35, 48, 0.28)",
+      "backdropFilter": "blur(12px) saturate(1.1)"
+    },
+    "dialog04": {
+      "text": "02 / 作息与睡眠早睡早起晚睡晚起晚睡早起早睡晚起作息不固定返回修改",
+      "x": 73.75,
+      "y": 299.515625,
+      "width": 739.609375,
+      "height": 190.546875,
+      "fontSize": 14.95,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 23,
+      "paddingBottom": 23,
+      "background": "rgba(24, 35, 48, 0.28)",
+      "backdropFilter": "blur(12px) saturate(1.1)"
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "panel": {
+      "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+      "x": 27.296875,
+      "y": 496.1875,
+      "width": 335.390625,
+      "height": 363.953125,
+      "fontSize": 14,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 22,
+      "paddingBottom": 22,
+      "background": "rgba(16, 24, 32, 0.95)",
+      "backdropFilter": "none"
+    },
+    "question": {
+      "text": "愿意匿名分享其中的一句话，让其他人也看见吗？",
+      "x": 50.296875,
+      "y": 533.1875,
+      "width": 289.390625,
+      "height": 53.1875,
+      "fontSize": 14,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "label": {
+      "text": "请确认实际分享的文字（仅本次演示展示）",
+      "x": 50.296875,
+      "y": 602.375,
+      "width": 289.390625,
+      "height": 20.890625,
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "input": {
+      "text": "慢慢来，我会保留自由与热爱。",
+      "x": 50.296875,
+      "y": 637.265625,
+      "width": 289.390625,
+      "height": 100,
+      "fontSize": 12,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 15,
+      "paddingBottom": 15,
+      "background": "rgba(21, 26, 32, 0.5)",
+      "backdropFilter": "none"
+    },
+    "info": {
+      "text": "本阶段没有共享数据库，不会真实公开内容。",
+      "x": 50.296875,
+      "y": 761.359375,
+      "width": 289.390625,
+      "height": 20.890625,
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "counter": {
+      "text": "14 / 2000",
+      "x": 50.296875,
+      "y": 744.265625,
+      "width": 289.390625,
+      "height": 17.09375,
+      "fontSize": 9,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "buttons": [
+      {
+        "text": "返回编辑",
+        "width": 46,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      {
+        "text": "仅留给自己",
+        "width": 57,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      {
+        "text": "愿意分享",
+        "width": 46,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      }
+    ],
+    "outside": [
+      {
+        "class": "static-title",
+        "text": "与自我重逢",
+        "rect": {
+          "x": 27.296875,
+          "y": 105.59375,
+          "width": 343.203125,
+          "height": 42.71875,
+          "top": 105.59375,
+          "right": 370.5,
+          "bottom": 148.3125,
+          "left": 27.296875
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-copy",
+        "text": "走过想象与现实之间的距离，此刻，你有什么想对自己说的吗？",
+        "rect": {
+          "x": 27.296875,
+          "y": 202.890625,
+          "width": 335.40625,
+          "height": 67.15625,
+          "top": 202.890625,
+          "right": 362.703125,
+          "bottom": 270.046875,
+          "left": 27.296875
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "reflection-static-message mirror-inscription",
+        "text": "不必等到一切如愿，此刻的你，已经走在属于自己的路上。不必等到一切如愿，此刻的你，已经走在属于自己的路上。",
+        "rect": {
+          "x": 0,
+          "y": -6,
+          "width": 390,
+          "height": 930,
+          "top": -6,
+          "right": 390,
+          "bottom": 924,
+          "left": 0
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-exit",
+        "text": "退出体验 ↗",
+        "rect": {
+          "x": 309.75,
+          "y": 21.890625,
+          "width": 68.5625,
+          "height": 31,
+          "top": 21.890625,
+          "right": 378.3125,
+          "bottom": 52.890625,
+          "left": 309.75
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-progress",
+        "text": "01 开始02 想象03 理想04 现状05 变化06 自我07 尾声",
+        "rect": {
+          "x": 35.09375,
+          "y": 846.8125,
+          "width": 319.8125,
+          "height": 40,
+          "top": 846.8125,
+          "right": 354.90625,
+          "bottom": 886.8125,
+          "left": 35.09375
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ],
+    "dialog02": {
+      "text": "如果拥有了更多可能，你最期待生活中发生什么变化？拥有更多自由时间去体验向往的生活更好地照顾重要的人其他想法按原描述继续",
+      "x": 15.984375,
+      "y": 179.96875,
+      "width": 358,
+      "height": 269.03125,
+      "fontSize": 14.95,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 20.5,
+      "paddingBottom": 20.5,
+      "background": "rgba(24, 35, 48, 0.28)",
+      "backdropFilter": "blur(12px) saturate(1.1)"
+    },
+    "dialog04": {
+      "text": "02 / 作息与睡眠早睡早起晚睡晚起晚睡早起早睡晚起作息不固定返回修改",
+      "x": 15.984375,
+      "y": 340,
+      "width": 358,
+      "height": 240,
+      "fontSize": 14.95,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 23,
+      "paddingBottom": 23,
+      "background": "rgba(24, 35, 48, 0.28)",
+      "backdropFilter": "blur(12px) saturate(1.1)"
+    }
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "panel": {
+      "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）慢慢来，我会保留自由与热爱。14 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享",
+      "x": 22.390625,
+      "y": 319.1875,
+      "width": 275.1875,
+      "height": 384.84375,
+      "fontSize": 14,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 22,
+      "paddingBottom": 22,
+      "background": "rgba(16, 24, 32, 0.95)",
+      "backdropFilter": "none"
+    },
+    "question": {
+      "text": "愿意匿名分享其中的一句话，让其他人也看见吗？",
+      "x": 45.390625,
+      "y": 356.1875,
+      "width": 229.1875,
+      "height": 53.1875,
+      "fontSize": 14,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "label": {
+      "text": "请确认实际分享的文字（仅本次演示展示）",
+      "x": 45.390625,
+      "y": 425.375,
+      "width": 229.1875,
+      "height": 41.78125,
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "input": {
+      "text": "慢慢来，我会保留自由与热爱。",
+      "x": 45.390625,
+      "y": 481.15625,
+      "width": 229.1875,
+      "height": 100,
+      "fontSize": 12,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 15,
+      "paddingBottom": 15,
+      "background": "rgba(21, 26, 32, 0.5)",
+      "backdropFilter": "none"
+    },
+    "info": {
+      "text": "本阶段没有共享数据库，不会真实公开内容。",
+      "x": 45.390625,
+      "y": 605.25,
+      "width": 229.1875,
+      "height": 20.890625,
+      "fontSize": 11,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "counter": {
+      "text": "14 / 2000",
+      "x": 45.390625,
+      "y": 588.15625,
+      "width": 229.1875,
+      "height": 17.09375,
+      "fontSize": 9,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none"
+    },
+    "buttons": [
+      {
+        "text": "返回编辑",
+        "width": 46,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      {
+        "text": "仅留给自己",
+        "width": 57,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      {
+        "text": "愿意分享",
+        "width": 46,
+        "height": 42.890625,
+        "fontSize": 11,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      }
+    ],
+    "outside": [
+      {
+        "class": "static-title",
+        "text": "与自我重逢",
+        "rect": {
+          "x": 22.390625,
+          "y": -71.40625,
+          "width": 281.609375,
+          "height": 42.71875,
+          "top": -71.40625,
+          "right": 304,
+          "bottom": -28.6875,
+          "left": 22.390625
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-copy",
+        "text": "走过想象与现实之间的距离，此刻，你有什么想对自己说的吗？",
+        "rect": {
+          "x": 22.390625,
+          "y": 25.890625,
+          "width": 275.21875,
+          "height": 67.15625,
+          "top": 25.890625,
+          "right": 297.609375,
+          "bottom": 93.046875,
+          "left": 22.390625
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "reflection-static-message mirror-inscription",
+        "text": "不必等到一切如愿，此刻的你，已经走在属于自己的路上。不必等到一切如愿，此刻的你，已经走在属于自己的路上。",
+        "rect": {
+          "x": 0,
+          "y": -183,
+          "width": 320,
+          "height": 930,
+          "top": -183,
+          "right": 320,
+          "bottom": 747,
+          "left": 0
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-exit",
+        "text": "退出体验 ↗",
+        "rect": {
+          "x": 241.84375,
+          "y": -155.109375,
+          "width": 68.5625,
+          "height": 31,
+          "top": -155.109375,
+          "right": 310.40625,
+          "bottom": -124.109375,
+          "left": 241.84375
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      },
+      {
+        "class": "static-progress",
+        "text": "01 开始02 想象03 理想04 现状05 变化06 自我07 尾声",
+        "rect": {
+          "x": 28.796875,
+          "y": 669.8125,
+          "width": 262.40625,
+          "height": 40,
+          "top": 669.8125,
+          "right": 291.203125,
+          "bottom": 709.8125,
+          "left": 28.796875
+        },
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif"
+      }
+    ],
+    "dialog02": {
+      "text": "如果拥有了更多可能，你最期待生活中发生什么变化？拥有更多自由时间去体验向往的生活更好地照顾重要的人其他想法按原描述继续",
+      "x": 15.984375,
+      "y": 128.96875,
+      "width": 288,
+      "height": 320.03125,
+      "fontSize": 14.95,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 20.5,
+      "paddingBottom": 20.5,
+      "background": "rgba(24, 35, 48, 0.28)",
+      "backdropFilter": "blur(12px) saturate(1.1)"
+    },
+    "dialog04": {
+      "text": "02 / 作息与睡眠早睡早起晚睡晚起晚睡早起早睡晚起作息不固定返回修改",
+      "x": 15.984375,
+      "y": 7,
+      "width": 288,
+      "height": 200.09375,
+      "fontSize": 14.95,
+      "fontFamily": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+      "fontWeight": "400",
+      "paddingTop": 23,
+      "paddingBottom": 23,
+      "background": "rgba(24, 35, 48, 0.28)",
+      "backdropFilter": "blur(12px) saturate(1.1)"
+    }
+  }
+]
