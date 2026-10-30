@@ -1,3 +1,4 @@
+import {SceneMotion} from '../motion/SceneMotion';
 import type {ReactNode} from 'react';
 import type {Page} from '../session';
 import './static-pages.css';
@@ -12,6 +13,7 @@ export function StaticLayout({page,title,body,children,onExit,zoomed=false}:{pag
   <img ref={background.plateRef} decoding="async" className="static-environment" src={background.source.plate} alt="" aria-hidden="true" draggable={false} fetchPriority="high"/>
   {background.wide&&<ReferenceArtwork page={page}/>}
   <div className="static-mobile-shade" aria-hidden="true"/>
+  <SceneMotion page={page} ready={background.ready}/>
   <h1 className="static-title" aria-label={title.replace(/\n/g,'')}>{title}</h1>
   <div className="static-copy">{body}</div>
   {children}

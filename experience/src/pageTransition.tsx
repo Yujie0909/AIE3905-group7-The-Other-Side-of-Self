@@ -8,7 +8,7 @@ type Intent={from:Page;to:Page;commit:()=>()=>void;onError:()=>void};
 const frames=()=>new Promise<void>(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve())));
 function presented(frame:HTMLElement,page:Page){
  return new Promise<void>((resolve,reject)=>{
-  const check=()=>{const main=frame.querySelector<HTMLElement>('main');if(!main)return;const actual=main.classList.contains('page01-stage')?1:Number(main.dataset.staticPage);if(actual!==page)return;if(main.dataset.backgroundError==='true'){done(new Error('Mounted scenery failed'));return}if(main.dataset.backgroundReady==='true')done()};
+  const check=()=>{const main=frame.querySelector<HTMLElement>('main');if(!main)return;const actual=main.classList.contains('page01-stage')?1:Number(main.dataset.staticPage);if(actual!==page)return;if(main.dataset.backgroundError==='true'){done(new Error('Mounted scenery failed'));return}if(main.dataset.backgroundReady==='true'&&main.querySelector<HTMLElement>('[data-scene-motion]')?.dataset.motionReady==='true')done()};
   const observer=new MutationObserver(check),timer=setTimeout(()=>done(new Error('Scene presentation timed out')),45000);
   function done(error?:Error){clearTimeout(timer);observer.disconnect();frame.removeEventListener('scene-presented',check);error?reject(error):resolve()}
   observer.observe(frame,{attributes:true,childList:true,subtree:true});frame.addEventListener('scene-presented',check);check();
@@ -20,6 +20,8 @@ function snapshot(frame:HTMLElement){
  const ids=new Map<string,string>();clone.querySelectorAll<HTMLElement>('[id]').forEach(e=>{const old=e.id;ids.set(old,prefix+old);e.id=prefix+old});
  clone.querySelectorAll('*').forEach(e=>{for(const attribute of [...e.attributes]){let value=attribute.value;for(const [old,id]of ids){value=value.split(`url(#${old})`).join(`url(#${id})`);if(value===`#${old}`)value=`#${id}`;if(['for','aria-labelledby','aria-describedby'].includes(attribute.name))value=value.split(' ').map(v=>v===old?id:v).join(' ')}if(value!==attribute.value)e.setAttribute(attribute.name,value)}});
  const originals=frame.querySelectorAll<HTMLInputElement|HTMLTextAreaElement|HTMLSelectElement>('input,textarea,select');clone.querySelectorAll<HTMLInputElement|HTMLTextAreaElement|HTMLSelectElement>('input,textarea,select').forEach((e,i)=>{e.value=originals[i].value;if(e instanceof HTMLInputElement&&originals[i]instanceof HTMLInputElement)e.checked=(originals[i]as HTMLInputElement).checked});
+ frame.querySelectorAll<HTMLCanvasElement>('canvas').forEach((canvas,i)=>{const target=clone.querySelectorAll('canvas')[i];if(target&&canvas.width&&canvas.height){target.width=canvas.width;target.height=canvas.height;target.getContext('2d')?.drawImage(canvas,0,0)}});
+ frame.querySelectorAll<HTMLElement>('[data-dream-loop],.voices-static-cloud button').forEach((node,i)=>{const target=clone.querySelectorAll<HTMLElement>('[data-dream-loop],.voices-static-cloud button')[i],style=getComputedStyle(node);for(const name of ['transform','translate','opacity','stroke-dashoffset'])target.style.setProperty(name,style.getPropertyValue(name))});
  const holder=document.createElement('div'),r=frame.getBoundingClientRect();holder.className='scene-outgoing';holder.dataset.outgoingScene='true';holder.setAttribute('aria-hidden','true');holder.inert=true;clone.inert=true;clone.removeAttribute('aria-busy');clone.style.width='100%';clone.style.position='absolute';clone.style.left='0';clone.style.top=`${r.top}px`;holder.append(clone);return holder;
 }
 export function usePageTransition(){

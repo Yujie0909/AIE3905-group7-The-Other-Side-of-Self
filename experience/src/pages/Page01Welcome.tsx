@@ -1,3 +1,4 @@
+import {SceneMotion} from '../motion/SceneMotion';
 import './page01.css';
 import {JourneyAxis} from './JourneyAxis';
 import {useSceneBackground} from '../backgroundLoading';
@@ -12,6 +13,7 @@ export function Page01Welcome({onStart}:Page01WelcomeProps){
   {background.previous&&<BackgroundFallback frame={background.previous}/>}
   <img ref={background.plateRef} decoding="async" className="page01-environment" src={background.source.plate} alt="" aria-hidden="true" fetchPriority="high" draggable={false}/>
   <div className="page01-mobile-shade" aria-hidden="true"/>
+  <SceneMotion page={1} ready={background.ready}/>
   <h1 className="page01-title" aria-label="欢迎进入心流空间">欢迎进入<br/>心流空间</h1>
   <p className="page01-subtitle" lang="en">The Other Side of Self</p>
   <div className="page01-copy">

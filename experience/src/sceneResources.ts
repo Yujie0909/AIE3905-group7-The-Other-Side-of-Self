@@ -38,3 +38,6 @@ export function prepareScene(page:Page,wide=isWideScene(),priority:Priority='hig
  scene.promise.catch(()=>{});return scene.promise;
 }
 export async function prepareCurrentProfile(page:Page){let wide=isWideScene();for(;;){await prepareScene(page,wide,'high',true);const now=isWideScene();if(now===wide)return;wide=now}}
+
+/** Reuse the current scene's decoded bitmap; motion never creates image requests. */
+export function getPreparedImage(url:string){const asset=assets.get(url);return asset?.status==='ready'?asset.image:null}
