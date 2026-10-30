@@ -25,6 +25,11 @@ export function SceneMotion({page,ready}:{page:Page;ready:boolean}){
    <path data-dream-loop="stream" data-period="16700" d="M830 424 C1030 488 1085 245 1255 260 S1500 371 1680 295" strokeWidth="2.2" strokeDasharray="65 600"/>
    <path data-dream-loop="stream" data-period="11300" d="M1125 300 C1330 165 1495 115 1705 135" strokeWidth="1.5" strokeDasharray="45 620"/>
   </g>}
+  {page===3&&<>
+   <ellipse data-dream-loop="breath" data-period="14300" cx="1098" cy="475" rx="210" ry="190" fill={`url(#${id}-gold)`}/>
+   <ellipse data-dream-loop="breath" data-period="18100" cx="1400" cy="450" rx="50" ry="280" fill={`url(#${id}-gold)`}/>
+   <g data-dream-loop="leaves" data-period="15700" fill={`url(#${id}-shadow)`}>{[[330,570,95,19],[410,610,80,16],[500,642,65,12],[1310,635,110,19],[1380,655,84,13]].map(([cx,cy,rx,ry],i)=><ellipse key={i} cx={cx} cy={cy} rx={rx} ry={ry} transform={`rotate(${-21+i*5} ${cx} ${cy})`}/>)}</g>
+  </>}
   </svg>
   <canvas className="dream-water" data-local-surface="water"/>
  </div>
