@@ -1,0 +1,4337 @@
+{
+  "baseline": "5e5b692",
+  "before": [
+    {
+      "case": "chromium-1280",
+      "readings": [
+        {
+          "group": "body-1",
+          "glyphCorePixels": 359,
+          "color": "rgb(225, 231, 250)",
+          "opacity": "1",
+          "fontSize": "16.8896px",
+          "text": "原来，也有人怀着与你相似的心情。",
+          "scene": {
+            "minimum": 1.007,
+            "p05": 1.266,
+            "median": 3.005,
+            "pctAtLeast4_5": 33.15
+          },
+          "with-shadow": {
+            "minimum": 1.241,
+            "p05": 2.01,
+            "median": 4.813,
+            "pctAtLeast4_5": 55.71
+          }
+        },
+        {
+          "group": "body-2",
+          "glyphCorePixels": 442,
+          "color": "rgb(225, 231, 250)",
+          "opacity": "1",
+          "fontSize": "16.8896px",
+          "text": "这些词语，来自其他参与者留下的真实心声。",
+          "scene": {
+            "minimum": 1.002,
+            "p05": 1.056,
+            "median": 2.058,
+            "pctAtLeast4_5": 11.09
+          },
+          "with-shadow": {
+            "minimum": 1.035,
+            "p05": 1.333,
+            "median": 3.186,
+            "pctAtLeast4_5": 35.29
+          }
+        },
+        {
+          "group": "ending",
+          "glyphCorePixels": 568,
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "fontSize": "16.8896px",
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "scene": {
+            "minimum": 1.007,
+            "p05": 1.346,
+            "median": 2.526,
+            "pctAtLeast4_5": 2.11
+          },
+          "with-shadow": {
+            "minimum": 1.447,
+            "p05": 2.229,
+            "median": 4.188,
+            "pctAtLeast4_5": 38.56
+          }
+        }
+      ]
+    },
+    {
+      "case": "chromium-1440",
+      "readings": [
+        {
+          "group": "body-1",
+          "glyphCorePixels": 497,
+          "color": "rgb(225, 231, 250)",
+          "opacity": "1",
+          "fontSize": "19.0008px",
+          "text": "原来，也有人怀着与你相似的心情。",
+          "scene": {
+            "minimum": 1.278,
+            "p05": 1.606,
+            "median": 3.409,
+            "pctAtLeast4_5": 44.47
+          },
+          "with-shadow": {
+            "minimum": 1.978,
+            "p05": 2.867,
+            "median": 5.484,
+            "pctAtLeast4_5": 62.58
+          }
+        },
+        {
+          "group": "body-2",
+          "glyphCorePixels": 598,
+          "color": "rgb(225, 231, 250)",
+          "opacity": "1",
+          "fontSize": "19.0008px",
+          "text": "这些词语，来自其他参与者留下的真实心声。",
+          "scene": {
+            "minimum": 1.0,
+            "p05": 1.056,
+            "median": 2.38,
+            "pctAtLeast4_5": 14.21
+          },
+          "with-shadow": {
+            "minimum": 1.029,
+            "p05": 1.631,
+            "median": 3.982,
+            "pctAtLeast4_5": 43.65
+          }
+        },
+        {
+          "group": "ending",
+          "glyphCorePixels": 695,
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "fontSize": "19.0008px",
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "scene": {
+            "minimum": 1.002,
+            "p05": 1.129,
+            "median": 2.285,
+            "pctAtLeast4_5": 2.45
+          },
+          "with-shadow": {
+            "minimum": 1.424,
+            "p05": 1.936,
+            "median": 3.974,
+            "pctAtLeast4_5": 35.83
+          }
+        }
+      ]
+    },
+    {
+      "case": "chromium-1920",
+      "readings": [
+        {
+          "group": "body-1",
+          "glyphCorePixels": 1467,
+          "color": "rgb(225, 231, 250)",
+          "opacity": "1",
+          "fontSize": "25.3344px",
+          "text": "原来，也有人怀着与你相似的心情。",
+          "scene": {
+            "minimum": 1.0,
+            "p05": 1.157,
+            "median": 2.692,
+            "pctAtLeast4_5": 28.97
+          },
+          "with-shadow": {
+            "minimum": 1.111,
+            "p05": 1.903,
+            "median": 4.726,
+            "pctAtLeast4_5": 53.1
+          }
+        },
+        {
+          "group": "body-2",
+          "glyphCorePixels": 1836,
+          "color": "rgb(225, 231, 250)",
+          "opacity": "1",
+          "fontSize": "25.3344px",
+          "text": "这些词语，来自其他参与者留下的真实心声。",
+          "scene": {
+            "minimum": 1.001,
+            "p05": 1.039,
+            "median": 2.001,
+            "pctAtLeast4_5": 12.85
+          },
+          "with-shadow": {
+            "minimum": 1.004,
+            "p05": 1.266,
+            "median": 3.448,
+            "pctAtLeast4_5": 37.96
+          }
+        },
+        {
+          "group": "ending",
+          "glyphCorePixels": 2079,
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "fontSize": "25.3344px",
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "scene": {
+            "minimum": 1.005,
+            "p05": 1.351,
+            "median": 2.518,
+            "pctAtLeast4_5": 2.55
+          },
+          "with-shadow": {
+            "minimum": 1.208,
+            "p05": 2.159,
+            "median": 4.431,
+            "pctAtLeast4_5": 48.58
+          }
+        }
+      ]
+    },
+    {
+      "case": "chromium-390",
+      "readings": [
+        {
+          "group": "body-1",
+          "glyphCorePixels": 179,
+          "color": "rgb(225, 231, 250)",
+          "opacity": "1",
+          "fontSize": "12.74px",
+          "text": "原来，也有人怀着与你相似的心情。",
+          "scene": {
+            "minimum": 5.003,
+            "p05": 7.241,
+            "median": 9.0,
+            "pctAtLeast4_5": 100.0
+          },
+          "with-shadow": {
+            "minimum": 6.393,
+            "p05": 8.403,
+            "median": 9.933,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "body-2",
+          "glyphCorePixels": 198,
+          "color": "rgb(225, 231, 250)",
+          "opacity": "1",
+          "fontSize": "12.74px",
+          "text": "这些词语，来自其他参与者留下的真实心声。",
+          "scene": {
+            "minimum": 5.464,
+            "p05": 7.675,
+            "median": 8.536,
+            "pctAtLeast4_5": 100.0
+          },
+          "with-shadow": {
+            "minimum": 6.25,
+            "p05": 8.598,
+            "median": 9.682,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "ending",
+          "glyphCorePixels": 293,
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "fontSize": "14px",
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "scene": {
+            "minimum": 2.64,
+            "p05": 5.603,
+            "median": 7.864,
+            "pctAtLeast4_5": 97.27
+          },
+          "with-shadow": {
+            "minimum": 3.862,
+            "p05": 7.344,
+            "median": 9.281,
+            "pctAtLeast4_5": 98.98
+          }
+        }
+      ]
+    }
+  ],
+  "after": [
+    {
+      "case": "chromium-1280",
+      "readings": [
+        {
+          "group": "body-1",
+          "glyphCorePixels": 359,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "16.8896px",
+          "text": "原来，也有人怀着与你相似的心情。",
+          "scene": {
+            "minimum": 2.742,
+            "p05": 3.72,
+            "median": 6.584,
+            "pctAtLeast4_5": 85.79
+          },
+          "with-shadow": {
+            "minimum": 4.834,
+            "p05": 6.379,
+            "median": 9.22,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "body-2",
+          "glyphCorePixels": 442,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "16.8896px",
+          "text": "这些词语，来自其他参与者留下的真实心声。",
+          "scene": {
+            "minimum": 2.664,
+            "p05": 2.754,
+            "median": 5.092,
+            "pctAtLeast4_5": 55.43
+          },
+          "with-shadow": {
+            "minimum": 4.439,
+            "p05": 4.96,
+            "median": 7.645,
+            "pctAtLeast4_5": 99.77
+          }
+        },
+        {
+          "group": "ending",
+          "glyphCorePixels": 568,
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "fontSize": "16.8896px",
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "scene": {
+            "minimum": 2.522,
+            "p05": 3.375,
+            "median": 5.183,
+            "pctAtLeast4_5": 73.94
+          },
+          "with-shadow": {
+            "minimum": 4.551,
+            "p05": 5.822,
+            "median": 7.707,
+            "pctAtLeast4_5": 100.0
+          }
+        }
+      ]
+    },
+    {
+      "case": "chromium-1440",
+      "readings": [
+        {
+          "group": "body-1",
+          "glyphCorePixels": 497,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "19.0008px",
+          "text": "原来，也有人怀着与你相似的心情。",
+          "scene": {
+            "minimum": 3.77,
+            "p05": 4.438,
+            "median": 7.052,
+            "pctAtLeast4_5": 94.16
+          },
+          "with-shadow": {
+            "minimum": 5.941,
+            "p05": 7.191,
+            "median": 9.819,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "body-2",
+          "glyphCorePixels": 598,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "19.0008px",
+          "text": "这些词语，来自其他参与者留下的真实心声。",
+          "scene": {
+            "minimum": 2.65,
+            "p05": 2.911,
+            "median": 5.672,
+            "pctAtLeast4_5": 62.88
+          },
+          "with-shadow": {
+            "minimum": 4.601,
+            "p05": 5.426,
+            "median": 8.494,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "ending",
+          "glyphCorePixels": 695,
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "fontSize": "19.0008px",
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "scene": {
+            "minimum": 2.537,
+            "p05": 2.984,
+            "median": 4.898,
+            "pctAtLeast4_5": 60.58
+          },
+          "with-shadow": {
+            "minimum": 4.791,
+            "p05": 5.334,
+            "median": 7.526,
+            "pctAtLeast4_5": 100.0
+          }
+        }
+      ]
+    },
+    {
+      "case": "chromium-1920",
+      "readings": [
+        {
+          "group": "body-1",
+          "glyphCorePixels": 1467,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "25.3344px",
+          "text": "原来，也有人怀着与你相似的心情。",
+          "scene": {
+            "minimum": 2.728,
+            "p05": 3.434,
+            "median": 6.165,
+            "pctAtLeast4_5": 82.48
+          },
+          "with-shadow": {
+            "minimum": 4.613,
+            "p05": 6.076,
+            "median": 9.158,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "body-2",
+          "glyphCorePixels": 1836,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "25.3344px",
+          "text": "这些词语，来自其他参与者留下的真实心声。",
+          "scene": {
+            "minimum": 2.671,
+            "p05": 2.78,
+            "median": 5.052,
+            "pctAtLeast4_5": 55.83
+          },
+          "with-shadow": {
+            "minimum": 4.19,
+            "p05": 5.119,
+            "median": 7.994,
+            "pctAtLeast4_5": 99.62
+          }
+        },
+        {
+          "group": "ending",
+          "glyphCorePixels": 2079,
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "fontSize": "25.3344px",
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "scene": {
+            "minimum": 2.52,
+            "p05": 3.386,
+            "median": 5.177,
+            "pctAtLeast4_5": 72.58
+          },
+          "with-shadow": {
+            "minimum": 4.13,
+            "p05": 5.881,
+            "median": 8.048,
+            "pctAtLeast4_5": 99.76
+          }
+        }
+      ]
+    },
+    {
+      "case": "chromium-390",
+      "readings": [
+        {
+          "group": "body-1",
+          "glyphCorePixels": 179,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "12.74px",
+          "text": "原来，也有人怀着与你相似的心情。",
+          "scene": {
+            "minimum": 5.53,
+            "p05": 8.005,
+            "median": 9.949,
+            "pctAtLeast4_5": 100.0
+          },
+          "with-shadow": {
+            "minimum": 7.827,
+            "p05": 9.891,
+            "median": 11.491,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "body-2",
+          "glyphCorePixels": 198,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "12.74px",
+          "text": "这些词语，来自其他参与者留下的真实心声。",
+          "scene": {
+            "minimum": 6.04,
+            "p05": 8.484,
+            "median": 9.436,
+            "pctAtLeast4_5": 100.0
+          },
+          "with-shadow": {
+            "minimum": 8.109,
+            "p05": 10.335,
+            "median": 11.182,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "ending",
+          "glyphCorePixels": 293,
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "fontSize": "14px",
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "scene": {
+            "minimum": 2.467,
+            "p05": 5.236,
+            "median": 7.349,
+            "pctAtLeast4_5": 96.59
+          },
+          "with-shadow": {
+            "minimum": 4.445,
+            "p05": 7.441,
+            "median": 9.406,
+            "pctAtLeast4_5": 99.66
+          }
+        }
+      ]
+    },
+    {
+      "case": "webkit-1440",
+      "readings": [
+        {
+          "group": "body-1",
+          "glyphCorePixels": 451,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "19.000799px",
+          "text": "原来，也有人怀着与你相似的心情。",
+          "scene": {
+            "minimum": 3.542,
+            "p05": 4.377,
+            "median": 6.669,
+            "pctAtLeast4_5": 93.57
+          },
+          "with-shadow": {
+            "minimum": 5.557,
+            "p05": 6.797,
+            "median": 8.904,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "body-2",
+          "glyphCorePixels": 599,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "19.000799px",
+          "text": "这些词语，来自其他参与者留下的真实心声。",
+          "scene": {
+            "minimum": 2.664,
+            "p05": 2.9,
+            "median": 5.621,
+            "pctAtLeast4_5": 62.94
+          },
+          "with-shadow": {
+            "minimum": 3.903,
+            "p05": 4.864,
+            "median": 8.086,
+            "pctAtLeast4_5": 98.5
+          }
+        },
+        {
+          "group": "ending",
+          "glyphCorePixels": 678,
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "fontSize": "19.000799px",
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "scene": {
+            "minimum": 2.533,
+            "p05": 2.891,
+            "median": 4.862,
+            "pctAtLeast4_5": 59.44
+          },
+          "with-shadow": {
+            "minimum": 3.862,
+            "p05": 4.786,
+            "median": 7.022,
+            "pctAtLeast4_5": 97.64
+          }
+        }
+      ]
+    },
+    {
+      "case": "webkit-390",
+      "readings": [
+        {
+          "group": "body-1",
+          "glyphCorePixels": 142,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "12.74px",
+          "text": "原来，也有人怀着与你相似的心情。",
+          "scene": {
+            "minimum": 4.91,
+            "p05": 8.055,
+            "median": 9.829,
+            "pctAtLeast4_5": 100.0
+          },
+          "with-shadow": {
+            "minimum": 6.241,
+            "p05": 9.606,
+            "median": 11.036,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "body-2",
+          "glyphCorePixels": 149,
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "fontSize": "12.74px",
+          "text": "这些词语，来自其他参与者留下的真实心声。",
+          "scene": {
+            "minimum": 6.106,
+            "p05": 8.151,
+            "median": 9.387,
+            "pctAtLeast4_5": 100.0
+          },
+          "with-shadow": {
+            "minimum": 7.092,
+            "p05": 9.47,
+            "median": 10.713,
+            "pctAtLeast4_5": 100.0
+          }
+        },
+        {
+          "group": "ending",
+          "glyphCorePixels": 252,
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "fontSize": "14px",
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "scene": {
+            "minimum": 1.262,
+            "p05": 5.047,
+            "median": 7.214,
+            "pctAtLeast4_5": 96.83
+          },
+          "with-shadow": {
+            "minimum": 2.307,
+            "p05": 6.887,
+            "median": 8.819,
+            "pctAtLeast4_5": 98.41
+          }
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "otherPages": [
+      {
+        "page": 1,
+        "width": 1920,
+        "changedPixels": 0
+      },
+      {
+        "page": 2,
+        "width": 1920,
+        "changedPixels": 0
+      },
+      {
+        "page": 3,
+        "width": 1920,
+        "changedPixels": 0
+      },
+      {
+        "page": 4,
+        "width": 1920,
+        "changedPixels": 0
+      },
+      {
+        "page": 5,
+        "width": 1920,
+        "changedPixels": 0
+      },
+      {
+        "page": 6,
+        "width": 1920,
+        "changedPixels": 0
+      }
+    ],
+    "page07": [
+      {
+        "case": "chromium-1920",
+        "outsideCopyChangedPixels": 0,
+        "typographyAndGeometryUnchanged": true,
+        "consentDialogUnchanged": true,
+        "protected": {
+          "title": 0,
+          "rail": 0,
+          "cloud": 0,
+          "rightScene": 0,
+          "gradientBoundaryChangedPixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "case": "chromium-1440",
+        "outsideCopyChangedPixels": 0,
+        "typographyAndGeometryUnchanged": true,
+        "consentDialogUnchanged": true,
+        "protected": {
+          "title": 0,
+          "rail": 0,
+          "cloud": 0,
+          "rightScene": 0,
+          "gradientBoundaryChangedPixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "case": "chromium-1280",
+        "outsideCopyChangedPixels": 0,
+        "typographyAndGeometryUnchanged": true,
+        "consentDialogUnchanged": true,
+        "protected": {
+          "title": 0,
+          "rail": 0,
+          "cloud": 0,
+          "rightScene": 0,
+          "gradientBoundaryChangedPixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "case": "chromium-390",
+        "outsideCopyChangedPixels": 0,
+        "typographyAndGeometryUnchanged": true,
+        "consentDialogUnchanged": true,
+        "protected": {
+          "title": 0,
+          "rail": 0,
+          "cloud": 0
+        }
+      }
+    ]
+  },
+  "cases": [
+    {
+      "phase": "after",
+      "engine": "chromium",
+      "width": 1920,
+      "height": 1080,
+      "geometry": {
+        "title": {
+          "text": "你不是孤身一人",
+          "rect": {
+            "x": 134.390625,
+            "y": 194.390625,
+            "width": 548.15625,
+            "height": 93.984375,
+            "top": 194.390625,
+            "right": 682.546875,
+            "bottom": 288.375,
+            "left": 134.390625
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "71.2px",
+          "weight": "500",
+          "lineHeight": "93.984px",
+          "spacing": "7.12px",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "rgba(255, 255, 255, 0.22) 0px 1px 1px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "body": {
+          "text": "原来，也有人怀着与你相似的心情。这些词语，来自其他参与者留下的真实心声。",
+          "rect": {
+            "x": 138.234375,
+            "y": 332.15625,
+            "width": 710.390625,
+            "height": 113.234375,
+            "top": 332.15625,
+            "right": 848.625,
+            "bottom": 445.390625,
+            "left": 138.234375
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "25.3344px",
+          "weight": "400",
+          "lineHeight": "45.6019px",
+          "spacing": "2.40677px",
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "ending": {
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "rect": {
+            "x": 138.234375,
+            "y": 572.390625,
+            "width": 710.390625,
+            "height": 144.328125,
+            "top": 572.390625,
+            "right": 848.625,
+            "bottom": 716.71875,
+            "left": 138.234375
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "25.3344px",
+          "weight": "400",
+          "lineHeight": "48.1354px",
+          "spacing": "1.52006px",
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "paragraphs": [
+          {
+            "text": "原来，也有人怀着与你相似的心情。",
+            "rect": {
+              "x": 138.234375,
+              "y": 332.15625,
+              "width": 710.390625,
+              "height": 45.578125,
+              "top": 332.15625,
+              "right": 848.625,
+              "bottom": 377.734375,
+              "left": 138.234375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "25.3344px",
+            "weight": "400",
+            "lineHeight": "45.6019px",
+            "spacing": "2.40677px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "这些词语，来自其他参与者留下的真实心声。",
+            "rect": {
+              "x": 138.234375,
+              "y": 399.8125,
+              "width": 710.390625,
+              "height": 45.578125,
+              "top": 399.8125,
+              "right": 848.625,
+              "bottom": 445.390625,
+              "left": 138.234375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "25.3344px",
+            "weight": "400",
+            "lineHeight": "45.6019px",
+            "spacing": "2.40677px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "cloud": [
+          {
+            "text": "旅行",
+            "rect": {
+              "x": 1273.5234375,
+              "y": 92.3359375,
+              "width": 117.890625,
+              "height": 70.203125,
+              "top": 92.3359375,
+              "right": 1391.4140625,
+              "bottom": 162.5390625,
+              "left": 1273.5234375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "51.84px",
+            "weight": "400",
+            "lineHeight": "62.208px",
+            "spacing": "3.1104px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "成长",
+            "rect": {
+              "x": 1127.953125,
+              "y": 178.953125,
+              "width": 105.6875,
+              "height": 63.28125,
+              "top": 178.953125,
+              "right": 1233.640625,
+              "bottom": 242.234375,
+              "left": 1127.953125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "46.08px",
+            "weight": "400",
+            "lineHeight": "55.296px",
+            "spacing": "2.7648px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "内心平静",
+            "rect": {
+              "x": 1358.4375,
+              "y": 196.5078125,
+              "width": 170.78125,
+              "height": 54.078125,
+              "top": 196.5078125,
+              "right": 1529.21875,
+              "bottom": 250.5859375,
+              "left": 1358.4375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "38.4px",
+            "weight": "400",
+            "lineHeight": "46.08px",
+            "spacing": "2.304px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "健康",
+            "rect": {
+              "x": 921.5,
+              "y": 235.6015625,
+              "width": 107.71875,
+              "height": 64.453125,
+              "top": 235.6015625,
+              "right": 1029.21875,
+              "bottom": 300.0546875,
+              "left": 921.5
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "47.04px",
+            "weight": "400",
+            "lineHeight": "56.448px",
+            "spacing": "2.8224px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自信",
+            "rect": {
+              "x": 1636.9765625,
+              "y": 254.6953125,
+              "width": 97.546875,
+              "height": 58.671875,
+              "top": 254.6953125,
+              "right": 1734.5234375,
+              "bottom": 313.3671875,
+              "left": 1636.9765625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "42.24px",
+            "weight": "400",
+            "lineHeight": "50.688px",
+            "spacing": "2.5344px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "独处",
+            "rect": {
+              "x": 1484.1796875,
+              "y": 298.3203125,
+              "width": 103.640625,
+              "height": 62.140625,
+              "top": 298.3203125,
+              "right": 1587.8203125,
+              "bottom": 360.4609375,
+              "left": 1484.1796875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "45.12px",
+            "weight": "400",
+            "lineHeight": "54.144px",
+            "spacing": "2.7072px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "稳定",
+            "rect": {
+              "x": 1713.7734375,
+              "y": 356.2109375,
+              "width": 97.546875,
+              "height": 58.671875,
+              "top": 356.2109375,
+              "right": 1811.3203125,
+              "bottom": 414.8828125,
+              "left": 1713.7734375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "42.24px",
+            "weight": "400",
+            "lineHeight": "50.688px",
+            "spacing": "2.5344px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "被理解",
+            "rect": {
+              "x": 955.2578125,
+              "y": 350.890625,
+              "width": 136.203125,
+              "height": 56.375,
+              "top": 350.890625,
+              "right": 1091.4609375,
+              "bottom": 407.265625,
+              "left": 955.2578125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "40.32px",
+            "weight": "400",
+            "lineHeight": "48.384px",
+            "spacing": "2.4192px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自由",
+            "rect": {
+              "x": 1210.015625,
+              "y": 334.03125,
+              "width": 191.15625,
+              "height": 111.6875,
+              "top": 334.03125,
+              "right": 1401.171875,
+              "bottom": 445.71875,
+              "left": 1210.015625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "86.4px",
+            "weight": "400",
+            "lineHeight": "103.68px",
+            "spacing": "5.184px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱生活",
+            "rect": {
+              "x": 1509.0859375,
+              "y": 427.8515625,
+              "width": 207.421875,
+              "height": 64.453125,
+              "top": 427.8515625,
+              "right": 1716.5078125,
+              "bottom": 492.3046875,
+              "left": 1509.0859375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "47.04px",
+            "weight": "400",
+            "lineHeight": "56.448px",
+            "spacing": "2.8224px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "平衡",
+            "rect": {
+              "x": 932.6953125,
+              "y": 467.65625,
+              "width": 85.328125,
+              "height": 51.78125,
+              "top": 467.65625,
+              "right": 1018.0234375,
+              "bottom": 519.4375,
+              "left": 932.6953125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "36.48px",
+            "weight": "400",
+            "lineHeight": "43.776px",
+            "spacing": "2.1888px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "财富自由",
+            "rect": {
+              "x": 1094.234375,
+              "y": 482.359375,
+              "width": 211.53125,
+              "height": 65.59375,
+              "top": 482.359375,
+              "right": 1305.765625,
+              "bottom": 547.953125,
+              "left": 1094.234375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "48px",
+            "weight": "400",
+            "lineHeight": "57.6px",
+            "spacing": "2.88px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "快乐",
+            "rect": {
+              "x": 1391.2265625,
+              "y": 492.2890625,
+              "width": 97.546875,
+              "height": 58.671875,
+              "top": 492.2890625,
+              "right": 1488.7734375,
+              "bottom": 550.9609375,
+              "left": 1391.2265625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "42.24px",
+            "weight": "400",
+            "lineHeight": "50.688px",
+            "spacing": "2.5344px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "探索",
+            "rect": {
+              "x": 982.734375,
+              "y": 560.625,
+              "width": 81.25,
+              "height": 49.46875,
+              "top": 560.625,
+              "right": 1063.984375,
+              "bottom": 610.09375,
+              "left": 982.734375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "34.56px",
+            "weight": "400",
+            "lineHeight": "41.472px",
+            "spacing": "2.0736px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱",
+            "rect": {
+              "x": 1138.1328125,
+              "y": 578.90625,
+              "width": 85.328125,
+              "height": 51.78125,
+              "top": 578.90625,
+              "right": 1223.4609375,
+              "bottom": 630.6875,
+              "left": 1138.1328125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "36.48px",
+            "weight": "400",
+            "lineHeight": "43.776px",
+            "spacing": "2.1888px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "真实",
+            "rect": {
+              "x": 1306.859375,
+              "y": 606.84375,
+              "width": 93.46875,
+              "height": 56.375,
+              "top": 606.84375,
+              "right": 1400.328125,
+              "bottom": 663.21875,
+              "left": 1306.859375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "40.32px",
+            "weight": "400",
+            "lineHeight": "48.384px",
+            "spacing": "2.4192px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "生活品质",
+            "rect": {
+              "x": 1472.1953125,
+              "y": 608.140625,
+              "width": 154.484375,
+              "height": 49.46875,
+              "top": 608.140625,
+              "right": 1626.6796875,
+              "bottom": 657.609375,
+              "left": 1472.1953125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "34.56px",
+            "weight": "400",
+            "lineHeight": "41.472px",
+            "spacing": "2.0736px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "希望",
+            "rect": {
+              "x": 1692.8984375,
+              "y": 556.1484375,
+              "width": 89.390625,
+              "height": 54.078125,
+              "top": 556.1484375,
+              "right": 1782.2890625,
+              "bottom": 610.2265625,
+              "left": 1692.8984375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "38.4px",
+            "weight": "400",
+            "lineHeight": "46.08px",
+            "spacing": "2.304px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "rail": {
+          "text": "01 开始02 想象03 理想04 现状05 变化06 自我07 尾声",
+          "rect": {
+            "x": 134.390625,
+            "y": 993.375,
+            "width": 1651.21875,
+            "height": 51,
+            "top": 993.375,
+            "right": 1785.609375,
+            "bottom": 1044.375,
+            "left": 134.390625
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "21.696px",
+          "weight": "400",
+          "lineHeight": "21.696px",
+          "spacing": "normal",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "none",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "image": "http://localhost:5211/assets/page07-BvjsP7Qd.webp",
+        "scrollHeight": 1080,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "canvasCount": 0
+      },
+      "dialog": {
+        "background": "rgba(223, 234, 252, 0.42)",
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "rect": {
+          "x": 600,
+          "y": 346.2265625,
+          "width": 720,
+          "height": 387.546875,
+          "top": 346.2265625,
+          "right": 1320,
+          "bottom": 733.7734375,
+          "left": 600
+        },
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）我愿意珍惜自己的热爱。11 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享"
+      },
+      "errors": [],
+      "functional": [
+        "word cloud click",
+        "return to06",
+        "refuse excludes personal text",
+        "explicit agree retains confirmed text",
+        "revisit inputs",
+        "finish resets session"
+      ]
+    },
+    {
+      "phase": "after",
+      "engine": "chromium",
+      "width": 1440,
+      "height": 900,
+      "geometry": {
+        "title": {
+          "text": "你不是孤身一人",
+          "rect": {
+            "x": 100.796875,
+            "y": 162,
+            "width": 411.484375,
+            "height": 70.53125,
+            "top": 162,
+            "right": 512.28125,
+            "bottom": 232.53125,
+            "left": 100.796875
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "53.4427px",
+          "weight": "500",
+          "lineHeight": "70.5444px",
+          "spacing": "5.34427px",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "rgba(255, 255, 255, 0.22) 0px 1px 1px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "body": {
+          "text": "原来，也有人怀着与你相似的心情。这些词语，来自其他参与者留下的真实心声。",
+          "rect": {
+            "x": 103.671875,
+            "y": 277.921875,
+            "width": 532.796875,
+            "height": 84.921875,
+            "top": 277.921875,
+            "right": 636.46875,
+            "bottom": 362.84375,
+            "left": 103.671875
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "19.0008px",
+          "weight": "400",
+          "lineHeight": "34.2014px",
+          "spacing": "1.80508px",
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "ending": {
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "rect": {
+            "x": 103.671875,
+            "y": 477,
+            "width": 532.796875,
+            "height": 108.28125,
+            "top": 477,
+            "right": 636.46875,
+            "bottom": 585.28125,
+            "left": 103.671875
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "19.0008px",
+          "weight": "400",
+          "lineHeight": "36.1015px",
+          "spacing": "1.14005px",
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "paragraphs": [
+          {
+            "text": "原来，也有人怀着与你相似的心情。",
+            "rect": {
+              "x": 103.671875,
+              "y": 277.921875,
+              "width": 532.796875,
+              "height": 34.1875,
+              "top": 277.921875,
+              "right": 636.46875,
+              "bottom": 312.109375,
+              "left": 103.671875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "19.0008px",
+            "weight": "400",
+            "lineHeight": "34.2014px",
+            "spacing": "1.80508px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "这些词语，来自其他参与者留下的真实心声。",
+            "rect": {
+              "x": 103.671875,
+              "y": 328.65625,
+              "width": 532.796875,
+              "height": 34.1875,
+              "top": 328.65625,
+              "right": 636.46875,
+              "bottom": 362.84375,
+              "left": 103.671875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "19.0008px",
+            "weight": "400",
+            "lineHeight": "34.2014px",
+            "spacing": "1.80508px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "cloud": [
+          {
+            "text": "旅行",
+            "rect": {
+              "x": 954.1484375,
+              "y": 78.8671875,
+              "width": 90.421875,
+              "height": 54.640625,
+              "top": 78.8671875,
+              "right": 1044.5703125,
+              "bottom": 133.5078125,
+              "left": 954.1484375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "38.88px",
+            "weight": "400",
+            "lineHeight": "46.656px",
+            "spacing": "2.3328px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "成长",
+            "rect": {
+              "x": 844.96875,
+              "y": 150.765625,
+              "width": 81.25,
+              "height": 49.46875,
+              "top": 150.765625,
+              "right": 926.21875,
+              "bottom": 200.234375,
+              "left": 844.96875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "34.56px",
+            "weight": "400",
+            "lineHeight": "41.472px",
+            "spacing": "2.0736px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "内心平静",
+            "rect": {
+              "x": 1017.8203125,
+              "y": 165.0234375,
+              "width": 130.109375,
+              "height": 42.546875,
+              "top": 165.0234375,
+              "right": 1147.9296875,
+              "bottom": 207.5703125,
+              "left": 1017.8203125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "28.8px",
+            "weight": "400",
+            "lineHeight": "34.56px",
+            "spacing": "1.728px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "健康",
+            "rect": {
+              "x": 690.1328125,
+              "y": 198.0234375,
+              "width": 82.765625,
+              "height": 50.328125,
+              "top": 198.0234375,
+              "right": 772.8984375,
+              "bottom": 248.3515625,
+              "left": 690.1328125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "35.28px",
+            "weight": "400",
+            "lineHeight": "42.336px",
+            "spacing": "2.1168px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自信",
+            "rect": {
+              "x": 1226.734375,
+              "y": 213.6796875,
+              "width": 75.15625,
+              "height": 46.015625,
+              "top": 213.6796875,
+              "right": 1301.890625,
+              "bottom": 259.6953125,
+              "left": 1226.734375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "31.68px",
+            "weight": "400",
+            "lineHeight": "38.016px",
+            "spacing": "1.9008px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "独处",
+            "rect": {
+              "x": 1112.140625,
+              "y": 250.1953125,
+              "width": 79.71875,
+              "height": 48.609375,
+              "top": 250.1953125,
+              "right": 1191.859375,
+              "bottom": 298.8046875,
+              "left": 1112.140625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "33.84px",
+            "weight": "400",
+            "lineHeight": "40.608px",
+            "spacing": "2.0304px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "稳定",
+            "rect": {
+              "x": 1284.328125,
+              "y": 298.2890625,
+              "width": 75.15625,
+              "height": 46.015625,
+              "top": 298.2890625,
+              "right": 1359.484375,
+              "bottom": 344.3046875,
+              "left": 1284.328125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "31.68px",
+            "weight": "400",
+            "lineHeight": "38.016px",
+            "spacing": "1.9008px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "被理解",
+            "rect": {
+              "x": 715.4375,
+              "y": 293.75,
+              "width": 104.15625,
+              "height": 44.28125,
+              "top": 293.75,
+              "right": 819.59375,
+              "bottom": 338.03125,
+              "left": 715.4375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "30.24px",
+            "weight": "400",
+            "lineHeight": "36.288px",
+            "spacing": "1.8144px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自由",
+            "rect": {
+              "x": 906.5,
+              "y": 282.015625,
+              "width": 145.375,
+              "height": 85.75,
+              "top": 282.015625,
+              "right": 1051.875,
+              "bottom": 367.765625,
+              "left": 906.5
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "64.8px",
+            "weight": "400",
+            "lineHeight": "77.76px",
+            "spacing": "3.888px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱生活",
+            "rect": {
+              "x": 1130.828125,
+              "y": 358.2265625,
+              "width": 157.53125,
+              "height": 50.328125,
+              "top": 358.2265625,
+              "right": 1288.359375,
+              "bottom": 408.5546875,
+              "left": 1130.828125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "35.28px",
+            "weight": "400",
+            "lineHeight": "42.336px",
+            "spacing": "2.1168px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "平衡",
+            "rect": {
+              "x": 698.5078125,
+              "y": 390.8828125,
+              "width": 66.015625,
+              "height": 40.828125,
+              "top": 390.8828125,
+              "right": 764.5234375,
+              "bottom": 431.7109375,
+              "left": 698.5078125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "27.36px",
+            "weight": "400",
+            "lineHeight": "32.832px",
+            "spacing": "1.6416px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "财富自由",
+            "rect": {
+              "x": 819.6796875,
+              "y": 403.703125,
+              "width": 160.640625,
+              "height": 51.1875,
+              "top": 403.703125,
+              "right": 980.3203125,
+              "bottom": 454.890625,
+              "left": 819.6796875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "36px",
+            "weight": "400",
+            "lineHeight": "43.2px",
+            "spacing": "2.16px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "快乐",
+            "rect": {
+              "x": 1042.421875,
+              "y": 411.6796875,
+              "width": 75.15625,
+              "height": 46.015625,
+              "top": 411.6796875,
+              "right": 1117.578125,
+              "bottom": 457.6953125,
+              "left": 1042.421875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "31.68px",
+            "weight": "400",
+            "lineHeight": "38.016px",
+            "spacing": "1.9008px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "探索",
+            "rect": {
+              "x": 736.046875,
+              "y": 468.25,
+              "width": 62.9375,
+              "height": 39.09375,
+              "top": 468.25,
+              "right": 798.984375,
+              "bottom": 507.34375,
+              "left": 736.046875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "25.92px",
+            "weight": "400",
+            "lineHeight": "31.104px",
+            "spacing": "1.5552px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱",
+            "rect": {
+              "x": 852.5859375,
+              "y": 483.5859375,
+              "width": 66.015625,
+              "height": 40.828125,
+              "top": 483.5859375,
+              "right": 918.6015625,
+              "bottom": 524.4140625,
+              "left": 852.5859375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "27.36px",
+            "weight": "400",
+            "lineHeight": "32.832px",
+            "spacing": "1.6416px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "真实",
+            "rect": {
+              "x": 979.1328125,
+              "y": 507.046875,
+              "width": 72.109375,
+              "height": 44.28125,
+              "top": 507.046875,
+              "right": 1051.2421875,
+              "bottom": 551.328125,
+              "left": 979.1328125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "30.24px",
+            "weight": "400",
+            "lineHeight": "36.288px",
+            "spacing": "1.8144px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "生活品质",
+            "rect": {
+              "x": 1103.1484375,
+              "y": 507.84375,
+              "width": 117.859375,
+              "height": 39.09375,
+              "top": 507.84375,
+              "right": 1221.0078125,
+              "bottom": 546.9375,
+              "left": 1103.1484375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "25.92px",
+            "weight": "400",
+            "lineHeight": "31.104px",
+            "spacing": "1.5552px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "希望",
+            "rect": {
+              "x": 1268.65625,
+              "y": 464.7265625,
+              "width": 69.0625,
+              "height": 42.546875,
+              "top": 464.7265625,
+              "right": 1337.71875,
+              "bottom": 507.2734375,
+              "left": 1268.65625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "28.8px",
+            "weight": "400",
+            "lineHeight": "34.56px",
+            "spacing": "1.728px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "rail": {
+          "text": "01 开始02 想象03 理想04 现状05 变化06 自我07 尾声",
+          "rect": {
+            "x": 100.796875,
+            "y": 819.3125,
+            "width": 1238.40625,
+            "height": 51,
+            "top": 819.3125,
+            "right": 1339.203125,
+            "bottom": 870.3125,
+            "left": 100.796875
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "16.272px",
+          "weight": "400",
+          "lineHeight": "16.272px",
+          "spacing": "normal",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "none",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "image": "http://localhost:5211/assets/page07-BvjsP7Qd.webp",
+        "scrollHeight": 900,
+        "viewport": [
+          1440,
+          900
+        ],
+        "canvasCount": 0
+      },
+      "dialog": {
+        "background": "rgba(223, 234, 252, 0.42)",
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "rect": {
+          "x": 360,
+          "y": 260.9609375,
+          "width": 720,
+          "height": 378.078125,
+          "top": 260.9609375,
+          "right": 1080,
+          "bottom": 639.0390625,
+          "left": 360
+        },
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）我愿意珍惜自己的热爱。11 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享"
+      },
+      "errors": [],
+      "functional": [
+        "word cloud click",
+        "return to06",
+        "refuse excludes personal text",
+        "explicit agree retains confirmed text",
+        "revisit inputs",
+        "finish resets session"
+      ]
+    },
+    {
+      "phase": "after",
+      "engine": "chromium",
+      "width": 1280,
+      "height": 720,
+      "geometry": {
+        "title": {
+          "text": "你不是孤身一人",
+          "rect": {
+            "x": 89.59375,
+            "y": 129.59375,
+            "width": 365.765625,
+            "height": 62.6875,
+            "top": 129.59375,
+            "right": 455.359375,
+            "bottom": 192.28125,
+            "left": 89.59375
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "47.5046px",
+          "weight": "500",
+          "lineHeight": "62.7061px",
+          "spacing": "4.75046px",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "rgba(255, 255, 255, 0.22) 0px 1px 1px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "body": {
+          "text": "原来，也有人怀着与你相似的心情。这些词语，来自其他参与者留下的真实心声。",
+          "rect": {
+            "x": 92.15625,
+            "y": 221.4375,
+            "width": 473.59375,
+            "height": 75.5,
+            "top": 221.4375,
+            "right": 565.75,
+            "bottom": 296.9375,
+            "left": 92.15625
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "16.8896px",
+          "weight": "400",
+          "lineHeight": "30.4013px",
+          "spacing": "1.60451px",
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "ending": {
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "rect": {
+            "x": 92.15625,
+            "y": 381.59375,
+            "width": 473.59375,
+            "height": 96.234375,
+            "top": 381.59375,
+            "right": 565.75,
+            "bottom": 477.828125,
+            "left": 92.15625
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "16.8896px",
+          "weight": "400",
+          "lineHeight": "32.0902px",
+          "spacing": "1.01338px",
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "paragraphs": [
+          {
+            "text": "原来，也有人怀着与你相似的心情。",
+            "rect": {
+              "x": 92.15625,
+              "y": 221.4375,
+              "width": 473.59375,
+              "height": 30.390625,
+              "top": 221.4375,
+              "right": 565.75,
+              "bottom": 251.828125,
+              "left": 92.15625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "16.8896px",
+            "weight": "400",
+            "lineHeight": "30.4013px",
+            "spacing": "1.60451px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "这些词语，来自其他参与者留下的真实心声。",
+            "rect": {
+              "x": 92.15625,
+              "y": 266.546875,
+              "width": 473.59375,
+              "height": 30.390625,
+              "top": 266.546875,
+              "right": 565.75,
+              "bottom": 296.9375,
+              "left": 92.15625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "16.8896px",
+            "weight": "400",
+            "lineHeight": "30.4013px",
+            "spacing": "1.60451px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "cloud": [
+          {
+            "text": "旅行",
+            "rect": {
+              "x": 847.6875,
+              "y": 60.21875,
+              "width": 81.25,
+              "height": 49.46875,
+              "top": 60.21875,
+              "right": 928.9375,
+              "bottom": 109.6875,
+              "left": 847.6875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "34.56px",
+            "weight": "400",
+            "lineHeight": "41.472px",
+            "spacing": "2.0736px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "成长",
+            "rect": {
+              "x": 750.625,
+              "y": 117.9609375,
+              "width": 73.125,
+              "height": 44.859375,
+              "top": 117.9609375,
+              "right": 823.75,
+              "bottom": 162.8203125,
+              "left": 750.625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "30.72px",
+            "weight": "400",
+            "lineHeight": "36.864px",
+            "spacing": "1.8432px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "内心平静",
+            "rect": {
+              "x": 904.28125,
+              "y": 129.6796875,
+              "width": 116.53125,
+              "height": 38.703125,
+              "top": 129.6796875,
+              "right": 1020.8125,
+              "bottom": 168.3828125,
+              "left": 904.28125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "25.6px",
+            "weight": "400",
+            "lineHeight": "30.72px",
+            "spacing": "1.536px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "健康",
+            "rect": {
+              "x": 612.9921875,
+              "y": 155.734375,
+              "width": 74.484375,
+              "height": 45.625,
+              "top": 155.734375,
+              "right": 687.4765625,
+              "bottom": 201.359375,
+              "left": 612.9921875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "31.36px",
+            "weight": "400",
+            "lineHeight": "37.632px",
+            "spacing": "1.8816px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自信",
+            "rect": {
+              "x": 1089.9765625,
+              "y": 168.46875,
+              "width": 67.703125,
+              "height": 41.78125,
+              "top": 168.46875,
+              "right": 1157.6796875,
+              "bottom": 210.25,
+              "left": 1089.9765625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "28.16px",
+            "weight": "400",
+            "lineHeight": "33.792px",
+            "spacing": "1.6896px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "独处",
+            "rect": {
+              "x": 988.109375,
+              "y": 197.546875,
+              "width": 71.78125,
+              "height": 44.09375,
+              "top": 197.546875,
+              "right": 1059.890625,
+              "bottom": 241.640625,
+              "left": 988.109375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "30.08px",
+            "weight": "400",
+            "lineHeight": "36.096px",
+            "spacing": "1.8048px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "稳定",
+            "rect": {
+              "x": 1141.1796875,
+              "y": 236.140625,
+              "width": 67.703125,
+              "height": 41.78125,
+              "top": 236.140625,
+              "right": 1208.8828125,
+              "bottom": 277.921875,
+              "left": 1141.1796875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "28.16px",
+            "weight": "400",
+            "lineHeight": "33.792px",
+            "spacing": "1.6896px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "被理解",
+            "rect": {
+              "x": 635.5,
+              "y": 232.59375,
+              "width": 93.46875,
+              "height": 40.25,
+              "top": 232.59375,
+              "right": 728.96875,
+              "bottom": 272.84375,
+              "left": 635.5
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "26.88px",
+            "weight": "400",
+            "lineHeight": "32.256px",
+            "spacing": "1.6128px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自由",
+            "rect": {
+              "x": 805.3359375,
+              "y": 221.3515625,
+              "width": 130.109375,
+              "height": 77.109375,
+              "top": 221.3515625,
+              "right": 935.4453125,
+              "bottom": 298.4609375,
+              "left": 805.3359375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "57.6px",
+            "weight": "400",
+            "lineHeight": "69.12px",
+            "spacing": "3.456px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱生活",
+            "rect": {
+              "x": 1004.703125,
+              "y": 283.90625,
+              "width": 140.96875,
+              "height": 45.625,
+              "top": 283.90625,
+              "right": 1145.671875,
+              "bottom": 329.53125,
+              "left": 1004.703125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "31.36px",
+            "weight": "400",
+            "lineHeight": "37.632px",
+            "spacing": "1.8816px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "平衡",
+            "rect": {
+              "x": 620.4609375,
+              "y": 310.4453125,
+              "width": 59.546875,
+              "height": 37.171875,
+              "top": 310.4453125,
+              "right": 680.0078125,
+              "bottom": 347.6171875,
+              "left": 620.4609375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "24.32px",
+            "weight": "400",
+            "lineHeight": "29.184px",
+            "spacing": "1.4592px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "财富自由",
+            "rect": {
+              "x": 728.15625,
+              "y": 320.2421875,
+              "width": 143.6875,
+              "height": 46.390625,
+              "top": 320.2421875,
+              "right": 871.84375,
+              "bottom": 366.6328125,
+              "left": 728.15625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "32px",
+            "weight": "400",
+            "lineHeight": "38.4px",
+            "spacing": "1.92px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "快乐",
+            "rect": {
+              "x": 926.1484375,
+              "y": 326.859375,
+              "width": 67.703125,
+              "height": 41.78125,
+              "top": 326.859375,
+              "right": 993.8515625,
+              "bottom": 368.640625,
+              "left": 926.1484375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "28.16px",
+            "weight": "400",
+            "lineHeight": "33.792px",
+            "spacing": "1.6896px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "探索",
+            "rect": {
+              "x": 653.8203125,
+              "y": 372.40625,
+              "width": 56.828125,
+              "height": 35.65625,
+              "top": 372.40625,
+              "right": 710.6484375,
+              "bottom": 408.0625,
+              "left": 653.8203125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "23.04px",
+            "weight": "400",
+            "lineHeight": "27.648px",
+            "spacing": "1.3824px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱",
+            "rect": {
+              "x": 757.4140625,
+              "y": 384.6015625,
+              "width": 59.546875,
+              "height": 37.171875,
+              "top": 384.6015625,
+              "right": 816.9609375,
+              "bottom": 421.7734375,
+              "left": 757.4140625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "24.32px",
+            "weight": "400",
+            "lineHeight": "29.184px",
+            "spacing": "1.4592px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "真实",
+            "rect": {
+              "x": 869.8984375,
+              "y": 403.234375,
+              "width": 64.984375,
+              "height": 40.25,
+              "top": 403.234375,
+              "right": 934.8828125,
+              "bottom": 443.484375,
+              "left": 869.8984375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "26.88px",
+            "weight": "400",
+            "lineHeight": "32.256px",
+            "spacing": "1.6128px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "生活品质",
+            "rect": {
+              "x": 980.125,
+              "y": 404.078125,
+              "width": 105.65625,
+              "height": 35.65625,
+              "top": 404.078125,
+              "right": 1085.78125,
+              "bottom": 439.734375,
+              "left": 980.125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "23.04px",
+            "weight": "400",
+            "lineHeight": "27.648px",
+            "spacing": "1.3824px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "希望",
+            "rect": {
+              "x": 1127.2578125,
+              "y": 369.4453125,
+              "width": 62.265625,
+              "height": 38.703125,
+              "top": 369.4453125,
+              "right": 1189.5234375,
+              "bottom": 408.1484375,
+              "left": 1127.2578125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "25.6px",
+            "weight": "400",
+            "lineHeight": "30.72px",
+            "spacing": "1.536px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "rail": {
+          "text": "01 开始02 想象03 理想04 现状05 变化06 自我07 尾声",
+          "rect": {
+            "x": 89.59375,
+            "y": 645.25,
+            "width": 1100.8125,
+            "height": 51,
+            "top": 645.25,
+            "right": 1190.40625,
+            "bottom": 696.25,
+            "left": 89.59375
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "14.464px",
+          "weight": "400",
+          "lineHeight": "14.464px",
+          "spacing": "normal",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "none",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "image": "http://localhost:5211/assets/page07-BvjsP7Qd.webp",
+        "scrollHeight": 720,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvasCount": 0
+      },
+      "dialog": {
+        "background": "rgba(223, 234, 252, 0.42)",
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "rect": {
+          "x": 280,
+          "y": 172.1796875,
+          "width": 720,
+          "height": 375.640625,
+          "top": 172.1796875,
+          "right": 1000,
+          "bottom": 547.8203125,
+          "left": 280
+        },
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）我愿意珍惜自己的热爱。11 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享"
+      },
+      "errors": [],
+      "functional": [
+        "word cloud click",
+        "return to06",
+        "refuse excludes personal text",
+        "explicit agree retains confirmed text",
+        "revisit inputs",
+        "finish resets session"
+      ]
+    },
+    {
+      "phase": "after",
+      "engine": "chromium",
+      "width": 390,
+      "height": 844,
+      "geometry": {
+        "title": {
+          "text": "你不是孤身一人",
+          "rect": {
+            "x": 27.296875,
+            "y": 58,
+            "width": 226.71875,
+            "height": 43.609375,
+            "top": 58,
+            "right": 254.015625,
+            "bottom": 101.609375,
+            "left": 27.296875
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "31.15px",
+          "weight": "500",
+          "lineHeight": "43.61px",
+          "spacing": "1.246px",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "rgba(255, 255, 255, 0.22) 0px 1px 1px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "body": {
+          "text": "原来，也有人怀着与你相似的心情。这些词语，来自其他参与者留下的真实心声。",
+          "rect": {
+            "x": 27.296875,
+            "y": 123.609375,
+            "width": 264.890625,
+            "height": 57.84375,
+            "top": 123.609375,
+            "right": 292.1875,
+            "bottom": 181.453125,
+            "left": 27.296875
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "12.74px",
+          "weight": "400",
+          "lineHeight": "22.932px",
+          "spacing": "0.5096px",
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "ending": {
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "rect": {
+            "x": 27.296875,
+            "y": 203.453125,
+            "width": 335.40625,
+            "height": 79.78125,
+            "top": 203.453125,
+            "right": 362.703125,
+            "bottom": 283.234375,
+            "left": 27.296875
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "26.6px",
+          "spacing": "0.84px",
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "paragraphs": [
+          {
+            "text": "原来，也有人怀着与你相似的心情。",
+            "rect": {
+              "x": 27.296875,
+              "y": 123.609375,
+              "width": 264.890625,
+              "height": 22.921875,
+              "top": 123.609375,
+              "right": 292.1875,
+              "bottom": 146.53125,
+              "left": 27.296875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "12.74px",
+            "weight": "400",
+            "lineHeight": "22.932px",
+            "spacing": "0.5096px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "这些词语，来自其他参与者留下的真实心声。",
+            "rect": {
+              "x": 27.296875,
+              "y": 158.53125,
+              "width": 264.890625,
+              "height": 22.921875,
+              "top": 158.53125,
+              "right": 292.1875,
+              "bottom": 181.453125,
+              "left": 27.296875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "12.74px",
+            "weight": "400",
+            "lineHeight": "22.932px",
+            "spacing": "0.5096px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "cloud": [
+          {
+            "text": "旅行",
+            "rect": {
+              "x": 162.0234375,
+              "y": 308.171875,
+              "width": 42.328125,
+              "height": 27.4375,
+              "top": 308.171875,
+              "right": 204.3515625,
+              "bottom": 335.609375,
+              "left": 162.0234375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "16.2px",
+            "weight": "400",
+            "lineHeight": "19.44px",
+            "spacing": "0.972px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "成长",
+            "rect": {
+              "x": 105.6328125,
+              "y": 355.0625,
+              "width": 38.515625,
+              "height": 25.28125,
+              "top": 355.0625,
+              "right": 144.1484375,
+              "bottom": 380.34375,
+              "left": 105.6328125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14.4px",
+            "weight": "400",
+            "lineHeight": "17.28px",
+            "spacing": "0.864px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "内心平静",
+            "rect": {
+              "x": 192.296875,
+              "y": 362.4453125,
+              "width": 67.375,
+              "height": 24.796875,
+              "top": 362.4453125,
+              "right": 259.671875,
+              "bottom": 387.2421875,
+              "left": 192.296875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "健康",
+            "rect": {
+              "x": 26.3671875,
+              "y": 386.4140625,
+              "width": 39.140625,
+              "height": 25.640625,
+              "top": 386.4140625,
+              "right": 65.5078125,
+              "bottom": 412.0546875,
+              "left": 26.3671875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14.7px",
+            "weight": "400",
+            "lineHeight": "17.64px",
+            "spacing": "0.882px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自信",
+            "rect": {
+              "x": 300.109375,
+              "y": 395.7578125,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 395.7578125,
+              "right": 337.796875,
+              "bottom": 420.5546875,
+              "left": 300.109375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "独处",
+            "rect": {
+              "x": 242.4609375,
+              "y": 420.703125,
+              "width": 37.890625,
+              "height": 24.90625,
+              "top": 420.703125,
+              "right": 280.3515625,
+              "bottom": 445.609375,
+              "left": 242.4609375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14.1px",
+            "weight": "400",
+            "lineHeight": "16.92px",
+            "spacing": "0.846px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "稳定",
+            "rect": {
+              "x": 329.625,
+              "y": 451.6953125,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 451.6953125,
+              "right": 367.3125,
+              "bottom": 476.4921875,
+              "left": 329.625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "被理解",
+            "rect": {
+              "x": 38.125,
+              "y": 448.1171875,
+              "width": 52.53125,
+              "height": 24.796875,
+              "top": 448.1171875,
+              "right": 90.65625,
+              "bottom": 472.9140625,
+              "left": 38.125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自由",
+            "rect": {
+              "x": 138.1171875,
+              "y": 445.0703125,
+              "width": 69.484375,
+              "height": 42.796875,
+              "top": 445.0703125,
+              "right": 207.6015625,
+              "bottom": 487.8671875,
+              "left": 138.1171875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "29px",
+            "weight": "400",
+            "lineHeight": "34.8px",
+            "spacing": "1.74px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱生活",
+            "rect": {
+              "x": 255.78125,
+              "y": 492.3203125,
+              "width": 70.28125,
+              "height": 25.640625,
+              "top": 492.3203125,
+              "right": 326.0625,
+              "bottom": 517.9609375,
+              "left": 255.78125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14.7px",
+            "weight": "400",
+            "lineHeight": "17.64px",
+            "spacing": "0.882px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "平衡",
+            "rect": {
+              "x": 27.09375,
+              "y": 511.1953125,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 511.1953125,
+              "right": 64.78125,
+              "bottom": 535.9921875,
+              "left": 27.09375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "财富自由",
+            "rect": {
+              "x": 96.4609375,
+              "y": 522.484375,
+              "width": 71.609375,
+              "height": 26,
+              "top": 522.484375,
+              "right": 168.0703125,
+              "bottom": 548.484375,
+              "left": 96.4609375
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "15px",
+            "weight": "400",
+            "lineHeight": "18px",
+            "spacing": "0.9px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "快乐",
+            "rect": {
+              "x": 205.65625,
+              "y": 526.6640625,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 526.6640625,
+              "right": 243.34375,
+              "bottom": 551.4609375,
+              "left": 205.65625
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "探索",
+            "rect": {
+              "x": 45.546875,
+              "y": 561.7734375,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 561.7734375,
+              "right": 83.234375,
+              "bottom": 586.5703125,
+              "left": 45.546875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱",
+            "rect": {
+              "x": 106.046875,
+              "y": 572.4765625,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 572.4765625,
+              "right": 143.734375,
+              "bottom": 597.2734375,
+              "left": 106.046875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "真实",
+            "rect": {
+              "x": 172.453125,
+              "y": 589.1328125,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 589.1328125,
+              "right": 210.140625,
+              "bottom": 613.9296875,
+              "left": 172.453125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "生活品质",
+            "rect": {
+              "x": 232.875,
+              "y": 587.9453125,
+              "width": 67.375,
+              "height": 24.796875,
+              "top": 587.9453125,
+              "right": 300.25,
+              "bottom": 612.7421875,
+              "left": 232.875
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "希望",
+            "rect": {
+              "x": 320.03125,
+              "y": 560.5859375,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 560.5859375,
+              "right": 357.71875,
+              "bottom": 585.3828125,
+              "left": 320.03125
+            },
+            "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.8px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "rail": {
+          "text": "01 开始02 想象03 理想04 现状05 变化06 自我07 尾声",
+          "rect": {
+            "x": 31.1875,
+            "y": 807.921875,
+            "width": 327.625,
+            "height": 52,
+            "top": 807.921875,
+            "right": 358.8125,
+            "bottom": 859.921875,
+            "left": 31.1875
+          },
+          "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+          "size": "13px",
+          "weight": "400",
+          "lineHeight": "13px",
+          "spacing": "normal",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "none",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "image": "http://localhost:5211/assets/page07-BvjsP7Qd.webp",
+        "scrollHeight": 882,
+        "viewport": [
+          390,
+          844
+        ],
+        "canvasCount": 0
+      },
+      "dialog": {
+        "background": "rgba(223, 234, 252, 0.42)",
+        "font": "\"Noto Serif SC\", \"Songti SC\", STSong, serif",
+        "rect": {
+          "x": 16,
+          "y": 194.8828125,
+          "width": 358,
+          "height": 454.234375,
+          "top": 194.8828125,
+          "right": 374,
+          "bottom": 649.1171875,
+          "left": 16
+        },
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）我愿意珍惜自己的热爱。11 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享"
+      },
+      "errors": [],
+      "functional": [
+        "word cloud click",
+        "return to06",
+        "refuse excludes personal text",
+        "explicit agree retains confirmed text",
+        "revisit inputs",
+        "finish resets session"
+      ]
+    },
+    {
+      "phase": "after",
+      "engine": "webkit",
+      "width": 1440,
+      "height": 900,
+      "geometry": {
+        "title": {
+          "text": "你不是孤身一人",
+          "rect": {
+            "x": 100.796875,
+            "y": 162,
+            "width": 411.484375,
+            "height": 70.53125,
+            "top": 162,
+            "right": 512.28125,
+            "bottom": 232.53125,
+            "left": 100.796875
+          },
+          "font": "Noto Serif SC, Songti SC, STSong, serif",
+          "size": "53.442719px",
+          "weight": "500",
+          "lineHeight": "70.544388px",
+          "spacing": "5.344272px",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "rgba(255, 255, 255, 0.22) 0px 1px 1px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "body": {
+          "text": "原来，也有人怀着与你相似的心情。这些词语，来自其他参与者留下的真实心声。",
+          "rect": {
+            "x": 103.671875,
+            "y": 277.921875,
+            "width": 532.796875,
+            "height": 84.921875,
+            "top": 277.921875,
+            "right": 636.46875,
+            "bottom": 362.84375,
+            "left": 103.671875
+          },
+          "font": "Noto Serif SC, Songti SC, STSong, serif",
+          "size": "19.000799px",
+          "weight": "400",
+          "lineHeight": "34.201439px",
+          "spacing": "1.805076px",
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "ending": {
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "rect": {
+            "x": 103.671875,
+            "y": 477,
+            "width": 532.796875,
+            "height": 108.28125,
+            "top": 477,
+            "right": 636.46875,
+            "bottom": 585.28125,
+            "left": 103.671875
+          },
+          "font": "Noto Serif SC, Songti SC, STSong, serif",
+          "size": "19.000799px",
+          "weight": "400",
+          "lineHeight": "36.101517px",
+          "spacing": "1.140048px",
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "paragraphs": [
+          {
+            "text": "原来，也有人怀着与你相似的心情。",
+            "rect": {
+              "x": 103.671875,
+              "y": 277.921875,
+              "width": 532.796875,
+              "height": 34.1875,
+              "top": 277.921875,
+              "right": 636.46875,
+              "bottom": 312.109375,
+              "left": 103.671875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "19.000799px",
+            "weight": "400",
+            "lineHeight": "34.201439px",
+            "spacing": "1.805076px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "这些词语，来自其他参与者留下的真实心声。",
+            "rect": {
+              "x": 103.671875,
+              "y": 328.65625,
+              "width": 532.796875,
+              "height": 34.1875,
+              "top": 328.65625,
+              "right": 636.46875,
+              "bottom": 362.84375,
+              "left": 103.671875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "19.000799px",
+            "weight": "400",
+            "lineHeight": "34.201439px",
+            "spacing": "1.805076px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "cloud": [
+          {
+            "text": "旅行",
+            "rect": {
+              "x": 954.359375,
+              "y": 78.6875,
+              "width": 90.421875,
+              "height": 54.640625,
+              "top": 78.6875,
+              "right": 1044.78125,
+              "bottom": 133.328125,
+              "left": 954.359375
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "38.880001px",
+            "weight": "400",
+            "lineHeight": "46.656002px",
+            "spacing": "2.3328px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "成长",
+            "rect": {
+              "x": 845.09375,
+              "y": 151,
+              "width": 81.25,
+              "height": 49.453125,
+              "top": 151,
+              "right": 926.34375,
+              "bottom": 200.453125,
+              "left": 845.09375
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "34.560001px",
+            "weight": "400",
+            "lineHeight": "41.472004px",
+            "spacing": "2.0736px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "内心平静",
+            "rect": {
+              "x": 1017.875,
+              "y": 164.796875,
+              "width": 130.109375,
+              "height": 42.546875,
+              "top": 164.796875,
+              "right": 1147.984375,
+              "bottom": 207.34375,
+              "left": 1017.875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "28.799999px",
+            "weight": "400",
+            "lineHeight": "34.560001px",
+            "spacing": "1.728px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "健康",
+            "rect": {
+              "x": 690.015625,
+              "y": 198.1875,
+              "width": 82.765625,
+              "height": 50.3125,
+              "top": 198.1875,
+              "right": 772.78125,
+              "bottom": 248.5,
+              "left": 690.015625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "35.279999px",
+            "weight": "400",
+            "lineHeight": "42.335999px",
+            "spacing": "2.1168px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自信",
+            "rect": {
+              "x": 1226.8125,
+              "y": 213.6875,
+              "width": 75.15625,
+              "height": 46,
+              "top": 213.6875,
+              "right": 1301.96875,
+              "bottom": 259.6875,
+              "left": 1226.8125
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "31.68px",
+            "weight": "400",
+            "lineHeight": "38.016003px",
+            "spacing": "1.9008px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "独处",
+            "rect": {
+              "x": 1112,
+              "y": 250,
+              "width": 79.71875,
+              "height": 48.59375,
+              "top": 250,
+              "right": 1191.71875,
+              "bottom": 298.59375,
+              "left": 1112
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "33.84px",
+            "weight": "400",
+            "lineHeight": "40.608002px",
+            "spacing": "2.0304px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "稳定",
+            "rect": {
+              "x": 1284.40625,
+              "y": 298.296875,
+              "width": 75.15625,
+              "height": 46,
+              "top": 298.296875,
+              "right": 1359.5625,
+              "bottom": 344.296875,
+              "left": 1284.40625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "31.68px",
+            "weight": "400",
+            "lineHeight": "38.016003px",
+            "spacing": "1.9008px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "被理解",
+            "rect": {
+              "x": 715.515625,
+              "y": 293.890625,
+              "width": 104.15625,
+              "height": 44.28125,
+              "top": 293.890625,
+              "right": 819.671875,
+              "bottom": 338.171875,
+              "left": 715.515625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "30.24px",
+            "weight": "400",
+            "lineHeight": "36.288002px",
+            "spacing": "1.8144px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自由",
+            "rect": {
+              "x": 906.6875,
+              "y": 281.890625,
+              "width": 145.375,
+              "height": 85.75,
+              "top": 281.890625,
+              "right": 1052.0625,
+              "bottom": 367.640625,
+              "left": 906.6875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "64.800003px",
+            "weight": "400",
+            "lineHeight": "77.76001px",
+            "spacing": "3.888px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱生活",
+            "rect": {
+              "x": 1130.59375,
+              "y": 358.390625,
+              "width": 157.53125,
+              "height": 50.3125,
+              "top": 358.390625,
+              "right": 1288.125,
+              "bottom": 408.703125,
+              "left": 1130.59375
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "35.279999px",
+            "weight": "400",
+            "lineHeight": "42.335999px",
+            "spacing": "2.1168px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "平衡",
+            "rect": {
+              "x": 698.515625,
+              "y": 390.796875,
+              "width": 66.015625,
+              "height": 40.828125,
+              "top": 390.796875,
+              "right": 764.53125,
+              "bottom": 431.625,
+              "left": 698.515625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "27.360001px",
+            "weight": "400",
+            "lineHeight": "32.832001px",
+            "spacing": "1.6416px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "财富自由",
+            "rect": {
+              "x": 819.5,
+              "y": 403.796875,
+              "width": 160.640625,
+              "height": 51.1875,
+              "top": 403.796875,
+              "right": 980.140625,
+              "bottom": 454.984375,
+              "left": 819.5
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "36px",
+            "weight": "400",
+            "lineHeight": "43.200001px",
+            "spacing": "2.16px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "快乐",
+            "rect": {
+              "x": 1042.5,
+              "y": 411.6875,
+              "width": 75.15625,
+              "height": 46,
+              "top": 411.6875,
+              "right": 1117.65625,
+              "bottom": 457.6875,
+              "left": 1042.5
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "31.68px",
+            "weight": "400",
+            "lineHeight": "38.016003px",
+            "spacing": "1.9008px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "探索",
+            "rect": {
+              "x": 736.015625,
+              "y": 468.296875,
+              "width": 62.9375,
+              "height": 39.078125,
+              "top": 468.296875,
+              "right": 798.953125,
+              "bottom": 507.375,
+              "left": 736.015625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "25.92px",
+            "weight": "400",
+            "lineHeight": "31.104002px",
+            "spacing": "1.5552px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱",
+            "rect": {
+              "x": 852.59375,
+              "y": 483.5,
+              "width": 66.015625,
+              "height": 40.828125,
+              "top": 483.5,
+              "right": 918.609375,
+              "bottom": 524.328125,
+              "left": 852.59375
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "27.360001px",
+            "weight": "400",
+            "lineHeight": "32.832001px",
+            "spacing": "1.6416px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "真实",
+            "rect": {
+              "x": 979.1875,
+              "y": 507.1875,
+              "width": 72.109375,
+              "height": 44.28125,
+              "top": 507.1875,
+              "right": 1051.296875,
+              "bottom": 551.46875,
+              "left": 979.1875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "30.24px",
+            "weight": "400",
+            "lineHeight": "36.288002px",
+            "spacing": "1.8144px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "生活品质",
+            "rect": {
+              "x": 1103.078125,
+              "y": 507.890625,
+              "width": 117.859375,
+              "height": 39.078125,
+              "top": 507.890625,
+              "right": 1220.9375,
+              "bottom": 546.96875,
+              "left": 1103.078125
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "25.92px",
+            "weight": "400",
+            "lineHeight": "31.104002px",
+            "spacing": "1.5552px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "希望",
+            "rect": {
+              "x": 1268.6875,
+              "y": 464.5,
+              "width": 69.0625,
+              "height": 42.546875,
+              "top": 464.5,
+              "right": 1337.75,
+              "bottom": 507.046875,
+              "left": 1268.6875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "28.799999px",
+            "weight": "400",
+            "lineHeight": "34.560001px",
+            "spacing": "1.728px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "rail": {
+          "text": "01 开始02 想象03 理想04 现状05 变化06 自我07 尾声",
+          "rect": {
+            "x": 100.796875,
+            "y": 819.3125,
+            "width": 1238.40625,
+            "height": 51,
+            "top": 819.3125,
+            "right": 1339.203125,
+            "bottom": 870.3125,
+            "left": 100.796875
+          },
+          "font": "Noto Serif SC, Songti SC, STSong, serif",
+          "size": "16.271999px",
+          "weight": "400",
+          "lineHeight": "16.271999px",
+          "spacing": "normal",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "none",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "image": "http://localhost:5211/assets/page07-BvjsP7Qd.webp",
+        "scrollHeight": 900,
+        "viewport": [
+          1440,
+          900
+        ],
+        "canvasCount": 0
+      },
+      "dialog": {
+        "background": "rgba(223, 234, 252, 0.42)",
+        "font": "Noto Serif SC, Songti SC, STSong, serif",
+        "rect": {
+          "x": 360,
+          "y": 261,
+          "width": 720,
+          "height": 378.03125,
+          "top": 261,
+          "right": 1080,
+          "bottom": 639.03125,
+          "left": 360
+        },
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）我愿意珍惜自己的热爱。11 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享"
+      },
+      "errors": [],
+      "functional": [
+        "word cloud click",
+        "return to06",
+        "refuse excludes personal text",
+        "explicit agree retains confirmed text",
+        "revisit inputs",
+        "finish resets session"
+      ]
+    },
+    {
+      "phase": "after",
+      "engine": "webkit",
+      "width": 390,
+      "height": 844,
+      "geometry": {
+        "title": {
+          "text": "你不是孤身一人",
+          "rect": {
+            "x": 27.296875,
+            "y": 58,
+            "width": 226.71875,
+            "height": 43.59375,
+            "top": 58,
+            "right": 254.015625,
+            "bottom": 101.59375,
+            "left": 27.296875
+          },
+          "font": "Noto Serif SC, Songti SC, STSong, serif",
+          "size": "31.15px",
+          "weight": "500",
+          "lineHeight": "43.610001px",
+          "spacing": "1.246px",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "rgba(255, 255, 255, 0.22) 0px 1px 1px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "body": {
+          "text": "原来，也有人怀着与你相似的心情。这些词语，来自其他参与者留下的真实心声。",
+          "rect": {
+            "x": 27.296875,
+            "y": 123.59375,
+            "width": 264.890625,
+            "height": 57.84375,
+            "top": 123.59375,
+            "right": 292.1875,
+            "bottom": 181.4375,
+            "left": 27.296875
+          },
+          "font": "Noto Serif SC, Songti SC, STSong, serif",
+          "size": "12.74px",
+          "weight": "400",
+          "lineHeight": "22.931999px",
+          "spacing": "0.5096px",
+          "color": "rgb(245, 242, 237)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "ending": {
+          "text": "不同的人生，相同的感受。你不是孤身一人。你并不孤单。",
+          "rect": {
+            "x": 27.296875,
+            "y": 203.4375,
+            "width": 335.40625,
+            "height": 79.78125,
+            "top": 203.4375,
+            "right": 362.703125,
+            "bottom": 283.21875,
+            "left": 27.296875
+          },
+          "font": "Noto Serif SC, Songti SC, STSong, serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "26.6px",
+          "spacing": "0.84px",
+          "color": "rgb(236, 233, 242)",
+          "opacity": "1",
+          "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "paragraphs": [
+          {
+            "text": "原来，也有人怀着与你相似的心情。",
+            "rect": {
+              "x": 27.296875,
+              "y": 123.59375,
+              "width": 264.890625,
+              "height": 22.921875,
+              "top": 123.59375,
+              "right": 292.1875,
+              "bottom": 146.515625,
+              "left": 27.296875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "12.74px",
+            "weight": "400",
+            "lineHeight": "22.931999px",
+            "spacing": "0.5096px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "这些词语，来自其他参与者留下的真实心声。",
+            "rect": {
+              "x": 27.296875,
+              "y": 158.515625,
+              "width": 264.890625,
+              "height": 22.921875,
+              "top": 158.515625,
+              "right": 292.1875,
+              "bottom": 181.4375,
+              "left": 27.296875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "12.74px",
+            "weight": "400",
+            "lineHeight": "22.931999px",
+            "spacing": "0.5096px",
+            "color": "rgb(245, 242, 237)",
+            "opacity": "1",
+            "shadow": "rgba(24, 35, 67, 0.64) 0px 0px 1.5px, rgba(24, 35, 67, 0.16) 0px 2px 8px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "cloud": [
+          {
+            "text": "旅行",
+            "rect": {
+              "x": 162.1875,
+              "y": 308.375,
+              "width": 42.328125,
+              "height": 27.421875,
+              "top": 308.375,
+              "right": 204.515625,
+              "bottom": 335.796875,
+              "left": 162.1875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "16.200001px",
+            "weight": "400",
+            "lineHeight": "19.440002px",
+            "spacing": "0.972px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "成长",
+            "rect": {
+              "x": 105.390625,
+              "y": 355.1875,
+              "width": 38.515625,
+              "height": 25.265625,
+              "top": 355.1875,
+              "right": 143.90625,
+              "bottom": 380.453125,
+              "left": 105.390625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14.4px",
+            "weight": "400",
+            "lineHeight": "17.280001px",
+            "spacing": "0.864px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "内心平静",
+            "rect": {
+              "x": 192.484375,
+              "y": 362.328125,
+              "width": 67.375,
+              "height": 24.796875,
+              "top": 362.328125,
+              "right": 259.859375,
+              "bottom": 387.125,
+              "left": 192.484375
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "健康",
+            "rect": {
+              "x": 26.4375,
+              "y": 386.21875,
+              "width": 39.140625,
+              "height": 25.625,
+              "top": 386.21875,
+              "right": 65.578125,
+              "bottom": 411.84375,
+              "left": 26.4375
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14.7px",
+            "weight": "400",
+            "lineHeight": "17.640001px",
+            "spacing": "0.882px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自信",
+            "rect": {
+              "x": 299.953125,
+              "y": 395.640625,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 395.640625,
+              "right": 337.640625,
+              "bottom": 420.4375,
+              "left": 299.953125
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "独处",
+            "rect": {
+              "x": 242.40625,
+              "y": 420.640625,
+              "width": 37.890625,
+              "height": 24.90625,
+              "top": 420.640625,
+              "right": 280.296875,
+              "bottom": 445.546875,
+              "left": 242.40625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14.1px",
+            "weight": "400",
+            "lineHeight": "16.920002px",
+            "spacing": "0.846px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "稳定",
+            "rect": {
+              "x": 329.46875,
+              "y": 451.578125,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 451.578125,
+              "right": 367.15625,
+              "bottom": 476.375,
+              "left": 329.46875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "被理解",
+            "rect": {
+              "x": 37.890625,
+              "y": 448,
+              "width": 52.53125,
+              "height": 24.796875,
+              "top": 448,
+              "right": 90.421875,
+              "bottom": 472.796875,
+              "left": 37.890625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "自由",
+            "rect": {
+              "x": 138.359375,
+              "y": 444.953125,
+              "width": 69.484375,
+              "height": 42.796875,
+              "top": 444.953125,
+              "right": 207.84375,
+              "bottom": 487.75,
+              "left": 138.359375
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "29px",
+            "weight": "400",
+            "lineHeight": "34.800003px",
+            "spacing": "1.74px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱生活",
+            "rect": {
+              "x": 255.921875,
+              "y": 492.125,
+              "width": 70.28125,
+              "height": 25.625,
+              "top": 492.125,
+              "right": 326.203125,
+              "bottom": 517.75,
+              "left": 255.921875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14.7px",
+            "weight": "400",
+            "lineHeight": "17.640001px",
+            "spacing": "0.882px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "平衡",
+            "rect": {
+              "x": 26.9375,
+              "y": 511.078125,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 511.078125,
+              "right": 64.625,
+              "bottom": 535.875,
+              "left": 26.9375
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "财富自由",
+            "rect": {
+              "x": 96.265625,
+              "y": 522.46875,
+              "width": 71.609375,
+              "height": 26,
+              "top": 522.46875,
+              "right": 167.875,
+              "bottom": 548.46875,
+              "left": 96.265625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "15px",
+            "weight": "400",
+            "lineHeight": "18px",
+            "spacing": "0.9px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "快乐",
+            "rect": {
+              "x": 205.5,
+              "y": 526.546875,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 526.546875,
+              "right": 243.1875,
+              "bottom": 551.34375,
+              "left": 205.5
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "探索",
+            "rect": {
+              "x": 45.390625,
+              "y": 561.65625,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 561.65625,
+              "right": 83.078125,
+              "bottom": 586.453125,
+              "left": 45.390625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "热爱",
+            "rect": {
+              "x": 105.890625,
+              "y": 572.359375,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 572.359375,
+              "right": 143.578125,
+              "bottom": 597.15625,
+              "left": 105.890625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "真实",
+            "rect": {
+              "x": 172.296875,
+              "y": 589.015625,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 589.015625,
+              "right": 209.984375,
+              "bottom": 613.8125,
+              "left": 172.296875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "生活品质",
+            "rect": {
+              "x": 233.0625,
+              "y": 587.828125,
+              "width": 67.375,
+              "height": 24.796875,
+              "top": 587.828125,
+              "right": 300.4375,
+              "bottom": 612.625,
+              "left": 233.0625
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "text": "希望",
+            "rect": {
+              "x": 319.875,
+              "y": 560.46875,
+              "width": 37.6875,
+              "height": 24.796875,
+              "top": 560.46875,
+              "right": 357.5625,
+              "bottom": 585.265625,
+              "left": 319.875
+            },
+            "font": "Noto Serif SC, Songti SC, STSong, serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "16.800001px",
+            "spacing": "0.84px",
+            "color": "rgb(237, 242, 255)",
+            "opacity": "1",
+            "shadow": "rgba(33, 53, 86, 0.4) 0px 1px 2px",
+            "stroke": "0px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "rail": {
+          "text": "01 开始02 想象03 理想04 现状05 变化06 自我07 尾声",
+          "rect": {
+            "x": 31.1875,
+            "y": 807.90625,
+            "width": 327.625,
+            "height": 52,
+            "top": 807.90625,
+            "right": 358.8125,
+            "bottom": 859.90625,
+            "left": 31.1875
+          },
+          "font": "Noto Serif SC, Songti SC, STSong, serif",
+          "size": "13px",
+          "weight": "400",
+          "lineHeight": "13px",
+          "spacing": "normal",
+          "color": "rgb(240, 241, 255)",
+          "opacity": "1",
+          "shadow": "none",
+          "stroke": "0px",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "image": "http://localhost:5211/assets/page07-BvjsP7Qd.webp",
+        "scrollHeight": 882,
+        "viewport": [
+          390,
+          844
+        ],
+        "canvasCount": 0
+      },
+      "dialog": {
+        "background": "rgba(223, 234, 252, 0.42)",
+        "font": "Noto Serif SC, Songti SC, STSong, serif",
+        "rect": {
+          "x": 16,
+          "y": 195,
+          "width": 358,
+          "height": 454.1875,
+          "top": 195,
+          "right": 374,
+          "bottom": 649.1875,
+          "left": 16
+        },
+        "text": "愿意匿名分享其中的一句话，让其他人也看见吗？请确认实际分享的文字（仅本次演示展示）我愿意珍惜自己的热爱。11 / 2000本阶段没有共享数据库，不会真实公开内容。返回编辑仅留给自己愿意分享"
+      },
+      "errors": [],
+      "functional": [
+        "word cloud click",
+        "return to06",
+        "refuse excludes personal text",
+        "explicit agree retains confirmed text",
+        "revisit inputs",
+        "finish resets session"
+      ]
+    }
+  ],
+  "sourceBackgroundSha256": "7b159c86927017ad8b73cfee3a3b0e52bffd6931992c0e0cbae380168699c1ee"
+}
