@@ -68,6 +68,11 @@ export function createPage02Material(canvas:HTMLCanvasElement,image:HTMLImageEle
    // At most 1.2M pixels; no full-DPR 4K continuous rendering.
    const ratio=Math.min(devicePixelRatio||1,Math.sqrt(budget/(w*h)),w<=700?1.5:1);
    canvas.width=Math.max(1,Math.round(w*ratio));canvas.height=Math.max(1,Math.round(h*ratio));gl.viewport(0,0,canvas.width,canvas.height);
+   // Existing atmospheric pixels end above native y=658. Do not shade the
+   // lake a second time through this otherwise transparent companion canvas.
+   const bottom=Math.min(h,Math.max(0,dy+658*dh/941));
+   const edge=Math.max(0,canvas.height-Math.ceil(bottom/h*canvas.height));
+   gl.enable(gl.SCISSOR_TEST);gl.scissor(0,edge,canvas.width,canvas.height-edge);
    gl.uniform2f(viewport,w,h);gl.uniform2f(draw,dw,dh);gl.uniform2f(origin,dx,dy);
    water?.resize(w,h,dw,dh,dx,dy);
  }
@@ -77,9 +82,9 @@ export function createPage02Material(canvas:HTMLCanvasElement,image:HTMLImageEle
    water?.adapt(interval);
    // Some privacy-preserving browsers report a generic GPU name even when
    // software-rendered. Use measured frame intervals, not only that name.
-   if(interval<=0||interval>180)return;
-   total+=interval;samples++;
-   if(samples===30){if(total/samples>38&&budget>320000&&camera){budget=Math.max(320000,Math.floor(budget*.55));resize(...camera)}samples=0;total=0}
+   if(interval<=0)return;
+   total+=Math.min(interval,120);samples++;
+   if(samples===15){if(total/samples>38&&budget>320000&&camera){budget=Math.max(320000,Math.floor(budget*.55));resize(...camera)}samples=0;total=0}
   },
   draw(t:number,enabled:[number,number,number]){if(enabled[0]||enabled[2]){gl.uniform1f(time,t);gl.uniform3fv(layers,enabled);gl.drawArrays(gl.TRIANGLES,0,6);atmosphereVisible=true}else if(atmosphereVisible){gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT);atmosphereVisible=false}water?.draw(t,Boolean(enabled[1]))},
   dispose(){water?.dispose();gl.deleteTexture(texture);gl.deleteBuffer(buffer);gl.deleteProgram(program);shaders.forEach(s=>gl.deleteShader(s));queueMicrotask(()=>{if(!canvas.isConnected)gl.getExtension('WEBGL_lose_context')?.loseContext()})}

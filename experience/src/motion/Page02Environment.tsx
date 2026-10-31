@@ -1,5 +1,5 @@
 import {useId,useLayoutEffect,useRef} from 'react';
-import {createPage02Material} from './page02-material';
+import type {createPage02Material} from './page02-material';
 import './page02-environment.css';
 
 // Traced anew against approved background/page02.png, not the retired artwork.
@@ -17,9 +17,10 @@ export function Page02Environment(){
   const host=owner.current!,surface=canvas.current!,ribbon=svg.current!;
   const main=host.closest('main')!,image=main.querySelector<HTMLImageElement>(':scope>.static-environment')!;
   const frame=main.closest<HTMLElement>('.scene-frame')!,media=matchMedia('(prefers-reduced-motion:reduce)');
-  let material=createPage02Material(surface,image),raf=0,last=0,elapsed=0,frames=0,disposed=false;
-  let enabled=true,inView=true;const gpuAvailable=Boolean(material);
-  host.dataset.material=gpuAvailable?'webgl':'unavailable';
+  let material:ReturnType<typeof createPage02Material>=null,raf=0,last=0,elapsed=0,frames=0,disposed=false;
+  let enabled=true,inView=true,scheduled=false,attempted=false,prepareFrame=0,paintFrame=0,idle=0;
+  let fallbackTimer:ReturnType<typeof setTimeout>|undefined;
+  host.dataset.material='pending';
   const segments=[...ribbon.querySelectorAll<SVGPathElement>('[data-stream]')];
   // Small composited highlights avoid repainting full-screen SVG strokes in
   // Safari. SVG paths remain the geometry source and the compatibility fallback.
@@ -42,6 +43,29 @@ export function Page02Environment(){
    material?.resize(r.width,r.height,dw,dh,dx,dy);host.dataset.camera=JSON.stringify({width:r.width,height:r.height,scale,dx,dy});
   }
   const visible=()=>enabled&&inView&&!disposed&&!document.hidden&&!media.matches&&frame.dataset.navigationState==='idle'&&main.dataset.backgroundReady==='true';
+  function prepareMaterial(){
+   if(scheduled||attempted||material||!visible())return;
+   scheduled=true;
+   // Let the decoded scene actually paint before downloading/compiling shaders.
+   // This readiness is deliberately NOT a condition for committing navigation.
+   prepareFrame=requestAnimationFrame(()=>{paintFrame=requestAnimationFrame(()=>{
+    performance.mark('page02:static-presented');
+    const initialize=()=>{
+     idle=0;
+     if(!visible()){scheduled=false;return}
+     import('./page02-material').then(module=>{
+      scheduled=false;if(!visible())return;attempted=true;
+      performance.mark('page02:material-init-start');
+      try{material=module.createPage02Material(surface,image)}catch{material=null}
+      if(material){resize();surface.style.visibility='visible';host.dataset.material='webgl'}
+      else{surface.style.visibility='hidden';host.dataset.material='unavailable'}
+      performance.mark('page02:material-init-end');
+     }).catch(()=>{scheduled=false;attempted=true;host.dataset.material='unavailable'});
+    };
+    if('requestIdleCallback'in window)idle=window.requestIdleCallback(initialize,{timeout:1000});
+    else fallbackTimer=setTimeout(initialize,0);
+   })});
+  }
   function tick(now:number){
    raf=0;if(!visible())return;
    if(last){material?.adapt(now-last);elapsed+=now-last}last=now;
@@ -56,6 +80,7 @@ export function Page02Environment(){
   function sync(){
    const run=visible();host.dataset.running=String(run);host.dataset.suppressed=String(!enabled||document.hidden||media.matches);last=0;
    lights.forEach(light=>run?light.animation.play():light.animation.pause());
+   if(run)prepareMaterial();
    if(run&&!raf)raf=requestAnimationFrame(tick);
    if(!run&&raf){cancelAnimationFrame(raf);raf=0}
   }
@@ -65,11 +90,11 @@ export function Page02Environment(){
   const onControl=()=>{enabled=host.dataset.enabled!=='off';sync()};
   const controlObserver=new MutationObserver(onControl);controlObserver.observe(host,{attributes:true,attributeFilter:['data-enabled']});
   function lost(event:Event){event.preventDefault();material?.dispose();material=null;surface.style.visibility='hidden';host.dataset.material='lost'}
-  function restored(){material=createPage02Material(surface,image);surface.style.visibility=material?'visible':'hidden';host.dataset.material=material?'webgl':'unavailable';resize()}
+  function restored(){attempted=false;host.dataset.material='pending';sync()}
   surface.addEventListener('webglcontextlost',lost);surface.addEventListener('webglcontextrestored',restored);
   document.addEventListener('visibilitychange',sync);media.addEventListener('change',sync);
   resize();sync();
-  return()=>{disposed=true;cancelAnimationFrame(raf);lights.forEach(light=>{light.animation.cancel();light.node.remove()});observer.disconnect();intersection.disconnect();stateObserver.disconnect();controlObserver.disconnect();document.removeEventListener('visibilitychange',sync);media.removeEventListener('change',sync);surface.removeEventListener('webglcontextlost',lost);surface.removeEventListener('webglcontextrestored',restored);material?.dispose()};
+  return()=>{disposed=true;cancelAnimationFrame(raf);cancelAnimationFrame(prepareFrame);cancelAnimationFrame(paintFrame);if(idle)window.cancelIdleCallback(idle);if(fallbackTimer)clearTimeout(fallbackTimer);lights.forEach(light=>{light.animation.cancel();light.node.remove()});observer.disconnect();intersection.disconnect();stateObserver.disconnect();controlObserver.disconnect();document.removeEventListener('visibilitychange',sync);media.removeEventListener('change',sync);surface.removeEventListener('webglcontextlost',lost);surface.removeEventListener('webglcontextrestored',restored);material?.dispose()};
  },[]);
  return <div ref={owner} className="page02-environment" data-running="false" data-suppressed="true" aria-hidden="true">
   <canvas ref={canvas} data-environment-layers="sky mist water reflection"/>
