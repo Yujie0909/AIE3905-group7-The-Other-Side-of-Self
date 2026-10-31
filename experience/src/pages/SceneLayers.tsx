@@ -1,5 +1,6 @@
 import {useEffect,useRef,type ReactNode} from 'react';
 import type {Page} from '../session';
+import {useInputViewport} from './useInputViewport';
 
 /** Intentionally empty in static Phase 1. Future effects have their own host,
  * readiness signal and visible/hidden/leave lifecycle, separate from all UI. */
@@ -14,4 +15,4 @@ export function MotionLayers({page,ready}:{page:Page;ready:boolean}){
  },[ready]);
  return <div ref={ref} className="scene-motion-layers" data-scene-motion={page} data-motion-ready={ready} data-motion-state="static" aria-hidden="true"/>;
 }
-export function UIOverlay({children}:{children:ReactNode}){return <div className="scene-ui-overlay">{children}</div>}
+export function UIOverlay({children}:{children:ReactNode}){const keyboard=useInputViewport();return <div className="scene-ui-overlay" {...keyboard}>{children}</div>}

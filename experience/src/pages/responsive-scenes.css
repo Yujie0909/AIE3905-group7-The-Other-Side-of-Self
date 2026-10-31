@@ -1,0 +1,161 @@
+/* Portrait compositions share one photographic canvas with the existing UI.
+   The approved desktop rules above 1023px are intentionally untouched. */
+@media (max-width:1023px){
+ html{scroll-padding-block:24px max(24px,env(safe-area-inset-bottom))}
+ :is(main.page01-stage,main.static-stage){
+  --scene-floor:860px;--scene-pad:clamp(22px,5.6vw,52px);--scene-position:50% 50%;
+  --scene-height:max(100vh,var(--scene-floor));
+  position:relative;isolation:isolate;width:100%;height:auto;min-height:var(--scene-height);padding:0;overflow:hidden;
+ }
+ :is(main.page01-stage,main.static-stage)>:is(.page01-environment,.static-environment){
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:var(--scene-position);z-index:-1;
+ }
+ :is(main.page01-stage,main.static-stage)>.scene-motion-layers{inset:0;height:100%}
+ :is(main.page01-stage,main.static-stage)>.scene-ui-overlay{
+  position:relative;inset:auto;display:flex;flex-direction:column;align-items:stretch;gap:14px;
+  min-height:var(--scene-height);padding:calc(56px + env(safe-area-inset-top)) var(--scene-pad) calc(18px + env(safe-area-inset-bottom));
+ }
+ :is(main.page01-stage,main.static-stage) .scene-ui-overlay>:is(.page01-title,.page01-subtitle,.page01-copy,.page01-start,.static-title,.static-copy,.ideal-static-actions,.ideal-static-secondary,.ideal-static-note,.daily-static-topics,.daily-static-voice,.daily-static-entry,.daily-static-skip,.evolution-static-player,.evolution-static-note,.evolution-static-next,.reflection-static-voice,.reflection-static-entry,.reflection-static-skip,.voices-static-ending,.voices-static-cloud,.voices-static-note,.voices-static-selection,.voices-static-approved,.voices-static-finish){
+  position:relative;inset:auto;transform:none;order:0;
+ }
+ .scene-ui-overlay>:where(.page01-title,.page01-subtitle,.page01-copy,.page01-start,.static-title,.static-copy,.ideal-static-actions,.ideal-static-secondary,.ideal-static-note,.daily-static-topics,.daily-static-voice,.daily-static-entry,.daily-static-skip,.evolution-static-player,.evolution-static-note,.evolution-static-next,.reflection-static-voice,.reflection-static-entry,.reflection-static-skip,.voices-static-ending,.voices-static-cloud,.voices-static-note,.voices-static-selection,.voices-static-approved,.voices-static-finish){margin:0;max-width:100%}
+ main.static-stage .static-title{width:100%!important;max-width:100%!important;font-size:clamp(25px,6.7vw,34px);line-height:1.45;letter-spacing:.045em;white-space:pre-line;text-wrap:balance;overflow-wrap:anywhere}
+ :is(main.page01-stage,main.static-stage) :is(.page01-copy,.static-copy){width:100%!important;max-width:100%!important;font-size:16px;line-height:1.8;letter-spacing:.025em;overflow-wrap:anywhere}
+ :is(main.page01-stage,main.static-stage) :is(.page01-copy,.static-copy) p{margin:0}
+ :is(main.page01-stage,main.static-stage) :is(.page01-copy,.static-copy) p+p{margin-top:10px}
+ :is(main.page01-stage,main.static-stage) .static-exit{position:absolute;top:calc(5px + env(safe-area-inset-top));right:var(--scene-pad);min-height:44px;padding:10px 0;font-size:12px}
+ :is(main.page01-stage,main.static-stage) :is(.page01-progress,.static-progress){
+  position:relative;inset:auto;display:grid;grid-template-columns:repeat(7,minmax(44px,1fr));gap:0;width:100%;height:64px;min-height:64px;flex:none;
+  margin:24px 0 0;padding:0;order:99;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scrollbar-width:none;
+ }
+ :is(main.page01-stage,main.static-stage) :is(.page01-progress,.static-progress)::-webkit-scrollbar{display:none}
+ :is(main.page01-stage,main.static-stage) :is(.page01-progress,.static-progress)::before{top:7px;left:22px;right:22px;min-width:264px}
+ :is(main.page01-stage,main.static-stage) :is(.page01-progress,.static-progress) li{width:auto;min-width:0;font-size:11px}
+ :is(main.page01-stage,main.static-stage) .journey-step{width:100%;min-width:44px;min-height:56px;padding:2px 0;gap:12px;letter-spacing:0}
+ :is(main.page01-stage,main.static-stage) .journey-dot{width:10px;height:10px;flex:none}
+ :is(main.page01-stage,main.static-stage) .journey-step-label{white-space:nowrap}
+ main.static-stage :is(.static-pill,.static-note){font-size:15px;line-height:1.6}
+ main.static-stage button.static-note{min-height:44px;padding:10px 2px}
+ main.static-stage .static-voice{justify-content:center;align-items:center;gap:16px}
+ main.static-stage .static-voice .voice-input{width:76px;flex:none;padding:0;margin:0;text-align:center}
+ main.static-stage .static-voice .mic{width:76px;height:76px;margin:0}
+ main.static-stage .static-voice .mic svg{width:26px;height:36px}
+ main.static-stage .static-wave{width:48px;gap:0}
+ main.static-stage .static-mic-caption{display:block;min-height:42px;margin-top:12px;font-size:13px;line-height:1.6;text-align:center}
+ main.static-stage .static-voice .voice-input>small[role=status]{top:calc(100% + 10px);width:min(86vw,560px);font-size:12px;line-height:1.6;text-align:center}
+ main.static-stage .static-entry{display:flex;align-items:center;gap:8px;width:100%;height:64px;min-height:64px;padding:6px 7px 6px 18px}
+ main.static-stage .static-entry textarea{min-width:0;height:48px;min-height:44px;font-size:16px;line-height:1.6;padding:10px 0;resize:none;scroll-margin-block:70px}
+ main.static-stage .static-entry>button{width:48px;height:48px;min-width:48px;min-height:48px;flex:none;margin:0;padding:9px}
+ main.static-stage .static-entry>button svg{width:28px;height:auto}
+ /* 01: the mirror remains the centre of the quiet, uninterrupted scene. */
+ main.page01-stage{--scene-floor:980px;--scene-position:85% 50%}
+ main.page01-stage .page01-title{font-size:clamp(32px,8.5vw,40px);line-height:1.4;letter-spacing:.07em;white-space:normal;width:max-content!important;max-width:100%!important}
+ main.page01-stage .page01-title br{display:initial}
+ main.page01-stage .page01-subtitle{font-size:13px;line-height:1.6;letter-spacing:.1em;white-space:normal}
+ main.page01-stage .page01-copy{margin-top:clamp(450px,55svh,540px)}
+ main.page01-stage .page01-start{width:100%;max-width:320px;height:54px;min-height:54px;padding:0 24px;font-size:18px;align-self:flex-start}
+ main.page01-stage .page01-start svg{width:28px}
+ main.page01-stage .page01-progress{margin-top:auto}
+ /* 02: the bend of the ribbon stays between the copy and lake-side capture. */
+ main.static-page-02{--scene-position:66% 50%}
+ main.static-page-02 .dream-capture{position:relative;inset:auto;width:100%;max-width:600px;margin: auto auto 0}
+ main.static-page-02 .dream-capture>.static-entry{margin-top:12px}
+ /* 03: actions in the sky; daybed and tea table keep their own visual space. */
+ main.static-page-03{--scene-floor:900px;--scene-position:26% 50%}
+ main.static-stage .ideal-static-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;width:100%;margin-top:12px}
+ main.static-stage .ideal-static-actions .static-pill{width:100%;min-width:0!important;height:50px;min-height:50px;padding:0 10px;gap:9px;justify-content:center;font-size:15px}
+ main.static-stage .ideal-static-actions .static-pill:last-child{grid-column:1/-1}
+ main.static-stage .ideal-static-actions .static-pill svg{width:22px;height:22px;flex:none}
+ main.static-stage .ideal-static-secondary{display:flex;gap:20px;justify-content:space-between;margin-top:auto;width:100%}
+ main.static-stage .ideal-static-note{font-size:12px;line-height:1.7;width:100%;overflow-wrap:anywhere}
+ main.static-page-03 :is(.ideal-static-secondary .static-note,.ideal-static-note){color:#f5f2ed;text-shadow:0 1px 2px rgba(25,35,52,.7)}
+ /* 04: compact touch capsules above the seating, capture over the near water. */
+ main.static-page-04{--scene-floor:1000px;--scene-position:65% 50%}
+ main.static-stage .daily-static-topics{width:100%;min-height:216px;margin-top:6px}
+ main.static-stage .daily-topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;width:100%}
+ main.static-stage .daily-topic-grid button,main.static-stage .daily-topic-grid button:last-child{width:100%;height:48px;min-height:48px;padding:0 8px;gap:7px;font-size:14px;justify-content:center}
+ main.static-stage .daily-topic-grid button svg{width:21px;height:21px;min-width:21px;min-height:21px}
+ main.static-stage .daily-static-voice{width:100%;margin-top:auto}
+ main.static-stage .daily-static-skip{align-self:flex-end}
+ /* 05: controls stay in distant air; laptop and desk remain visible below. */
+ main.static-page-05{--scene-floor:860px;--scene-position:27% 50%}
+ main.static-page-05 .static-title{width:66%!important;max-width:66%!important}
+ main.static-page-05 .static-copy{width:88%!important;max-width:88%!important}
+ main.static-stage .evolution-static-player{display:flex;gap:12px;width:100%;height:64px;margin-top:22px}
+ main.static-stage .evolution-static-player>button{width:54px;height:54px;min-width:54px;min-height:54px}
+ main.static-stage .evolution-static-player>button svg{width:23px}
+ main.static-stage .evolution-static-player input{height:44px;background:transparent;box-shadow:none}
+ main.static-stage .evolution-static-player input::-webkit-slider-runnable-track{height:2px;background:#60789788}
+ main.static-stage .evolution-static-player input::-webkit-slider-thumb{width:16px;height:16px;margin-top:-7px}
+ main.static-stage .evolution-static-player input::-moz-range-track{height:2px;background:#60789788}
+ main.static-stage .evolution-static-player time{font-size:13px}
+ main.static-stage .evolution-static-note{font-size:12px;line-height:1.7}
+ main.static-stage .evolution-static-next{align-self:flex-start;width:auto;max-width:100%;height:54px;padding:0 18px;margin-top:8px;gap:18px}
+ main.static-page-05 .static-progress{margin-top:auto}
+ main.static-page-05 .static-progress li,main.static-page-05 .static-progress li[aria-current=step]{color:#edf1fa}
+ main.static-page-05 .static-progress::before{background:rgba(231,239,252,.5)}
+ main.static-page-05 .static-progress .journey-step-label{text-shadow:0 1px 2px rgba(24,42,69,.75)}
+ main.static-page-05 .static-progress .journey-dot{border-color:#e3eaf4aa;background:#d5e0f033}
+ main.static-page-05 .static-progress [aria-current=step]>.journey-step>.journey-dot{background:#e9eff9;border-color:#f2f4f9}
+ /* 06: one camera for the original mirror and its stable SVG inscription. */
+ main.static-page-06{--scene-floor:980px;--scene-position:74% 50%}
+ main.static-page-06 .static-copy{width:80%!important;max-width:80%!important}
+ main.static-page-06 .mirror-inscription{position:absolute;inset:0;width:100%;height:100%;transform:none;pointer-events:none}
+ main.static-page-06 .reflection-static-voice{width:128px;align-self:flex-start;margin-top:auto}
+ main.static-page-06 .reflection-static-voice .static-wave{display:none}
+ main.static-page-06 .reflection-static-voice .voice-input>small[role=status]{left:-26px;transform:none;width:calc(100vw - 2 * var(--scene-pad));max-width:560px;text-align:left}
+ main.static-page-06 .reflection-static-skip{align-self:flex-start}
+ /* 07: real DOM words keep their data, size hierarchy and individual actions. */
+ main.static-page-07{--scene-floor:1040px;--scene-position:50% 50%}
+ main.static-page-07 .voices-static-ending{width:100%;font-size:16px;line-height:1.85;margin-top:8px}
+ main.static-page-07 .voices-static-cloud{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;justify-items:center;gap:4px 0;inset:auto;width:100%;height:auto;min-height:290px;flex:none;margin-top:10px}
+ main.static-page-07 .voices-static-cloud button{position:relative;left:auto!important;top:auto!important;transform:none;min-width:44px;min-height:44px;max-width:100%;padding:4px;font-size:clamp(15px,calc(var(--cloud-size) * 7px),30px)!important;letter-spacing:.02em;line-height:1.4}
+ main.static-page-07 .voices-static-cloud button:nth-child(3n+2){top:4px!important}
+ main.static-page-07 .voices-static-note,main.static-page-07 .voices-static-selection,main.static-page-07 .voices-static-approved{width:100%;max-width:100%;max-height:none;font-size:12px;line-height:1.8;overflow-wrap:anywhere}
+ main.static-page-07 .voices-static-note{text-shadow:0 1px 2px rgba(24,35,67,.7)}
+ main.static-page-07 .voices-static-approved{max-height:160px;overflow:auto}
+ main.static-page-07 .voices-static-finish{width:100%;height:auto;min-height:54px;padding:12px;gap:12px;margin-top:auto;font-size:15px;line-height:1.6;justify-content:space-between}
+ main.static-page-07 .static-copy::before,main.static-page-07 .static-copy::after{content:none}
+ /* The same bounded glass dialogs, with room for the visible mobile viewport. */
+ main.static-stage :is(.static-clarification.glass-dialog,.daily-question.glass-dialog,.page06-consent-dialog,.ideal-static-adjustment){
+  position:fixed;inset:auto;left:50%;top:var(--input-viewport-center,50%);bottom:auto;transform:translate(-50%,-50%);width:min(640px,calc(100vw - 32px));max-width:calc(100vw - 32px);
+  height:auto;max-height:calc(100svh - 40px - env(safe-area-inset-top) - env(safe-area-inset-bottom));max-height:calc(var(--input-viewport-height,100dvh) - 40px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  overflow:auto;overscroll-behavior:contain;z-index:20;margin:0;padding:22px;border-radius:24px;
+ }
+ main.static-stage .glass-dialog{font-size:16px;line-height:1.8}
+ main.static-stage .glass-dialog :is(button,.chips button){min-width:44px;min-height:44px;font-size:16px;line-height:1.6;padding:10px 14px}
+ main.static-stage .glass-dialog .inline-actions{display:flex;flex-wrap:wrap;gap:10px}
+ main.static-stage .glass-dialog .text-input textarea,main.static-stage .ideal-static-adjustment textarea{font-size:16px;min-height:100px;max-height:170px;scroll-margin-block:30px}
+ main.static-stage .ideal-static-adjustment>button{min-height:44px;font-size:16px}
+ /* The initial photo uses precisely the opening page's portrait camera. */
+ #initial-background{height:100%;min-height:max(100svh,980px);position:absolute;background:#e8edf5}
+ #initial-background img{width:100%;height:100%;object-fit:cover;object-position:85% 50%}
+ @supports(height:100svh){:is(main.page01-stage,main.static-stage){--scene-height:max(100svh,var(--scene-floor))}}
+ @supports(height:100dvh){:is(main.page01-stage,main.static-stage){--scene-height:max(100dvh,var(--scene-floor))}#initial-background{min-height:max(100dvh,980px)}}
+}
+@media (min-width:768px) and (max-width:1023px){
+ :is(main.page01-stage,main.static-stage){--scene-pad:clamp(38px,6vw,62px);--scene-floor:1024px}
+ :is(main.page01-stage,main.static-stage)>.scene-ui-overlay{padding-top:calc(72px + env(safe-area-inset-top));gap:18px}
+ main.static-stage .static-title{font-size:34px;max-width:650px!important}
+ :is(main.page01-stage,main.static-stage) :is(.page01-copy,.static-copy){max-width:560px!important;font-size:18px}
+ main.page01-stage{--scene-position:91% 50%}
+ main.page01-stage .page01-title{font-size:44px}
+ main.page01-stage .page01-copy{margin-top:440px;max-width:490px!important}
+ main.page01-stage .page01-start{width:300px}
+ main.static-page-03{--scene-position:33% 50%}
+ main.static-stage .ideal-static-actions{grid-template-columns:repeat(3,minmax(0,1fr));max-width:660px}
+ main.static-stage .ideal-static-actions .static-pill:last-child{grid-column:auto}
+ main.static-stage .daily-topic-grid{grid-template-columns:repeat(3,minmax(0,1fr));max-width:640px;gap:10px}
+ main.static-stage .daily-static-topics{min-height:164px}
+ main.static-page-04 .daily-static-voice{max-width:560px}
+ main.static-page-04 .daily-static-entry{max-width:600px}
+ main.static-page-05 .evolution-static-player{max-width:580px}
+ main.static-page-06{--scene-position:82% 50%}
+ main.static-page-06 .static-copy{max-width:55%!important}
+ main.static-page-07 .voices-static-cloud{max-width:640px;margin-inline:auto;min-height:330px}
+ main.static-page-07 .voices-static-cloud button{font-size:clamp(18px,calc(var(--cloud-size) * 9px),40px)!important}
+ :is(main.page01-stage,main.static-stage) :is(.page01-progress,.static-progress) li{font-size:13px}
+ #initial-background{min-height:max(100svh,1024px)}
+ #initial-background img{object-position:91% 50%}
+ @supports(height:100dvh){#initial-background{min-height:max(100dvh,1024px)}}
+}
