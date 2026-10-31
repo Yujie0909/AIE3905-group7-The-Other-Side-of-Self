@@ -1,0 +1,4 @@
+/* Reuse the existing microphone caption space; preserve all control geometry. */
+.static-stage .static-voice .voice-input>small[role=status]{top:calc(100% + 8px);bottom:auto;left:50%;transform:translateX(-50%);width:min(78vw,440px);max-width:none;visibility:hidden;line-height:1.5;pointer-events:none}
+.static-stage .static-voice .voice-input[data-notice=true]>small[role=status]{visibility:visible}
+.static-stage .static-voice:has(.voice-input[data-notice=true])+.static-mic-caption{visibility:hidden}
