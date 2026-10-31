@@ -1,4 +1,5 @@
 import type {CSSProperties} from 'react';
+import './page07-copy.css';
 import {StaticLayout,StaticArrow} from './StaticLayout';
 const words=[['旅行',69.4,11.8,2.7],['成长',61.5,19.5,2.4],['内心平静',75.2,20.7,2],['健康',50.8,24.8,2.45],['自信',87.8,26.3,2.2],['独处',80,30.5,2.35],['稳定',91.8,35.7,2.2],['被理解',53.3,35.1,2.1],['自由',68,36.1,4.5],['热爱生活',84,42.6,2.45],['平衡',50.8,45.7,1.9],['财富自由',62.5,47.7,2.5],['快乐',75,48.3,2.2],['探索',53.3,54.2,1.8],['热爱',61.5,56,1.9],['真实',70.5,58.8,2.1],['生活品质',80.7,58.6,1.8],['希望',90.5,54,2]] as const;
 export function Page07Voices({selected,onSelect,onFinish,approved,onExit}:{selected:string;onSelect:(v:string)=>void;onFinish:()=>void;approved:string;onExit:()=>void}){return <StaticLayout page={7} title="你不是孤身一人" body={<><p>原来，也有人怀着与你相似的心情。</p><p>这些词语，来自其他参与者留下的真实心声。</p></>} onExit={onExit}>

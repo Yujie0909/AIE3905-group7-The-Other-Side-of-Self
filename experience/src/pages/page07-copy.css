@@ -1,0 +1,28 @@
+/* Page07 copy only. Preserve the approved face, metrics and layout. */
+.static-page-07 .scene-ui-overlay > .static-copy{
+ color:#f5f2ed;
+ opacity:1;
+ font-weight:400;
+ -webkit-text-stroke:0;
+ text-shadow:0 0 1.5px rgba(24,35,67,.64),0 2px 8px rgba(24,35,67,.16);
+}
+.static-page-07 .scene-ui-overlay > .voices-static-ending{
+ color:#ece9f2;
+ opacity:1;
+ font-weight:400;
+ -webkit-text-stroke:0;
+ text-shadow:0 0 1.5px rgba(24,35,67,.64),0 2px 8px rgba(24,35,67,.16);
+}
+/* The bright desktop clouds need local light compensation. Each ellipse ends
+   at alpha zero on EVERY edge; it never reaches the title or right word cloud. */
+@media(min-width:701px){
+ .static-page-07 .scene-ui-overlay > :is(.static-copy,.voices-static-ending){isolation:isolate;--copy-shade:.5}
+ .static-page-07 .scene-ui-overlay > :is(.static-copy,.voices-static-ending)::before{
+  content:"";
+  position:absolute;
+  inset:-1.4em -.5em -1.4em -15vw;
+  z-index:-1;
+  pointer-events:none;
+  background:radial-gradient(ellipse closest-side at 50% 50%,rgba(24,35,67,var(--copy-shade)) 0%,rgba(24,35,67,calc(var(--copy-shade) * .94)) 68%,rgba(24,35,67,calc(var(--copy-shade) * .28)) 88%,rgba(24,35,67,0) 100%);
+ }
+}
