@@ -18,7 +18,8 @@ export function MirrorInscription(){
  useLayoutEffect(()=>{
   if(!camera||!host.current||!copy.current)return;
   const stage=host.current.closest('main')!,r=stage.getBoundingClientRect(),s=camera.scale;
-  const safe:Bounds={left:Math.max(12,camera.dx+glass.left*s),right:Math.min(camera.width-12,camera.dx+glass.right*s),top:Math.max(12,camera.dy+glass.top*s),bottom:Math.min(camera.height-12,camera.dy+glass.bottom*s)};
+  const area=camera.width<1024?{left:1100,right:1390,top:230,bottom:520}:glass;
+  const safe:Bounds={left:Math.max(12,camera.dx+area.left*s),right:Math.min(camera.width-12,camera.dx+area.right*s),top:Math.max(12,camera.dy+area.top*s),bottom:Math.min(camera.height-12,camera.dy+area.bottom*s)};
   if(camera.width<=700){
    const body=stage.querySelector('.static-copy')?.getBoundingClientRect(),voice=stage.querySelector('.reflection-static-voice')?.getBoundingClientRect();
    // The new mobile layout keeps its controls BELOW the artwork viewport.
@@ -29,7 +30,7 @@ export function MirrorInscription(){
   const elements=[...copy.current.querySelectorAll<SVGTextElement>('text')];
   const measured=elements.map(e=>({box:e.getBBox(),fontSize:Number.parseFloat(getComputedStyle(e).fontSize),length:e.getComputedTextLength(),baseline:Number(e.getAttribute('y'))}));
   const widthAt18=Math.max(...measured.map(m=>m.length*preferredFontSize/m.fontSize));
-  let fontSize=Math.min(preferredFontSize,(safe.right-safe.left-20)/s/widthAt18*preferredFontSize);
+  let fontSize=Math.min(camera.width<1024?Math.max(preferredFontSize,14/s):preferredFontSize,(safe.right-safe.left-20)/s/widthAt18*preferredFontSize);
   const nativeBounds=(size:number)=>measured.map((m,i)=>{const k=size/m.fontSize,gap=size*1.95;return {left:m.box.x*k,right:(m.box.x+m.box.width)*k,top:(m.box.y-m.baseline)*k+i*gap+slope*(m.box.x+m.box.width)*k,bottom:(m.box.y-m.baseline+m.box.height)*k+i*gap+slope*m.box.x*k}});
   let bounds=nativeBounds(fontSize),localTop=Math.min(...bounds.map(b=>b.top)),localBottom=Math.max(...bounds.map(b=>b.bottom));
   if((localBottom-localTop)*s>safe.bottom-safe.top-8){fontSize*=(safe.bottom-safe.top-8)/((localBottom-localTop)*s);bounds=nativeBounds(fontSize);localTop=Math.min(...bounds.map(b=>b.top));localBottom=Math.max(...bounds.map(b=>b.bottom))}

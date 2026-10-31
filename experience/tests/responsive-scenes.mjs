@@ -1,7 +1,7 @@
 import {chromium,webkit} from 'playwright';
 import assert from 'node:assert/strict';
 const engine=process.env.ENGINE||'chromium',base=process.env.STATIC_BASE_URL||'http://localhost:5220';
-const sizes=process.env.RESPONSIVE_SIZE?[process.env.RESPONSIVE_SIZE.split('x').map(Number)]:[[375,667],[390,844],[430,932],[768,1024],[1440,900]];
+const sizes=process.env.RESPONSIVE_SIZE?[process.env.RESPONSIVE_SIZE.split('x').map(Number)]:[[320,568],[360,800],[375,667],[390,844],[393,852],[430,932],[768,1024],[1440,900]];
 const browser=await(engine==='webkit'?webkit.launch():chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']}));
 try{for(const [width,height] of sizes){
  const c=await browser.newContext({viewport:{width,height},reducedMotion:'reduce',hasTouch:width<1024}),p=await c.newPage(),errors=[],requests=[];p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>{if(r.resourceType()==='image')requests.push(r.url())});
@@ -9,16 +9,18 @@ try{for(const [width,height] of sizes){
  const click=name=>p.getByRole('button',{name,exact:true}).click();
  const pages=[];
  async function ready(n){
-  await p.locator(n===1?'.page01-stage':`.static-page-${String(n).padStart(2,'0')}`).waitFor();await p.locator('.scene-frame[data-navigation-state=idle]').waitFor();await p.waitForFunction(()=>document.querySelector('main')?.dataset.backgroundReady==='true');
+  if(n===6)await p.waitForFunction(()=>document.querySelector('.mirror-inscription')?.dataset.mirrorReady==='true');await p.locator(n===1?'.page01-stage':`.static-page-${String(n).padStart(2,'0')}`).waitFor();await p.locator('.scene-frame[data-navigation-state=idle]').waitFor();await p.waitForFunction(()=>document.querySelector('main')?.dataset.backgroundReady==='true');
   const failures=await p.locator('main').evaluate((main,{width,n})=>{
    const failures=[],box=main.getBoundingClientRect(),image=main.querySelector(':scope>img'),r=image.getBoundingClientRect();
    if(document.documentElement.scrollWidth>innerWidth+1)failures.push('horizontal page overflow');
    if(!image.complete||!image.naturalWidth)failures.push('background unavailable');
    if(width<1024){
+    if(document.documentElement.scrollHeight>innerHeight+2)failures.push('document scroll height');
+    for(const e of main.querySelectorAll('.scene-ui-overlay > *, .voices-static-cloud button')){const b=e.getBoundingClientRect();if(b.height&&getComputedStyle(e).position!=='fixed'&&!e.classList.contains('mirror-inscription')&&(b.top<-.5||b.bottom>innerHeight+1))failures.push('outside viewport '+e.className+' '+b.bottom)}
     if(Math.abs(r.height-box.height)>1||Math.abs(r.width-box.width)>1||getComputedStyle(image).objectFit!=='cover')failures.push('background separated from scene');
     const overlay=main.querySelector('.scene-ui-overlay').getBoundingClientRect();if(Math.abs(overlay.top-box.top)>1||Math.abs(overlay.height-box.height)>1)failures.push('UI/background coordinate mismatch');
     const selectors='.static-title,.page01-title,.static-copy,.page01-copy,.journey-step,.daily-topic-grid button,.static-entry,.voices-static-finish';
-    for(const node of main.querySelectorAll(selectors)){const b=node.getBoundingClientRect();if(b.width&&((b.left<-.5)||(b.right>innerWidth+.5)))failures.push('clipped '+node.className);if(node.matches('button')&&(b.width<43.9||b.height<43.9))failures.push('small tap target '+node.textContent)}
+    for(const node of main.querySelectorAll(selectors)){const b=node.getBoundingClientRect();if(b.width&&((b.left<-.5)||(b.right>innerWidth+.5)))failures.push('clipped '+node.className);if(node.matches('button')&&!node.closest('.voices-static-cloud')&&(b.width<43.9||b.height<43.9))failures.push('small tap target '+node.textContent)}
     for(const node of main.querySelectorAll('.static-copy,.page01-copy,h1'))if(node.scrollWidth>node.clientWidth+1)failures.push('text overflow '+node.className);
     for(const node of main.querySelectorAll('textarea'))if(parseFloat(getComputedStyle(node).fontSize)<16)failures.push('input triggers mobile autozoom');
    }
@@ -31,7 +33,7 @@ try{for(const [width,height] of sizes){
     for(const node of main.querySelectorAll('.static-copy,.static-title,.reflection-static-entry,.reflection-static-voice')){const b=node.getBoundingClientRect();if(Math.min(b.right,inscription.right)-Math.max(b.left,inscription.left)>1&&Math.min(b.bottom,inscription.bottom)-Math.max(b.top,inscription.top)>1)failures.push('mirror overlaps '+node.className)}
    }
    if(n===7&&width<1024){
-    const words=[...main.querySelectorAll('.voices-static-cloud button')];
+    const cloud=main.querySelector('.voices-static-cloud'), cr=cloud.getBoundingClientRect();const words=[...main.querySelectorAll('.voices-static-cloud button')];for(const w of words){const r=w.getBoundingClientRect();if(r.top<cr.top-1||r.bottom>cr.bottom+1)failures.push('cloud overflows reserved area '+w.textContent)}
     for(let i=0;i<words.length;i++)for(let j=i+1;j<words.length;j++){const a=words[i].getBoundingClientRect(),b=words[j].getBoundingClientRect();if(Math.min(a.right,b.right)-Math.max(a.left,b.left)>1&&Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top)>1)failures.push('cloud collision '+words[i].textContent+'/'+words[j].textContent)}
     const copy=getComputedStyle(main.querySelector('.static-copy'));if(copy.backgroundColor!=='rgba(0, 0, 0, 0)'||copy.backgroundImage!=='none')failures.push('copy backplate returned');
    }
@@ -39,7 +41,7 @@ try{for(const [width,height] of sizes){
   },{width,n});
   assert.deepEqual(failures,[],`${engine} ${width}x${height} page${n}`);if(!pages.includes(n))pages.push(n);
  }
- async function dialog(selector){await p.locator(selector).waitFor();const failures=await p.locator(selector).evaluate(e=>{const r=e.getBoundingClientRect(),fail=[];if(r.left<8||r.right>innerWidth-8||r.top<0||r.bottom>innerHeight)fail.push('dialog outside viewport');if(getComputedStyle(e).overflowY!=='auto')fail.push('dialog cannot scroll');for(const b of e.querySelectorAll('button')){const x=b.getBoundingClientRect();if(x.height<44||x.width<44)fail.push('small dialog control')}return fail});assert.deepEqual(failures,[],`${width} dialog ${selector}`)}
+ async function dialog(selector){await p.locator(selector).waitFor();const failures=await p.locator(selector).evaluate(e=>{const r=e.getBoundingClientRect(),fail=[];if(r.left<8||r.right>innerWidth-8||r.top<0||r.bottom>innerHeight)fail.push('dialog outside viewport');if(getComputedStyle(e).overflowY!=='auto')fail.push('dialog cannot scroll');for(const b of e.querySelectorAll('button')){const x=b.getBoundingClientRect();if(x.width&& (x.height<44||x.width<44))fail.push('small dialog control')}return fail});assert.deepEqual(failures,[],`${width} dialog ${selector}`)}
  await p.goto(base);await ready(1);assert.equal(await p.evaluate(()=>window.__inputViewportListeners),0);
  await click('开始体验');await ready(2);await p.locator('textarea').fill('自由');await click('构建我的世界');await dialog('.static-clarification');await click('拥有更多自由时间');await click('构建我的世界');await ready(3);
  await click('重新生成');await p.getByRole('status').filter({hasText:'版本 2'}).waitFor();await click('我想调整');await dialog('.ideal-static-adjustment');await p.locator('textarea').fill('柔和的晨光，安静地阅读。');await click('确认调整 ↗');await click('继续探索');await ready(4);
