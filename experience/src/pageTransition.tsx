@@ -15,7 +15,7 @@ function presented(frame:HTMLElement,page:Page){
  });
 }
 /** Inert visual copy only: no React effects, recognition sessions or handlers. */
-function snapshot(frame:HTMLElement,copyCanvases=true){
+function snapshot(frame:HTMLElement){
  const clone=frame.cloneNode(true) as HTMLElement,prefix=`outgoing-${crypto.randomUUID()}-`;
  const ids=new Map<string,string>();clone.querySelectorAll<HTMLElement>('[id]').forEach(e=>{const old=e.id;ids.set(old,prefix+old);e.id=prefix+old});
  clone.querySelectorAll('*').forEach(e=>{for(const attribute of [...e.attributes]){let value=attribute.value;
@@ -23,10 +23,8 @@ function snapshot(frame:HTMLElement,copyCanvases=true){
   value=value.replace(/url\(\s*(['"]?)(.*?)\1\s*\)/g,(all,_quote,uri:string)=>{const id=ids.get(uri.slice(uri.lastIndexOf('#')+1));return id?`url(#${id})`:all});
   for(const [old,id]of ids){if(value===`#${old}`)value=`#${id}`;if(['for','aria-labelledby','aria-describedby'].includes(attribute.name))value=value.split(' ').map(v=>v===old?id:v).join(' ')}if(value!==attribute.value)e.setAttribute(attribute.name,value)}});
  const originals=frame.querySelectorAll<HTMLInputElement|HTMLTextAreaElement|HTMLSelectElement>('input,textarea,select');clone.querySelectorAll<HTMLInputElement|HTMLTextAreaElement|HTMLSelectElement>('input,textarea,select').forEach((e,i)=>{e.value=originals[i].value;if(e instanceof HTMLInputElement&&originals[i]instanceof HTMLInputElement)e.checked=(originals[i]as HTMLInputElement).checked});
- // Native transitions already retain the old GPU frame; only the DOM fallback
- // needs a Canvas copy. Avoid a redundant synchronous GPU readback.
- if(copyCanvases)frame.querySelectorAll<HTMLCanvasElement>('canvas').forEach((canvas,i)=>{const target=clone.querySelectorAll('canvas')[i];if(target&&canvas.width&&canvas.height){target.width=canvas.width;target.height=canvas.height;target.getContext('2d')?.drawImage(canvas,0,0)}});
- frame.querySelectorAll<HTMLElement>('[data-dream-loop],.dream-keyword-text,.mic').forEach((node,i)=>{const target=clone.querySelectorAll<HTMLElement>('[data-dream-loop],.dream-keyword-text,.mic')[i],style=getComputedStyle(node);for(const name of ['transform','translate','opacity','stroke-dashoffset','offset-distance','box-shadow'])target.style.setProperty(name,style.getPropertyValue(name))});
+ // Only the existing microphone can have an active transient UI state.
+ frame.querySelectorAll<HTMLElement>('.mic').forEach((node,i)=>{const target=clone.querySelectorAll<HTMLElement>('.mic')[i],style=getComputedStyle(node);for(const name of ['transform','translate','opacity','box-shadow'])target.style.setProperty(name,style.getPropertyValue(name))});
  const holder=document.createElement('div'),r=frame.getBoundingClientRect();holder.className='scene-outgoing';holder.dataset.outgoingScene='true';holder.setAttribute('aria-hidden','true');holder.inert=true;clone.inert=true;clone.removeAttribute('aria-busy');clone.style.width='100%';clone.style.position='absolute';clone.style.left='0';clone.style.top=`${r.top}px`;holder.append(clone);return holder;
 }
 export function usePageTransition(){
@@ -41,34 +39,28 @@ export function usePageTransition(){
   let outgoing:HTMLDivElement|undefined,undo:(()=>void)|undefined;
   const frame=frameRef.current!;
   const scroll={x:window.scrollX,y:window.scrollY};
-  performance.mark(`navigation:request:${next.from}-${next.to}`);set(getSceneStatus(next.to)==='ready'&&getSceneStatus(next.from)!=='loading'?'staging':'preparing');
+  performance.mark(`navigation:request:${next.from}-${next.to}`);set(getSceneStatus(next.to)==='ready'?'staging':'preparing');
   try{
-   if(getSceneStatus(next.from)==='loading')await prepareCurrentProfile(next.from).catch(()=>{});
    await prepareCurrentProfile(next.to);if(!valid())return;
    flushSync(()=>set('staging'));
    const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
-   const native=typeof document.startViewTransition==='function'&&!reduce;
-   outgoing=snapshot(frame,!native);
-   if(!native){outgoing.style.opacity='0';document.body.append(outgoing);await Promise.all([...outgoing.querySelectorAll('img')].map(image=>image.decode().catch(()=>{})));await frames();if(!valid())return;}
-   const stage=async(waitForPaint:boolean)=>{
-    if(!outgoing!.isConnected)document.body.append(outgoing!);outgoing!.style.opacity='1';frame.style.opacity='0';
+   // Use the existing composited whole-scene crossfade on every browser.
+   // Native root snapshots added a large first-use stall in WebKit. The DOM
+   // copy preserves the same 360ms curve without that extra capture pipeline.
+   outgoing=snapshot(frame);document.body.append(outgoing);frame.style.opacity='0';
+   const stage=async()=>{
     const ready=presented(frame,next.to);
     flushSync(()=>{undo=next.commit()});
     // The persistent frame must not inherit a previous scene's mobile scroll.
     // The outgoing copy already preserves its original viewport position.
     window.scrollTo(0,0);
-    await ready;if(waitForPaint)await frames();
+    await ready;
     if(!valid())return;
    };
-   if(native){
-    const transition=document.startViewTransition(async()=>{await stage(false);frame.style.removeProperty('opacity');outgoing?.remove();performance.mark(`navigation:present:${next.to}`);set('animating')});
-    transition.ready.then(()=>performance.mark(`navigation:animation-begin:${next.to}`)).catch(()=>{});transition.updateCallbackDone.catch(()=>{});await transition.finished;
-   }else{
-    await stage(true);if(!valid())return;
-    frame.style.position='relative';frame.style.zIndex='1001';frame.style.willChange='opacity';performance.mark(`navigation:present:${next.to}`);set('animating');
-    if(!reduce){const animation=frame.animate([{opacity:0},{opacity:1}],{duration:360,easing:'cubic-bezier(0.4,0,0.2,1)',fill:'both'});animation.ready.then(()=>performance.mark(`navigation:animation-begin:${next.to}`));await animation.finished;animation.cancel()}
-    frame.style.removeProperty('opacity');outgoing.remove();
-   }
+   await stage();if(!valid())return;
+   frame.style.position='relative';frame.style.zIndex='1001';frame.style.willChange='opacity';performance.mark(`navigation:present:${next.to}`);set('animating');
+   if(!reduce){const animation=frame.animate([{opacity:0},{opacity:1}],{duration:360,easing:'cubic-bezier(0.4,0,0.2,1)',fill:'both'});animation.ready.then(()=>performance.mark(`navigation:animation-begin:${next.to}`));await animation.finished;animation.cancel()}
+   frame.style.removeProperty('opacity');outgoing.remove();
    if(!valid())return;intent.current=null;locked.current=false;set('idle');performance.mark(`navigation:complete:${next.to}`);document.dispatchEvent(new CustomEvent('scene-navigation-settled',{detail:{page:next.to}}));
   }catch{
    if(!valid())return;
