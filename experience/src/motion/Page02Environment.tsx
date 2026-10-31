@@ -44,7 +44,7 @@ export function Page02Environment(){
   const visible=()=>enabled&&!disposed&&!document.hidden&&!media.matches&&frame.dataset.navigationState==='idle'&&main.dataset.backgroundReady==='true';
   function tick(now:number){
    raf=0;if(!visible())return;
-   if(last)elapsed+=now-last;last=now;
+   if(last){material?.adapt(now-last);elapsed+=now-last}last=now;
    const t=elapsed/1000,sky=host.dataset.sky!=='off',water=host.dataset.water!=='off',mist=host.dataset.mist!=='off';
    material?.draw(t,[Number(sky),Number(water),Number(mist)]);
    ribbon.style.visibility=host.dataset.ribbon==='off'?'hidden':'visible';

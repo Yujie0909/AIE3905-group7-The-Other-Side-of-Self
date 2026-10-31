@@ -13,6 +13,8 @@ try{
  const host=p.locator('.page02-environment');await host.locator('canvas').waitFor();
  await p.waitForFunction(()=>Number(document.querySelector('.page02-environment')?.dataset.frames)>2);
  assert.equal(await host.getAttribute('data-material'),'webgl');
+ // Let measured quality adaptation settle before comparing motion pixels.
+ await p.waitForTimeout(6500);
  const geometry=()=>p.locator('.static-title,.static-copy,.dream-capture,.static-progress').evaluateAll(es=>es.map(e=>({text:e.textContent,rect:e.getBoundingClientRect().toJSON(),font:getComputedStyle(e).font,color:getComputedStyle(e).color})));
  const initial=await geometry();await p.mouse.move(2,2);await p.evaluate(()=>document.activeElement?.blur());
  const start=Date.now(),samples=[];

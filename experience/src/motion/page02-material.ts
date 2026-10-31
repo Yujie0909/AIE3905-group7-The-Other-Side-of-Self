@@ -65,15 +65,26 @@ export function createPage02Material(canvas:HTMLCanvasElement,image:HTMLImageEle
  }catch(error){gl.deleteTexture(texture);gl.deleteBuffer(buffer);gl.deleteProgram(program);shaders.forEach(s=>gl.deleteShader(s));console.warn('Page02 material unavailable; keeping original scene.',error);return null}
  const info=gl.getExtension('WEBGL_debug_renderer_info');
  const software=info&&/swiftshader|llvmpipe|software/i.test(String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)));
- const budget=software?320000:1200000;
+ let budget=software?320000:1200000;
+ let samples=0,total=0;
+ let camera:[number,number,number,number,number,number]|null=null;
  const u=(name:string)=>gl.getUniformLocation(program,name);
  const viewport=u('viewport'),draw=u('draw'),origin=u('origin'),time=u('time'),layers=u('layers');
- return{
-  resize(w:number,h:number,dw:number,dh:number,dx:number,dy:number){
+ const resize=(w:number,h:number,dw:number,dh:number,dx:number,dy:number)=>{
+   camera=[w,h,dw,dh,dx,dy];
    // At most 1.2M pixels; no full-DPR 4K continuous rendering.
    const ratio=Math.min(devicePixelRatio||1,Math.sqrt(budget/(w*h)),w<=700?1.5:1);
    canvas.width=Math.max(1,Math.round(w*ratio));canvas.height=Math.max(1,Math.round(h*ratio));gl.viewport(0,0,canvas.width,canvas.height);
    gl.uniform2f(viewport,w,h);gl.uniform2f(draw,dw,dh);gl.uniform2f(origin,dx,dy);
+ }
+ return{
+  resize,
+  adapt(interval:number){
+   // Some privacy-preserving browsers report a generic GPU name even when
+   // software-rendered. Use measured frame intervals, not only that name.
+   if(interval<=0||interval>180)return;
+   total+=interval;samples++;
+   if(samples===30){if(total/samples>38&&budget>320000&&camera){budget=Math.max(320000,Math.floor(budget*.55));resize(...camera)}samples=0;total=0}
   },
   draw(t:number,enabled:[number,number,number]){gl.uniform1f(time,t);gl.uniform3fv(layers,enabled);gl.drawArrays(gl.TRIANGLES,0,6)},
   dispose(){gl.deleteTexture(texture);gl.deleteBuffer(buffer);gl.deleteProgram(program);shaders.forEach(s=>gl.deleteShader(s));queueMicrotask(()=>{if(!canvas.isConnected)gl.getExtension('WEBGL_lose_context')?.loseContext()})}
