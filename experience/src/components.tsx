@@ -1,8 +1,5 @@
 import {useEffect,useRef,useState,type ReactNode} from 'react';
 import type {Page} from './session';
-export {PersistentSceneCanvas as PersistentScene} from './SceneCanvas';
-import {PersistentSceneCanvas as PersistentScene} from './SceneCanvas';
-export const SceneBackground=PersistentScene;
 export function PageHeader({number,title,en,body}:{number:number;title:string;en:string;body:string[]}){return <header className="page-header"><div className="eyebrow"><span className="page-number">{String(number).padStart(2,'0')}</span><span className="eyebrow-line"/>{en}</div><h1 tabIndex={-1}>{title}</h1><div className="body-copy">{body.map(t=><p key={t}>{t}</p>)}</div></header>}
 export function PageShell({children}:{children:ReactNode}){return <main className="page-shell">{children}</main>}
 export function PrimaryButton({children,onClick,disabled=false}:{children:ReactNode;onClick:()=>void;disabled?:boolean}){return <button className="primary" onClick={onClick} disabled={disabled}>{children}<span aria-hidden="true">↗</span></button>}
