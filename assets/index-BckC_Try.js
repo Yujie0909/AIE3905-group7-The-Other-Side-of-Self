@@ -1,2 +1,2 @@
 // static-recovery-entry
-import "./index-a3ERvuKL.js";
+import "./index-CbEDbEDm.js";
