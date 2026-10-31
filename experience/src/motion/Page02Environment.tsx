@@ -18,7 +18,7 @@ export function Page02Environment(){
   const main=host.closest('main')!,image=main.querySelector<HTMLImageElement>(':scope>.static-environment')!;
   const frame=main.closest<HTMLElement>('.scene-frame')!,media=matchMedia('(prefers-reduced-motion:reduce)');
   let material=createPage02Material(surface,image),raf=0,last=0,elapsed=0,frames=0,disposed=false;
-  let enabled=true;const gpuAvailable=Boolean(material);
+  let enabled=true,inView=true;const gpuAvailable=Boolean(material);
   host.dataset.material=gpuAvailable?'webgl':'unavailable';
   const segments=[...ribbon.querySelectorAll<SVGPathElement>('[data-stream]')];
   // Small composited highlights avoid repainting full-screen SVG strokes in
@@ -41,7 +41,7 @@ export function Page02Environment(){
    for(const light of lights){let axis=0;const path=routes[light.route].d.replace(/[A-Za-z]|[-+]?(?:\d*\.)?\d+/g,token=>{if(/[A-Za-z]/.test(token)){axis=0;return token}return String(Number(token)*scale+(axis++%2===0?dx:dy))});Object.assign(light.node.style,{offsetPath:`path("${path}")`,width:`${180*scale}px`,height:`${24*scale}px`})}
    material?.resize(r.width,r.height,dw,dh,dx,dy);host.dataset.camera=JSON.stringify({width:r.width,height:r.height,scale,dx,dy});
   }
-  const visible=()=>enabled&&!disposed&&!document.hidden&&!media.matches&&frame.dataset.navigationState==='idle'&&main.dataset.backgroundReady==='true';
+  const visible=()=>enabled&&inView&&!disposed&&!document.hidden&&!media.matches&&frame.dataset.navigationState==='idle'&&main.dataset.backgroundReady==='true';
   function tick(now:number){
    raf=0;if(!visible())return;
    if(last){material?.adapt(now-last);elapsed+=now-last}last=now;
@@ -60,15 +60,16 @@ export function Page02Environment(){
    if(!run&&raf){cancelAnimationFrame(raf);raf=0}
   }
   const observer=new ResizeObserver(resize);observer.observe(image);
+  const intersection=new IntersectionObserver(entries=>{inView=entries[0]?.isIntersecting??false;sync()});intersection.observe(host);
   const stateObserver=new MutationObserver(sync);stateObserver.observe(frame,{attributes:true,attributeFilter:['data-navigation-state']});
   const onControl=()=>{enabled=host.dataset.enabled!=='off';sync()};
   const controlObserver=new MutationObserver(onControl);controlObserver.observe(host,{attributes:true,attributeFilter:['data-enabled']});
-  function lost(event:Event){event.preventDefault();material=null;surface.style.visibility='hidden';host.dataset.material='lost'}
+  function lost(event:Event){event.preventDefault();material?.dispose();material=null;surface.style.visibility='hidden';host.dataset.material='lost'}
   function restored(){material=createPage02Material(surface,image);surface.style.visibility=material?'visible':'hidden';host.dataset.material=material?'webgl':'unavailable';resize()}
   surface.addEventListener('webglcontextlost',lost);surface.addEventListener('webglcontextrestored',restored);
   document.addEventListener('visibilitychange',sync);media.addEventListener('change',sync);
   resize();sync();
-  return()=>{disposed=true;cancelAnimationFrame(raf);lights.forEach(light=>{light.animation.cancel();light.node.remove()});observer.disconnect();stateObserver.disconnect();controlObserver.disconnect();document.removeEventListener('visibilitychange',sync);media.removeEventListener('change',sync);surface.removeEventListener('webglcontextlost',lost);surface.removeEventListener('webglcontextrestored',restored);material?.dispose()};
+  return()=>{disposed=true;cancelAnimationFrame(raf);lights.forEach(light=>{light.animation.cancel();light.node.remove()});observer.disconnect();intersection.disconnect();stateObserver.disconnect();controlObserver.disconnect();document.removeEventListener('visibilitychange',sync);media.removeEventListener('change',sync);surface.removeEventListener('webglcontextlost',lost);surface.removeEventListener('webglcontextrestored',restored);material?.dispose()};
  },[]);
  return <div ref={owner} className="page02-environment" data-running="false" data-suppressed="true" aria-hidden="true">
   <canvas ref={canvas} data-environment-layers="sky mist water reflection"/>

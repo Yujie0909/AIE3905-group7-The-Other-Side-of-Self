@@ -1,6 +1,7 @@
 /** Local texture deformation of the approved photograph, never the terrain/UI.
  * Coordinates and masks are in native page02.png pixels (1672 × 941).
  * Small bounded deformation avoids exposing holes in this flattened artwork. */
+import {createPage02Water} from './page02-water';
 const vertex=`attribute vec2 a;varying vec2 v;void main(){v=vec2((a.x+1.)*.5,(1.-a.y)*.5);gl_Position=vec4(a,0.,1.);}`;
 const fragment=`precision highp float;
 varying vec2 v;uniform sampler2D photo;uniform vec2 viewport,draw,origin;uniform float time;uniform vec3 layers;
@@ -26,20 +27,10 @@ void main(){
  sky*=layers.x;
  // Native pale fog patches; background terrain stays outside these masks.
  float mist=max(ellipse(p,vec2(950.,639.),vec2(225.,16.)),ellipse(p,vec2(610.,631.),vec2(135.,13.)))*layers.z;
- float bank=480.+max(0.,p.y-700.)*1.9;
- float water=smoothstep(659.,676.,p.y)*smoothstep(bank,bank+35.,p.x)*layers.y;
- float alpha=max(sky,max(water,mist));
+ float alpha=max(sky,mist);
  if(alpha<.001){gl_FragColor=vec4(0.);return;}
  vec3 color;
- if(water>max(sky,mist)){
-  float near=clamp((p.y-658.)/283.,0.,1.);
-  float wave=sin(p.y*.29-t*1.16+1.5*sin(p.x*.008+t*.13));
-  float fine=sin(p.y*.71+p.x*.013-t*1.7);
-  vec2 ripple=vec2((1.1+3.1*near)*wave+.65*fine,(.18+.68*near)*sin(p.y*.35+p.x*.011-t*.9));
-  color=texture2D(photo,(p+ripple*wind)/vec2(1672.,941.)).rgb;
-  float reflection=exp(-pow((p.x-1155.)/(38.+near*100.),2.));
-  color+=vec3(1.,.83,.56)*(reflection*(.012*wave+.009*(sun-.5))+.0025*fine*near);
- }else if(mist>sky){
+ if(mist>sky){
   vec2 drift=vec2(4.8*sin(t*.23+p.y*.03),.5*sin(t*.18+p.x*.02));
   color=texture2D(photo,(p+drift)/vec2(1672.,941.)).rgb;
  }else{
@@ -64,10 +55,12 @@ export function createPage02Material(canvas:HTMLCanvasElement,image:HTMLImageEle
   gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,image);
  }catch(error){gl.deleteTexture(texture);gl.deleteBuffer(buffer);gl.deleteProgram(program);shaders.forEach(s=>gl.deleteShader(s));console.warn('Page02 material unavailable; keeping original scene.',error);return null}
  const info=gl.getExtension('WEBGL_debug_renderer_info');
+ const water=createPage02Water(canvas,image);
  const software=info&&/swiftshader|llvmpipe|software/i.test(String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)));
  let budget=software?320000:1200000;
  let samples=0,total=0;
  let camera:[number,number,number,number,number,number]|null=null;
+ let atmosphereVisible=true;
  const u=(name:string)=>gl.getUniformLocation(program,name);
  const viewport=u('viewport'),draw=u('draw'),origin=u('origin'),time=u('time'),layers=u('layers');
  const resize=(w:number,h:number,dw:number,dh:number,dx:number,dy:number)=>{
@@ -76,17 +69,19 @@ export function createPage02Material(canvas:HTMLCanvasElement,image:HTMLImageEle
    const ratio=Math.min(devicePixelRatio||1,Math.sqrt(budget/(w*h)),w<=700?1.5:1);
    canvas.width=Math.max(1,Math.round(w*ratio));canvas.height=Math.max(1,Math.round(h*ratio));gl.viewport(0,0,canvas.width,canvas.height);
    gl.uniform2f(viewport,w,h);gl.uniform2f(draw,dw,dh);gl.uniform2f(origin,dx,dy);
+   water?.resize(w,h,dw,dh,dx,dy);
  }
  return{
   resize,
   adapt(interval:number){
+   water?.adapt(interval);
    // Some privacy-preserving browsers report a generic GPU name even when
    // software-rendered. Use measured frame intervals, not only that name.
    if(interval<=0||interval>180)return;
    total+=interval;samples++;
    if(samples===30){if(total/samples>38&&budget>320000&&camera){budget=Math.max(320000,Math.floor(budget*.55));resize(...camera)}samples=0;total=0}
   },
-  draw(t:number,enabled:[number,number,number]){gl.uniform1f(time,t);gl.uniform3fv(layers,enabled);gl.drawArrays(gl.TRIANGLES,0,6)},
-  dispose(){gl.deleteTexture(texture);gl.deleteBuffer(buffer);gl.deleteProgram(program);shaders.forEach(s=>gl.deleteShader(s));queueMicrotask(()=>{if(!canvas.isConnected)gl.getExtension('WEBGL_lose_context')?.loseContext()})}
+  draw(t:number,enabled:[number,number,number]){if(enabled[0]||enabled[2]){gl.uniform1f(time,t);gl.uniform3fv(layers,enabled);gl.drawArrays(gl.TRIANGLES,0,6);atmosphereVisible=true}else if(atmosphereVisible){gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT);atmosphereVisible=false}water?.draw(t,Boolean(enabled[1]))},
+  dispose(){water?.dispose();gl.deleteTexture(texture);gl.deleteBuffer(buffer);gl.deleteProgram(program);shaders.forEach(s=>gl.deleteShader(s));queueMicrotask(()=>{if(!canvas.isConnected)gl.getExtension('WEBGL_lose_context')?.loseContext()})}
  };
 }

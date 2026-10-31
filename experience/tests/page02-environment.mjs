@@ -10,7 +10,7 @@ try{
  await p.goto(process.env.STATIC_BASE_URL||'http://localhost:5211');
  assert.equal(await p.locator('.page02-environment').count(),0);
  await p.getByRole('button',{name:'开始体验',exact:true}).click();await p.locator('.static-page-02').waitFor();await p.locator('.scene-frame[data-navigation-state=idle]').waitFor();
- const host=p.locator('.page02-environment');await host.locator('canvas').waitFor();
+ const host=p.locator('.page02-environment');await host.locator('canvas').first().waitFor();await host.locator('[data-water-material=ready]').waitFor();
  await p.waitForFunction(()=>Number(document.querySelector('.page02-environment')?.dataset.frames)>2);
  assert.equal(await host.getAttribute('data-material'),'webgl');
  // Let measured quality adaptation settle before comparing motion pixels.
@@ -33,7 +33,7 @@ try{
  await p.evaluate(()=>{delete document.hidden;document.dispatchEvent(new Event('visibilitychange'))});
  // Real text input, clarification modal, original generation and navigation.
  await p.locator('textarea').fill('自由');await p.getByRole('button',{name:'构建我的世界',exact:true}).click();await p.locator('.static-clarification').waitFor();await p.getByRole('button',{name:'拥有更多自由时间',exact:true}).click();await p.getByRole('button',{name:'构建我的世界',exact:true}).click();await p.locator('.static-page-03').waitFor();await p.locator('.scene-frame[data-navigation-state=idle]').waitFor();assert.equal(await p.locator('.page02-environment').count(),0);assert.equal(await p.locator('canvas').count(),0);
- await p.getByRole('button',{name:'02 想象',exact:true}).click();await p.locator('.static-page-02').waitFor();await p.locator('.scene-frame[data-navigation-state=idle]').waitFor();await p.waitForFunction(()=>Number(document.querySelector('.page02-environment')?.dataset.frames)>2);assert.equal(await p.locator('.page02-environment canvas').count(),1);assert.ok((await p.locator('textarea').inputValue()).includes('自由'));
+ await p.getByRole('button',{name:'02 想象',exact:true}).click();await p.locator('.static-page-02').waitFor();await p.locator('.scene-frame[data-navigation-state=idle]').waitFor();await p.waitForFunction(()=>Number(document.querySelector('.page02-environment')?.dataset.frames)>2);assert.equal(await p.locator('.page02-environment canvas').count(),2);assert.equal(await p.locator('[data-water-material=ready]').count(),1);assert.ok((await p.locator('textarea').inputValue()).includes('自由'));
  assert.deepEqual(errors,[]);const fps=(samples[2].frames-samples[0].frames)/(samples[2].time-samples[0].time);
- await fs.writeFile(`${dir}/results.json`,JSON.stringify({engine,width,height,samples,fps,requests,errors,checks:['t0/t5/t10','stable UI','reduced motion stops','hidden tab stops','input and clarification','navigation disposes','revisit creates one canvas']},null,2));console.log('PASS',engine,width,'frames/sec',fps.toFixed(1));
+ await fs.writeFile(`${dir}/results.json`,JSON.stringify({engine,width,height,samples,fps,requests,errors,checks:['t0/t5/t10','stable UI','reduced motion stops','hidden tab stops','input and clarification','navigation disposes','revisit creates one water canvas and one existing sky canvas']},null,2));console.log('PASS',engine,width,'frames/sec',fps.toFixed(1));
 }finally{await b.close()}
