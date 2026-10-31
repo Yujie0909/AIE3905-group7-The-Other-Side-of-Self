@@ -1,0 +1,3209 @@
+{
+  "cases": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "height": 900,
+      "frames": [
+        {
+          "now": 1747.5999999940395,
+          "camera": {
+            "x": -79.57492029755576,
+            "y": 0,
+            "scale": 0.9564293304994687
+          },
+          "host": {
+            "x": -79.5625,
+            "y": 0,
+            "width": 1599.140625,
+            "height": 900,
+            "top": 0,
+            "right": 1519.578125,
+            "bottom": 900,
+            "left": -79.5625
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 954.646240234375,
+                "y": 449.595458984375
+              },
+              "matrix": {
+                "a": 0.9564156848306333,
+                "d": 0.956413641316495,
+                "e": -79.56668814432987,
+                "f": -3.162997319350325e-05
+              },
+              "offsetDistance": "23.3654%",
+              "screenCenter": {
+                "x": 833.6136169433594,
+                "y": 429.9898376464844
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 1313.843017578125,
+                "y": 192.32322692871094
+              },
+              "matrix": {
+                "a": 0.9564208984375,
+                "d": 0.9564158697546613,
+                "e": -79.56689453125,
+                "f": -0.005805441413144763
+              },
+              "offsetDistance": "58.0172%",
+              "screenCenter": {
+                "x": 1177.0235595703125,
+                "y": 183.93618774414062
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1124.7701416015625,
+                "y": 312.48895263671875
+              },
+              "matrix": {
+                "a": 0.9564012096774194,
+                "d": 0.9564263154204503,
+                "e": -79.54889112903231,
+                "f": -0.008907745282357382
+              },
+              "offsetDistance": "15.8043%",
+              "screenCenter": {
+                "x": 996.2898559570312,
+                "y": 298.78590393066406
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 76.3125,
+            "y": 132.296875,
+            "width": 979.1875,
+            "height": 123.5,
+            "top": 132.296875,
+            "right": 1055.5,
+            "bottom": 255.796875,
+            "left": 76.3125
+          },
+          "copy": {
+            "x": 82.078125,
+            "y": 296.8125,
+            "width": 676.796875,
+            "height": 71.71875,
+            "top": 296.8125,
+            "right": 758.875,
+            "bottom": 368.53125,
+            "left": 82.078125
+          },
+          "input": {
+            "x": 457.46875,
+            "y": 690.890625,
+            "width": 477.53125,
+            "height": 36,
+            "top": 690.890625,
+            "right": 935,
+            "bottom": 726.890625,
+            "left": 457.46875
+          },
+          "targetSeconds": 0,
+          "elapsedMs": 20
+        },
+        {
+          "now": 4741.9000000059605,
+          "camera": {
+            "x": -79.57492029755576,
+            "y": 0,
+            "scale": 0.9564293304994687
+          },
+          "host": {
+            "x": -79.5625,
+            "y": 0,
+            "width": 1599.140625,
+            "height": 900,
+            "top": 0,
+            "right": 1519.578125,
+            "bottom": 900,
+            "left": -79.5625
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1135.06640625,
+                "y": 289.2291259765625
+              },
+              "matrix": {
+                "a": 0.9564156848306333,
+                "d": 0.956413641316495,
+                "e": -79.56668814432987,
+                "f": -3.162997319350325e-05
+              },
+              "offsetDistance": "52.2106%",
+              "screenCenter": {
+                "x": 1006.027587890625,
+                "y": 276.64349365234375
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 1534.5672607421875,
+                "y": 76.76907348632812
+              },
+              "matrix": {
+                "a": 0.9564208984375,
+                "d": 0.9564158697546613,
+                "e": -79.56689453125,
+                "f": -0.005805441413144763
+              },
+              "offsetDistance": "83.8784%",
+              "screenCenter": {
+                "x": 1388.10546875,
+                "y": 73.42382049560547
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1341.8797607421875,
+                "y": 284.185546875
+              },
+              "matrix": {
+                "a": 0.9564012096774194,
+                "d": 0.9564263154204503,
+                "e": -79.54889112903231,
+                "f": -0.008907745282357382
+              },
+              "offsetDistance": "48.412%",
+              "screenCenter": {
+                "x": 1203.8709106445312,
+                "y": 271.80137634277344
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 76.3125,
+            "y": 132.296875,
+            "width": 979.1875,
+            "height": 123.5,
+            "top": 132.296875,
+            "right": 1055.5,
+            "bottom": 255.796875,
+            "left": 76.3125
+          },
+          "copy": {
+            "x": 82.078125,
+            "y": 296.8125,
+            "width": 676.796875,
+            "height": 71.71875,
+            "top": 296.8125,
+            "right": 758.875,
+            "bottom": 368.53125,
+            "left": 82.078125
+          },
+          "input": {
+            "x": 457.46875,
+            "y": 690.890625,
+            "width": 477.53125,
+            "height": 36,
+            "top": 690.890625,
+            "right": 935,
+            "bottom": 726.890625,
+            "left": 457.46875
+          },
+          "stats": "{\"draws\":50,\"meanDrawMs\":0.34999999940395354,\"maxDrawMs\":3.199999988079071,\"quality\":\"economy\",\"seconds\":2.0465000000000004}",
+          "targetSeconds": 3,
+          "elapsedMs": 3007
+        },
+        {
+          "now": 7740.0999999940395,
+          "camera": {
+            "x": -79.57492029755576,
+            "y": 0,
+            "scale": 0.9564293304994687
+          },
+          "host": {
+            "x": -79.5625,
+            "y": 0,
+            "width": 1599.140625,
+            "height": 900,
+            "top": 0,
+            "right": 1519.578125,
+            "bottom": 900,
+            "left": -79.5625
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1270.310791015625,
+                "y": 78.56553649902344
+              },
+              "matrix": {
+                "a": 0.9564156848306333,
+                "d": 0.956413641316495,
+                "e": -79.56668814432987,
+                "f": -3.162997319350325e-05
+              },
+              "offsetDistance": "81.0558%",
+              "screenCenter": {
+                "x": 1135.41845703125,
+                "y": 75.11006546020508
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 923.643798828125,
+                "y": 441.8764953613281
+              },
+              "matrix": {
+                "a": 0.9564208984375,
+                "d": 0.9564158697546613,
+                "e": -79.56689453125,
+                "f": -0.005805441413144763
+              },
+              "offsetDistance": "9.73966%",
+              "screenCenter": {
+                "x": 803.8410339355469,
+                "y": 422.61614990234375
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1563.536376953125,
+                "y": 328.56494140625
+              },
+              "matrix": {
+                "a": 0.9564012096774194,
+                "d": 0.9564263154204503,
+                "e": -79.54889112903231,
+                "f": -0.008907745282357382
+              },
+              "offsetDistance": "81.0196%",
+              "screenCenter": {
+                "x": 1415.76123046875,
+                "y": 314.243408203125
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 76.3125,
+            "y": 132.296875,
+            "width": 979.1875,
+            "height": 123.5,
+            "top": 132.296875,
+            "right": 1055.5,
+            "bottom": 255.796875,
+            "left": 76.3125
+          },
+          "copy": {
+            "x": 82.078125,
+            "y": 296.8125,
+            "width": 676.796875,
+            "height": 71.71875,
+            "top": 296.8125,
+            "right": 758.875,
+            "bottom": 368.53125,
+            "left": 82.078125
+          },
+          "input": {
+            "x": 457.46875,
+            "y": 690.890625,
+            "width": 477.53125,
+            "height": 36,
+            "top": 690.890625,
+            "right": 935,
+            "bottom": 726.890625,
+            "left": 457.46875
+          },
+          "stats": "{\"draws\":146,\"meanDrawMs\":0.2952054775741002,\"maxDrawMs\":3.199999988079071,\"quality\":\"economy\",\"seconds\":6.046300000000018}",
+          "targetSeconds": 6,
+          "elapsedMs": 6007
+        }
+      ],
+      "errors": [],
+      "requests": [
+        "http://localhost:5200/assets/page01-clean-DfBdaI7L.webp",
+        "http://localhost:5200/assets/page02-clean-CBdaBq3v.webp",
+        "http://localhost:5200/assets/page02-artwork-Dl7LWAj7.webp",
+        "http://localhost:5200/assets/page03-clean-CSgqZemO.webp",
+        "http://localhost:5200/assets/page03-artwork-r1KTALmy.webp",
+        "http://localhost:5200/assets/page04-clean-DvRiPcCB.webp",
+        "http://localhost:5200/assets/page04-artwork-BS6mnhDW.webp"
+      ],
+      "checks": {
+        "hiddenPauseAndResume": true,
+        "leaveDisposesAndBusinessGenerationWorks": true,
+        "revisitNoDuplicateAndInputPreserved": true,
+        "reducedMotion": true,
+        "reducedMotionRestoreKeepsRibbonCoherent": true
+      },
+      "isolatedRibbonPixels": {
+        "changeOver3": 6990,
+        "changeOver12": 3949,
+        "maxChannelChange": 134,
+        "changeOutsideCurveOver3": 0
+      },
+      "frameDifferences": [
+        {
+          "seconds": 3,
+          "curvePixelsOver8": 9868,
+          "titleSampleChangedPixels": 0,
+          "copySampleChangedPixels": 0
+        },
+        {
+          "seconds": 6,
+          "curvePixelsOver8": 9919,
+          "titleSampleChangedPixels": 0,
+          "copySampleChangedPixels": 0
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "height": 1080,
+      "frames": [
+        {
+          "now": 1959.800000011921,
+          "camera": {
+            "x": 0,
+            "y": -0.2870813397129268,
+            "scale": 1.1483253588516746
+          },
+          "host": {
+            "x": 0,
+            "y": -0.28125,
+            "width": 1920,
+            "height": 1080.5625,
+            "top": -0.28125,
+            "right": 1920,
+            "bottom": 1080.28125,
+            "left": 0
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 951.8684692382812,
+                "y": 449.93927001953125
+              },
+              "matrix": {
+                "a": 1.1483109351988219,
+                "d": 1.148299959990001,
+                "e": 0.00016108247416468657,
+                "f": -0.2708515203799635
+              },
+              "offsetDistance": "23.0452%",
+              "screenCenter": {
+                "x": 1093.1671752929688,
+                "y": 516.393798828125
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 1311.7113037109375,
+                "y": 194.14154052734375
+              },
+              "matrix": {
+                "a": 1.1483154296875,
+                "d": 1.14830040168834,
+                "e": 0.00537109375,
+                "f": -0.2842640590919032
+              },
+              "offsetDistance": "57.7302%",
+              "screenCenter": {
+                "x": 1506.2640380859375,
+                "y": 222.65445709228516
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1122.751953125,
+                "y": 313.9970703125
+              },
+              "matrix": {
+                "a": 1.1483229472140764,
+                "d": 1.1482333604551243,
+                "e": -0.007468841642321422,
+                "f": -0.2688859843253226
+              },
+              "offsetDistance": "15.4424%",
+              "screenCenter": {
+                "x": 1289.36083984375,
+                "y": 360.21339416503906
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 101.75,
+            "y": 158.75,
+            "width": 1305.59375,
+            "height": 164.65625,
+            "top": 158.75,
+            "right": 1407.34375,
+            "bottom": 323.40625,
+            "left": 101.75
+          },
+          "copy": {
+            "x": 109.4375,
+            "y": 354.828125,
+            "width": 902.390625,
+            "height": 95,
+            "top": 354.828125,
+            "right": 1011.828125,
+            "bottom": 449.828125,
+            "left": 109.4375
+          },
+          "input": {
+            "x": 609.625,
+            "y": 849.765625,
+            "width": 637.359375,
+            "height": 48,
+            "top": 849.765625,
+            "right": 1246.984375,
+            "bottom": 897.765625,
+            "left": 609.625
+          },
+          "targetSeconds": 0,
+          "elapsedMs": 7
+        },
+        {
+          "now": 4960.4000000059605,
+          "camera": {
+            "x": 0,
+            "y": -0.2870813397129268,
+            "scale": 1.1483253588516746
+          },
+          "host": {
+            "x": 0,
+            "y": -0.28125,
+            "width": 1920,
+            "height": 1080.5625,
+            "top": -0.28125,
+            "right": 1920,
+            "bottom": 1080.28125,
+            "left": 0
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1133.7872314453125,
+                "y": 291.7187194824219
+              },
+              "matrix": {
+                "a": 1.1483109351988219,
+                "d": 1.148299959990001,
+                "e": 0.00016108247416468657,
+                "f": -0.2708515203799635
+              },
+              "offsetDistance": "51.8904%",
+              "screenCenter": {
+                "x": 1301.927734375,
+                "y": 334.75726318359375
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 1531.8428955078125,
+                "y": 77.42393493652344
+              },
+              "matrix": {
+                "a": 1.1483154296875,
+                "d": 1.14830040168834,
+                "e": 0.00537109375,
+                "f": -0.2842640590919032
+              },
+              "offsetDistance": "83.5914%",
+              "screenCenter": {
+                "x": 1759.0269775390625,
+                "y": 88.62790298461914
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1339.4171142578125,
+                "y": 283.65087890625
+              },
+              "matrix": {
+                "a": 1.1483229472140764,
+                "d": 1.1482333604551243,
+                "e": -0.007468841642321422,
+                "f": -0.2688859843253226
+              },
+              "offsetDistance": "48.05%",
+              "screenCenter": {
+                "x": 1538.1061401367188,
+                "y": 325.4367218017578
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 101.75,
+            "y": 158.75,
+            "width": 1305.59375,
+            "height": 164.65625,
+            "top": 158.75,
+            "right": 1407.34375,
+            "bottom": 323.40625,
+            "left": 101.75
+          },
+          "copy": {
+            "x": 109.4375,
+            "y": 354.828125,
+            "width": 902.390625,
+            "height": 95,
+            "top": 354.828125,
+            "right": 1011.828125,
+            "bottom": 449.828125,
+            "left": 109.4375
+          },
+          "input": {
+            "x": 609.625,
+            "y": 849.765625,
+            "width": 637.359375,
+            "height": 48,
+            "top": 849.765625,
+            "right": 1246.984375,
+            "bottom": 897.765625,
+            "left": 609.625
+          },
+          "stats": "{\"draws\":55,\"meanDrawMs\":0.20727272846482017,\"maxDrawMs\":0.9000000059604645,\"quality\":\"economy\",\"seconds\":2.2465000000000006}",
+          "targetSeconds": 3,
+          "elapsedMs": 3006
+        },
+        {
+          "now": 7960.300000011921,
+          "camera": {
+            "x": 0,
+            "y": -0.2870813397129268,
+            "scale": 1.1483253588516746
+          },
+          "host": {
+            "x": 0,
+            "y": -0.28125,
+            "width": 1920,
+            "height": 1080.5625,
+            "top": -0.28125,
+            "right": 1920,
+            "bottom": 1080.28125,
+            "left": 0
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1268.2957763671875,
+                "y": 80.50824737548828
+              },
+              "matrix": {
+                "a": 1.1483109351988219,
+                "d": 1.148299959990001,
+                "e": 0.00016108247416468657,
+                "f": -0.2708515203799635
+              },
+              "offsetDistance": "80.7356%",
+              "screenCenter": {
+                "x": 1456.4310302734375,
+                "y": 92.15391540527344
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 920.8546142578125,
+                "y": 442.1493835449219
+              },
+              "matrix": {
+                "a": 1.1483154296875,
+                "d": 1.14830040168834,
+                "e": 0.00537109375,
+                "f": -0.2842640590919032
+              },
+              "offsetDistance": "9.45259%",
+              "screenCenter": {
+                "x": 1057.4540405273438,
+                "y": 507.44496154785156
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1561.017822265625,
+                "y": 328.65301513671875
+              },
+              "matrix": {
+                "a": 1.1483229472140764,
+                "d": 1.1482333604551243,
+                "e": -0.007468841642321422,
+                "f": -0.2688859843253226
+              },
+              "offsetDistance": "80.6576%",
+              "screenCenter": {
+                "x": 1792.513671875,
+                "y": 377.1101989746094
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 101.75,
+            "y": 158.75,
+            "width": 1305.59375,
+            "height": 164.65625,
+            "top": 158.75,
+            "right": 1407.34375,
+            "bottom": 323.40625,
+            "left": 101.75
+          },
+          "copy": {
+            "x": 109.4375,
+            "y": 354.828125,
+            "width": 902.390625,
+            "height": 95,
+            "top": 354.828125,
+            "right": 1011.828125,
+            "bottom": 449.828125,
+            "left": 109.4375
+          },
+          "input": {
+            "x": 609.625,
+            "y": 849.765625,
+            "width": 637.359375,
+            "height": 48,
+            "top": 849.765625,
+            "right": 1246.984375,
+            "bottom": 897.765625,
+            "left": 609.625
+          },
+          "stats": "{\"draws\":152,\"meanDrawMs\":0.2131578951681915,\"maxDrawMs\":0.9000000059604645,\"quality\":\"economy\",\"seconds\":6.263100000000023}",
+          "targetSeconds": 6,
+          "elapsedMs": 6006
+        }
+      ],
+      "errors": [],
+      "requests": [
+        "http://localhost:5200/assets/page01-clean-DfBdaI7L.webp",
+        "http://localhost:5200/assets/page02-clean-CBdaBq3v.webp",
+        "http://localhost:5200/assets/page02-artwork-Dl7LWAj7.webp",
+        "http://localhost:5200/assets/page03-clean-CSgqZemO.webp",
+        "http://localhost:5200/assets/page03-artwork-r1KTALmy.webp",
+        "http://localhost:5200/assets/page04-clean-DvRiPcCB.webp",
+        "http://localhost:5200/assets/page04-artwork-BS6mnhDW.webp"
+      ],
+      "checks": {
+        "hiddenPauseAndResume": true,
+        "leaveDisposesAndBusinessGenerationWorks": true,
+        "revisitNoDuplicateAndInputPreserved": true,
+        "reducedMotion": true,
+        "reducedMotionRestoreKeepsRibbonCoherent": true
+      },
+      "isolatedRibbonPixels": {
+        "changeOver3": 11097,
+        "changeOver12": 6010,
+        "maxChannelChange": 125,
+        "changeOutsideCurveOver3": 0
+      },
+      "frameDifferences": [
+        {
+          "seconds": 3,
+          "curvePixelsOver8": 14704
+        },
+        {
+          "seconds": 6,
+          "curvePixelsOver8": 15003
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "height": 844,
+      "frames": [
+        {
+          "now": 1683.4000000059605,
+          "camera": {
+            "x": -728.2003188097768,
+            "y": 0,
+            "scale": 0.9032943676939427
+          },
+          "host": {
+            "x": -728.1875,
+            "y": 0,
+            "width": 1510.296875,
+            "height": 850,
+            "top": 0,
+            "right": 782.109375,
+            "bottom": 850,
+            "left": -728.1875
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 965.7003173828125,
+                "y": 447.8282165527344
+              },
+              "matrix": {
+                "a": 0.9032814801178203,
+                "d": 0.9032915261324478,
+                "e": -728.1879832474226,
+                "f": 0.012577993033012547
+              },
+              "offsetDistance": "24.6462%",
+              "screenCenter": {
+                "x": 144.21917724609375,
+                "y": 404.5136413574219
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 1322.4156494140625,
+                "y": 185.09957885742188
+              },
+              "matrix": {
+                "a": 0.9032854352678571,
+                "d": 0.903283691888829,
+                "e": -728.1865234375,
+                "f": -0.005554216109011634
+              },
+              "offsetDistance": "59.1655%",
+              "screenCenter": {
+                "x": 466.3430480957031,
+                "y": 167.18649291992188
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1132.9620361328125,
+                "y": 306.61712646484375
+              },
+              "matrix": {
+                "a": 0.9032716275659824,
+                "d": 0.9032045564608835,
+                "e": -728.178564882698,
+                "f": 0.014654633342189527
+              },
+              "offsetDistance": "17.2522%",
+              "screenCenter": {
+                "x": 295.1958694458008,
+                "y": 276.9571304321289
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 27.296875,
+            "y": 102,
+            "width": 343.203125,
+            "height": 79.75,
+            "top": 102,
+            "right": 370.5,
+            "bottom": 181.75,
+            "left": 27.296875
+          },
+          "copy": {
+            "x": 27.296875,
+            "y": 284,
+            "width": 335.40625,
+            "height": 49.15625,
+            "top": 284,
+            "right": 362.703125,
+            "bottom": 333.15625,
+            "left": 27.296875
+          },
+          "input": {
+            "x": 52.1875,
+            "y": 616,
+            "width": 250.59375,
+            "height": 30,
+            "top": 616,
+            "right": 302.78125,
+            "bottom": 646,
+            "left": 52.1875
+          },
+          "targetSeconds": 0,
+          "elapsedMs": 6
+        },
+        {
+          "now": 4683.5,
+          "camera": {
+            "x": -728.2003188097768,
+            "y": 0,
+            "scale": 0.9032943676939427
+          },
+          "host": {
+            "x": -728.1875,
+            "y": 0,
+            "width": 1510.296875,
+            "height": 850,
+            "top": 0,
+            "right": 782.109375,
+            "bottom": 850,
+            "left": -728.1875
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1140.103759765625,
+                "y": 279.2313537597656
+              },
+              "matrix": {
+                "a": 0.9032814801178203,
+                "d": 0.9032915261324478,
+                "e": -728.1879832474226,
+                "f": 0.012577993033012547
+              },
+              "offsetDistance": "53.4913%",
+              "screenCenter": {
+                "x": 301.6392822265625,
+                "y": 252.26628875732422
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 1545.4893798828125,
+                "y": 74.24384307861328
+              },
+              "matrix": {
+                "a": 0.9032854352678571,
+                "d": 0.903283691888829,
+                "e": -728.1865234375,
+                "f": -0.005554216109011634
+              },
+              "offsetDistance": "85.0267%",
+              "screenCenter": {
+                "x": 667.8101806640625,
+                "y": 67.06278991699219
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1351.704833984375,
+                "y": 286.4325866699219
+              },
+              "matrix": {
+                "a": 0.9032716275659824,
+                "d": 0.9032045564608835,
+                "e": -728.178564882698,
+                "f": 0.014654633342189527
+              },
+              "offsetDistance": "49.8598%",
+              "screenCenter": {
+                "x": 492.8289031982422,
+                "y": 258.7329559326172
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 27.296875,
+            "y": 102,
+            "width": 343.203125,
+            "height": 79.75,
+            "top": 102,
+            "right": 370.5,
+            "bottom": 181.75,
+            "left": 27.296875
+          },
+          "copy": {
+            "x": 27.296875,
+            "y": 284,
+            "width": 335.40625,
+            "height": 49.15625,
+            "top": 284,
+            "right": 362.703125,
+            "bottom": 333.15625,
+            "left": 27.296875
+          },
+          "input": {
+            "x": 52.1875,
+            "y": 616,
+            "width": 250.59375,
+            "height": 30,
+            "top": 616,
+            "right": 302.78125,
+            "bottom": 646,
+            "left": 52.1875
+          },
+          "stats": "{\"draws\":51,\"meanDrawMs\":0.2509803929749657,\"maxDrawMs\":1.0999999940395355,\"quality\":\"economy\",\"seconds\":2.0498999999999996}",
+          "targetSeconds": 3,
+          "elapsedMs": 3006
+        },
+        {
+          "now": 7683.300000011921,
+          "camera": {
+            "x": -728.2003188097768,
+            "y": 0,
+            "scale": 0.9032943676939427
+          },
+          "host": {
+            "x": -728.1875,
+            "y": 0,
+            "width": 1510.296875,
+            "height": 850,
+            "top": 0,
+            "right": 782.109375,
+            "bottom": 850,
+            "left": -728.1875
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1278.4752197265625,
+                "y": 70.90599822998047
+              },
+              "matrix": {
+                "a": 0.9032814801178203,
+                "d": 0.9032915261324478,
+                "e": -728.1879832474226,
+                "f": 0.012577993033012547
+              },
+              "offsetDistance": "82.3365%",
+              "screenCenter": {
+                "x": 426.6914978027344,
+                "y": 64.01416015625
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 934.7638549804688,
+                "y": 440.4682922363281
+              },
+              "matrix": {
+                "a": 0.9032854352678571,
+                "d": 0.903283691888829,
+                "e": -728.1865234375,
+                "f": -0.005554216109011634
+              },
+              "offsetDistance": "10.8879%",
+              "screenCenter": {
+                "x": 116.19740676879883,
+                "y": 397.86328125
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1573.597900390625,
+                "y": 327.9853210449219
+              },
+              "matrix": {
+                "a": 0.9032716275659824,
+                "d": 0.9032045564608835,
+                "e": -728.178564882698,
+                "f": 0.014654633342189527
+              },
+              "offsetDistance": "82.4674%",
+              "screenCenter": {
+                "x": 693.139892578125,
+                "y": 296.2663269042969
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 27.296875,
+            "y": 102,
+            "width": 343.203125,
+            "height": 79.75,
+            "top": 102,
+            "right": 370.5,
+            "bottom": 181.75,
+            "left": 27.296875
+          },
+          "copy": {
+            "x": 27.296875,
+            "y": 284,
+            "width": 335.40625,
+            "height": 49.15625,
+            "top": 284,
+            "right": 362.703125,
+            "bottom": 333.15625,
+            "left": 27.296875
+          },
+          "input": {
+            "x": 52.1875,
+            "y": 616,
+            "width": 250.59375,
+            "height": 30,
+            "top": 616,
+            "right": 302.78125,
+            "bottom": 646,
+            "left": 52.1875
+          },
+          "stats": "{\"draws\":148,\"meanDrawMs\":0.2216216204939662,\"maxDrawMs\":2.9000000059604645,\"quality\":\"economy\",\"seconds\":6.176300000000021}",
+          "targetSeconds": 6,
+          "elapsedMs": 6007
+        }
+      ],
+      "errors": [],
+      "requests": [
+        "http://localhost:5200/assets/page01-clean-DfBdaI7L.webp",
+        "http://localhost:5200/assets/page02-clean-CBdaBq3v.webp",
+        "http://localhost:5200/assets/page03-clean-CSgqZemO.webp",
+        "http://localhost:5200/assets/page04-clean-DvRiPcCB.webp"
+      ],
+      "checks": {
+        "hiddenPauseAndResume": true,
+        "leaveDisposesAndBusinessGenerationWorks": true,
+        "revisitNoDuplicateAndInputPreserved": true,
+        "reducedMotion": true,
+        "reducedMotionRestoreKeepsRibbonCoherent": true
+      },
+      "isolatedRibbonPixels": {
+        "changeOver3": 6253,
+        "changeOver12": 3051,
+        "maxChannelChange": 125,
+        "changeOutsideCurveOver3": 0
+      },
+      "frameDifferences": [
+        {
+          "seconds": 3,
+          "curvePixelsOver8": 7585
+        },
+        {
+          "seconds": 6,
+          "curvePixelsOver8": 7507
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "height": 900,
+      "frames": [
+        {
+          "now": 7725,
+          "camera": {
+            "x": -79.57492029755576,
+            "y": 0,
+            "scale": 0.9564293304994687
+          },
+          "host": {
+            "x": -79.5625,
+            "y": 0,
+            "width": 1599.140625,
+            "height": 900,
+            "top": 0,
+            "right": 1519.578125,
+            "bottom": 900,
+            "left": -79.5625
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 969.6387329101562,
+                "y": 447.0359191894531
+              },
+              "matrix": {
+                "a": 0.9564156848306333,
+                "d": 0.9564135837907788,
+                "e": -79.56668814432987,
+                "f": -3.381595040252705e-05
+              },
+              "offsetDistance": "25.10577%",
+              "screenCenter": {
+                "x": 847.8016052246094,
+                "y": 427.53749084472656
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 1325.5101318359375,
+                "y": 182.52883911132812
+              },
+              "matrix": {
+                "a": 0.9564208984375,
+                "d": 0.9564159382507978,
+                "e": -79.56689453125,
+                "f": -0.005807838777926122
+              },
+              "offsetDistance": "59.577587%",
+              "screenCenter": {
+                "x": 1188.162109375,
+                "y": 174.55655670166016
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1135.9510498046875,
+                "y": 304.5807800292969
+              },
+              "matrix": {
+                "a": 0.9564012096774194,
+                "d": 0.9564263154204503,
+                "e": -79.54889112903231,
+                "f": -0.008907745282357382
+              },
+              "offsetDistance": "17.77174%",
+              "screenCenter": {
+                "x": 1006.8595581054688,
+                "y": 291.28521728515625
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 76.3125,
+            "y": 132.296875,
+            "width": 979.1875,
+            "height": 123.4375,
+            "top": 132.296875,
+            "right": 1055.5,
+            "bottom": 255.734375,
+            "left": 76.3125
+          },
+          "copy": {
+            "x": 82.078125,
+            "y": 296.8125,
+            "width": 676.796875,
+            "height": 71.65625,
+            "top": 296.8125,
+            "right": 758.875,
+            "bottom": 368.46875,
+            "left": 82.078125
+          },
+          "input": {
+            "x": 457.46875,
+            "y": 690.890625,
+            "width": 477.53125,
+            "height": 36,
+            "top": 690.890625,
+            "right": 935,
+            "bottom": 726.890625,
+            "left": 457.46875
+          },
+          "targetSeconds": 0,
+          "elapsedMs": 13
+        },
+        {
+          "now": 10748,
+          "camera": {
+            "x": -79.57492029755576,
+            "y": 0,
+            "scale": 0.9564293304994687
+          },
+          "host": {
+            "x": -79.5625,
+            "y": 0,
+            "width": 1599.140625,
+            "height": 900,
+            "top": 0,
+            "right": 1519.578125,
+            "bottom": 900,
+            "left": -79.5625
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1141.4031982421875,
+                "y": 276.6009216308594
+              },
+              "matrix": {
+                "a": 0.9564156848306333,
+                "d": 0.9564135837907788,
+                "e": -79.56668814432987,
+                "f": -3.381595040252705e-05
+              },
+              "offsetDistance": "53.826923%",
+              "screenCenter": {
+                "x": 1012.0702819824219,
+                "y": 264.54640197753906
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 1548.3563232421875,
+                "y": 73.6045913696289
+              },
+              "matrix": {
+                "a": 0.9564208984375,
+                "d": 0.9564159382507978,
+                "e": -79.56689453125,
+                "f": -0.005807838777926122
+              },
+              "offsetDistance": "85.327583%",
+              "screenCenter": {
+                "x": 1401.3070068359375,
+                "y": 70.37012672424316
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1354.273193359375,
+                "y": 287.0461730957031
+              },
+              "matrix": {
+                "a": 0.9564012096774194,
+                "d": 0.9564263154204503,
+                "e": -79.54889112903231,
+                "f": -0.008907745282357382
+              },
+              "offsetDistance": "50.239132%",
+              "screenCenter": {
+                "x": 1215.6866455078125,
+                "y": 274.5050582885742
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 76.3125,
+            "y": 132.296875,
+            "width": 979.1875,
+            "height": 123.4375,
+            "top": 132.296875,
+            "right": 1055.5,
+            "bottom": 255.734375,
+            "left": 76.3125
+          },
+          "copy": {
+            "x": 82.078125,
+            "y": 296.8125,
+            "width": 676.796875,
+            "height": 71.65625,
+            "top": 296.8125,
+            "right": 758.875,
+            "bottom": 368.46875,
+            "left": 82.078125
+          },
+          "input": {
+            "x": 457.46875,
+            "y": 690.890625,
+            "width": 477.53125,
+            "height": 36,
+            "top": 690.890625,
+            "right": 935,
+            "bottom": 726.890625,
+            "left": 457.46875
+          },
+          "targetSeconds": 3,
+          "elapsedMs": 3044
+        },
+        {
+          "now": 13733,
+          "camera": {
+            "x": -79.57492029755576,
+            "y": 0,
+            "scale": 0.9564293304994687
+          },
+          "host": {
+            "x": -79.5625,
+            "y": 0,
+            "width": 1599.140625,
+            "height": 900,
+            "top": 0,
+            "right": 1519.578125,
+            "bottom": 900,
+            "left": -79.5625
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1290.01708984375,
+                "y": 60.612064361572266
+              },
+              "matrix": {
+                "a": 0.9564156848306333,
+                "d": 0.9564135837907788,
+                "e": -79.56668814432987,
+                "f": -3.381595040252705e-05
+              },
+              "offsetDistance": "84.105766%",
+              "screenCenter": {
+                "x": 1154.2120361328125,
+                "y": 57.95913314819336
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 950.0050659179688,
+                "y": 437.7391357421875
+              },
+              "matrix": {
+                "a": 0.9564208984375,
+                "d": 0.9564159382507978,
+                "e": -79.56689453125,
+                "f": -0.005807838777926122
+              },
+              "offsetDistance": "12.474138%",
+              "screenCenter": {
+                "x": 829.0265808105469,
+                "y": 418.6388702392578
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1587.447998046875,
+                "y": 326.580322265625
+              },
+              "matrix": {
+                "a": 0.9564012096774194,
+                "d": 0.9564263154204503,
+                "e": -79.54889112903231,
+                "f": -0.008907745282357382
+              },
+              "offsetDistance": "84.467392%",
+              "screenCenter": {
+                "x": 1438.6932983398438,
+                "y": 312.3190612792969
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 76.3125,
+            "y": 132.296875,
+            "width": 979.1875,
+            "height": 123.4375,
+            "top": 132.296875,
+            "right": 1055.5,
+            "bottom": 255.734375,
+            "left": 76.3125
+          },
+          "copy": {
+            "x": 82.078125,
+            "y": 296.8125,
+            "width": 676.796875,
+            "height": 71.65625,
+            "top": 296.8125,
+            "right": 758.875,
+            "bottom": 368.46875,
+            "left": 82.078125
+          },
+          "input": {
+            "x": 457.46875,
+            "y": 690.890625,
+            "width": 477.53125,
+            "height": 36,
+            "top": 690.890625,
+            "right": 935,
+            "bottom": 726.890625,
+            "left": 457.46875
+          },
+          "targetSeconds": 6,
+          "elapsedMs": 6023
+        }
+      ],
+      "errors": [],
+      "requests": [
+        "http://localhost:5200/assets/page01-clean-DfBdaI7L.webp",
+        "http://localhost:5200/assets/page02-clean-CBdaBq3v.webp",
+        "http://localhost:5200/assets/page02-artwork-Dl7LWAj7.webp",
+        "http://localhost:5200/assets/page03-clean-CSgqZemO.webp",
+        "http://localhost:5200/assets/page03-artwork-r1KTALmy.webp",
+        "http://localhost:5200/assets/page04-clean-DvRiPcCB.webp",
+        "http://localhost:5200/assets/page04-artwork-BS6mnhDW.webp"
+      ],
+      "checks": {
+        "hiddenPauseAndResume": true,
+        "leaveDisposesAndBusinessGenerationWorks": true,
+        "revisitNoDuplicateAndInputPreserved": true,
+        "reducedMotion": true,
+        "reducedMotionRestoreKeepsRibbonCoherent": true
+      },
+      "isolatedRibbonPixels": {
+        "changeOver3": 6736,
+        "changeOver12": 2217,
+        "maxChannelChange": 89,
+        "changeOutsideCurveOver3": 0
+      },
+      "frameDifferences": [
+        {
+          "seconds": 3,
+          "curvePixelsOver8": 10014
+        },
+        {
+          "seconds": 6,
+          "curvePixelsOver8": 10098
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "height": 1080,
+      "frames": [
+        {
+          "now": 8796,
+          "camera": {
+            "x": 0,
+            "y": -0.2870813397129268,
+            "scale": 1.1483253588516746
+          },
+          "host": {
+            "x": 0,
+            "y": -0.28125,
+            "width": 1920,
+            "height": 1080.5625,
+            "top": -0.28125,
+            "right": 1920,
+            "bottom": 1080.28125,
+            "left": 0
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1005.15673828125,
+                "y": 435.5354309082031
+              },
+              "matrix": {
+                "a": 1.1483109351988219,
+                "d": 1.1482998909228372,
+                "e": 0.00016108247416468657,
+                "f": -0.27085414493218707
+              },
+              "offsetDistance": "29.384615%",
+              "screenCenter": {
+                "x": 1153.9799194335938,
+                "y": 499.73304748535156
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 1354.8388671875,
+                "y": 159.2434844970703
+              },
+              "matrix": {
+                "a": 1.1483154296875,
+                "d": 1.1483004839267716,
+                "e": 0.00537109375,
+                "f": -0.28426693743701037
+              },
+              "offsetDistance": "63.413792%",
+              "screenCenter": {
+                "x": 1555.5132446289062,
+                "y": 182.5057373046875
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1165.17333984375,
+                "y": 287.9229736328125
+              },
+              "matrix": {
+                "a": 1.1483229472140764,
+                "d": 1.1482333604551243,
+                "e": -0.007468841642321422,
+                "f": -0.2688859843253226
+              },
+              "offsetDistance": "22.608696%",
+              "screenCenter": {
+                "x": 1337.729736328125,
+                "y": 330.20704650878906
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 101.75,
+            "y": 158.75,
+            "width": 1305.59375,
+            "height": 164.625,
+            "top": 158.75,
+            "right": 1407.34375,
+            "bottom": 323.375,
+            "left": 101.75
+          },
+          "copy": {
+            "x": 109.4375,
+            "y": 354.828125,
+            "width": 902.390625,
+            "height": 94.9375,
+            "top": 354.828125,
+            "right": 1011.828125,
+            "bottom": 449.765625,
+            "left": 109.4375
+          },
+          "input": {
+            "x": 609.625,
+            "y": 849.765625,
+            "width": 637.359375,
+            "height": 48,
+            "top": 849.765625,
+            "right": 1246.984375,
+            "bottom": 897.765625,
+            "left": 609.625
+          },
+          "targetSeconds": 0,
+          "elapsedMs": 72
+        },
+        {
+          "now": 11742,
+          "camera": {
+            "x": 0,
+            "y": -0.2870813397129268,
+            "scale": 1.1483253588516746
+          },
+          "host": {
+            "x": 0,
+            "y": -0.28125,
+            "width": 1920,
+            "height": 1080.5625,
+            "top": -0.28125,
+            "right": 1920,
+            "bottom": 1080.28125,
+            "left": 0
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1163.6187744140625,
+                "y": 229.18478393554688
+              },
+              "matrix": {
+                "a": 1.1483109351988219,
+                "d": 1.1482998909228372,
+                "e": 0.00016108247416468657,
+                "f": -0.27085414493218707
+              },
+              "offsetDistance": "59.817307%",
+              "screenCenter": {
+                "x": 1335.9208374023438,
+                "y": 262.97493743896484
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 1599.8594970703125,
+                "y": 63.818153381347656
+              },
+              "matrix": {
+                "a": 1.1483154296875,
+                "d": 1.1483004839267716,
+                "e": 0.00537109375,
+                "f": -0.28426693743701037
+              },
+              "offsetDistance": "90.698273%",
+              "screenCenter": {
+                "x": 1836.9428100585938,
+                "y": 72.8040828704834
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1399.7989501953125,
+                "y": 299.2664489746094
+              },
+              "matrix": {
+                "a": 1.1483229472140764,
+                "d": 1.1482333604551243,
+                "e": -0.007468841642321422,
+                "f": -0.2688859843253226
+              },
+              "offsetDistance": "57.010868%",
+              "screenCenter": {
+                "x": 1607.3040771484375,
+                "y": 343.0956726074219
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 101.75,
+            "y": 158.75,
+            "width": 1305.59375,
+            "height": 164.625,
+            "top": 158.75,
+            "right": 1407.34375,
+            "bottom": 323.375,
+            "left": 101.75
+          },
+          "copy": {
+            "x": 109.4375,
+            "y": 354.828125,
+            "width": 902.390625,
+            "height": 94.9375,
+            "top": 354.828125,
+            "right": 1011.828125,
+            "bottom": 449.765625,
+            "left": 109.4375
+          },
+          "input": {
+            "x": 609.625,
+            "y": 849.765625,
+            "width": 637.359375,
+            "height": 48,
+            "top": 849.765625,
+            "right": 1246.984375,
+            "bottom": 897.765625,
+            "left": 609.625
+          },
+          "targetSeconds": 3,
+          "elapsedMs": 3013
+        },
+        {
+          "now": 14739,
+          "camera": {
+            "x": 0,
+            "y": -0.2870813397129268,
+            "scale": 1.1483253588516746
+          },
+          "host": {
+            "x": 0,
+            "y": -0.28125,
+            "width": 1920,
+            "height": 1080.5625,
+            "top": -0.28125,
+            "right": 1920,
+            "bottom": 1080.28125,
+            "left": 0
+          },
+          "ribbons": [
+            {
+              "route": "rising",
+              "center": {
+                "x": 1319.5045166015625,
+                "y": 36.66649627685547
+              },
+              "matrix": {
+                "a": 1.1483109351988219,
+                "d": 1.1482998909228372,
+                "e": 0.00016108247416468657,
+                "f": -0.27085414493218707
+              },
+              "offsetDistance": "88.45192%",
+              "screenCenter": {
+                "x": 1514.929443359375,
+                "y": 41.764336585998535
+              },
+              "sections": 11
+            },
+            {
+              "route": "diagonal",
+              "center": {
+                "x": 986.6930541992188,
+                "y": 427.76556396484375
+              },
+              "matrix": {
+                "a": 1.1483154296875,
+                "d": 1.1483004839267716,
+                "e": 0.00537109375,
+                "f": -0.28426693743701037
+              },
+              "offsetDistance": "16.370689%",
+              "screenCenter": {
+                "x": 1132.8002319335938,
+                "y": 490.7702941894531
+              },
+              "sections": 11
+            },
+            {
+              "route": "right-fold",
+              "center": {
+                "x": 1621.027587890625,
+                "y": 320.1986083984375
+              },
+              "matrix": {
+                "a": 1.1483229472140764,
+                "d": 1.1482333604551243,
+                "e": -0.007468841642321422,
+                "f": -0.2688859843253226
+              },
+              "offsetDistance": "89.380432%",
+              "screenCenter": {
+                "x": 1861.2279052734375,
+                "y": 367.2236328125
+              },
+              "sections": 11
+            }
+          ],
+          "title": {
+            "x": 101.75,
+            "y": 158.75,
+            "width": 1305.59375,
+            "height": 164.625,
+            "top": 158.75,
+            "right": 1407.34375,
+            "bottom": 323.375,
+            "left": 101.75
+          },
+          "copy": {
+            "x": 109.4375,
+            "y": 354.828125,
+            "width": 902.390625,
+            "height": 94.9375,
+            "top": 354.828125,
+            "right": 1011.828125,
+            "bottom": 449.765625,
+            "left": 109.4375
+          },
+          "input": {
+            "x": 609.625,
+            "y": 849.765625,
+            "width": 637.359375,
+            "height": 48,
+            "top": 849.765625,
+            "right": 1246.984375,
+            "bottom": 897.765625,
+            "left": 609.625
+          },
+          "targetSeconds": 6,
+          "elapsedMs": 6007
+        }
+      ],
+      "errors": [],
+      "requests": [
+        "http://localhost:5200/assets/page01-clean-DfBdaI7L.webp",
+        "http://localhost:5200/assets/page02-clean-CBdaBq3v.webp",
+        "http://localhost:5200/assets/page02-artwork-Dl7LWAj7.webp",
+        "http://localhost:5200/assets/page03-clean-CSgqZemO.webp",
+        "http://localhost:5200/assets/page03-artwork-r1KTALmy.webp",
+        "http://localhost:5200/assets/page04-clean-DvRiPcCB.webp",
+        "http://localhost:5200/assets/page04-artwork-BS6mnhDW.webp"
+      ],
+      "checks": {
+        "hiddenPauseAndResume": true,
+        "leaveDisposesAndBusinessGenerationWorks": true,
+        "revisitNoDuplicateAndInputPreserved": true,
+        "reducedMotion": true,
+        "reducedMotionRestoreKeepsRibbonCoherent": true
+      },
+      "isolatedRibbonPixels": {
+        "changeOver3": 12749,
+        "changeOver12": 3182,
+        "maxChannelChange": 43,
+        "changeOutsideCurveOver3": 0
+      },
+      "frameDifferences": [
+        {
+          "seconds": 3,
+          "curvePixelsOver8": 14584
+        },
+        {
+          "seconds": 6,
+          "curvePixelsOver8": 14491
+        }
+      ]
+    }
+  ],
+  "performance": {
+    "method": "Three 4 second Linux Chromium headless rAF scheduling windows, no screenshot/recording; not physical GPU fps",
+    "medianRafPerSecond": 59.75298764938247,
+    "samples": [
+      {
+        "frames": 240,
+        "rafPerSecond": 59.75298764938247,
+        "p95IntervalMs": 16.800000000000182,
+        "maxIntervalMs": 33.29999999999973,
+        "over33ms": 0,
+        "initialState": {
+          "hidden": false,
+          "visibility": "visible",
+          "motion": "running",
+          "navigation": "idle"
+        },
+        "finalState": {
+          "hidden": false,
+          "visibility": "visible",
+          "motion": "running",
+          "navigation": "idle"
+        },
+        "stats": {
+          "draws": 146,
+          "meanDrawMs": 0.24315068268612638,
+          "maxDrawMs": 1.199999988079071,
+          "quality": "economy",
+          "seconds": 6.063100000000019
+        }
+      },
+      {
+        "frames": 241,
+        "rafPerSecond": 60.001500037500946,
+        "p95IntervalMs": 16.799999999999272,
+        "maxIntervalMs": 16.80000000000109,
+        "over33ms": 0,
+        "initialState": {
+          "hidden": false,
+          "visibility": "visible",
+          "motion": "running",
+          "navigation": "idle"
+        },
+        "finalState": {
+          "hidden": false,
+          "visibility": "visible",
+          "motion": "running",
+          "navigation": "idle"
+        },
+        "stats": {
+          "draws": 242,
+          "meanDrawMs": 0.229752065475322,
+          "maxDrawMs": 1.199999988079071,
+          "quality": "economy",
+          "seconds": 10.062900000000008
+        }
+      },
+      {
+        "frames": 240,
+        "rafPerSecond": 59.75,
+        "p95IntervalMs": 16.799999999999272,
+        "maxIntervalMs": 33.399999999999636,
+        "over33ms": 0,
+        "initialState": {
+          "hidden": false,
+          "visibility": "visible",
+          "motion": "running",
+          "navigation": "idle"
+        },
+        "finalState": {
+          "hidden": false,
+          "visibility": "visible",
+          "motion": "running",
+          "navigation": "idle"
+        },
+        "stats": {
+          "draws": 339,
+          "meanDrawMs": 0.23893805274569532,
+          "maxDrawMs": 1.4000000059604645,
+          "quality": "economy",
+          "seconds": 14.079399999999948
+        }
+      }
+    ],
+    "requestsDuringMeasurement": 0,
+    "images": [
+      "http://localhost:5200/assets/page01-clean-DfBdaI7L.webp",
+      "http://localhost:5200/assets/page02-clean-CBdaBq3v.webp",
+      "http://localhost:5200/assets/page02-artwork-Dl7LWAj7.webp",
+      "http://localhost:5200/assets/page03-clean-CSgqZemO.webp",
+      "http://localhost:5200/assets/page03-artwork-r1KTALmy.webp"
+    ],
+    "capabilities": {
+      "logicalCores": 3,
+      "deviceMemory": 8
+    }
+  },
+  "recording": {
+    "method": "Actual Chromium CDP screencast, real capture timestamps; 30 fps encode does not imply 30 physical displayed fps",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "recordedSeconds": 12.87794804573059,
+    "frames": 314,
+    "timestamps": [
+      {
+        "file": "frame-00000.jpg",
+        "t": 1793408027.517974
+      },
+      {
+        "file": "frame-00001.jpg",
+        "t": 1793408027.550354
+      },
+      {
+        "file": "frame-00002.jpg",
+        "t": 1793408027.592109
+      },
+      {
+        "file": "frame-00003.jpg",
+        "t": 1793408027.645751
+      },
+      {
+        "file": "frame-00004.jpg",
+        "t": 1793408027.695787
+      },
+      {
+        "file": "frame-00005.jpg",
+        "t": 1793408027.739602
+      },
+      {
+        "file": "frame-00006.jpg",
+        "t": 1793408027.79688
+      },
+      {
+        "file": "frame-00007.jpg",
+        "t": 1793408027.83226
+      },
+      {
+        "file": "frame-00008.jpg",
+        "t": 1793408027.86612
+      },
+      {
+        "file": "frame-00009.jpg",
+        "t": 1793408027.90983
+      },
+      {
+        "file": "frame-00010.jpg",
+        "t": 1793408027.981769
+      },
+      {
+        "file": "frame-00011.jpg",
+        "t": 1793408028.023892
+      },
+      {
+        "file": "frame-00012.jpg",
+        "t": 1793408028.062764
+      },
+      {
+        "file": "frame-00013.jpg",
+        "t": 1793408028.115028
+      },
+      {
+        "file": "frame-00014.jpg",
+        "t": 1793408028.148895
+      },
+      {
+        "file": "frame-00015.jpg",
+        "t": 1793408028.18545
+      },
+      {
+        "file": "frame-00016.jpg",
+        "t": 1793408028.223845
+      },
+      {
+        "file": "frame-00017.jpg",
+        "t": 1793408028.261801
+      },
+      {
+        "file": "frame-00018.jpg",
+        "t": 1793408028.30359
+      },
+      {
+        "file": "frame-00019.jpg",
+        "t": 1793408028.332905
+      },
+      {
+        "file": "frame-00020.jpg",
+        "t": 1793408028.381339
+      },
+      {
+        "file": "frame-00021.jpg",
+        "t": 1793408028.411853
+      },
+      {
+        "file": "frame-00022.jpg",
+        "t": 1793408028.442572
+      },
+      {
+        "file": "frame-00023.jpg",
+        "t": 1793408028.48896
+      },
+      {
+        "file": "frame-00024.jpg",
+        "t": 1793408028.521852
+      },
+      {
+        "file": "frame-00025.jpg",
+        "t": 1793408028.564507
+      },
+      {
+        "file": "frame-00026.jpg",
+        "t": 1793408028.611383
+      },
+      {
+        "file": "frame-00027.jpg",
+        "t": 1793408028.642574
+      },
+      {
+        "file": "frame-00028.jpg",
+        "t": 1793408028.687761
+      },
+      {
+        "file": "frame-00029.jpg",
+        "t": 1793408028.717208
+      },
+      {
+        "file": "frame-00030.jpg",
+        "t": 1793408028.752448
+      },
+      {
+        "file": "frame-00031.jpg",
+        "t": 1793408028.812564
+      },
+      {
+        "file": "frame-00032.jpg",
+        "t": 1793408028.846086
+      },
+      {
+        "file": "frame-00033.jpg",
+        "t": 1793408028.892065
+      },
+      {
+        "file": "frame-00034.jpg",
+        "t": 1793408028.925844
+      },
+      {
+        "file": "frame-00035.jpg",
+        "t": 1793408028.95876
+      },
+      {
+        "file": "frame-00036.jpg",
+        "t": 1793408029.00456
+      },
+      {
+        "file": "frame-00037.jpg",
+        "t": 1793408029.04093
+      },
+      {
+        "file": "frame-00038.jpg",
+        "t": 1793408029.089725
+      },
+      {
+        "file": "frame-00039.jpg",
+        "t": 1793408029.122846
+      },
+      {
+        "file": "frame-00040.jpg",
+        "t": 1793408029.161353
+      },
+      {
+        "file": "frame-00041.jpg",
+        "t": 1793408029.20975
+      },
+      {
+        "file": "frame-00042.jpg",
+        "t": 1793408029.243793
+      },
+      {
+        "file": "frame-00043.jpg",
+        "t": 1793408029.284045
+      },
+      {
+        "file": "frame-00044.jpg",
+        "t": 1793408029.318759
+      },
+      {
+        "file": "frame-00045.jpg",
+        "t": 1793408029.362984
+      },
+      {
+        "file": "frame-00046.jpg",
+        "t": 1793408029.422501
+      },
+      {
+        "file": "frame-00047.jpg",
+        "t": 1793408029.470789
+      },
+      {
+        "file": "frame-00048.jpg",
+        "t": 1793408029.518854
+      },
+      {
+        "file": "frame-00049.jpg",
+        "t": 1793408029.561571
+      },
+      {
+        "file": "frame-00050.jpg",
+        "t": 1793408029.598164
+      },
+      {
+        "file": "frame-00051.jpg",
+        "t": 1793408029.639039
+      },
+      {
+        "file": "frame-00052.jpg",
+        "t": 1793408029.677298
+      },
+      {
+        "file": "frame-00053.jpg",
+        "t": 1793408029.713354
+      },
+      {
+        "file": "frame-00054.jpg",
+        "t": 1793408029.746473
+      },
+      {
+        "file": "frame-00055.jpg",
+        "t": 1793408029.780209
+      },
+      {
+        "file": "frame-00056.jpg",
+        "t": 1793408029.82075
+      },
+      {
+        "file": "frame-00057.jpg",
+        "t": 1793408029.849575
+      },
+      {
+        "file": "frame-00058.jpg",
+        "t": 1793408029.904316
+      },
+      {
+        "file": "frame-00059.jpg",
+        "t": 1793408029.938143
+      },
+      {
+        "file": "frame-00060.jpg",
+        "t": 1793408029.987366
+      },
+      {
+        "file": "frame-00061.jpg",
+        "t": 1793408030.017196
+      },
+      {
+        "file": "frame-00062.jpg",
+        "t": 1793408030.052099
+      },
+      {
+        "file": "frame-00063.jpg",
+        "t": 1793408030.089162
+      },
+      {
+        "file": "frame-00064.jpg",
+        "t": 1793408030.1397
+      },
+      {
+        "file": "frame-00065.jpg",
+        "t": 1793408030.20662
+      },
+      {
+        "file": "frame-00066.jpg",
+        "t": 1793408030.258291
+      },
+      {
+        "file": "frame-00067.jpg",
+        "t": 1793408030.312647
+      },
+      {
+        "file": "frame-00068.jpg",
+        "t": 1793408030.345116
+      },
+      {
+        "file": "frame-00069.jpg",
+        "t": 1793408030.389729
+      },
+      {
+        "file": "frame-00070.jpg",
+        "t": 1793408030.43289
+      },
+      {
+        "file": "frame-00071.jpg",
+        "t": 1793408030.487806
+      },
+      {
+        "file": "frame-00072.jpg",
+        "t": 1793408030.512455
+      },
+      {
+        "file": "frame-00073.jpg",
+        "t": 1793408030.585171
+      },
+      {
+        "file": "frame-00074.jpg",
+        "t": 1793408030.627847
+      },
+      {
+        "file": "frame-00075.jpg",
+        "t": 1793408030.693854
+      },
+      {
+        "file": "frame-00076.jpg",
+        "t": 1793408030.733506
+      },
+      {
+        "file": "frame-00077.jpg",
+        "t": 1793408030.781225
+      },
+      {
+        "file": "frame-00078.jpg",
+        "t": 1793408030.826993
+      },
+      {
+        "file": "frame-00079.jpg",
+        "t": 1793408030.859326
+      },
+      {
+        "file": "frame-00080.jpg",
+        "t": 1793408030.909871
+      },
+      {
+        "file": "frame-00081.jpg",
+        "t": 1793408030.944089
+      },
+      {
+        "file": "frame-00082.jpg",
+        "t": 1793408030.992405
+      },
+      {
+        "file": "frame-00083.jpg",
+        "t": 1793408031.02953
+      },
+      {
+        "file": "frame-00084.jpg",
+        "t": 1793408031.068985
+      },
+      {
+        "file": "frame-00085.jpg",
+        "t": 1793408031.100254
+      },
+      {
+        "file": "frame-00086.jpg",
+        "t": 1793408031.131224
+      },
+      {
+        "file": "frame-00087.jpg",
+        "t": 1793408031.179953
+      },
+      {
+        "file": "frame-00088.jpg",
+        "t": 1793408031.213705
+      },
+      {
+        "file": "frame-00089.jpg",
+        "t": 1793408031.247848
+      },
+      {
+        "file": "frame-00090.jpg",
+        "t": 1793408031.311701
+      },
+      {
+        "file": "frame-00091.jpg",
+        "t": 1793408031.348806
+      },
+      {
+        "file": "frame-00092.jpg",
+        "t": 1793408031.40488
+      },
+      {
+        "file": "frame-00093.jpg",
+        "t": 1793408031.44325
+      },
+      {
+        "file": "frame-00094.jpg",
+        "t": 1793408031.498056
+      },
+      {
+        "file": "frame-00095.jpg",
+        "t": 1793408031.534168
+      },
+      {
+        "file": "frame-00096.jpg",
+        "t": 1793408031.577197
+      },
+      {
+        "file": "frame-00097.jpg",
+        "t": 1793408031.611462
+      },
+      {
+        "file": "frame-00098.jpg",
+        "t": 1793408031.644074
+      },
+      {
+        "file": "frame-00099.jpg",
+        "t": 1793408031.695861
+      },
+      {
+        "file": "frame-00100.jpg",
+        "t": 1793408031.725689
+      },
+      {
+        "file": "frame-00101.jpg",
+        "t": 1793408031.761168
+      },
+      {
+        "file": "frame-00102.jpg",
+        "t": 1793408031.808762
+      },
+      {
+        "file": "frame-00103.jpg",
+        "t": 1793408031.839144
+      },
+      {
+        "file": "frame-00104.jpg",
+        "t": 1793408031.887305
+      },
+      {
+        "file": "frame-00105.jpg",
+        "t": 1793408031.93246
+      },
+      {
+        "file": "frame-00106.jpg",
+        "t": 1793408031.98493
+      },
+      {
+        "file": "frame-00107.jpg",
+        "t": 1793408032.023086
+      },
+      {
+        "file": "frame-00108.jpg",
+        "t": 1793408032.07835
+      },
+      {
+        "file": "frame-00109.jpg",
+        "t": 1793408032.113995
+      },
+      {
+        "file": "frame-00110.jpg",
+        "t": 1793408032.145761
+      },
+      {
+        "file": "frame-00111.jpg",
+        "t": 1793408032.184213
+      },
+      {
+        "file": "frame-00112.jpg",
+        "t": 1793408032.214541
+      },
+      {
+        "file": "frame-00113.jpg",
+        "t": 1793408032.250774
+      },
+      {
+        "file": "frame-00114.jpg",
+        "t": 1793408032.302999
+      },
+      {
+        "file": "frame-00115.jpg",
+        "t": 1793408032.335018
+      },
+      {
+        "file": "frame-00116.jpg",
+        "t": 1793408032.364349
+      },
+      {
+        "file": "frame-00117.jpg",
+        "t": 1793408032.405058
+      },
+      {
+        "file": "frame-00118.jpg",
+        "t": 1793408032.44176
+      },
+      {
+        "file": "frame-00119.jpg",
+        "t": 1793408032.496363
+      },
+      {
+        "file": "frame-00120.jpg",
+        "t": 1793408032.540208
+      },
+      {
+        "file": "frame-00121.jpg",
+        "t": 1793408032.585223
+      },
+      {
+        "file": "frame-00122.jpg",
+        "t": 1793408032.621797
+      },
+      {
+        "file": "frame-00123.jpg",
+        "t": 1793408032.650764
+      },
+      {
+        "file": "frame-00124.jpg",
+        "t": 1793408032.685927
+      },
+      {
+        "file": "frame-00125.jpg",
+        "t": 1793408032.716976
+      },
+      {
+        "file": "frame-00126.jpg",
+        "t": 1793408032.745886
+      },
+      {
+        "file": "frame-00127.jpg",
+        "t": 1793408032.777179
+      },
+      {
+        "file": "frame-00128.jpg",
+        "t": 1793408032.80706
+      },
+      {
+        "file": "frame-00129.jpg",
+        "t": 1793408032.835076
+      },
+      {
+        "file": "frame-00130.jpg",
+        "t": 1793408032.865322
+      },
+      {
+        "file": "frame-00131.jpg",
+        "t": 1793408032.899225
+      },
+      {
+        "file": "frame-00132.jpg",
+        "t": 1793408032.928906
+      },
+      {
+        "file": "frame-00133.jpg",
+        "t": 1793408032.963871
+      },
+      {
+        "file": "frame-00134.jpg",
+        "t": 1793408033.010191
+      },
+      {
+        "file": "frame-00135.jpg",
+        "t": 1793408033.04358
+      },
+      {
+        "file": "frame-00136.jpg",
+        "t": 1793408033.11184
+      },
+      {
+        "file": "frame-00137.jpg",
+        "t": 1793408033.140798
+      },
+      {
+        "file": "frame-00138.jpg",
+        "t": 1793408033.191436
+      },
+      {
+        "file": "frame-00139.jpg",
+        "t": 1793408033.220489
+      },
+      {
+        "file": "frame-00140.jpg",
+        "t": 1793408033.249314
+      },
+      {
+        "file": "frame-00141.jpg",
+        "t": 1793408033.286454
+      },
+      {
+        "file": "frame-00142.jpg",
+        "t": 1793408033.319888
+      },
+      {
+        "file": "frame-00143.jpg",
+        "t": 1793408033.351307
+      },
+      {
+        "file": "frame-00144.jpg",
+        "t": 1793408033.387881
+      },
+      {
+        "file": "frame-00145.jpg",
+        "t": 1793408033.419592
+      },
+      {
+        "file": "frame-00146.jpg",
+        "t": 1793408033.481111
+      },
+      {
+        "file": "frame-00147.jpg",
+        "t": 1793408033.516012
+      },
+      {
+        "file": "frame-00148.jpg",
+        "t": 1793408033.547355
+      },
+      {
+        "file": "frame-00149.jpg",
+        "t": 1793408033.601565
+      },
+      {
+        "file": "frame-00150.jpg",
+        "t": 1793408033.634171
+      },
+      {
+        "file": "frame-00151.jpg",
+        "t": 1793408033.667444
+      },
+      {
+        "file": "frame-00152.jpg",
+        "t": 1793408033.69709
+      },
+      {
+        "file": "frame-00153.jpg",
+        "t": 1793408033.725929
+      },
+      {
+        "file": "frame-00154.jpg",
+        "t": 1793408033.756656
+      },
+      {
+        "file": "frame-00155.jpg",
+        "t": 1793408033.79176
+      },
+      {
+        "file": "frame-00156.jpg",
+        "t": 1793408033.829474
+      },
+      {
+        "file": "frame-00157.jpg",
+        "t": 1793408033.893861
+      },
+      {
+        "file": "frame-00158.jpg",
+        "t": 1793408033.920117
+      },
+      {
+        "file": "frame-00159.jpg",
+        "t": 1793408033.945757
+      },
+      {
+        "file": "frame-00160.jpg",
+        "t": 1793408033.989456
+      },
+      {
+        "file": "frame-00161.jpg",
+        "t": 1793408034.023924
+      },
+      {
+        "file": "frame-00162.jpg",
+        "t": 1793408034.062315
+      },
+      {
+        "file": "frame-00163.jpg",
+        "t": 1793408034.102862
+      },
+      {
+        "file": "frame-00164.jpg",
+        "t": 1793408034.133731
+      },
+      {
+        "file": "frame-00165.jpg",
+        "t": 1793408034.16633
+      },
+      {
+        "file": "frame-00166.jpg",
+        "t": 1793408034.226916
+      },
+      {
+        "file": "frame-00167.jpg",
+        "t": 1793408034.24977
+      },
+      {
+        "file": "frame-00168.jpg",
+        "t": 1793408034.307438
+      },
+      {
+        "file": "frame-00169.jpg",
+        "t": 1793408034.337227
+      },
+      {
+        "file": "frame-00170.jpg",
+        "t": 1793408034.373795
+      },
+      {
+        "file": "frame-00171.jpg",
+        "t": 1793408034.401554
+      },
+      {
+        "file": "frame-00172.jpg",
+        "t": 1793408034.437898
+      },
+      {
+        "file": "frame-00173.jpg",
+        "t": 1793408034.456858
+      },
+      {
+        "file": "frame-00174.jpg",
+        "t": 1793408034.49383
+      },
+      {
+        "file": "frame-00175.jpg",
+        "t": 1793408034.515667
+      },
+      {
+        "file": "frame-00176.jpg",
+        "t": 1793408034.537078
+      },
+      {
+        "file": "frame-00177.jpg",
+        "t": 1793408034.588988
+      },
+      {
+        "file": "frame-00178.jpg",
+        "t": 1793408034.615809
+      },
+      {
+        "file": "frame-00179.jpg",
+        "t": 1793408034.701891
+      },
+      {
+        "file": "frame-00180.jpg",
+        "t": 1793408034.778145
+      },
+      {
+        "file": "frame-00181.jpg",
+        "t": 1793408034.811765
+      },
+      {
+        "file": "frame-00182.jpg",
+        "t": 1793408034.839368
+      },
+      {
+        "file": "frame-00183.jpg",
+        "t": 1793408034.89266
+      },
+      {
+        "file": "frame-00184.jpg",
+        "t": 1793408034.927031
+      },
+      {
+        "file": "frame-00185.jpg",
+        "t": 1793408034.955431
+      },
+      {
+        "file": "frame-00186.jpg",
+        "t": 1793408035.003712
+      },
+      {
+        "file": "frame-00187.jpg",
+        "t": 1793408035.047184
+      },
+      {
+        "file": "frame-00188.jpg",
+        "t": 1793408035.098345
+      },
+      {
+        "file": "frame-00189.jpg",
+        "t": 1793408035.135423
+      },
+      {
+        "file": "frame-00190.jpg",
+        "t": 1793408035.185921
+      },
+      {
+        "file": "frame-00191.jpg",
+        "t": 1793408035.23755
+      },
+      {
+        "file": "frame-00192.jpg",
+        "t": 1793408035.282638
+      },
+      {
+        "file": "frame-00193.jpg",
+        "t": 1793408035.321017
+      },
+      {
+        "file": "frame-00194.jpg",
+        "t": 1793408035.349844
+      },
+      {
+        "file": "frame-00195.jpg",
+        "t": 1793408035.396851
+      },
+      {
+        "file": "frame-00196.jpg",
+        "t": 1793408035.439196
+      },
+      {
+        "file": "frame-00197.jpg",
+        "t": 1793408035.484421
+      },
+      {
+        "file": "frame-00198.jpg",
+        "t": 1793408035.519626
+      },
+      {
+        "file": "frame-00199.jpg",
+        "t": 1793408035.545305
+      },
+      {
+        "file": "frame-00200.jpg",
+        "t": 1793408035.602292
+      },
+      {
+        "file": "frame-00201.jpg",
+        "t": 1793408035.627404
+      },
+      {
+        "file": "frame-00202.jpg",
+        "t": 1793408035.666136
+      },
+      {
+        "file": "frame-00203.jpg",
+        "t": 1793408035.69998
+      },
+      {
+        "file": "frame-00204.jpg",
+        "t": 1793408035.786894
+      },
+      {
+        "file": "frame-00205.jpg",
+        "t": 1793408035.812969
+      },
+      {
+        "file": "frame-00206.jpg",
+        "t": 1793408035.851417
+      },
+      {
+        "file": "frame-00207.jpg",
+        "t": 1793408035.878356
+      },
+      {
+        "file": "frame-00208.jpg",
+        "t": 1793408035.91518
+      },
+      {
+        "file": "frame-00209.jpg",
+        "t": 1793408035.945863
+      },
+      {
+        "file": "frame-00210.jpg",
+        "t": 1793408035.997763
+      },
+      {
+        "file": "frame-00211.jpg",
+        "t": 1793408036.022376
+      },
+      {
+        "file": "frame-00212.jpg",
+        "t": 1793408036.062049
+      },
+      {
+        "file": "frame-00213.jpg",
+        "t": 1793408036.087017
+      },
+      {
+        "file": "frame-00214.jpg",
+        "t": 1793408036.153905
+      },
+      {
+        "file": "frame-00215.jpg",
+        "t": 1793408036.18908
+      },
+      {
+        "file": "frame-00216.jpg",
+        "t": 1793408036.230884
+      },
+      {
+        "file": "frame-00217.jpg",
+        "t": 1793408036.255976
+      },
+      {
+        "file": "frame-00218.jpg",
+        "t": 1793408036.299382
+      },
+      {
+        "file": "frame-00219.jpg",
+        "t": 1793408036.336994
+      },
+      {
+        "file": "frame-00220.jpg",
+        "t": 1793408036.402155
+      },
+      {
+        "file": "frame-00221.jpg",
+        "t": 1793408036.44069
+      },
+      {
+        "file": "frame-00222.jpg",
+        "t": 1793408036.498934
+      },
+      {
+        "file": "frame-00223.jpg",
+        "t": 1793408036.527598
+      },
+      {
+        "file": "frame-00224.jpg",
+        "t": 1793408036.567903
+      },
+      {
+        "file": "frame-00225.jpg",
+        "t": 1793408036.60032
+      },
+      {
+        "file": "frame-00226.jpg",
+        "t": 1793408036.847068
+      },
+      {
+        "file": "frame-00227.jpg",
+        "t": 1793408036.868886
+      },
+      {
+        "file": "frame-00228.jpg",
+        "t": 1793408036.896977
+      },
+      {
+        "file": "frame-00229.jpg",
+        "t": 1793408036.924765
+      },
+      {
+        "file": "frame-00230.jpg",
+        "t": 1793408036.978112
+      },
+      {
+        "file": "frame-00231.jpg",
+        "t": 1793408037.006562
+      },
+      {
+        "file": "frame-00232.jpg",
+        "t": 1793408037.03775
+      },
+      {
+        "file": "frame-00233.jpg",
+        "t": 1793408037.081768
+      },
+      {
+        "file": "frame-00234.jpg",
+        "t": 1793408037.123847
+      },
+      {
+        "file": "frame-00235.jpg",
+        "t": 1793408037.190257
+      },
+      {
+        "file": "frame-00236.jpg",
+        "t": 1793408037.220721
+      },
+      {
+        "file": "frame-00237.jpg",
+        "t": 1793408037.251062
+      },
+      {
+        "file": "frame-00238.jpg",
+        "t": 1793408037.298146
+      },
+      {
+        "file": "frame-00239.jpg",
+        "t": 1793408037.324845
+      },
+      {
+        "file": "frame-00240.jpg",
+        "t": 1793408037.355404
+      },
+      {
+        "file": "frame-00241.jpg",
+        "t": 1793408037.401952
+      },
+      {
+        "file": "frame-00242.jpg",
+        "t": 1793408037.444033
+      },
+      {
+        "file": "frame-00243.jpg",
+        "t": 1793408037.505103
+      },
+      {
+        "file": "frame-00244.jpg",
+        "t": 1793408037.534717
+      },
+      {
+        "file": "frame-00245.jpg",
+        "t": 1793408037.586838
+      },
+      {
+        "file": "frame-00246.jpg",
+        "t": 1793408037.616731
+      },
+      {
+        "file": "frame-00247.jpg",
+        "t": 1793408037.678393
+      },
+      {
+        "file": "frame-00248.jpg",
+        "t": 1793408037.709049
+      },
+      {
+        "file": "frame-00249.jpg",
+        "t": 1793408037.735113
+      },
+      {
+        "file": "frame-00250.jpg",
+        "t": 1793408037.788148
+      },
+      {
+        "file": "frame-00251.jpg",
+        "t": 1793408037.813956
+      },
+      {
+        "file": "frame-00252.jpg",
+        "t": 1793408037.840861
+      },
+      {
+        "file": "frame-00253.jpg",
+        "t": 1793408037.899469
+      },
+      {
+        "file": "frame-00254.jpg",
+        "t": 1793408037.929129
+      },
+      {
+        "file": "frame-00255.jpg",
+        "t": 1793408038.011205
+      },
+      {
+        "file": "frame-00256.jpg",
+        "t": 1793408038.037199
+      },
+      {
+        "file": "frame-00257.jpg",
+        "t": 1793408038.102674
+      },
+      {
+        "file": "frame-00258.jpg",
+        "t": 1793408038.128442
+      },
+      {
+        "file": "frame-00259.jpg",
+        "t": 1793408038.19584
+      },
+      {
+        "file": "frame-00260.jpg",
+        "t": 1793408038.225789
+      },
+      {
+        "file": "frame-00261.jpg",
+        "t": 1793408038.252795
+      },
+      {
+        "file": "frame-00262.jpg",
+        "t": 1793408038.303597
+      },
+      {
+        "file": "frame-00263.jpg",
+        "t": 1793408038.328489
+      },
+      {
+        "file": "frame-00264.jpg",
+        "t": 1793408038.38041
+      },
+      {
+        "file": "frame-00265.jpg",
+        "t": 1793408038.406467
+      },
+      {
+        "file": "frame-00266.jpg",
+        "t": 1793408038.442183
+      },
+      {
+        "file": "frame-00267.jpg",
+        "t": 1793408038.486735
+      },
+      {
+        "file": "frame-00268.jpg",
+        "t": 1793408038.522853
+      },
+      {
+        "file": "frame-00269.jpg",
+        "t": 1793408038.561843
+      },
+      {
+        "file": "frame-00270.jpg",
+        "t": 1793408038.60608
+      },
+      {
+        "file": "frame-00271.jpg",
+        "t": 1793408038.640591
+      },
+      {
+        "file": "frame-00272.jpg",
+        "t": 1793408038.704981
+      },
+      {
+        "file": "frame-00273.jpg",
+        "t": 1793408038.739162
+      },
+      {
+        "file": "frame-00274.jpg",
+        "t": 1793408038.808542
+      },
+      {
+        "file": "frame-00275.jpg",
+        "t": 1793408038.837742
+      },
+      {
+        "file": "frame-00276.jpg",
+        "t": 1793408038.889799
+      },
+      {
+        "file": "frame-00277.jpg",
+        "t": 1793408038.93635
+      },
+      {
+        "file": "frame-00278.jpg",
+        "t": 1793408038.971808
+      },
+      {
+        "file": "frame-00279.jpg",
+        "t": 1793408039.014856
+      },
+      {
+        "file": "frame-00280.jpg",
+        "t": 1793408039.050953
+      },
+      {
+        "file": "frame-00281.jpg",
+        "t": 1793408039.101106
+      },
+      {
+        "file": "frame-00282.jpg",
+        "t": 1793408039.13205
+      },
+      {
+        "file": "frame-00283.jpg",
+        "t": 1793408039.188785
+      },
+      {
+        "file": "frame-00284.jpg",
+        "t": 1793408039.231334
+      },
+      {
+        "file": "frame-00285.jpg",
+        "t": 1793408039.29616
+      },
+      {
+        "file": "frame-00286.jpg",
+        "t": 1793408039.342406
+      },
+      {
+        "file": "frame-00287.jpg",
+        "t": 1793408039.377162
+      },
+      {
+        "file": "frame-00288.jpg",
+        "t": 1793408039.412434
+      },
+      {
+        "file": "frame-00289.jpg",
+        "t": 1793408039.446404
+      },
+      {
+        "file": "frame-00290.jpg",
+        "t": 1793408039.491022
+      },
+      {
+        "file": "frame-00291.jpg",
+        "t": 1793408039.5222
+      },
+      {
+        "file": "frame-00292.jpg",
+        "t": 1793408039.556393
+      },
+      {
+        "file": "frame-00293.jpg",
+        "t": 1793408039.600652
+      },
+      {
+        "file": "frame-00294.jpg",
+        "t": 1793408039.635368
+      },
+      {
+        "file": "frame-00295.jpg",
+        "t": 1793408039.681464
+      },
+      {
+        "file": "frame-00296.jpg",
+        "t": 1793408039.717861
+      },
+      {
+        "file": "frame-00297.jpg",
+        "t": 1793408039.745941
+      },
+      {
+        "file": "frame-00298.jpg",
+        "t": 1793408039.785453
+      },
+      {
+        "file": "frame-00299.jpg",
+        "t": 1793408039.819377
+      },
+      {
+        "file": "frame-00300.jpg",
+        "t": 1793408039.85233
+      },
+      {
+        "file": "frame-00301.jpg",
+        "t": 1793408039.900871
+      },
+      {
+        "file": "frame-00302.jpg",
+        "t": 1793408039.934592
+      },
+      {
+        "file": "frame-00303.jpg",
+        "t": 1793408039.978733
+      },
+      {
+        "file": "frame-00304.jpg",
+        "t": 1793408040.018357
+      },
+      {
+        "file": "frame-00305.jpg",
+        "t": 1793408040.054645
+      },
+      {
+        "file": "frame-00306.jpg",
+        "t": 1793408040.097585
+      },
+      {
+        "file": "frame-00307.jpg",
+        "t": 1793408040.130461
+      },
+      {
+        "file": "frame-00308.jpg",
+        "t": 1793408040.179375
+      },
+      {
+        "file": "frame-00309.jpg",
+        "t": 1793408040.216292
+      },
+      {
+        "file": "frame-00310.jpg",
+        "t": 1793408040.254006
+      },
+      {
+        "file": "frame-00311.jpg",
+        "t": 1793408040.29536
+      },
+      {
+        "file": "frame-00312.jpg",
+        "t": 1793408040.331563
+      },
+      {
+        "file": "frame-00313.jpg",
+        "t": 1793408040.395922
+      }
+    ]
+  }
+}
