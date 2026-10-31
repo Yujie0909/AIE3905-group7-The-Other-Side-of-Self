@@ -1,0 +1,93 @@
+[
+  {
+    "page": 1,
+    "source": "background/page01.png",
+    "web": "src/assets/final-backgrounds/page01.webp",
+    "width": 1670,
+    "height": 942,
+    "sourceBytes": 2398565,
+    "webBytes": 1282396,
+    "sourceSha256": "be805198bb77522cbe1ccf2aa6d67dcd4c40bf3d8a49410d9d40e117958f9ae8",
+    "encoding": "WebP near-lossless60, quality80, method4",
+    "maxChannelError": 2,
+    "psnrDb": 48.4
+  },
+  {
+    "page": 2,
+    "source": "background/page02.png",
+    "web": "src/assets/final-backgrounds/page02.webp",
+    "width": 1672,
+    "height": 941,
+    "sourceBytes": 2251877,
+    "webBytes": 1238198,
+    "sourceSha256": "1a4f5ffe68bf731e213f72cf7612e76fb542826e19212a4d20a78ff780045f14",
+    "encoding": "WebP near-lossless60, quality80, method4",
+    "maxChannelError": 2,
+    "psnrDb": 48.73
+  },
+  {
+    "page": 3,
+    "source": "background/page03.png",
+    "web": "src/assets/final-backgrounds/page03.webp",
+    "width": 1672,
+    "height": 941,
+    "sourceBytes": 2657812,
+    "webBytes": 1346584,
+    "sourceSha256": "7e0e79d09035574d0b72b7e01301147ea69e12a743384352fb993d42dd4ba202",
+    "encoding": "WebP near-lossless60, quality80, method4",
+    "maxChannelError": 2,
+    "psnrDb": 47.66
+  },
+  {
+    "page": 4,
+    "source": "background/page04.png",
+    "web": "src/assets/final-backgrounds/page04.webp",
+    "width": 1672,
+    "height": 941,
+    "sourceBytes": 2447602,
+    "webBytes": 1284328,
+    "sourceSha256": "85cd096150de479cea06d04c5b8fda13fca9c0f4500dc21ea9a44ddb25ba3b79",
+    "encoding": "WebP near-lossless60, quality80, method4",
+    "maxChannelError": 2,
+    "psnrDb": 47.93
+  },
+  {
+    "page": 5,
+    "source": "background/page05.png",
+    "web": "src/assets/final-backgrounds/page05.webp",
+    "width": 1672,
+    "height": 941,
+    "sourceBytes": 2609467,
+    "webBytes": 1417134,
+    "sourceSha256": "ecf21b560298ddbdf5004f5b2ffad8413d1e55aca5ef1641d41b8df05ff1552b",
+    "encoding": "WebP near-lossless60, quality80, method4",
+    "maxChannelError": 2,
+    "psnrDb": 47.92
+  },
+  {
+    "page": 6,
+    "source": "background/page06.png",
+    "web": "src/assets/final-backgrounds/page06.webp",
+    "width": 1672,
+    "height": 941,
+    "sourceBytes": 2716799,
+    "webBytes": 1478426,
+    "sourceSha256": "cd8744d834cf409a5ef934d2e4b75cf32b16b111916e35f3bfe3833b0e32784f",
+    "encoding": "WebP near-lossless60, quality80, method4",
+    "maxChannelError": 2,
+    "psnrDb": 47.61
+  },
+  {
+    "page": 7,
+    "source": "background/page07.png",
+    "web": "src/assets/final-backgrounds/page07.webp",
+    "width": 1671,
+    "height": 941,
+    "sourceBytes": 2840474,
+    "webBytes": 1439186,
+    "sourceSha256": "7b159c86927017ad8b73cfee3a3b0e52bffd6931992c0e0cbae380168699c1ee",
+    "encoding": "WebP near-lossless60, quality80, method4",
+    "maxChannelError": 2,
+    "psnrDb": 47.52
+  }
+]

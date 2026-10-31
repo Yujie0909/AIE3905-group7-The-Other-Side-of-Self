@@ -1,0 +1,185 @@
+/* Phase 1: final approved clean scenes. No environmental animation or colour mask. */
+:is(.page01-stage,.static-stage){--scene-ink:#344760;--scene-copy:#40516a;--scene-line:rgba(63,79,106,.42);--scene-glass:rgba(238,243,252,.32);background:#e8edf5;color:var(--scene-ink)}
+.static-stage::before{content:none;background:none}
+.scene-motion-layers{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.scene-ui-overlay{position:absolute;inset:0;z-index:1;pointer-events:none}
+.scene-ui-overlay>*{pointer-events:auto}
+.scene-ui-overlay :is(button,a,textarea,input){pointer-events:auto}
+:is(.page01-environment,.static-environment){z-index:-1;object-position:50% 50%;user-select:none}
+:is(.page01-stage,.static-stage) :is(h1,.static-copy,.page01-copy,.page01-subtitle,.voices-static-ending){background:none;border:0;box-shadow:none;backdrop-filter:none;filter:none;mix-blend-mode:normal}
+:is(.page01-title,.static-title){color:var(--scene-ink);text-shadow:0 1px 1px rgba(255,255,255,.22);font-weight:500}
+:is(.page01-copy,.static-copy){color:var(--scene-copy);line-height:1.8}
+:is(.page01-stage,.static-stage) :is(button,textarea,input):focus-visible{outline:2px solid #586d94;outline-offset:5px}
+.page01-subtitle{color:#53617a}
+:is(.page01-start,.static-pill){border:1px solid var(--scene-line);background:var(--scene-glass);color:var(--scene-ink);box-shadow:0 3px 16px #4957740a}
+:is(.page01-start,.static-pill):hover{background:rgba(246,249,255,.55);border-color:#5c7297}
+.static-note,.static-exit{color:var(--scene-copy);text-shadow:0 1px 1px #ffffff55}
+.static-entry{color:var(--scene-ink);background:rgba(239,245,254,.38);border:1px solid var(--scene-line);box-shadow:none;backdrop-filter:none}
+.static-entry :is(textarea,button){color:var(--scene-ink)}
+.static-entry textarea::placeholder{color:#4e607b}
+.static-voice .mic{border-color:var(--scene-line);background:rgba(236,243,254,.25);color:var(--scene-ink);opacity:1}
+.static-voice .mic:disabled{opacity:.7}
+.static-wave>i{background:#50647d}
+.static-mic-caption{color:var(--scene-ink)}
+.static-voice .voice-input>small{color:var(--scene-copy);text-shadow:0 1px 1px #fff8}
+/* A single track geometry at every desktop size; the whole rail remains clickable. */
+:is(.page01-stage,.static-stage) :is(.page01-progress,.static-progress){left:7%;right:7%;top:auto;bottom:3.3%;height:51px;margin:0;z-index:3}
+:is(.page01-stage,.static-stage) :is(.page01-progress,.static-progress)::before{top:5px;background:var(--scene-line)}
+:is(.page01-stage,.static-stage) :is(.page01-progress,.static-progress) li{color:var(--scene-copy);font-size:clamp(13px,1.13vw,22px)}
+:is(.page01-stage,.static-stage) :is(.page01-progress,.static-progress) li[aria-current=step]{color:var(--scene-ink)}
+:is(.page01-stage,.static-stage) .journey-step{gap:12px;min-height:48px;padding-bottom:0}
+.journey-step-label{text-shadow:0 1px 2px #ffffff60}
+.journey-dot{width:10px;height:10px;border:1px solid var(--scene-line);background:rgba(237,243,254,.35)}
+[aria-current=step]>.journey-step>.journey-dot{background:#536888;border-color:#536888;box-shadow:0 0 0 3px #ecf1f84d}
+/* 01: open left sky; protect the entire right mirror/flowers. */
+.page01-title{left:7%;top:15%;letter-spacing:.08em}
+.page01-subtitle{left:7.2%;top:35%;letter-spacing:.2em}
+.page01-copy{left:7.2%;top:43%;width:43%;letter-spacing:.06em}
+.page01-copy p+p{margin-top:1.1em}
+.page01-start{left:7.2%;top:70%;width:clamp(220px,20vw,355px);height:clamp(52px,6.4vh,70px);padding:0 2vw;justify-content:space-between}
+/* 02: left sky text, lower middle voice capture; leave the right light ribbon open. */
+.static-page-02 .static-title{left:7%;top:10%;width:58%;line-height:1.38}
+.static-page-02 .static-copy{left:7.2%;top:29%;width:47%;max-width:850px}
+.dream-capture{left:31%;width:38%;top:65%}
+.static-voice .mic{width:clamp(78px,6.2vw,116px);height:clamp(78px,6.2vw,116px)}
+.dream-capture>.static-entry{margin-top:1.2vw;height:clamp(50px,6vh,66px)}
+.static-mic-caption{font-size:clamp(14px,1.1vw,21px);margin-top:10px}
+/* 03: UI lives in the central sky, away from the daybed, tea table and sunset. */
+.static-page-03 .static-title{left:26%;top:13%;max-width:67%}
+.static-page-03 .static-copy{left:26.2%;top:25%;width:47%}
+.static-page-03 .static-copy p+p{margin-top:.65em}
+.ideal-static-actions{left:26.2%;right:auto;top:36%;display:flex;gap:14px}
+.ideal-static-actions .static-pill{height:clamp(48px,6vh,64px);min-width:clamp(145px,13vw,240px);padding:0 18px;gap:12px}
+@media(min-width:701px){.ideal-static-actions .static-pill,.ideal-static-actions .static-pill:last-child{width:clamp(145px,13vw,240px);min-width:clamp(145px,13vw,240px)}}
+.ideal-static-secondary{left:auto;right:7%;top:78%;gap:22px}
+.ideal-static-note{right:7%;top:83%;font-size:11px}
+.ideal-static-adjustment{left:26%;right:auto;top:47%;width:min(48%,720px);max-height:36vh;overflow:auto;border-radius:22px;border:1px solid #ffffff99;background:rgba(230,239,252,.55);color:var(--scene-ink);backdrop-filter:blur(12px)}
+.ideal-static-adjustment :is(small,.text-input>span,.text-input small){color:var(--scene-copy)}
+.ideal-static-adjustment textarea{background:#fff3;color:var(--scene-ink);border-color:var(--scene-line)}
+/* 04: habits and capture stay in the open left bay; right sofa remains unobstructed. */
+.static-page-04 .static-title{left:7%;top:11%}
+.static-page-04 .static-copy{left:7.2%;top:25%;width:43%}
+.daily-static-topics{left:7.2%;top:40%;width:36%}
+.daily-topic-grid{grid-template-columns:repeat(2,max-content);gap:10px 12px}
+.daily-topic-grid button{height:clamp(44px,5vh,55px);padding:0 17px;gap:11px;font-size:clamp(13px,1.1vw,21px);background:rgba(240,244,253,.3);border-color:var(--scene-line);color:var(--scene-ink)}
+.daily-topic-grid button svg{width:clamp(20px,1.6vw,29px);height:clamp(20px,1.6vw,29px);min-width:20px;min-height:20px}
+.daily-topic-grid button[aria-pressed=true]{background:rgba(228,235,251,.7);border-color:#50698f;color:#2b4568}
+.daily-static-voice{left:39%;top:56%;width:13%}
+.daily-static-voice .mic{width:clamp(78px,6.2vw,116px);height:clamp(78px,6.2vw,116px)}
+.daily-static-voice .static-wave{display:none}
+.daily-static-entry{left:7.2%;top:78%;width:44%;height:clamp(50px,6vh,66px);padding-left:24px;background:rgba(239,245,254,.38)}
+.daily-static-skip{right:auto;left:7.5%;top:86%;font-size:11px}
+/* 05: controls in the left distant air, above the desk and laptop. */
+.static-page-05 .static-title{left:7%;top:16%}
+.static-page-05 .static-copy{left:7.2%;top:29%;width:55%}
+.evolution-static-player{left:7.2%;top:41%;width:39%;height:54px;gap:20px}
+.evolution-static-player>button{width:54px;height:54px;background:rgba(241,245,254,.28);border-color:var(--scene-line);color:var(--scene-ink);font-size:27px}
+.evolution-static-player input{background:#60789788;accent-color:#465e81}
+.evolution-static-player input::-webkit-slider-thumb{border-color:#5a7292;background:#eff4fc}
+.evolution-static-note{left:7.2%;top:calc(41% + 68px);font-size:11px}
+.evolution-static-next{left:7.2%;right:auto;top:calc(41% + 90px);height:54px;padding:0 24px}
+/* 06: expression on the left, photo-aligned inscription only in the water mirror. */
+.static-page-06 .static-title{left:7%;top:16%}
+.static-page-06 .static-copy{left:7.2%;top:30%;width:43%}
+.static-page-06 .static-copy p+p{margin-top:.6em}
+.reflection-static-voice{left:9%;top:55%;width:30%}
+.reflection-static-voice .static-wave{width:65px}
+.reflection-static-entry{left:7.2%;top:75%;width:39%;height:clamp(50px,6vh,66px)}
+.reflection-static-skip{left:7.5%;top:84%;font-size:11px}
+.static-page-06 .static-environment{object-position:50% 50%}
+.mirror-inscription-copy{opacity:.86;mix-blend-mode:multiply;filter:none}
+/* 07: deep blue open sky holds a restrained cloud on the right. */
+.static-page-07{--scene-ink:#f0f1ff;--scene-copy:#e1e7fa;--scene-line:rgba(225,233,255,.45);--scene-glass:rgba(46,66,114,.24);background:#23375d}
+.static-page-07 .static-title{left:7%;top:18%}
+.static-page-07 .static-copy{left:7.2%;top:32%;width:37%;text-shadow:0 1px 2px #20365d44}
+.static-page-07 .static-copy,.static-page-07 .voices-static-ending{text-shadow:0 1px 2px rgba(17,35,66,.7);-webkit-text-stroke:.18px rgba(20,38,70,.25)}
+.voices-static-ending{left:7.2%;top:53%;width:37%;color:var(--scene-ink);line-height:1.9}
+.voices-static-cloud{left:0;top:0;width:100%;height:100%}
+.voices-static-cloud button{background:none;border:0;box-shadow:none;backdrop-filter:none;color:#edf2ff;text-shadow:0 1px 2px #21355666;letter-spacing:.06em}
+.voices-static-cloud button.selected{color:#fff1c8;text-shadow:0 1px 2px #21355666}
+.voices-static-note{left:51%;top:66%;font-size:11px;color:#e1e7fa}
+.voices-static-selection{left:51%;top:70%;color:#f6e7c4}
+.voices-static-approved{left:7.2%;top:75%;max-width:37%;max-height:9%;font-size:12px;color:#e1e7fa}
+.voices-static-finish{right:7%;top:79%;height:clamp(50px,6vh,66px);background:rgba(55,73,119,.25);border-color:#e1eaff77;color:#f1f2ff}
+.static-page-07 .journey-step-label{text-shadow:0 1px 2px #15294a66}
+.static-page-07 [aria-current=step]>.journey-step>.journey-dot{background:#f3eddb;border-color:#f3eddb}
+/* These are dialogs, not typography backplates. Shared, bounded glass surface. */
+.static-stage .glass-dialog{background:rgba(223,234,252,.42);color:#344760;border-color:rgba(255,255,255,.66);box-shadow:0 18px 54px #3e507528;backdrop-filter:blur(14px) saturate(108%);-webkit-backdrop-filter:blur(14px) saturate(108%);padding:30px;border-radius:24px}
+.static-stage .glass-dialog :is(p,.field-caption,small,.text-input>span,.text-input>small){color:#344760}
+.static-stage .glass-dialog :is(button,.chips button){font-size:clamp(15px,1vw,19px);color:#344760;border-color:#53698a66;background:rgba(246,249,255,.16);min-height:46px;padding:10px 17px;text-shadow:none}
+.static-stage .glass-dialog .chips button[aria-pressed=true]{background:#eef3ff99;border-color:#536b91;color:#29436a}
+.static-stage .glass-dialog>p:first-child,.static-stage .glass-dialog>.field-caption{font-size:clamp(18px,1.35vw,25px);font-weight:500;line-height:1.7}
+.static-stage :is(.static-clarification.glass-dialog,.daily-question.glass-dialog,.page06-consent-dialog){position:fixed;left:50%;right:auto;top:50%;bottom:auto;transform:translate(-50%,-50%);width:min(720px,calc(100vw - 40px));max-width:calc(100vw - 40px);max-height:calc(100svh - 56px);height:auto;margin:0;z-index:10}
+.static-stage .page06-consent-dialog{width:min(740px,calc(100vw - 40px))}
+.static-stage .page06-consent-dialog .text-input textarea{background:#f7faff26;color:#344760;border-color:#53698a55;font-size:16px}
+.static-stage .page06-consent-dialog .inline-actions button{height:50px;font-size:15px;color:#344760}
+.static-stage .page06-consent-dialog :is(.text-input>span,.text-input>small,small){color:#40516a}
+@media(min-width:701px) and (max-height:760px){
+ .daily-static-topics{top:39%}.daily-topic-grid{gap:8px}.daily-topic-grid button{height:44px;padding-inline:13px;font-size:13px}
+ .daily-static-voice{left:39%;top:54%}.daily-static-voice .mic{width:78px;height:78px}
+ .daily-static-entry{top:76%}.daily-static-skip{top:85%}
+ .dream-capture{top:63%}.static-mic-caption{margin-top:7px}
+ .reflection-static-voice{top:53%}.reflection-static-entry{top:76%}
+}
+/* Portrait: preserve the whole artwork, then place readable, operable UI below.
+   The mirror uses a taller dedicated art viewport, focused on the mirror itself. */
+@media(max-width:700px){
+ :is(.page01-stage,.static-stage){--art-height:56.34vw;height:auto;min-height:100svh;overflow:hidden;padding-top:var(--art-height)}
+ :is(.page01-environment,.static-environment){height:var(--art-height);object-fit:contain;object-position:50% 50%;z-index:0}
+ .scene-ui-overlay{position:relative;inset:auto;min-height:calc(100svh - var(--art-height));padding:32px 7% 110px;display:flex;flex-direction:column;align-items:flex-start;gap:22px}
+ .scene-motion-layers{height:var(--art-height)}
+ :is(.page01-title,.static-stage .static-title){position:static;left:auto;top:auto;width:auto!important;max-width:100%!important;line-height:1.4;white-space:pre-line;margin:0}
+ .page01-title br{display:none}
+ :is(.page01-subtitle,.page01-copy,.static-stage .static-copy){position:static;left:auto;top:auto;width:auto!important;max-width:100%!important;margin:0;letter-spacing:.04em;color:var(--scene-copy)}
+ .page01-subtitle{font-size:15px;order:1}.page01-copy{order:2}.page01-start{order:3}
+ .page01-copy p+p,.static-stage .static-copy p+p{margin-top:12px}
+ .page01-start{position:static;width:230px;height:54px;padding:0 22px;margin-top:8px}
+ .static-exit{position:absolute;right:7%;top:12px;font-size:10px}
+ :is(.page01-stage,.static-stage) :is(.page01-progress,.static-progress){position:absolute;bottom:22px;left:8%;right:8%;height:52px;top:auto;order:99}
+ :is(.page01-stage,.static-stage) :is(.page01-progress,.static-progress) li{font-size:12px}
+ :is(.page01-stage,.static-stage) .journey-step{min-width:40px;gap:12px}
+ .journey-dot{width:9px;height:9px}
+ .dream-capture{position:relative;inset:auto;left:auto;top:auto;width:100%;margin-top:4px;align-self:center}
+ .static-voice .mic{width:82px;height:82px}
+ .static-mic-caption{font-size:14px;margin-top:10px}.dream-capture>.static-entry{margin-top:20px;height:54px}
+ .static-entry textarea{font-size:15px}
+ .ideal-static-actions{position:static;flex-wrap:wrap;gap:10px;width:100%}.ideal-static-actions .static-pill{height:48px;flex:1 1 44%;font-size:14px;min-width:0;padding:0 12px}
+ .ideal-static-secondary{position:static;order:5;display:flex;gap:20px;font-size:11px}.ideal-static-note{position:static;order:6;font-size:10px}
+ .ideal-static-adjustment{position:relative;inset:auto;width:100%;max-height:none;order:4;padding:18px}
+ .daily-static-topics{position:relative;inset:auto;width:100%}.daily-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;width:100%}
+ .daily-topic-grid button{height:46px;padding:0 10px;gap:8px;font-size:12.74px;justify-content:center}.daily-topic-grid button:last-child{width:auto}.daily-topic-grid button svg{width:20px;height:20px}
+ .daily-static-voice{position:static;width:100%;margin-top:6px}.daily-static-voice .mic{width:82px;height:82px}
+ .daily-static-entry{position:relative;inset:auto;width:100%;height:54px;padding-left:18px}.daily-static-skip{position:static;align-self:flex-end;font-size:11px}
+ .evolution-static-player{position:static;width:100%;height:58px;gap:12px}.evolution-static-player>button{min-width:48px;width:48px;height:48px}.evolution-static-player time{font-size:13px}
+ .evolution-static-note{position:static;font-size:10px}.evolution-static-next{position:static;height:50px;padding:0 18px;font-size:14px}
+ .static-page-06{--art-height:700px}
+ .static-page-06>.static-environment{object-fit:cover;object-position:80% center}
+ .static-page-06 .scene-ui-overlay{min-height:700px}
+ .static-page-06 .mirror-inscription{position:absolute;top:calc(-1 * var(--art-height));left:0;width:100%;height:var(--art-height);pointer-events:none}
+ .reflection-static-voice{position:static;width:100%;margin-top:8px}.reflection-static-voice .static-wave{width:55px}
+ .reflection-static-entry{position:relative;inset:auto;width:100%;height:54px;padding-left:18px}.reflection-static-skip{position:static;font-size:11px}
+ .static-page-07{--art-height:0px}.static-page-07>.static-environment{height:100%;object-fit:cover}.static-page-07 .scene-motion-layers{height:100%}.static-page-07 .scene-ui-overlay{padding-top:58px}
+ .voices-static-ending{position:static;inset:auto;width:100%;font-size:14px;color:var(--scene-ink);line-height:1.9;margin:0}
+ .voices-static-cloud{position:relative;inset:auto;left:-5%;width:110%;height:350px;flex:none}
+ .voices-static-cloud button{left:calc((var(--cloud-x) - 46) * 2%)!important;top:calc((var(--cloud-y) - 9) * 1.7%)!important;font-size:clamp(14px,calc(var(--cloud-size) * 6px),28px)!important}
+ .voices-static-cloud button:nth-child(9){font-size:29px!important}
+ .voices-static-note,.voices-static-selection,.voices-static-approved{position:static;inset:auto;max-width:100%;max-height:none;font-size:11px;color:var(--scene-copy);margin:0}
+ .voices-static-finish{position:static;width:100%;height:54px;font-size:14px;padding:0 12px;gap:12px}
+ .static-stage .glass-dialog{padding:24px}
+ .static-stage :is(.static-clarification.glass-dialog,.daily-question.glass-dialog,.page06-consent-dialog){position:fixed;inset:auto;left:50%;top:50%;transform:translate(-50%,-50%);width:calc(100vw - 32px);max-width:calc(100vw - 32px);max-height:calc(100svh - 40px)}
+ .static-stage .page06-consent-dialog .inline-actions{grid-template-columns:1fr 1fr}.static-stage .page06-consent-dialog .inline-actions button:first-child{grid-column:1/-1;justify-self:start}
+ .static-stage .page06-consent-dialog .inline-actions button{font-size:14px;padding:8px 12px}
+}
+/* The desk scene ends in darker water: keep the shared rail legible there. */
+@media(min-width:701px){
+ .static-page-05 .static-progress li,.static-page-05 .static-progress li[aria-current=step]{color:#edf1fa}
+ .static-page-05 .static-progress::before{background:rgba(231,239,252,.5)}
+ .static-page-05 .static-progress .journey-step-label{text-shadow:0 1px 2px rgba(24,42,69,.75)}
+ .static-page-05 .static-progress .journey-dot{border-color:#e3eaf4aa;background:#d5e0f033}
+ .static-page-05 .static-progress [aria-current=step]>.journey-step>.journey-dot{background:#e9eff9;border-color:#f2f4f9}
+}
+.evolution-static-player input{background:#dce5f4;box-shadow:0 0 0 1px #4c628c80}
+
+/* Only journey nodes receive pointer events; empty rail space never blocks a control. */
+.scene-ui-overlay :is(.page01-progress,.static-progress){pointer-events:none}
+.scene-ui-overlay .journey-step{pointer-events:auto}
