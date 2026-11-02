@@ -1,1 +1,26 @@
-{"name":"the-other-side-of-self","private":true,"version":"0.1.0","type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"tsc && vite build","preview":"vite preview --host 0.0.0.0","test":"node --test tests/*.test.mjs"},"dependencies":{"react":"^19.1.0","react-dom":"^19.1.0"},"devDependencies":{"@types/react":"^19.1.0","@types/react-dom":"^19.1.0","typescript":"^5.8.3","vite":"^6.3.5"}}
+{
+  "name": "the-other-side-of-self",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && tsc -p worker/tsconfig.json && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.mjs",
+    "verify:providers": "node worker/verify-providers.mjs",
+    "worker:deploy": "npx wrangler@4 deploy --config worker/wrangler.toml",
+    "worker:migrate": "npx wrangler@4 d1 migrations apply flow-space --remote --config worker/wrangler.toml",
+    "test:ai": "VITE_API_BASE_URL=https://api.flow.test VITE_TURNSTILE_SITE_KEY=fixture-public-site-key vite build --outDir /tmp/flow-ai-browser-dist --emptyOutDir && node tests/ai-browser.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

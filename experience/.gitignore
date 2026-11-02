@@ -6,3 +6,8 @@ artifacts/
 
 # Owner-private Sites hosting metadata is not part of the GitHub Pages source.
 .openai/
+
+worker/.dev.vars
+worker/.dev.vars.*
+worker/.wrangler/
+.env.*.local
