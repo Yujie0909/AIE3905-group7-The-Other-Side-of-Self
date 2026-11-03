@@ -1,0 +1,32 @@
+name: Validate Cloudflare AI frontend
+# Manual validation only. The existing gh-pages production branch is never updated here.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: experience
+    env:
+      VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL }}
+      VITE_TURNSTILE_SITE_KEY: ${{ vars.VITE_TURNSTILE_SITE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: experience/package-lock.json
+      - run: npm ci
+      - name: Verify HTTPS API readiness and GitHub Pages CORS
+        run: npm run verify:api
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: validated-ai-frontend
+          path: experience/dist
+          retention-days: 7

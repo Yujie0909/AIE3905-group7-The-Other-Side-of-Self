@@ -12,4 +12,7 @@ worker/.dev.vars.*
 worker/.wrangler/
 .env.*.local
 
-server/data/
+# Retired local runtime: never accidentally commit restored databases or secrets.
+server/
+*.sqlite
+*.sqlite-*

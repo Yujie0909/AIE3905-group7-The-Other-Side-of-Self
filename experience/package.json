@@ -12,10 +12,8 @@
     "worker:deploy": "npx wrangler@4 deploy --config worker/wrangler.toml",
     "worker:migrate": "npx wrangler@4 d1 migrations apply flow-space --remote --config worker/wrangler.toml",
     "test:ai": "VITE_API_BASE_URL=https://api.flow.test VITE_TURNSTILE_SITE_KEY=fixture-public-site-key vite build --outDir /tmp/flow-ai-browser-dist --emptyOutDir && node tests/ai-browser.mjs",
-    "api:dev": "node --env-file-if-exists=server/.env server/index.mjs",
-    "verify:local-providers": "node --env-file-if-exists=server/.env worker/verify-providers.mjs",
-    "test:local-api": "node tests/node-browser.mjs",
-    "start:local": "node server/start-local.mjs"
+    "verify:api": "node worker/check-api.mjs",
+    "worker:bundle": "npx wrangler@4 deploy --dry-run --config worker/wrangler.toml --outdir artifacts/worker"
   },
   "dependencies": {
     "react": "^19.1.0",
