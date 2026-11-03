@@ -2,10 +2,10 @@ export type Page = 1|2|3|4|5|6|7;
 export interface ExperienceSession {
  sessionId:string; currentPage:Page; idealRawText:string; idealStructuredData:unknown; idealImageUrl:string|null;
  selectedHabitTopics:string[]; habitAnswers:Record<string,string[]>; dailyFreeText:string;
- changeAnalysis:unknown; changeVideoUrl:string|null; reflectionText:string; reflectionKeywords:string[]; sharingConsent:boolean;
+ changeAnalysis:unknown; changeVideoUrl:string|null; reflectionText:string; reflectionResponse:string; reflectionKeywords:string[]; sharingConsent:boolean;
  idealPrompt:string; idealWorldSummary:string; approvedText:string; sceneVariant:number;
 }
-export const createSession=():ExperienceSession=>({sessionId:crypto.randomUUID(),currentPage:1,idealRawText:'',idealStructuredData:null,idealImageUrl:null,selectedHabitTopics:[],habitAnswers:{},dailyFreeText:'',changeAnalysis:null,changeVideoUrl:null,reflectionText:'',reflectionKeywords:[],sharingConsent:false,idealPrompt:'',idealWorldSummary:'',approvedText:'',sceneVariant:0});
+export const createSession=():ExperienceSession=>({sessionId:crypto.randomUUID(),currentPage:1,idealRawText:'',idealStructuredData:null,idealImageUrl:null,selectedHabitTopics:[],habitAnswers:{},dailyFreeText:'',changeAnalysis:null,changeVideoUrl:null,reflectionText:'',reflectionResponse:'',reflectionKeywords:[],sharingConsent:false,idealPrompt:'',idealWorldSummary:'',approvedText:'',sceneVariant:0});
 export const pages=[
  {title:'欢迎进入心流空间',body:['在这里，暂时放下外界的评价，倾听内心的声音。','这是一场没有标准答案的旅程，也是一段只属于你的故事。'],en:'A QUIET BEGINNING'},
  {title:'如果一切都能够实现，你希望过什么样的生活？',body:['抛开现实的桎梏，描绘你理想中的生活。在那个世界里，你希望成为怎样的自己？'],en:'IMAGINE THE POSSIBLE'},

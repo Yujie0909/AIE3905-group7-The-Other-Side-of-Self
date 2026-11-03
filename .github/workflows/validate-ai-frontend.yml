@@ -1,0 +1,35 @@
+name: Validate CloudBase AI frontend
+# Manual validation only. The existing gh-pages production branch is never updated here.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: experience
+    env:
+      # Reachable gateway candidate; readiness must pass before an artifact is produced.
+      VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL || 'https://flow-space-d9gzw4xiiba0881b3-1524535587.ap-shanghai.app.tcloudbase.com/flow-space-api' }}
+      VITE_TENCENT_CAPTCHA_APP_ID: ${{ vars.VITE_TENCENT_CAPTCHA_APP_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: experience/package-lock.json
+      - run: npm ci
+      - name: Verify HTTPS API readiness and GitHub Pages CORS
+        run: npm run verify:api
+      - run: npm test
+      - run: npm run build
+      - name: Confirm both public variables are embedded in the production JavaScript
+        run: npm run verify:build-config
+      - uses: actions/upload-artifact@v4
+        with:
+          name: validated-ai-frontend
+          path: experience/dist
+          retention-days: 7

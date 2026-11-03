@@ -34,9 +34,9 @@ try{
    await button(p,'停止语音输入').click();await allStopped(p);
    await capture(p);await p.locator('textarea').fill(`第${n}页手动修改，语音不会覆盖。`);await allStopped(p);assert.equal(await p.locator('.voice-input').getAttribute('data-voice-state'),'idle');
    await capture(p);
-   if(n===2){await button(p,'构建我的世界').click();await ready(p,3);await allStopped(p);await button(p,'继续探索').click();await ready(p,4)}
-   if(n===4){await button(p,'作息与睡眠').click();await button(p,'慢慢聊聊').click();await p.locator('.daily-question').waitFor();await button(p,'晚睡晚起').click();await button(p,'下一项 / 看见另一种可能').click();await ready(p,5);await allStopped(p);await button(p,'再次与自己相遇').click();await ready(p,6)}
-   if(n===6){await button(p,'收好此刻的心声').click();await p.locator('.page06-consent-dialog').waitFor();await allStopped(p);await button(p,'仅留给自己').click();await ready(p,7)}
+   if(n===2){await button(p,'构建我的世界').click();await button(p,'保留输入，继续体验').click();await ready(p,3);await allStopped(p);await button(p,'继续探索').click();await ready(p,4)}
+   if(n===4){await button(p,'作息与睡眠').click();await button(p,'慢慢聊聊').click();await p.locator('.daily-question').waitFor();await button(p,'晚睡晚起').click();await button(p,'下一项 / 看见另一种可能').click();await button(p,'继续旅程').click();await ready(p,5);await allStopped(p);await button(p,'再次与自己相遇').click();await ready(p,6)}
+   if(n===6){await button(p,'收好此刻的心声').click();await button(p,'继续尾声').click();await ready(p,7);await allStopped(p)}
   }
   for(const [label,n] of [['02 想象',2],['04 现状',4],['06 自我',6]]){await button(p,label).click();await ready(p,n);assert.equal(await p.locator('textarea').inputValue(),`第${n}页手动修改，语音不会覆盖。`)}
   assert.deepEqual(errors,[]);console.log('PASS real virtual-device capture, stop, edit, navigation/unmount cleanup and independent input state:',width);await c.close();

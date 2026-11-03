@@ -1,3 +1,3 @@
 import {defineConfig} from 'vite';
-// Relative assets work both on GitHub Pages repository subpaths and local preview.
-export default defineConfig({base:'./'});
+// Relative assets preserve GitHub Pages repository subpaths. No local API proxy.
+export default defineConfig({base:'./',server:{host:'127.0.0.1'},preview:{host:'127.0.0.1'}});

@@ -7,3 +7,5 @@ import './pages/ui-refinement.css';
 import './pages/final-scenes.css';
 import './pages/responsive-scenes.css';
 createRoot(document.getElementById('root')!).render(<React.StrictMode><ExperienceShell/></React.StrictMode>);
+
+import './pages/ai-content.css';

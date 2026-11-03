@@ -3,7 +3,7 @@ import {useEffect,useRef,useState,type RefObject} from 'react';
 type Phase='idle'|'requesting'|'recording'|'recognizing'|'success'|'error';
 type Result={isFinal:boolean;0:{transcript:string}};
 type Recognition={lang:string;continuous:boolean;interimResults:boolean;onstart:(()=>void)|null;onresult:((event:{results:ArrayLike<Result>})=>void)|null;onerror:((event:{error:string})=>void)|null;onend:(()=>void)|null;onspeechend:(()=>void)|null;start:()=>void;stop:()=>void;abort?:()=>void};
-type Session={prefix:string;expected:string;finalText:string;interim:string;stream?:MediaStream;recognition?:Recognition;timer?:ReturnType<typeof setTimeout>;observer?:MutationObserver;stopping:boolean};
+type Session={prefix:string;expected:string;finalText:string;interim:string;stream?:MediaStream;recognition?:Recognition;timer?:ReturnType<typeof setTimeout>;observer?:MutationObserver;detachSubmit?:()=>void;stopping:boolean};
 const recognitionConstructor=()=>{const w=window as unknown as {SpeechRecognition?:new()=>Recognition;webkitSpeechRecognition?:new()=>Recognition};return w.SpeechRecognition||w.webkitSpeechRecognition};
 const privacy='语音识别可能将麦克风音频发送至浏览器提供商的语音服务。本网站不录制、保存或另行上传原始音频。是否同意并开始识别？';
 
@@ -32,7 +32,7 @@ export function useMicrophoneInput(value:string,onChange:(text:string)=>void,own
  const pending=['requesting','recording','recognizing'].includes(phase);
  function tracks(s:Session){const stream=s.stream;s.stream=undefined;for(const track of stream?.getTracks()||[]){track.onended=null;track.stop()}}
  function cleanup(s:Session){
-  clearTimeout(s.timer);s.observer?.disconnect();tracks(s);
+  clearTimeout(s.timer);s.observer?.disconnect();s.detachSubmit?.();tracks(s);
   const r=s.recognition;s.recognition=undefined;
   if(r){r.onstart=r.onresult=r.onerror=r.onend=r.onspeechend=null;try{if(r.abort)r.abort();else r.stop()}catch{/* Already ended. */}}
  }
@@ -64,7 +64,7 @@ export function useMicrophoneInput(value:string,onChange:(text:string)=>void,own
   const s:Session={prefix:live.current.value,expected:live.current.value,finalText:'',interim:'',stopping:false};session.current=s;
   setPhase('requesting');setNotice('正在请求麦克风权限，再次点击可取消。');
   const frame=owner.current?.closest<HTMLElement>('.scene-frame');
-  if(frame){s.observer=new MutationObserver(()=>{if(frame.dataset.navigationState!=='idle')finish(s,'idle','')});s.observer.observe(frame,{attributes:true,attributeFilter:['data-navigation-state']})}
+  if(frame){const submitted=()=>finish(s,'idle','已停止语音采集，正在处理已提交的文字。');frame.addEventListener('scene-input-submitted',submitted);s.detachSubmit=()=>frame.removeEventListener('scene-input-submitted',submitted);s.observer=new MutationObserver(()=>{if(frame.dataset.navigationState!=='idle')finish(s,'idle','')});s.observer.observe(frame,{attributes:true,attributeFilter:['data-navigation-state']})}
   const current=()=>mounted.current&&session.current===s;
   try{
    try{const permission=await navigator.permissions?.query({name:'microphone' as PermissionName});if(!current())return;if(permission?.state==='denied')throw new DOMException('Denied','NotAllowedError')}

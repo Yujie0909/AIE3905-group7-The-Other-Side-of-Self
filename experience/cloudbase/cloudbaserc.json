@@ -1,0 +1,11 @@
+{
+  "envId": "flow-space-d9gzw4xiiba0881b3",
+  "functions": [{
+    "name": "flow-space-api",
+    "type": "HTTP",
+    "dir": "../artifacts/cloudbase/function",
+    "runtime": "Nodejs20.19",
+    "timeout": 180,
+    "installDependency": true
+  }]
+}

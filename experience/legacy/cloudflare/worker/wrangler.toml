@@ -1,0 +1,29 @@
+name = "flow-space-api"
+main = "src.ts"
+compatibility_date = "2026-10-01"
+workers_dev = true
+# Preserve dashboard-managed non-secret settings across Git deployments.
+keep_vars = true
+
+[vars]
+ALLOWED_ORIGINS = "https://yujie0909.github.io"
+# Confirm the issuing platform first. Official example: https://api.deepseek.com
+# DEEPSEEK_BASE_URL = "" # Configure in the Worker dashboard after verification.
+# Confirm these exact IDs in YOUR provider account; empty values fail closed.
+# DEEPSEEK_MODEL = "" # Configure in the Worker dashboard after verification.
+# ARK_BASE_URL = "https://ark.cn-beijing.volces.com/api/v3" # Configure in the Worker dashboard after verification.
+# ARK_IMAGE_MODEL = "" # Configure in the Worker dashboard after verification.
+ARK_IMAGE_SIZE = "2048x1152"
+ARK_IMAGE_HOSTS = ".volces.com,.byteimg.com"
+TEXT_DAILY_QUOTA = "100"
+IMAGE_DAILY_QUOTA = "20"
+TURNSTILE_HOSTNAMES = "yujie0909.github.io"
+# Secrets via platform UI: DEEPSEEK_API_KEY, ARK_API_KEY,
+# TURNSTILE_SECRET_KEY, ABUSE_SALT. Never put them in this file.
+
+# Create a D1 database, then put its real database_id here before deployment.
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "flow-space"
+# database_id = ""
+# migrations_dir = "migrations"

@@ -1,0 +1,12 @@
+{
+  "name": "flow-space-cloudbase-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "tencentcloud-sdk-nodejs-captcha": "4.1.315"
+  }
+}
