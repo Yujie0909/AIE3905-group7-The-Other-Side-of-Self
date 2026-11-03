@@ -5,7 +5,7 @@ import {object,string,strings,cleanWords,validateResult,ValidationError} from '.
 import {prompts} from '../shared/ai-prompts.ts';
 import {providerIssues,hasProviderConfig,ProviderConfigError} from '../shared/provider-config.ts';
 import {providers} from './providers.mjs';
-import {connectPostgres} from './postgres.mjs';
+import {cloudBaseRpcStore,databaseConfiguration} from './rdb-http.mjs';
 import {verifyCaptcha} from './captcha.mjs';
 import {Failure,fail} from './errors.mjs';
 const digest=v=>createHash('sha256').update(v).digest('hex');
@@ -15,7 +15,7 @@ function input(task,v){const b=object(v),ideal=string(b.ideal??'',2000);if(task=
 async function readBody(req){if(!req.headers['content-type']?.startsWith('application/json'))fail(415,'json_required');let n=0;const chunks=[];for await(const chunk of req){n+=chunk.length;if(n>16000)fail(413,'request_too_large');chunks.push(chunk)}try{return object(JSON.parse(Buffer.concat(chunks).toString('utf8')))}catch{fail(400,'invalid_json')}}
 export function createApi(env=process.env,{store,transport=fetch,captcha=verifyCaptcha}={}){
  const ai=providers(env,transport),active=new Set();let database=store?Promise.resolve(store):undefined,closing=false,shutdown;
- const db=async()=>{if(!database)database=connectPostgres(env).catch(e=>{database=undefined;throw e});return database};
+ const db=async()=>{if(!database)database=Promise.resolve().then(()=>cloudBaseRpcStore(env)).catch(e=>{database=undefined;throw e});return database};
  const allowed=(env.ALLOWED_ORIGINS||'https://yujie0909.github.io').split(',').map(x=>x.trim()).filter(Boolean);
  const prefix=(env.API_PATH_PREFIX===undefined?'/flow-space-api':env.API_PATH_PREFIX).replace(/\/$/,'');if(prefix&&!/^\/[a-zA-Z0-9_/-]+$/.test(prefix))throw Error('invalid_gateway_prefix');
  const sign=v=>{if(!env.ABUSE_SALT||env.ABUSE_SALT.length<32)fail(503,'backend_not_configured');return createHmac('sha256',env.ABUSE_SALT).update(v).digest('hex')};
@@ -31,7 +31,7 @@ export function createApi(env=process.env,{store,transport=fetch,captcha=verifyC
    const raw=new URL(req.url,'https://function.invalid').pathname;
    const path=prefix?(raw.startsWith(prefix+'/')?raw.slice(prefix.length):raw):raw;
    if(req.method==='OPTIONS'){if(!cors)fail(403,'origin_required');return send(null,204)}
-   if(req.method==='GET'&&path==='/api/health')return send({ok:true,service:'flow-space-api',platform:'cloudbase',configurationIssues:providerIssues(env),textConfigured:Boolean(env.DEEPSEEK_API_KEY&&hasProviderConfig(env,'DEEPSEEK')),imageConfigured:Boolean(env.ARK_API_KEY&&hasProviderConfig(env,'ARK')),databaseType:env.CLOUDBASE_DB_TYPE||null,databaseConfigured:env.CLOUDBASE_DB_TYPE==='postgresql'&&Boolean(env.DATABASE_URL),databaseVerified:null,verificationConfigured:Boolean(env.TENCENT_CAPTCHA_APP_ID&&env.TENCENT_CAPTCHA_APP_SECRET_KEY&&env.ABUSE_SALT?.length>=32&&env.CLIENT_IP_HEADER&&env.TENCENTCLOUD_SECRETID&&env.TENCENTCLOUD_SECRETKEY),gatewayPrefix:prefix});
+   if(req.method==='GET'&&path==='/api/health')return send({ok:true,service:'flow-space-api',platform:'cloudbase',configurationIssues:providerIssues(env),textConfigured:Boolean(env.DEEPSEEK_API_KEY&&hasProviderConfig(env,'DEEPSEEK')),imageConfigured:Boolean(env.ARK_API_KEY&&hasProviderConfig(env,'ARK')),databaseType:env.CLOUDBASE_DB_TYPE||null,databaseConfigured:databaseConfiguration(env),databaseAccess:'cloudbase-http-rpc-v2',databaseVerified:null,verificationConfigured:Boolean(env.TENCENT_CAPTCHA_APP_ID&&env.TENCENT_CAPTCHA_APP_SECRET_KEY&&env.ABUSE_SALT?.length>=32&&env.CLIENT_IP_HEADER&&env.TENCENTCLOUD_SECRETID&&env.TENCENTCLOUD_SECRETKEY),gatewayPrefix:prefix});
    if(req.method==='GET'&&path==='/api/wordcloud'){
     const repository=await db();await repository.quota([[`public-read:${Math.floor(Date.now()/60000)}`,120,Date.now()+120000]]);return send({words:await repository.cloud()});
    }
