@@ -9,10 +9,11 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --test tests/*.test.mjs",
     "verify:providers": "node cloudbase/verify-providers.mjs",
-    "test:ai": "VITE_API_BASE_URL=https://api.flow.test VITE_TENCENT_CAPTCHA_APP_ID=fixture-public-id vite build --outDir /tmp/flow-ai-browser-dist --emptyOutDir && node tests/cloudbase-browser.mjs",
+    "test:ai": "VITE_API_BASE_URL=https://api.flow.test/flow-space-api VITE_TENCENT_CAPTCHA_APP_ID=2081234567 vite build --outDir /tmp/flow-ai-browser-dist --emptyOutDir && node tests/cloudbase-browser.mjs",
     "verify:api": "node cloudbase/check-api.mjs",
     "cloudbase:build": "node cloudbase/build.mjs",
-    "cloudbase:package": "npm ci --prefix cloudbase --omit=dev --ignore-scripts && node cloudbase/build.mjs --package"
+    "cloudbase:package": "npm ci --prefix cloudbase --omit=dev --ignore-scripts && node cloudbase/build.mjs --package",
+    "verify:build-config": "node cloudbase/audit-frontend-build.mjs"
   },
   "dependencies": {
     "react": "^19.1.0",

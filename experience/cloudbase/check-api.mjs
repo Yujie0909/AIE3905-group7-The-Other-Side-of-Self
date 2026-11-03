@@ -1,5 +1,7 @@
+import {publicBuildConfig} from './public-build-config.mjs';
 // Read-only public deployment check. Never invokes paid models or uploads words.
 export async function checkApi(env=process.env,transport=fetch){
+ publicBuildConfig(env);
  let url;try{url=new URL(env.VITE_API_BASE_URL)}catch{throw Error('Set VITE_API_BASE_URL to the verified HTTPS API origin')}
  if(url.protocol!=='https:'||url.username||url.password||url.search||url.hash||!/^\/[A-Za-z0-9_/-]*$/.test(url.pathname))throw Error('VITE_API_BASE_URL must be an HTTPS origin, without /api, query strings or credentials; a gateway prefix is allowed');
  if(!env.VITE_TENCENT_CAPTCHA_APP_ID?.trim())throw Error('Set the public VITE_TENCENT_CAPTCHA_APP_ID; never use AppSecretKey here');
