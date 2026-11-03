@@ -44,3 +44,14 @@ test('Node adapters validate model JSON, image retries are idempotent, explicit 
   assert.equal((await (await fetch(api.base+'/api/wordcloud')).json()).words.find(w=>w.word==='阅读').frequency,2);
  }finally{await api.stop();rmSync(dir,{recursive:true,force:true})}
 });
+
+test('stopping the local API aborts an in-flight image request and can be repeated without leaked resources',async()=>{
+ const dir=mkdtempSync(join(tmpdir(),'flow-stop-'));let begin;const started=new Promise(r=>{begin=r});let upstreamSignal;
+ const api=await start({...configured,LOCAL_DB_PATH:join(dir,'data.sqlite')},async(_url,options)=>{
+  upstreamSignal=options.signal;begin();return new Promise((_,reject)=>{const abort=()=>reject(new DOMException('Aborted','AbortError'));options.signal.addEventListener('abort',abort,{once:true});if(options.signal.aborted)abort()});
+ });
+ try{
+  const headers=await session(api.base);const pending=fetch(api.base+'/api/image',{method:'POST',headers,body:JSON.stringify({prompt:'A forest library',requestId:randomUUID()})}).catch(()=>null);
+  await started;await api.server.stopLocal();assert.equal(upstreamSignal.aborted,true);await pending;await api.server.stopLocal();
+ }finally{await api.server.stopLocal();rmSync(dir,{recursive:true,force:true})}
+});

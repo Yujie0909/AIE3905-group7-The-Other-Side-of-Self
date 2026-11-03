@@ -19,15 +19,15 @@ async function body(req){
 }
 export function createLocalApi(env=process.env,{transport=fetch,store}={}){
  // Local security is loopback + Origin/Host checks + same-site session + CSRF + persisted quotas.
- // Not a public-cloud authentication scheme. Stage 2 needs its own verified identity adapter.
+ // This API is strictly local; it is never an endpoint for public deployment.
  if(env.API_MODE&&env.API_MODE!=='local')throw Error('local_backend_not_for_public_deployment');
  const origins=new Set(['http://localhost:5173','http://127.0.0.1:5173']);
  const db=store??sqliteStore(resolve(env.LOCAL_DB_PATH||'server/data/flow.sqlite'));
- const ai=providers(env,transport),sessions=new Map(),secret=randomBytes(32);
+ const ai=providers(env,transport),sessions=new Map(),secret=randomBytes(32),active=new Set();let closing=false,shutdown;
  const sign=v=>createHmac('sha256',secret).update(v).digest('hex');
  function quota(identity,action){const now=Date.now(),b=[[`minute:${identity}:${Math.floor(now/60000)}`,30,now+120000]];if(action==='text'){b.push([`text:${identity}:${Math.floor(now/86400000)}`,30,now+86400000],[`text-global:${Math.floor(now/86400000)}`,Math.min(100,Number(env.TEXT_DAILY_QUOTA)||100),now+86400000])}if(action==='image')b.push([`image-user:${identity}:${Math.floor(now/86400000)}`,5,now+86400000]);db.quota(b)}
  const server=createServer(async(req,res)=>{
-  const controller=new AbortController();req.on('aborted',()=>controller.abort());res.on('close',()=>{if(!res.writableEnded)controller.abort()});
+  const controller=new AbortController();active.add(controller);req.on('aborted',()=>controller.abort());res.on('close',()=>{if(!res.writableEnded)controller.abort()});
   const send=(data,status=200,headers={})=>{if(res.destroyed)return;res.writeHead(status,{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff',...headers});res.end(JSON.stringify(data))};
   try{
    if(!['127.0.0.1','::1','::ffff:127.0.0.1'].includes(req.socket.remoteAddress))fail(403,'local_only');
@@ -56,7 +56,7 @@ export function createLocalApi(env=process.env,{transport=fetch,store}={}){
     // Validate configuration before consuming an image slot; never call upstream on startup.
     if(!env.ARK_API_KEY||!hasProviderConfig(env,'ARK'))fail(503,'image_not_configured');
     quota(identity,'image');const previous=db.imageStart(id,hash(prompt),Math.min(20,Number(env.IMAGE_DAILY_QUOTA)||20));if(previous)return send({url:previous,temporary:true});
-    try{const url=await ai.image(prompt,signal);db.imageFinish(id,url);return send({url,temporary:true})}catch(e){db.imageFinish(id,null);throw e}
+    try{const url=await ai.image(prompt,signal);if(!closing)db.imageFinish(id,url);return send({url,temporary:true})}catch(e){if(!closing)db.imageFinish(id,null);throw e}
    }
    if(path==='/api/wordcloud/preview'){
     const words=cleanWords(b.words);quota(identity,'text');const result=await ai.approve(words,signal),approved=strings(result.approved,3,16);
@@ -72,10 +72,11 @@ export function createLocalApi(env=process.env,{transport=fetch,store}={}){
  });
  server.requestTimeout=15000;server.headersTimeout=10000;server.keepAliveTimeout=5000;
  server.on('close',()=>{sessions.clear();db.close()});
+ server.stopLocal=()=>shutdown??=new Promise(resolve=>{closing=true;for(const controller of active)controller.abort();server.close(resolve);server.closeAllConnections()});
  return server;
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){
  const port=Number(process.env.API_PORT||8788);if(!Number.isInteger(port)||port<1024||port>65535)throw Error('invalid_api_port');
  const server=createLocalApi();server.listen(port,'127.0.0.1',()=>console.log(`Local API listening on http://127.0.0.1:${port} (loopback only)`));
- for(const event of ['SIGINT','SIGTERM'])process.once(event,()=>{server.close();server.closeIdleConnections()});
+ for(const event of ['SIGINT','SIGTERM'])process.once(event,()=>{void server.stopLocal()});
 }

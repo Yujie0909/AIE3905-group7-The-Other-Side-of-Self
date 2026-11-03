@@ -1,16 +1,15 @@
 // Actual Vite proxy + Node HTTP + SQLite + Chromium. Providers are explicit test fixtures.
 // Never interpret this as live DeepSeek/Seedream success.
-import {createServer as createVite} from 'vite';
+import {startLocal} from '../server/start-local.mjs';
 import {chromium} from 'playwright';
 import {mkdtempSync,rmSync} from 'node:fs';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import assert from 'node:assert/strict';
-import {createLocalApi} from '../server/index.mjs';
+const oldBase=process.env.VITE_API_BASE_URL;process.env.VITE_API_BASE_URL='https://unused-old-worker.invalid';
 const dir=mkdtempSync(join(tmpdir(),'flow-node-browser-'));
-const vite=await createVite({server:{host:'127.0.0.1'}});await vite.listen();
 const browser=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});
-let api;
+let api,local;
 try{for(const width of [390,1440]){
  let calls=0,images=0,failImage=false;
  const env={LOCAL_DB_PATH:join(dir,`${width}.sqlite`),DEEPSEEK_API_KEY:'fixture',DEEPSEEK_BASE_URL:'https://text.example',DEEPSEEK_MODEL:'fixture',ARK_API_KEY:'fixture',ARK_BASE_URL:'https://image.example',ARK_IMAGE_MODEL:'fixture',ARK_IMAGE_HOSTS:'images.example'};
@@ -25,7 +24,7 @@ try{for(const width of [390,1440]){
   else result={keywords:['阅读','平静']};
   return Response.json({choices:[{message:{content:JSON.stringify(result)}}]});
  };
- api=createLocalApi(env,{transport});await new Promise(r=>api.listen(8788,'127.0.0.1',r));
+ local=await startLocal({env,transport});api=local.api;assert.equal(api.address().address,'127.0.0.1');assert.equal(local.frontend.address().address,'127.0.0.1');
  const context=await browser.newContext({viewport:{width,height:width===390?844:900},reducedMotion:'reduce'}),p=await context.newPage(),errors=[],thirdParty=[];
  p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>{if(r.url().includes('cloudflare.com'))thirdParty.push(r.url())});
  await p.route('https://images.example/**',r=>r.fulfill({path:new URL('../src/assets/final-backgrounds/page03.webp',import.meta.url).pathname,contentType:'image/webp'}));
@@ -44,5 +43,6 @@ try{for(const width of [390,1440]){
  await click('分享词语');await click('检查词语');await p.getByText('实际将公开的词语：阅读、平静').waitFor();await click('愿意分享');await p.locator('.cloud-consent').waitFor({state:'detached'});await p.getByRole('button',{name:'阅读',exact:true}).waitFor();
  assert.equal((await (await fetch('http://127.0.0.1:8788/api/wordcloud')).json()).words.find(w=>w.word==='阅读').frequency,1);
  assert.deepEqual(errors,[]);assert.deepEqual(thirdParty,[]);console.log('PASS LOCAL FIXTURES',width,'Vite proxy, Node auth, seven pages, image preservation on failure, adjustment, explicit share, no Turnstile, no startup AI');
- await context.close();await new Promise(r=>api.close(r));api=undefined;
-}}finally{await browser.close();if(api)await new Promise(r=>api.close(r));await vite.close();rmSync(dir,{recursive:true,force:true})}
+ await api.stopLocal();await p.reload();await ready(1);await click('开始体验');await ready(2);await p.locator('textarea').fill('保留这段输入');await click('构建我的世界');await p.getByRole('status').filter({hasText:'本地后端验证不可用'}).waitFor();assert.equal(await p.locator('textarea').inputValue(),'保留这段输入');await click('保留输入，继续体验');await ready(3);console.log('PASS API offline: UI still works, private input preserved');
+ await context.close();await local.stop();local=undefined;api=undefined;
+}}finally{if(oldBase===undefined)delete process.env.VITE_API_BASE_URL;else process.env.VITE_API_BASE_URL=oldBase;await browser.close();if(local)await local.stop();rmSync(dir,{recursive:true,force:true})}

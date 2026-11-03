@@ -1,6 +1,6 @@
 import {ValidationError,object,string,validateResult,cleanWords,type Task,type CloudWord} from '../shared/contracts';
-export const localApi=import.meta.env.DEV&&!import.meta.env.VITE_API_BASE_URL;
-export const apiBase=(()=>{try{const u=new URL(import.meta.env.VITE_API_BASE_URL||'');return u.protocol==='https:'&&!u.username&&!u.password?u.href.replace(/\/$/,''):''}catch{return localApi?window.location.origin:''}})();
+export const localApi=import.meta.env.DEV&&(import.meta.env.VITE_LOCAL_ONLY==='true'||!import.meta.env.VITE_API_BASE_URL);
+export const apiBase=(()=>{if(localApi)return window.location.origin;try{const u=new URL(import.meta.env.VITE_API_BASE_URL||'');return u.protocol==='https:'&&!u.username&&!u.password?u.href.replace(/\/$/,''):''}catch{return localApi?window.location.origin:''}})();
 const errors:Record<string,string>={verification_required:'请完成访问验证。',verification_failed:'访问验证失败，请重试。',quota_exceeded:'今天的调用次数已用完，请稍后再试。',text_not_configured:'文字 AI 尚未配置。',image_not_configured:'图像 AI 尚未配置。',backend_not_configured:'后端数据库或限流配置尚未完成。',words_not_public_safe:'这些词暂不适合公开，请修改后再确认。',preview_required:'请重新检查并确认实际分享的词语。',provider_unavailable:'模型服务暂不可用，输入和上一张图片已保留。',upstream_timeout:'模型响应超时，输入和上一张图片已保留。'};
 type Turnstile={render:(node:HTMLElement,options:Record<string,unknown>)=>string;execute:(id:string)=>void;remove:(id:string)=>void};
 let script:Promise<void>|undefined;
