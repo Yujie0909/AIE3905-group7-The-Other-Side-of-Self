@@ -11,3 +11,5 @@ worker/.dev.vars
 worker/.dev.vars.*
 worker/.wrangler/
 .env.*.local
+
+server/data/

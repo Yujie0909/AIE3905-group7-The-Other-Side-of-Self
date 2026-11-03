@@ -11,7 +11,10 @@
     "verify:providers": "node worker/verify-providers.mjs",
     "worker:deploy": "npx wrangler@4 deploy --config worker/wrangler.toml",
     "worker:migrate": "npx wrangler@4 d1 migrations apply flow-space --remote --config worker/wrangler.toml",
-    "test:ai": "VITE_API_BASE_URL=https://api.flow.test VITE_TURNSTILE_SITE_KEY=fixture-public-site-key vite build --outDir /tmp/flow-ai-browser-dist --emptyOutDir && node tests/ai-browser.mjs"
+    "test:ai": "VITE_API_BASE_URL=https://api.flow.test VITE_TURNSTILE_SITE_KEY=fixture-public-site-key vite build --outDir /tmp/flow-ai-browser-dist --emptyOutDir && node tests/ai-browser.mjs",
+    "api:dev": "node --env-file-if-exists=.env.server.local server/index.mjs",
+    "verify:local-providers": "node --env-file-if-exists=.env.server.local worker/verify-providers.mjs",
+    "test:local-api": "node tests/node-browser.mjs"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -22,5 +25,8 @@
     "@types/react-dom": "^19.1.0",
     "typescript": "^5.8.3",
     "vite": "^6.3.5"
+  },
+  "engines": {
+    "node": ">=22.18.0"
   }
 }
