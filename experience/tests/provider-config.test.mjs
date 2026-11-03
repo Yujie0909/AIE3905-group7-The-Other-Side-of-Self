@@ -1,5 +1,5 @@
 import {readFileSync} from 'node:fs';import {test} from 'node:test';import assert from 'node:assert/strict';
-import {providerConfig} from '../worker/provider-config.ts';import {verifyProviders} from '../worker/verify-providers.mjs';
+import {providerConfig} from '../shared/provider-config.ts';import {verifyProviders} from '../cloudbase/verify-providers.mjs';
 test('provider configuration requires explicit issuer, preserves custom AIE base and canonical model name',()=>{
  assert.throws(()=>providerConfig({DEEPSEEK_MODEL:'specified'},'DEEPSEEK'));
  assert.deepEqual(providerConfig({DEEPSEEK_BASE_URL:'https://aie.example/custom/v1/',DEEPSEEK_MODEL:'authorized-id'},'DEEPSEEK'),{base:'https://aie.example/custom/v1',model:'authorized-id'});
@@ -14,4 +14,4 @@ test('live probe skips absent secrets, validates JSON, never logs secrets or con
  const passed=await verifyProviders(env,async url=>Response.json(url.endsWith('/models')?{data:[]}:{choices:[{message:{content:'{"ok":true}'}}]}),log);assert.equal(passed[0].success,true);assert.ok(!logs.join('').includes(env.DEEPSEEK_API_KEY));
 });
 
-test("deployment retains dashboard provider settings instead of overwriting verified URLs or IDs",()=>{const config=readFileSync(new URL("../worker/wrangler.toml",import.meta.url),"utf8");assert.match(config,/^keep_vars = true$/m);assert.doesNotMatch(config,/^(DEEPSEEK_BASE_URL|DEEPSEEK_MODEL|ARK_BASE_URL|ARK_IMAGE_MODEL)\s*=/m)});
+test("deployment retains dashboard provider settings instead of overwriting verified URLs or IDs",()=>{const config=readFileSync(new URL("../legacy/cloudflare/worker/wrangler.toml",import.meta.url),"utf8");assert.match(config,/^keep_vars = true$/m);assert.doesNotMatch(config,/^(DEEPSEEK_BASE_URL|DEEPSEEK_MODEL|ARK_BASE_URL|ARK_IMAGE_MODEL)\s*=/m)});

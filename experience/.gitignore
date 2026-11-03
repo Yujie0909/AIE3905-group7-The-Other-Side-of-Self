@@ -16,3 +16,9 @@ worker/.wrangler/
 server/
 *.sqlite
 *.sqlite-*
+
+**/.dev.vars
+**/.dev.vars.*
+**/.wrangler/
+cloudbase/.env*
+!cloudbase/env.example

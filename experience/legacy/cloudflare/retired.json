@@ -1,0 +1,5 @@
+{
+  "status": "isolated-pending-real-cloudbase-verification",
+  "doNotDeploy": true,
+  "reason": "Rollback source only; no active entrypoint, deploy script, or frontend reference. Remote D1 data has not been deleted."
+}

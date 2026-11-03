@@ -1,5 +1,5 @@
-import {rules,prompts} from '../shared/ai-prompts.ts';
-import {ValidationError,object,string,strings,cleanWords,validateResult,type Task} from '../shared/contracts.ts';
+import {rules,prompts} from '../../../shared/ai-prompts.ts';
+import {ValidationError,object,string,strings,cleanWords,validateResult,type Task} from '../../../shared/contracts.ts';
 import {providerConfig,providerIssues,hasProviderConfig,ProviderConfigError} from './provider-config.ts';
 interface Statement{bind(...values:unknown[]):Statement;first<T=Record<string,unknown>>():Promise<T|null>;all<T=Record<string,unknown>>():Promise<{results:T[]}>}
 export interface DB{prepare(sql:string):Statement;batch(statements:Statement[]):Promise<unknown[]>}

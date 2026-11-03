@@ -5,10 +5,10 @@ import {readFileSync,mkdtempSync,rmSync,createReadStream,existsSync} from 'node:
 import {join,resolve} from 'node:path';
 import {tmpdir} from 'node:os';
 import assert from 'node:assert/strict';
-import worker from '../worker/src.ts';
-import {database,baseEnv} from './worker-fixtures.mjs';
+import worker from './worker/src.ts';
+import {database,baseEnv} from '../../tests/worker-fixtures.mjs';
 const root=process.env.TEST_DIST||'/tmp/flow-ai-browser-dist',dir=mkdtempSync(join(tmpdir(),'flow-e2e-')),DB=database(join(dir,'database.sqlite'));
-DB.sqlite.exec(readFileSync(new URL('../worker/migrations/0001_core.sql',import.meta.url),'utf8'));
+DB.sqlite.exec(readFileSync(new URL('./worker/migrations/0001_core.sql',import.meta.url),'utf8'));
 const seeds=['旅行','成长','健康','自信','独处','稳定','被理解','自由','热爱生活','平衡','财富自由','快乐','探索','热爱','真实','生活品质','希望','安静'];for(const word of seeds){const id=crypto.randomUUID();DB.sqlite.prepare('INSERT INTO submissions VALUES(?,?,?)').run(id,'fixture-seed',Date.now());DB.sqlite.prepare('INSERT INTO wordcloud_entries VALUES(?,?,?,?)').run(crypto.randomUUID(),id,word,Date.now())}
 
 const server=createServer((req,res)=>{const path=resolve(root,'.'+new URL(req.url,'http://localhost').pathname.replace(/\/$/,'/index.html'));if(!path.startsWith(root+'/')||!existsSync(path)){res.writeHead(404).end();return}res.setHeader('Content-Type',path.endsWith('.js')?'text/javascript':path.endsWith('.css')?'text/css':path.endsWith('.webp')?'image/webp':'text/html');createReadStream(path).pipe(res)});
@@ -28,7 +28,7 @@ const browser=await chromium.launch({executablePath:'/usr/bin/chromium',args:['-
 try{for(const [width,height] of [[320,568],[390,844],[1440,900]]){
  const context=await browser.newContext({viewport:{width,height},reducedMotion:'reduce'}),p=await context.newPage(),errors=[],api=[];p.on('pageerror',e=>errors.push(e.message));
  await p.route('https://challenges.cloudflare.com/**',r=>r.fulfill({contentType:'text/javascript',body:'window.turnstile={render:(h,o)=>(window.__challenge=o,"test"),execute:()=>window.__challenge.callback("fixture-token"),remove:()=>{}}'}));
- await p.route('https://images.example/**',r=>r.fulfill({path:new URL('../src/assets/final-backgrounds/page03.webp',import.meta.url).pathname,contentType:'image/webp'}));
+ await p.route('https://images.example/**',r=>r.fulfill({path:new URL('../../src/assets/final-backgrounds/page03.webp',import.meta.url).pathname,contentType:'image/webp'}));
  await p.route('https://api.flow.test/**',async route=>{const req=route.request();api.push(new URL(req.url()).pathname);if(req.url().endsWith('/share'))shares++;const response=await worker.fetch(new Request(req.url(),{method:req.method(),headers:{...req.headers(),'CF-Connecting-IP':`192.0.2.${width%200}`},body:req.method()==='POST'?req.postData():undefined}),env);await route.fulfill({status:response.status,headers:Object.fromEntries(response.headers),body:await response.text()}).catch(()=>{})});
  const click=n=>p.getByRole('button',{name:n,exact:true}).click();const ready=async n=>{await p.locator(n===1?'.page01-stage':`.static-page-${String(n).padStart(2,'0')}`).waitFor();await p.locator('.scene-frame[data-navigation-state=idle]').waitFor();assert.equal(await p.evaluate(()=>document.documentElement.scrollHeight>innerHeight+2),false)};
  await p.goto(base);await ready(1);assert.equal(api.length,0);await click('开始体验');await ready(2);await p.locator('textarea').fill('我希望在森林里安静地阅读，与喜欢的人相伴。');await click('构建我的世界');await ready(3);await p.locator('.generated-result img').waitFor();
